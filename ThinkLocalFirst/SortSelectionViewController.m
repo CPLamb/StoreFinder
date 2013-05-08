@@ -1,18 +1,18 @@
 //
-//  DetailViewController.m
+//  SortSelectionViewController.m
 //  ThinkLocalFirst
 //
-//  Created by Chris Lamb on 4/21/13.
+//  Created by Chris Lamb on 5/6/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "SortSelectionViewController.h"
 
-@interface DetailViewController ()
+@interface SortSelectionViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation SortSelectionViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

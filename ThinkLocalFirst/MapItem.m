@@ -1,13 +1,13 @@
 //
-//  DetailViewController.h
+//  MapItem.m
 //  ThinkLocalFirst
 //
 //  Created by Chris Lamb on 4/21/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MapItem.h"
 
-@interface DetailViewController : UIViewController
+@implementation MapItem
 
 @end

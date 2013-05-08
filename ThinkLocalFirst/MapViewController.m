@@ -1,18 +1,18 @@
 //
-//  DetailViewController.m
+//  MapViewController.m
 //  ThinkLocalFirst
 //
-//  Created by Chris Lamb on 4/21/13.
+//  Created by Chris Lamb on 4/20/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "MapViewController.h"
 
-@interface DetailViewController ()
+@interface MapViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation MapViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -1,18 +1,18 @@
 //
-//  DetailViewController.m
+//  TabBarController.m
 //  ThinkLocalFirst
 //
-//  Created by Chris Lamb on 4/21/13.
+//  Created by Chris Lamb on 4/28/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "TabBarController.h"
 
-@interface DetailViewController ()
+@interface TabBarController ()
 
 @end
 
-@implementation DetailViewController
+@implementation TabBarController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

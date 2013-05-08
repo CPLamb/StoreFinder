@@ -1,13 +1,13 @@
 //
-//  DetailViewController.h
+//  TabBarController.h
 //  ThinkLocalFirst
 //
-//  Created by Chris Lamb on 4/21/13.
+//  Created by Chris Lamb on 4/28/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface TabBarController : UITabBarController
 
 @end

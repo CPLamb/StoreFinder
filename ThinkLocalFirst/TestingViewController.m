@@ -1,18 +1,18 @@
 //
-//  DetailViewController.m
+//  TestingViewController.m
 //  ThinkLocalFirst
 //
-//  Created by Chris Lamb on 4/21/13.
+//  Created by Chris Lamb on 4/27/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "TestingViewController.h"
 
-@interface DetailViewController ()
+@interface TestingViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation TestingViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
