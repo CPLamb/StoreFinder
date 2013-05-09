@@ -10,4 +10,11 @@
 
 @interface InfoViewController : UIViewController
 
+@property (strong, nonatomic) id detailItem;
+
+@property (strong, nonatomic) IBOutlet UILabel *detailNameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+- (IBAction)sortList:(id)sender;
+
 @end

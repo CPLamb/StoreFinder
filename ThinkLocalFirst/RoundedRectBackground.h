@@ -10,4 +10,10 @@
 
 @interface RoundedRectBackground : UIView
 
+@property (nonatomic) NSUInteger detailItemOrder;
+@property (strong, nonatomic) NSString *detailItemText;
+
+@property (nonatomic) CGFloat height;
+@property (nonatomic) CGFloat width;
+
 @end

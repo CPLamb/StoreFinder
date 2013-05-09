@@ -13,6 +13,7 @@
 @end
 
 @implementation SortSelectionViewController
+@synthesize delegate = _delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,5 +35,31 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Custom methods
+
+- (IBAction)cancelButton:(UIButton *)sender {
+    NSLog(@"Cancel Button pressed %@", sender);
+    
+    [self.delegate cancelSortView:self];
+}
+
+- (IBAction)sortByCategory:(UIButton *)sender {
+    
+    [self.delegate categorySort:self];
+    
+}
+
+- (IBAction)sortByName:(UIButton *)sender {
+    
+    [self.delegate nameSort:self];
+    
+}
+
+- (IBAction)filterForCoupons:(UIButton *)sender {
+    
+    [self.delegate couponFilter:self];
+
+    }
 
 @end

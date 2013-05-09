@@ -7,7 +7,48 @@
 //
 
 #import "MapItem.h"
+#include <stdlib.h>
 
 @implementation MapItem
+
+#define HOME_LAT 36.96805
+#define HOME_LONG -121.9987
+
+@synthesize title = _title;
+@synthesize subTitle = _subTitle;
+@synthesize latitude = _latitude;
+@synthesize longitude = _longitude;
+
+#pragma mark Overidden getter
+
+- (CLLocationCoordinate2D)coordinate {
+    //    double rlat = (double)(rand() % 1000 - 500)/30000.0;
+    //    double rlong = (double)(rand() % 1000 - 500)/30000.0;
+    double lat = [_latitude doubleValue];
+    double lon = [_longitude doubleValue];
+    
+    //    NSLog(@"Coords are %3.3f %3.3f", lat, lon);
+    return CLLocationCoordinate2DMake(lat, lon);
+}
+/*
+ - (NSString *)title {
+ return @"My Home";
+ }
+ 
+ - (NSString *)subTitle {
+ return @"CPL's house in Santa Cruz";
+ 
+ }
+ */
+- (id)initWithCoordinates:(CLLocationCoordinate2D )location placeName:(NSString *)placeName description:(NSString *)description {
+    _latitude = [NSNumber numberWithDouble:location.latitude];
+    _longitude = [NSNumber numberWithDouble:location.longitude];
+    _title = placeName;
+    _subTitle = description;
+    
+    
+    return self;
+}
+
 
 @end
