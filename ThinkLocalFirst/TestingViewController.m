@@ -42,12 +42,31 @@
     CGSize scrollViewContentSize = CGSizeMake(320, scrollViewHeight);
     [scrollView setContentSize:scrollViewContentSize];
     
-    // Adds a coupon rotoated for ease of display
-    NSString *couponFileName = @"Coupon02.png";
+// Adds a coupon rotoated for ease of display
+    NSString *couponFileName = @"Coupon01.png";
     UIImage *couponImage = [UIImage imageNamed:couponFileName];
-    UIImageView *coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 159, 318)];
+    UIImageView *coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 320)];
     coupon.image = couponImage;            
     [scrollView addSubview:coupon];
+    
+    // Adds a coupon rotoated for ease of display
+    couponFileName = @"Coupon02.png";
+    couponImage = [UIImage imageNamed:couponFileName];
+    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 320, 200, 300)];
+    coupon.image = couponImage;
+    [scrollView addSubview:coupon];
+    
+    // Adds a coupon rotoated for ease of display
+    couponFileName = @"Coupon01.png";
+    couponImage = [UIImage imageNamed:couponFileName];
+    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 620, 180, 320)];
+    coupon.image = couponImage;
+    [scrollView addSubview:coupon];
+    
+    
+    
+    
+    
 /*
 // Builds custom background views
     RoundedRectBackground *nameBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, RECT_SPACING, 300, 40)];

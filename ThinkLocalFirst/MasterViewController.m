@@ -27,6 +27,11 @@
 @synthesize anArrayOfShortenedWords = _anArrayOfShortenedWords;
 @synthesize tempIndexPath = _tempIndexPath;
 
+@synthesize mySearchBar = _mySearchBar;
+@synthesize searchString = _searchString;
+@synthesize searchArray = _searchArray;
+@synthesize filteredArray = _filteredArray;
+
 #pragma mark - View Lifecycle methods
 
 - (void)awakeFromNib
@@ -51,15 +56,16 @@
     self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
     NSLog(@"Array count %d", [self.membersArray count]);
     
-// Loads the sortBy view & hides it
-    [self.view addSubview:self.sortSelectionView];
-    self.sortSelectionView.alpha = 0.0;
     sortedByCategory = NO;
     
 // Makes up the index array & the sorted array for the cells
     [self makeSectionsIndex:self.membersArray];
     [self makeIndexedArray:self.membersArray withIndex:self.indexArray];
- 
+
+// Initializes Search properties with values
+    self.searchString = [NSString stringWithFormat:@"Coffee"];
+    self.filteredArray = [NSMutableArray arrayWithCapacity:20];
+    self.mySearchBar.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -248,6 +254,27 @@
     
     return self.namesArray;
 }
+
+
+#pragma mark - UISearchBarDelegate methods
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+
+    self.searchString = self.mySearchBar.text;
+    NSLog(@"TRYing to search Now for ---> %@", self.searchString);
+    
+    [self filterContentForSearchText:self.searchString scope:@"All"];
+    
+    NSLog(@"Now we're SEARCHING baby!");
+    [self.mySearchBar resignFirstResponder];            // dismisses the keyboard
+}
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+    NSString *searchString = self.mySearchBar.text;
+    NSLog(@"TRYing to search Now for this %@", searchString);
+}
+
+
 #pragma mark - Delegate methods
 
 - (void)cancelSortView:(SortSelectionViewController *)controller {
@@ -318,7 +345,49 @@
 
 
 #pragma mark - Custom methods
- 
+
+- (void)filterContentForSearchText:(NSString *)searchText scope:(NSString *)scope {
+// Update the filtered array based on the search text & scope
+          
+    [self.filteredArray removeAllObjects];      // First clear thefiltered array
+    
+//Loop thru each defined field and looks for a match
+    for (int i=0; i<+[self.membersArray count]-1; i++) {
+        NSString *searchDescription = [[self.membersArray objectAtIndex:i] objectForKey:@"description"];
+        NSString *searchName = [[self.membersArray objectAtIndex:i] objectForKey:@"name"];
+        NSString *searchCategory = [[self.membersArray objectAtIndex:i] objectForKey:@"category"];
+        NSString *searchMeta = [[self.membersArray objectAtIndex:i] objectForKey:@"meta"];
+        
+    // Checks for an empty search string
+        if (self.searchString.length > 0) { 
+            
+    // Searches in the various fields for the string match
+            BOOL foundInDescription = [searchDescription rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInName = [searchName rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInCategory = [searchCategory rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInMeta = [searchMeta rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            if (!foundInName || !foundInDescription|| !foundInCategory || !foundInMeta) {         
+     //           NSLog(@"The Business is #%d %@   %@", i, searchName, searchDescription);
+                                
+                [self.filteredArray addObject:[self.membersArray objectAtIndex:i]];
+            }
+        }
+    }
+    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
+
+// Makes sure there is something in the filteredArray
+    if ([self.filteredArray count] > 0) {
+    // Copy to namesArray and reload the data
+        self.namesArray = [NSArray arrayWithArray:self.filteredArray];
+        
+    // Reworks the index & cells
+        [self makeSectionsIndex:self.namesArray];
+        [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
+        
+        [self.tableView reloadData];
+    }
+}
+
 - (IBAction)sortListButton:(UIBarButtonItem *)sender {
     NSLog(@"Displays the sort selection view - 'slide up' animation");
 
@@ -340,67 +409,5 @@
     
     [self.tableView reloadData];
 }
-
-//TODO: delete ALL unused methods & code
-- (IBAction)sortByCategory:(UIButton *)sender {
-    NSLog(@"Sorts the table by category");
-
-// Initialization
-    sortedByCategory = YES;
-    self.sortSelectionView.alpha = 0.0;
-    
-    self.namesArray = [NSArray arrayWithArray:self.membersArray];
-// Reworks the index & cells
-    [self makeSectionsIndex:self.namesArray];
-    [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
-    
-// Regenerate the data
-    [self.tableView reloadData];
-}
-
-- (IBAction)sortByName:(UIButton *)sender {
-    NSLog(@"Sorts the table by name");
-
-// Initialization
-    sortedByCategory = NO;
-    self.sortSelectionView.alpha = 0.0;
-    
-    self.namesArray = [NSArray arrayWithArray:self.membersArray];
-// Reworks the index & cells
-    [self makeSectionsIndex:self.namesArray];
-    [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
-
-// Regenerate the data    
-    [self.tableView reloadData];
-}
-
-- (IBAction)filterForCoupons:(UIButton *)sender {
-    NSLog(@"Filters the table for coupons YES (y)"); 
-
-    self.sortSelectionView.alpha = 0.0;
-    
-// builds an array of HasCoupon = y
-    NSMutableArray *aFilteredArray = [[NSMutableArray alloc] initWithCapacity:600];
-    for (int i=0; i<=([self.membersArray count]-1); i++) {
-        if ([[[self.membersArray objectAtIndex:i] objectForKey:@"hasCoupon"] isEqualToString:@"y"]) {
-            [aFilteredArray addObject:[self.membersArray objectAtIndex:i]];
-        }
-    }
-// Copies the filtered array into our namesArray
-    self.namesArray = [NSArray arrayWithArray:aFilteredArray];
-
-// Reworks the index & cells
-    [self makeSectionsIndex:aFilteredArray];
-    [self makeIndexedArray:aFilteredArray withIndex:self.indexArray];
-
-    [self.tableView reloadData];
-}
-
-- (IBAction)cancelButton:(UIButton *)sender {
-    NSLog(@"Hides the sort by window - 'slide DOWN' animation");
-    
-    self.sortSelectionView.alpha = 0.0;
-}
-
 
 @end

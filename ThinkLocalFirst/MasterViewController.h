@@ -12,7 +12,7 @@
 #import "InfoViewController.h"
 #import "SortSelectionViewController.h"
 
-@interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate>  {
+@interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate>  {
     
     BOOL sortedByCategory;
     NSArray *membersArray;
@@ -22,21 +22,21 @@
 
 @property (strong, nonatomic) id detailItem;
 
-@property (strong, nonatomic) NSIndexPath *tempIndexPath;   //TODO: This is a workaround for segue to details
+@property (strong, nonatomic) NSIndexPath *tempIndexPath;
 
 @property (nonatomic, strong) NSArray *membersArray;    // Master array of dictionaries from the PList
 @property (strong, nonatomic) NSArray *namesArray;      // Name of each member object By Letter TODO: delete?
 @property (strong, nonatomic) NSArray *indexArray;      // Letters used for sections index
 @property (strong, nonatomic) NSArray *anArrayOfShortenedWords;
 
-@property (weak, nonatomic) IBOutlet UIView *sortSelectionView;
+@property (nonatomic, strong) IBOutlet UISearchBar *mySearchBar;
+@property (nonatomic, strong) NSString *searchString;
+@property (nonatomic, strong) NSMutableArray *searchArray;
+@property (nonatomic, strong) NSMutableArray *filteredArray;
+
+@property (weak, nonatomic) IBOutlet UIView *sortSelectionView; //TODO: delete?
 
 - (IBAction)sortListButton:(UIBarButtonItem *)sender;
 - (IBAction)showAllButton:(UIBarButtonItem *)sender;
-/*
-- (IBAction)sortByCategory:(UIButton *)sender;
-- (IBAction)sortByName:(UIButton *)sender;
-- (IBAction)filterForCoupons:(UIButton *)sender;
-- (IBAction)cancelButton:(UIButton *)sender;
-*/
+
 @end

@@ -152,9 +152,9 @@
     NSString *description = [self.detailItem objectForKey:@"description"];
     
 // Calcs height of the textView based on the # of characters in a line
-    CGFloat textViewHeight = ((description.length/30)+1) * 15;
+    CGFloat textViewHeight = ((description.length/30)+1) * 1;
     
-    UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight*1.25)];
+    UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight*1.35)];
     descriptionField.text = description;
     descriptionField.font = [UIFont fontWithName:@"Times New Roman" size:18];
     descriptionField.dataDetectorTypes = UIDataDetectorTypeNone;
@@ -172,7 +172,7 @@
 // Website URL - UITextView
     NSString *websiteData = [self.detailItem objectForKey:@"url"];
     if (websiteData.length >0) {
-        NSString *websitePrefix = @"Tap to visit:            ";
+        NSString *websitePrefix = @"Tap to visit:                 ";
         NSString *website = [websitePrefix stringByAppendingString:websiteData];
         
         UITextView *websiteField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, 60)];

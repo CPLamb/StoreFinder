@@ -38,7 +38,7 @@
 // Override method to force overall portrait orientation for all views
 - (NSUInteger)supportedInterfaceOrientations {
     
-    return UIInterfaceOrientationMaskAll;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 
