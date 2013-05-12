@@ -295,7 +295,7 @@
     NSString *newName = [self.detailItem objectForKey:@"name"];
     NSString *newDescription = [self.detailItem objectForKey:@"description"];
     
-    // Calls for a new Country object & adds it to the view & annotations array
+// Calls for a new MapItem object & adds it to the view & annotations array
     MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
     
     [locationMap.mapView addAnnotation:aNewPin];

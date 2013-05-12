@@ -134,9 +134,9 @@
 }
 
 - (void)calculateCenter {
-    CLLocation *myLocation = self.mapView.userLocation.location;
+//    CLLocation *myLocation = self.mapView.userLocation.location;
 //    CLLocation *memberLocation = self.mapView.
-    NSLog(@"Calculates the center of the mapview %f, %f", myLocation.coordinate.latitude, myLocation.coordinate.longitude);
+//    NSLog(@"Calculates the center of the mapview %f, %f", myLocation.coordinate.latitude, myLocation.coordinate.longitude);
 }
 
 
@@ -146,6 +146,30 @@
     MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:aNewLocation placeName:@"CPL Labs" description:@"close by"];
     [self.mapAnnotations addObject:aNewPin];
     [self.mapView addAnnotation:aNewPin];
+}
+
+- (IBAction)directionsButton:(UIButton *)sender {
+    NSLog(@"uses Apples Maps to provide directions");
+    
+    
+    MKPlacemark *myPlacemark = [[MKPlacemark alloc]initWithCoordinate:CLLocationCoordinate2DMake(36.4, -121.75) addressDictionary:nil];
+    MKMapItem *myLocation = [[MKMapItem alloc] initWithPlacemark:myPlacemark];
+    // MKMapItem *myLocation = [MKMapItem mapItemForCurrentLocation];
+    
+    MKPlacemark *memberPlacemark = [[MKPlacemark alloc] initWithCoordinate:CLLocationCoordinate2DMake(36.0, -122.0) addressDictionary:nil];
+    MKMapItem *memberLocation = [[MKMapItem alloc] initWithPlacemark:memberPlacemark];
+    
+    NSArray *from = [NSArray arrayWithObjects:myLocation, memberLocation, nil];
+    CLLocation *fromLocation = myLocation.placemark.location;
+    
+    // Create a region centered on the starting point with a 10km span    
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(fromLocation.coordinate, 10000, 10000);
+ 
+    // Open the item in Maps, specifying the map region to display.    
+    [MKMapItem openMapsWithItems:[NSArray arrayWithObject:from]     
+                   launchOptions:[NSDictionary dictionaryWithObjectsAndKeys:                                  
+                                  [NSValue valueWithMKCoordinate:region.center], MKLaunchOptionsMapCenterKey,
+                                  [NSValue valueWithMKCoordinateSpan:region.span], MKLaunchOptionsMapSpanKey, nil]];
 }
 
 // Sends User to the DetailViewController
@@ -176,10 +200,11 @@
             // if an existing pin view was not available, create one
             MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
                                                   initWithAnnotation:annotation reuseIdentifier:BridgeAnnotationIdentifier];
-            customPinView.pinColor = MKPinAnnotationColorGreen;
+            customPinView.pinColor = MKPinAnnotationColorPurple;
             customPinView.alpha = 0.87;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
+        
             
             // add a detail disclosure button to the callout which will open a new view controller page
             //
@@ -194,8 +219,7 @@
             
             return customPinView;
         }
-    }
-    
+    }    
     return nil;
 }
 

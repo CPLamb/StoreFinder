@@ -128,7 +128,7 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KSP-G1-IGp"/>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqW-lM-eCL">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="Vw4-3m-yMk"/>
+                                    <constraint firstAttribute="height" constant="22" id="FsU-Uo-UfR"/>
                                     <constraint firstAttribute="width" constant="243" id="qc2-R4-2J4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -152,18 +152,36 @@
                                     <action selector="dropPinButton:" destination="ldP-a5-NtL" eventType="touchUpInside" id="c2Z-ns-qDH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaj-mo-OFF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="MY1-lb-hRn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Directions">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionsButton:" destination="ldP-a5-NtL" eventType="touchUpInside" id="lDz-mi-z7t"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VIV-UH-wPK" firstAttribute="baseline" secondItem="wqW-lM-eCL" secondAttribute="baseline" type="default" id="5Bq-yu-A69"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="trailing" secondItem="ryQ-8y-PkM" secondAttribute="trailing" type="default" id="AIH-kv-p9O"/>
+                            <constraint firstAttribute="trailing" secondItem="vaj-mo-OFF" secondAttribute="trailing" constant="13" id="B6K-Si-fLY"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="leading" secondItem="ryQ-8y-PkM" secondAttribute="leading" type="default" id="Bqq-db-dT3"/>
-                            <constraint firstItem="wqW-lM-eCL" firstAttribute="top" secondItem="ryQ-8y-PkM" secondAttribute="top" constant="383" id="Drf-jQ-ozA"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="bottom" secondItem="ryQ-8y-PkM" secondAttribute="bottom" type="default" id="Hjh-8K-gwj"/>
-                            <constraint firstItem="VIV-UH-wPK" firstAttribute="leading" secondItem="wqW-lM-eCL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="KqN-xX-WyS"/>
-                            <constraint firstItem="wqW-lM-eCL" firstAttribute="leading" secondItem="ryQ-8y-PkM" secondAttribute="leading" constant="10" id="TOw-EE-POd"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="top" secondItem="ryQ-8y-PkM" secondAttribute="top" type="default" id="ejE-hu-mT7"/>
-                            <constraint firstAttribute="bottom" secondItem="VIV-UH-wPK" secondAttribute="bottom" constant="9" id="kBd-50-ppt"/>
+                            <constraint firstItem="vaj-mo-OFF" firstAttribute="top" secondItem="ryQ-8y-PkM" secondAttribute="top" constant="15" id="m5u-jZ-e1v"/>
+                            <constraint firstAttribute="bottom" secondItem="VIV-UH-wPK" secondAttribute="bottom" constant="9" id="mCO-dL-K6V"/>
+                            <constraint firstItem="VIV-UH-wPK" firstAttribute="leading" secondItem="wqW-lM-eCL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qjd-T8-yOO"/>
+                            <constraint firstAttribute="bottom" secondItem="wqW-lM-eCL" secondAttribute="bottom" constant="19" id="tSw-cp-Frb"/>
+                            <constraint firstItem="wqW-lM-eCL" firstAttribute="leading" secondItem="ryQ-8y-PkM" secondAttribute="leading" constant="10" id="tdS-IG-hWw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="globe.png" id="Lpm-Am-Ebd"/>
@@ -187,16 +205,11 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TLFLogoHD.png" translatesAutoresizingMaskIntoConstraints="NO" id="U1R-Qn-e6z">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="114" id="0dv-fT-J26"/>
-                                    <constraint firstAttribute="height" constant="190" id="Ci9-oH-uE4"/>
+                                    <constraint firstAttribute="width" constant="140" id="3Ko-ka-IIs"/>
+                                    <constraint firstAttribute="height" constant="223" id="mL0-L8-xSq"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="SCNTaxiLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="OpS-YE-sRt">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="Yek-bG-y1p"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Developed by:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="191" translatesAutoresizingMaskIntoConstraints="NO" id="v7Y-dB-g7m">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Powered by:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="191" translatesAutoresizingMaskIntoConstraints="NO" id="v7Y-dB-g7m">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="191" id="D0Y-S4-GSe"/>
                                     <constraint firstAttribute="height" constant="25" id="OeA-qX-OOS"/>
@@ -236,22 +249,31 @@
                                     <navigationItem title="About" id="S1w-eD-oKP"/>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Santa Cruz Newspaper Taxi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9N-rx-JtZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="224" id="49O-E4-JOX"/>
+                                    <constraint firstAttribute="height" constant="21" id="7bu-GS-QXQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OpS-YE-sRt" firstAttribute="bottom" secondItem="Yfh-Td-qKi" secondAttribute="bottom" type="default" id="KbZ-ua-hoL"/>
+                            <constraint firstAttribute="bottom" secondItem="h9N-rx-JtZ" secondAttribute="bottom" constant="5" id="07P-Bo-Q23"/>
+                            <constraint firstItem="v7Y-dB-g7m" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" constant="7" id="EMR-uQ-gA6"/>
+                            <constraint firstAttribute="bottom" secondItem="bva-pl-BAu" secondAttribute="bottom" constant="50" id="LeR-0C-3Cy"/>
                             <constraint firstItem="Z8v-mi-dH0" firstAttribute="trailing" secondItem="Yfh-Td-qKi" secondAttribute="trailing" type="default" id="Mjw-Mq-dt3"/>
-                            <constraint firstItem="OpS-YE-sRt" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" type="default" id="RVX-QJ-xRu"/>
-                            <constraint firstItem="v7Y-dB-g7m" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" constant="6" id="T1c-65-FLF"/>
-                            <constraint firstItem="U1R-Qn-e6z" firstAttribute="top" secondItem="Yfh-Td-qKi" secondAttribute="top" constant="58" id="VUG-eM-yul"/>
+                            <constraint firstItem="U1R-Qn-e6z" firstAttribute="centerX" secondItem="Z8v-mi-dH0" secondAttribute="centerX" type="default" id="SOI-wV-NPs"/>
                             <constraint firstItem="Z8v-mi-dH0" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" type="default" id="a0k-vs-2t9"/>
+                            <constraint firstAttribute="bottom" secondItem="v7Y-dB-g7m" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="aZl-4Q-1mh"/>
                             <constraint firstItem="bva-pl-BAu" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" constant="23" id="cJL-rG-q3O"/>
-                            <constraint firstAttribute="bottom" secondItem="v7Y-dB-g7m" secondAttribute="bottom" constant="73" id="dL6-eZ-bQ1"/>
                             <constraint firstItem="gxf-IV-wX8" firstAttribute="baseline" secondItem="bva-pl-BAu" secondAttribute="baseline" type="default" id="fHL-yc-3fo"/>
-                            <constraint firstItem="Z8v-mi-dH0" firstAttribute="centerX" secondItem="U1R-Qn-e6z" secondAttribute="centerX" type="default" id="ga9-JH-aiy"/>
+                            <constraint firstItem="h9N-rx-JtZ" firstAttribute="leading" secondItem="Yfh-Td-qKi" secondAttribute="leading" constant="40" id="hZm-vV-Old"/>
                             <constraint firstItem="Z8v-mi-dH0" firstAttribute="top" secondItem="Yfh-Td-qKi" secondAttribute="top" type="default" id="oqz-dI-wvN"/>
                             <constraint firstAttribute="trailing" secondItem="gxf-IV-wX8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rcJ-Nr-MpE"/>
-                            <constraint firstAttribute="bottom" secondItem="bva-pl-BAu" secondAttribute="bottom" constant="107" id="smr-Pg-XPH"/>
+                            <constraint firstItem="U1R-Qn-e6z" firstAttribute="top" secondItem="Yfh-Td-qKi" secondAttribute="top" constant="73" id="vvm-rq-FVk"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="house.png" id="xyd-f7-qVP"/>
@@ -518,7 +540,6 @@
     </scenes>
     <resources>
         <image name=" " width="16" height="16"/>
-        <image name="SCNTaxiLogo.png" width="320" height="67"/>
         <image name="TLFLogoHD.png" width="187" height="270"/>
         <image name="database.png" width="26" height="26"/>
         <image name="globe.png" width="26" height="26"/>

@@ -21,4 +21,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 - (IBAction)dropPinButton:(id)sender;
+- (IBAction)directionsButton:(UIButton *)sender;
 @end
