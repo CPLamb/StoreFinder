@@ -15,6 +15,7 @@
 @end
 
 @implementation MasterViewController
+
 @synthesize memberViewController = _memberViewController;
 @synthesize infoViewController = _infoViewController;
 @synthesize sortSelectionView = _sortSelectionView;
@@ -42,21 +43,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+  
+    [self loadPlistData];
     
-// Loads the Plist into member array either from web or locally
-    
-// Public dropbox link to data - https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist
-//    NSString *fileURLString = @"https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist";
-//    NSURL *fileURL = [[NSURL alloc]initWithString:fileURLString];
-
-// Loads file locally
-    NSBundle *mainBundle = [NSBundle mainBundle];
-    NSURL *fileURL = [mainBundle URLForResource:@"TLFMemberList" withExtension:@"plist"];
-    
-    self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
-    NSLog(@"Array count %d", [self.membersArray count]);
-    
-    sortedByCategory = NO;
+    sortedByCategory = YES;
+    filteredByCoupons = NO;
     
 // Makes up the index array & the sorted array for the cells
     [self makeSectionsIndex:self.membersArray];
@@ -95,8 +86,15 @@
 // Configure the cell text fields
     NSString *cellTitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"name"];
     cell.textLabel.text = cellTitle;
-    NSString *cellSubtitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"city"];
-    cell.detailTextLabel.text = cellSubtitle;
+    
+// Changes subTitle if couponSort is ON
+    if (filteredByCoupons) {
+        NSString *cellSubtitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"couponOffer"];
+        cell.detailTextLabel.text = cellSubtitle;        
+    } else {
+        NSString *cellSubtitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"city"];
+        cell.detailTextLabel.text = cellSubtitle;
+    }
     
     self.tempIndexPath = indexPath;
 
@@ -255,6 +253,47 @@
     return self.namesArray;
 }
 
+- (void)filterContentForSearchText:(NSString *)searchText scope:(NSString *)scope {
+// Update the filtered array based on the search text & scope
+    
+    [self.filteredArray removeAllObjects];      // First clear thefiltered array
+    
+    //Loop thru each defined field and looks for a match
+    for (int i=0; i<+[self.membersArray count]-1; i++) {
+        NSString *searchDescription = [[self.membersArray objectAtIndex:i] objectForKey:@"description"];
+        NSString *searchName = [[self.membersArray objectAtIndex:i] objectForKey:@"name"];
+        NSString *searchCategory = [[self.membersArray objectAtIndex:i] objectForKey:@"category"];
+        NSString *searchMeta = [[self.membersArray objectAtIndex:i] objectForKey:@"meta"];
+        
+        // Checks for an empty search string
+        if (self.searchString.length > 0) {
+            
+            // Searches in the various fields for the string match
+            BOOL foundInDescription = [searchDescription rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInName = [searchName rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInCategory = [searchCategory rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            BOOL foundInMeta = [searchMeta rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
+            if (!foundInName || !foundInDescription|| !foundInCategory || !foundInMeta) {
+                //           NSLog(@"The Business is #%d %@   %@", i, searchName, searchDescription);
+                
+                [self.filteredArray addObject:[self.membersArray objectAtIndex:i]];
+            }
+        }
+    }
+    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
+    
+    // Makes sure there is something in the filteredArray
+    if ([self.filteredArray count] > 0) {
+        // Copy to namesArray and reload the data
+        self.namesArray = [NSArray arrayWithArray:self.filteredArray];
+        
+        // Reworks the index & cells
+        [self makeSectionsIndex:self.namesArray];
+        [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
+        
+        [self.tableView reloadData];
+    }
+}
 
 #pragma mark - UISearchBarDelegate methods
 
@@ -278,7 +317,7 @@
 #pragma mark - Delegate methods
 
 - (void)cancelSortView:(SortSelectionViewController *)controller {
-    NSLog(@"This is the delegate (MasterVC) responding with %@", controller);
+//    NSLog(@"This is the delegate (MasterVC) responding with %@", controller);
     
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
@@ -322,9 +361,10 @@
 - (void)couponFilter:(SortSelectionViewController *)controller; {
     NSLog(@"Filters the table for coupons YES (y)");
     
-    self.sortSelectionView.alpha = 0.0;
+    filteredByCoupons = YES;
+//    self.sortSelectionView.alpha = 0.0;
     
-    // builds an array of HasCoupon = y
+// builds an array of HasCoupon = y
     NSMutableArray *aFilteredArray = [[NSMutableArray alloc] initWithCapacity:600];
     for (int i=0; i<=([self.membersArray count]-1); i++) {
         if ([[[self.membersArray objectAtIndex:i] objectForKey:@"hasCoupon"] isEqualToString:@"y"]) {
@@ -346,47 +386,52 @@
 
 #pragma mark - Custom methods
 
-- (void)filterContentForSearchText:(NSString *)searchText scope:(NSString *)scope {
-// Update the filtered array based on the search text & scope
-          
-    [self.filteredArray removeAllObjects];      // First clear thefiltered array
+- (void)loadPlistData {
+// Loads the Plist into member array either from web or locally
     
-//Loop thru each defined field and looks for a match
-    for (int i=0; i<+[self.membersArray count]-1; i++) {
-        NSString *searchDescription = [[self.membersArray objectAtIndex:i] objectForKey:@"description"];
-        NSString *searchName = [[self.membersArray objectAtIndex:i] objectForKey:@"name"];
-        NSString *searchCategory = [[self.membersArray objectAtIndex:i] objectForKey:@"category"];
-        NSString *searchMeta = [[self.membersArray objectAtIndex:i] objectForKey:@"meta"];
-        
-    // Checks for an empty search string
-        if (self.searchString.length > 0) { 
-            
-    // Searches in the various fields for the string match
-            BOOL foundInDescription = [searchDescription rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
-            BOOL foundInName = [searchName rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
-            BOOL foundInCategory = [searchCategory rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
-            BOOL foundInMeta = [searchMeta rangeOfString:self.searchString options:NSCaseInsensitiveSearch].location == NSNotFound;
-            if (!foundInName || !foundInDescription|| !foundInCategory || !foundInMeta) {         
-     //           NSLog(@"The Business is #%d %@   %@", i, searchName, searchDescription);
-                                
-                [self.filteredArray addObject:[self.membersArray objectAtIndex:i]];
-            }
-        }
-    }
-    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
-
-// Makes sure there is something in the filteredArray
-    if ([self.filteredArray count] > 0) {
-    // Copy to namesArray and reload the data
-        self.namesArray = [NSArray arrayWithArray:self.filteredArray];
-        
-    // Reworks the index & cells
-        [self makeSectionsIndex:self.namesArray];
-        [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
-        
-        [self.tableView reloadData];
-    }
+// Loads file locally
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    NSURL *fileURL = [mainBundle URLForResource:@"TLFMemberList" withExtension:@"plist"];
+    
+    self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
+    NSLog(@"Array count %d", [self.membersArray count]);
+    
+// loads the web Plist on another thread
+    [self loadPlistURL];
 }
+
+- (void)loadPlistURL {
+// Loads the Plist from the web on another thread, and if both array counts are
+// equal it copies the web version over the local version. And reloads the data
+
+// Public dropbox link to data - https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist
+    NSString *fileURLString = @"https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist";
+    NSURL *fileURL = [[NSURL alloc]initWithString:fileURLString];
+    
+// Assign the URL command to another string
+    dispatch_queue_t downloadQueue = dispatch_queue_create("Plist downloader", NULL);
+    dispatch_async(downloadQueue, ^{
+        
+        NSArray *membersURLArray = [NSArray arrayWithContentsOfURL:fileURL];
+        
+    // dispatches to the main thread
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+        // compares counts of each array & allows copy if the are equal
+            if ([self.membersArray count] == [membersURLArray count]) {
+                NSLog(@"let's overwrite NOW!!!");
+                
+                self.membersArray = [NSArray arrayWithArray:membersURLArray];
+                NSLog(@"Array count %d", [self.membersArray count]);
+                
+                [self.tableView reloadData];
+            } else {
+                NSLog(@"Download FAILED!!!!");
+            }
+        });
+    });
+}
+
 
 - (IBAction)sortListButton:(UIBarButtonItem *)sender {
     NSLog(@"Displays the sort selection view - 'slide up' animation");
@@ -401,7 +446,8 @@
 - (IBAction)showAllButton:(UIBarButtonItem *)sender {
     NSLog(@"Displays ALL the items by existing sort criteria");
 
-    self.sortSelectionView.alpha = 0.0;
+    filteredByCoupons = NO;
+//    self.sortSelectionView.alpha = 0.0;
     
 // Reworks the index & cells
     [self makeSectionsIndex:self.membersArray];

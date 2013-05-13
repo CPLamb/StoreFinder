@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *detailNameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
-- (IBAction)sortList:(id)sender;
+- (IBAction)contactUsButton:(UIButton *)sender;
+- (IBAction)updateButton:(UIButton *)sender;
 
 @end

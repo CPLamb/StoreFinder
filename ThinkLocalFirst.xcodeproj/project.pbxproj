@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		834965FE172DBC4F00F049B0 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834965FD172DBC4F00F049B0 /* TabBarController.m */; };
+		835C38DD174052DD00F0ED2C /* logo_Iluminada.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C38DC174052DA00F0ED2C /* logo_Iluminada.png */; };
 		83941CAD17347C98001E31B2 /* Coupon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAB17347C98001E31B2 /* Coupon01.png */; };
 		83941CAE17347C98001E31B2 /* Coupon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAC17347C98001E31B2 /* Coupon02.png */; };
 		83DBEBF7173AD48000A24842 /* TLFMemberList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DBEBF6173AD48000A24842 /* TLFMemberList.plist */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		834965FC172DBC4F00F049B0 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		834965FD172DBC4F00F049B0 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		835C38DC174052DA00F0ED2C /* logo_Iluminada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_Iluminada.png; sourceTree = "<group>"; };
 		83941CAB17347C98001E31B2 /* Coupon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon01.png; sourceTree = "<group>"; };
 		83941CAC17347C98001E31B2 /* Coupon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon02.png; sourceTree = "<group>"; };
 		83DBEBF6173AD48000A24842 /* TLFMemberList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList.plist; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 		83F3E166172B497400221519 /* Member Images */ = {
 			isa = PBXGroup;
 			children = (
+				835C38DC174052DA00F0ED2C /* logo_Iluminada.png */,
 				83E284D617231ADE0025949B /* SCNTaxiLogo.png */,
 				83F5EF4B1732D56E00F11979 /* OtterPraying.png */,
 				83F5EF471732C99900F11979 /* TestPicture.png */,
@@ -368,6 +371,7 @@
 				83E05AE5173953880019A214 /* ThinkLocalFirstDemo_100.plist in Resources */,
 				83E05AE7173956730019A214 /* ThinkLocalFirstDemo.plist in Resources */,
 				83DBEBF7173AD48000A24842 /* TLFMemberList.plist in Resources */,
+				835C38DD174052DD00F0ED2C /* logo_Iluminada.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

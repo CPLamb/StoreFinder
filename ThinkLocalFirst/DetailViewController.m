@@ -152,9 +152,11 @@
     NSString *description = [self.detailItem objectForKey:@"description"];
     
 // Calcs height of the textView based on the # of characters in a line
-    CGFloat textViewHeight = ((description.length/30)+1) * 1;
+//    CGFloat textViewHeight = ((description.length/8)+1) * 1;
+    CGFloat textViewHeight = description.length / 1.25;
+    NSLog(@"Description length = %d", description.length);
     
-    UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight*1.35)];
+    UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight)];
     descriptionField.text = description;
     descriptionField.font = [UIFont fontWithName:@"Times New Roman" size:18];
     descriptionField.dataDetectorTypes = UIDataDetectorTypeNone;
@@ -163,7 +165,7 @@
     
     vertPosition = vertPosition + backgroundHeight + SPACING;
     
-    backgroundHeight = textViewHeight*1.5 + 2*PADDING;
+    backgroundHeight = textViewHeight + 2*PADDING;
     // NSLog(@"Description length is %f", textViewHeight);
     RoundedRectBackground *descriptionBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
     [descriptionBackground addSubview:descriptionField];

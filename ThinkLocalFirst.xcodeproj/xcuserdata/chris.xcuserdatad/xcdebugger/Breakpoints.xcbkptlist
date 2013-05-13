@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MasterViewController.m"
-         timestampString = "389998027.624477"
+         timestampString = "390085214.993726"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "242"
-         endingLineNumber = "242"
+         startingLineNumber = "240"
+         endingLineNumber = "240"
          landmarkName = "-makeIndexedArray:withIndex:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MasterViewController.m"
-         timestampString = "389998027.624477"
+         timestampString = "390085214.993726"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "149"
-         endingLineNumber = "149"
+         startingLineNumber = "147"
+         endingLineNumber = "147"
          landmarkName = "-prepareForSegue:sender:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MasterViewController.m"
-         timestampString = "389998027.624477"
+         timestampString = "390085214.993726"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "157"
-         endingLineNumber = "157"
+         startingLineNumber = "155"
+         endingLineNumber = "155"
          landmarkName = "-prepareForSegue:sender:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,25 +60,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MasterViewController.m"
-         timestampString = "389998027.624477"
+         timestampString = "390085214.993726"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "130"
-         endingLineNumber = "130"
+         startingLineNumber = "128"
+         endingLineNumber = "128"
          landmarkName = "-tableView:accessoryButtonTappedForRowWithIndexPath:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "ThinkLocalFirst/MasterViewController.m"
-         timestampString = "389998027.624477"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "382"
-         endingLineNumber = "382"
-         landmarkName = "-filterContentForSearchText:scope:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -95,7 +82,7 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MapViewController.m"
@@ -105,6 +92,32 @@
          startingLineNumber = "159"
          endingLineNumber = "159"
          landmarkName = "-directionsButton:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "ThinkLocalFirst/DetailViewController.m"
+         timestampString = "390087308.374322"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "170"
+         endingLineNumber = "170"
+         landmarkName = "-assembleBackgrounds"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "ThinkLocalFirst/DetailViewController.m"
+         timestampString = "390087839.08901"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "159"
+         endingLineNumber = "159"
+         landmarkName = "-assembleBackgrounds"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -70,8 +70,24 @@
 
 #pragma mark - Custom methods
 
-- (IBAction)sortList:(id)sender {
-    NSLog(@"Somebody tapped me!");
+- (IBAction)contactUsButton:(UIButton *)sender {
+    NSLog(@"Somebody wants to open an email!");
+    
+// Configures the email address
+    NSString *recipient = @"mailto:CPLamb@Pacbell.net?&subject=Think Local First iPhone app";
+//    NSString *recipient = @"mailto:CPLamb@Pacbell.net";      // &subject=Think LocalFirst iPhone app";
+    NSString *body = @"&body=Great app! I'll tell all my friends";
+    NSString *email = [NSString stringWithFormat:@"%@%@", recipient, body];
+//    NSString *email = [NSString stringWithFormat:@"%@", recipient];
+    
+    email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];        // @"mailto:"]];
+}
+
+- (IBAction)updateButton:(UIButton *)sender {
+    NSLog(@"Somebody wants to update the PList!");
+
 }
 
 @end

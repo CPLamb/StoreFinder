@@ -15,6 +15,7 @@
 @interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate>  {
     
     BOOL sortedByCategory;
+    BOOL filteredByCoupons;
     NSArray *membersArray;
 }
 @property (nonatomic, strong) DetailViewController *memberViewController;
