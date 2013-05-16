@@ -53,7 +53,7 @@
     CLLocationDegrees pinLatitude = [[self.detailItem objectForKey:@"latitude"] doubleValue];
     CLLocationDegrees pinLongitude = [[self.detailItem objectForKey:@"longitude"] doubleValue];
     NSString *pinName = [self.detailItem objectForKey:@"name"];
-    NSString *pinDescription = [self.detailItem objectForKey:@"description"];
+    NSString *pinDescription = [self.detailItem objectForKey:@"phone"];     // description
     
     CLLocationCoordinate2D pinCoordinates = CLLocationCoordinate2DMake(pinLatitude, pinLongitude);
     MapItem *droppedPin = [[MapItem alloc] initWithCoordinates:pinCoordinates placeName:pinName description:pinDescription];
@@ -204,8 +204,7 @@
             customPinView.alpha = 0.87;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-        
-            
+                    
             // add a detail disclosure button to the callout which will open a new view controller page
             //
             // note: when the detail disclosure button is tapped, we respond to it via:

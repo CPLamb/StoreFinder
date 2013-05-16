@@ -46,7 +46,7 @@
   
     [self loadPlistData];
     
-    sortedByCategory = YES;
+    sortedByCategory = NO;
     filteredByCoupons = NO;
     
 // Makes up the index array & the sorted array for the cells
@@ -175,7 +175,9 @@
     // Allows sort by Name or Category
         if (sortedByCategory) {
             NSString *aCategory = [aDictionary objectForKey:@"category"];
-            [sectionsMutableSet addObject:aCategory];
+            if (aCategory.length > 0) {
+                [sectionsMutableSet addObject:aCategory];
+            }
         } else {
             NSString *aName = [aDictionary objectForKey:@"name"];
             NSString *aLetter = [aName substringToIndex:1U];        //uses the first letter of the string
@@ -223,6 +225,7 @@
 
 - (NSArray *)makeIndexedArray:(NSArray *)wordsArray withIndex:(NSArray *)indexArray {
     NSLog(@"Takes an array of index letters (sections) and name array (rows) for display in the indexed tableview");
+//    NSLog(@"wordsArray is %@", wordsArray);
     
 // Create the mutable array
     NSMutableArray *indexedNameArray = [NSMutableArray arrayWithCapacity:600];
@@ -245,6 +248,7 @@
                 [aListOfItems addObject:[wordsArray objectAtIndex:j]];
             }
         }
+//        NSArray *aListOfSortedItems = [aListOfItems sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
         [indexedNameArray addObject:aListOfItems];
     }
     self.namesArray = [NSArray arrayWithArray:indexedNameArray];
@@ -325,36 +329,38 @@
 - (void)nameSort:(SortSelectionViewController *)controller {
     NSLog(@"Sorts the table by name");
     
-    // Initialization
+// Initialization
     sortedByCategory = NO;
-    self.sortSelectionView.alpha = 0.0;
-    
+//    self.sortSelectionView.alpha = 0.0;
     self.namesArray = [NSArray arrayWithArray:self.membersArray];
-    // Reworks the index & cells
+    
+// Reworks the index & cells
     [self makeSectionsIndex:self.namesArray];
     [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
     
-    // Regenerate the data
+// Regenerate the data
     [self.tableView reloadData];
 
+// Removes the view controller
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (void)categorySort:(SortSelectionViewController *)controller {
     NSLog(@"Sorts the table by category");
     
-    // Initialization
+// Initialization
     sortedByCategory = YES;
-    self.sortSelectionView.alpha = 0.0;
-    
+//    self.sortSelectionView.alpha = 0.0;
     self.namesArray = [NSArray arrayWithArray:self.membersArray];
-    // Reworks the index & cells
+    
+// Reworks the index & cells
     [self makeSectionsIndex:self.namesArray];
     [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
     
-    // Regenerate the data
+// Regenerate the data
     [self.tableView reloadData];
     
+// Removes the view controller
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
@@ -427,6 +433,7 @@
                 [self.tableView reloadData];
             } else {
                 NSLog(@"Download FAILED!!!!");
+                NSLog(@"Array count %d", [membersURLArray count]);
             }
         });
     });
