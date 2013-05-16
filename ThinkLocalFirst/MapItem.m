@@ -30,16 +30,7 @@
     //    NSLog(@"Coords are %3.3f %3.3f", lat, lon);
     return CLLocationCoordinate2DMake(lat, lon);
 }
-/*
- - (NSString *)title {
- return @"My Home";
- }
- 
- - (NSString *)subTitle {
- return @"CPL's house in Santa Cruz";
- 
- }
- */
+
 - (id)initWithCoordinates:(CLLocationCoordinate2D )location placeName:(NSString *)placeName description:(NSString *)description {
     _latitude = [NSNumber numberWithDouble:location.latitude];
     _longitude = [NSNumber numberWithDouble:location.longitude];

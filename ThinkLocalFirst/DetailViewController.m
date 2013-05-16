@@ -134,8 +134,9 @@
     NSString *photo = [self.detailItem objectForKey:@"logo"];
 // Checks to see if a photo name exists
     if (photo.length > 0) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:photo ofType:@"png"];
-        UIImage *photoImage = [UIImage imageWithContentsOfFile:path];
+//        NSString *path = [[NSBundle mainBundle] pathForResource:photo ofType:@"jpg"]; //png,jpg
+        
+        UIImage *photoImage = [UIImage imageNamed:photo];
         
         UIImageView *photoView = [[UIImageView alloc] initWithImage:photoImage];
         
@@ -150,31 +151,32 @@
     
 // Description - UITextView
     NSString *description = [self.detailItem objectForKey:@"description"];
-    
-// Calcs height of the textView based on the # of characters in a line
-//    CGFloat textViewHeight = ((description.length/8)+1) * 1;
-    CGFloat textViewHeight = description.length / 1.25;
-    NSLog(@"Description length = %d", description.length);
-    
-    UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight)];
-    descriptionField.text = description;
-    descriptionField.font = [UIFont fontWithName:@"Times New Roman" size:18];
-    descriptionField.dataDetectorTypes = UIDataDetectorTypeNone;
-    descriptionField.editable = NO;
-    descriptionField.scrollEnabled = NO;
-    
-    vertPosition = vertPosition + backgroundHeight + SPACING;
-    
-    backgroundHeight = textViewHeight + 2*PADDING;
-    // NSLog(@"Description length is %f", textViewHeight);
-    RoundedRectBackground *descriptionBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
-    [descriptionBackground addSubview:descriptionField];
-    [scrollView addSubview:descriptionBackground];
+    if (description.length > 0) {
+        // Calcs height of the textView based on the # of characters in a line
+        //    CGFloat textViewHeight = ((description.length/8)+1) * 1;
+        CGFloat textViewHeight = description.length / 1.25;
+        NSLog(@"Description length = %d", description.length);
+        
+        UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight)];
+        descriptionField.text = description;
+        descriptionField.font = [UIFont fontWithName:@"Times New Roman" size:18];
+        descriptionField.dataDetectorTypes = UIDataDetectorTypeNone;
+        descriptionField.editable = NO;
+        descriptionField.scrollEnabled = NO;
+        
+        vertPosition = vertPosition + backgroundHeight + SPACING;
+        
+        backgroundHeight = textViewHeight + 2*PADDING;
+        // NSLog(@"Description length is %f", textViewHeight);
+        RoundedRectBackground *descriptionBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
+        [descriptionBackground addSubview:descriptionField];
+        [scrollView addSubview:descriptionBackground];
+    }
     
 // Website URL - UITextView
     NSString *websiteData = [self.detailItem objectForKey:@"url"];
     if (websiteData.length >0) {
-        NSString *websitePrefix = @"Tap to visit:                 ";
+        NSString *websitePrefix = @"Tap to visit:                          ";
         NSString *website = [websitePrefix stringByAppendingString:websiteData];
         
         UITextView *websiteField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, 60)];
@@ -190,34 +192,34 @@
         RoundedRectBackground *websiteBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
         [websiteBackground addSubview:websiteField];
         [scrollView addSubview:websiteBackground];
+        
+        // Business address - 2 x NSString
+        NSString *address = [self.detailItem objectForKey:@"address"];
+        UILabel *addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(PADDING*1.5, PADDING, contentWidth, 30)];
+        addressLabel.text = address;
+        addressLabel.font = [UIFont fontWithName:@"Times New Roman" size:18];
+        addressLabel.adjustsFontSizeToFitWidth = YES;
+        
+        // Assemble city, state, zip string
+        NSString *city = [self.detailItem objectForKey:@"city"];
+        NSString *state = [self.detailItem objectForKey:@"state"];
+        NSString *zip = [self.detailItem objectForKey:@"zip"];
+        
+        UILabel *cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(PADDING*1.5, PADDING+24, contentWidth, 30)];
+        cityLabel.text = [[[[[NSString stringWithString:city] stringByAppendingString:@", "] stringByAppendingString:state] stringByAppendingString:@"  "] stringByAppendingString:zip];
+        cityLabel.font = [UIFont fontWithName:@"Times New Roman" size:18];
+        cityLabel.adjustsFontSizeToFitWidth = YES;
+        
+        vertPosition = vertPosition + backgroundHeight + SPACING;
+        
+        backgroundHeight = 70;
+        // NSLog(@"Height is %f", backgroundHeight);
+        RoundedRectBackground *addressBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
+        [addressBackground addSubview:addressLabel];
+        [addressBackground addSubview:cityLabel];
+        [scrollView addSubview:addressBackground];
     }
     
-// Business address - 2 x NSString
-    NSString *address = [self.detailItem objectForKey:@"address"];
-    UILabel *addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(PADDING*1.5, PADDING, contentWidth, 30)];
-    addressLabel.text = address;
-    addressLabel.font = [UIFont fontWithName:@"Times New Roman" size:18];
-    addressLabel.adjustsFontSizeToFitWidth = YES;
-    
-    // Assemble city, state, zip string
-    NSString *city = [self.detailItem objectForKey:@"city"];
-    NSString *state = [self.detailItem objectForKey:@"state"];
-    NSString *zip = [self.detailItem objectForKey:@"zip"];
-    
-    UILabel *cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(PADDING*1.5, PADDING+24, contentWidth, 30)];
-    cityLabel.text = [[[[[NSString stringWithString:city] stringByAppendingString:@", "] stringByAppendingString:state] stringByAppendingString:@"  "] stringByAppendingString:zip];
-    cityLabel.font = [UIFont fontWithName:@"Times New Roman" size:18];
-    cityLabel.adjustsFontSizeToFitWidth = YES;
-    
-    vertPosition = vertPosition + backgroundHeight + SPACING;
-    
-    backgroundHeight = 70;
-    // NSLog(@"Height is %f", backgroundHeight);
-    RoundedRectBackground *addressBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
-    [addressBackground addSubview:addressLabel];
-    [addressBackground addSubview:cityLabel];
-    [scrollView addSubview:addressBackground];
-        
 // coupon URL - UITextView
     
     NSString *couponData = [self.detailItem objectForKey:@"couponURL"];
@@ -295,7 +297,7 @@
     CLLocationCoordinate2D newCoordinates = CLLocationCoordinate2DMake(newLatitude, newLongitude);
     
     NSString *newName = [self.detailItem objectForKey:@"name"];
-    NSString *newDescription = [self.detailItem objectForKey:@"description"];
+    NSString *newDescription = [self.detailItem objectForKey:@"phone"];
     
 // Calls for a new MapItem object & adds it to the view & annotations array
     MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
