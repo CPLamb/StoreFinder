@@ -4,7 +4,7 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MapViewController.m"
@@ -160,7 +160,11 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
+<<<<<<< HEAD
          shouldBeEnabled = "No"
+=======
+         shouldBeEnabled = "Yes"
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MasterViewController.m"
@@ -186,7 +190,11 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
+<<<<<<< HEAD
          shouldBeEnabled = "No"
+=======
+         shouldBeEnabled = "Yes"
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/MapItem.m"

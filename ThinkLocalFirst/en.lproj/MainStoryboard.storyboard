@@ -622,6 +622,7 @@
         <image name="trolley.png" width="26" height="26"/>
     </resources>
     <classes>
+<<<<<<< HEAD
         <class className="BigMapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BigMapViewController.h"/>
             <relationships>
@@ -629,6 +630,8 @@
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
             </relationships>
         </class>
+=======
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
@@ -699,4 +702,10 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+<<<<<<< HEAD
+=======
+    <inferredMetricsTieBreakers>
+        <segue reference="gFi-7l-ipG"/>
+    </inferredMetricsTieBreakers>
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 </document>

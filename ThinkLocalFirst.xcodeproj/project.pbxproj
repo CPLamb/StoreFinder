@@ -57,6 +57,7 @@
 		834FEB6F17428DB90072F19D /* logo_OceanEchoInn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */; };
 		83941CAD17347C98001E31B2 /* Coupon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAB17347C98001E31B2 /* Coupon01.png */; };
 		83941CAE17347C98001E31B2 /* Coupon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAC17347C98001E31B2 /* Coupon02.png */; };
+<<<<<<< HEAD
 		83CB5CFD17455870007FBB60 /* BigMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CB5CFC17455870007FBB60 /* BigMapViewController.m */; };
 		83CB5D0317457348007FBB60 /* database@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5CFE17457348007FBB60 /* database@2x.png */; };
 		83CB5D0417457348007FBB60 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5CFF17457348007FBB60 /* globe@2x.png */; };
@@ -64,6 +65,8 @@
 		83CB5D0617457348007FBB60 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0117457348007FBB60 /* house@2x.png */; };
 		83CB5D0717457348007FBB60 /* trolley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0217457348007FBB60 /* trolley@2x.png */; };
 		83CB5D0917457371007FBB60 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0817457371007FBB60 /* heart.png */; };
+=======
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 		83E05AE31737F74A0019A214 /* SortSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E05AE21737F7490019A214 /* SortSelectionViewController.m */; };
 		83E05AE5173953880019A214 /* ThinkLocalFirstDemo_100.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */; };
 		83E05AE7173956730019A214 /* ThinkLocalFirstDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */; };
@@ -167,6 +170,7 @@
 		834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_OceanEchoInn.jpg; sourceTree = "<group>"; };
 		83941CAB17347C98001E31B2 /* Coupon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon01.png; sourceTree = "<group>"; };
 		83941CAC17347C98001E31B2 /* Coupon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon02.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		83CB5CFB17455870007FBB60 /* BigMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigMapViewController.h; sourceTree = "<group>"; };
 		83CB5CFC17455870007FBB60 /* BigMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigMapViewController.m; sourceTree = "<group>"; };
 		83CB5CFE17457348007FBB60 /* database@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database@2x.png"; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 		83CB5D0117457348007FBB60 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
 		83CB5D0217457348007FBB60 /* trolley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trolley@2x.png"; sourceTree = "<group>"; };
 		83CB5D0817457371007FBB60 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+=======
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 		83E05AE11737F7480019A214 /* SortSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortSelectionViewController.h; sourceTree = "<group>"; };
 		83E05AE21737F7490019A214 /* SortSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortSelectionViewController.m; sourceTree = "<group>"; };
 		83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThinkLocalFirstDemo_100.plist; sourceTree = "<group>"; };
@@ -359,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				83F3E15A172B0B1300221519 /* globe.png */,
+<<<<<<< HEAD
 				83CB5CFF17457348007FBB60 /* globe@2x.png */,
 				83F3E15B172B0B1400221519 /* house.png */,
 				83CB5D0117457348007FBB60 /* house@2x.png */,
@@ -368,6 +375,11 @@
 				83CB5CFE17457348007FBB60 /* database@2x.png */,
 				83CB5D0817457371007FBB60 /* heart.png */,
 				83CB5D0017457348007FBB60 /* heart@2x.png */,
+=======
+				83F3E15B172B0B1400221519 /* house.png */,
+				83F3E15C172B0B1400221519 /* trolley.png */,
+				83F3E15D172B0B1500221519 /* database.png */,
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 				83E284E417231ED60025949B /* icon.png */,
 				83E284E617231EE60025949B /* icon@2x.png */,
 				83E284E217231C920025949B /* TLFLogoHD.png */,
@@ -647,12 +659,15 @@
 				8331A4841742EDC700F1EC33 /* logo_CoastFinancial.jpg in Resources */,
 				8331A4851742EDC700F1EC33 /* logo_JasmineBerke.jpg in Resources */,
 				8331A48A1742FD4C00F1EC33 /* TLFMemberList.plist in Resources */,
+<<<<<<< HEAD
 				83CB5D0317457348007FBB60 /* database@2x.png in Resources */,
 				83CB5D0417457348007FBB60 /* globe@2x.png in Resources */,
 				83CB5D0517457348007FBB60 /* heart@2x.png in Resources */,
 				83CB5D0617457348007FBB60 /* house@2x.png in Resources */,
 				83CB5D0717457348007FBB60 /* trolley@2x.png in Resources */,
 				83CB5D0917457371007FBB60 /* heart.png in Resources */,
+=======
+>>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
