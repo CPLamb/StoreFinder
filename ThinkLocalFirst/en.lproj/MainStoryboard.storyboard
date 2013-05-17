@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Yqd-eY-0hl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Yqd-eY-0hl">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller - List-->
@@ -622,7 +622,6 @@
         <image name="trolley.png" width="26" height="26"/>
     </resources>
     <classes>
-<<<<<<< HEAD
         <class className="BigMapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BigMapViewController.h"/>
             <relationships>
@@ -630,8 +629,6 @@
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
             </relationships>
         </class>
-=======
->>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
@@ -702,10 +699,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-<<<<<<< HEAD
-=======
-    <inferredMetricsTieBreakers>
-        <segue reference="gFi-7l-ipG"/>
-    </inferredMetricsTieBreakers>
->>>>>>> 28d74e2735638f651c6b31d935df7a4b57c8813f
 </document>
