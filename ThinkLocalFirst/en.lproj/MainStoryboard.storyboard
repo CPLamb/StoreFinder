@@ -84,7 +84,8 @@
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="B59-aF-0Va" kind="push" identifier="showDetails" id="vyU-dR-okX"/>
+                                    <segue destination="B59-aF-0Va" kind="push" identifier="showDetails" trigger="accessoryAction" id="kIn-Qn-SUK"/>
+                                    <segue destination="ldP-a5-NtL" kind="push" id="I8f-RX-uVp"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -389,6 +390,7 @@
                                 </view>
                                 <connections>
                                     <segue destination="ktj-gG-SG7" kind="push" identifier="showCoupon" id="eeS-gA-l4q"/>
+                                    <segue destination="B59-aF-0Va" kind="push" identifier="showDetails" trigger="accessoryAction" id="ZIS-t6-fhf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -403,7 +405,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvh-X0-yMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="702"/>
+            <point key="canvasLocation" x="913" y="702"/>
         </scene>
         <!--Navigation Controller - Coupons-->
         <scene sceneID="L4y-Aa-aCj">
@@ -452,7 +454,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSQ-ES-4qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371" y="702"/>
+            <point key="canvasLocation" x="1376" y="779"/>
         </scene>
         <!--Sort Selection View Controller-->
         <scene sceneID="r7X-oL-7cE">
@@ -676,7 +678,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAu-7W-Ytz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="64"/>
+            <point key="canvasLocation" x="913" y="118"/>
         </scene>
     </scenes>
     <resources>
@@ -775,4 +777,8 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="kIn-Qn-SUK"/>
+        <segue reference="gFi-7l-ipG"/>
+    </inferredMetricsTieBreakers>
 </document>

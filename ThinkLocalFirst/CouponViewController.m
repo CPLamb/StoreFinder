@@ -86,8 +86,16 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  {
     
-// Show Details screen
-    if ([[segue identifier] isEqualToString:@"showCoupon"]) {
+    // Show Details screen
+    if ([[segue identifier] isEqualToString:@"showDetails"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        DetailViewController* dvc = [segue destinationViewController];
+        dvc.detailItem = object;
+    }
+    
+    // Show Coupon Offer screen (Web view)
+    else if ([[segue identifier] isEqualToString:@"showCoupon"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
               NSLog(@"The object passed is = %@", object);
@@ -96,7 +104,6 @@
         covc.couponURLString = [object objectForKey:@"couponURL"];
         
     }
-//    [segue destinationViewController];
 }
 
 #pragma mark -- Custom methods
