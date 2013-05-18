@@ -141,7 +141,7 @@
 
 // Show Details screen
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
         NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
   //      NSLog(@"IndexPath = %@", indexPath);
         

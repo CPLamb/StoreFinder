@@ -29,7 +29,9 @@
 {
     [super viewDidLoad];
 
-    NSURL *couponURL = [NSURL URLWithString:@"http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/CouponSample_480x320.png"];
+//    if( self.couponURLString == nil )
+//        self.couponURLString = @"http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/CouponSample_480x320.png"
+    NSURL *couponURL = [NSURL URLWithString:self.couponURLString];
     NSURLRequest *couponRequest = [NSURLRequest requestWithURL:couponURL];
     [self.couponView loadRequest:couponRequest];
 }
@@ -39,5 +41,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark AutoRotation
+
+- (NSUInteger)supportedInterfaceOrientations {
+    
+    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
+}
+
 
 @end
