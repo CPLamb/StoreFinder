@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Yqd-eY-0hl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Yqd-eY-0hl">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller - List-->
@@ -439,17 +439,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sdp-i2-UF9" firstAttribute="trailing" secondItem="ARG-uO-Wce" secondAttribute="trailing" type="default" id="34W-Dg-Tgj"/>
-                            <constraint firstItem="sdp-i2-UF9" firstAttribute="top" secondItem="ARG-uO-Wce" secondAttribute="top" type="default" id="5co-oY-sCf"/>
                             <constraint firstItem="sdp-i2-UF9" firstAttribute="leading" secondItem="ARG-uO-Wce" secondAttribute="leading" type="default" id="9GV-S7-U0L"/>
+                            <constraint firstItem="sdp-i2-UF9" firstAttribute="top" secondItem="ARG-uO-Wce" secondAttribute="top" constant="-2" id="iic-cu-Al2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Coupon Offer" id="dTz-sV-XFV">
                         <barButtonItem key="backBarButtonItem" title="Coupon" id="bwU-nG-0e1"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="couponView" destination="sdp-i2-UF9" id="Fmq-co-RLY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSQ-ES-4qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371" y="714"/>
+            <point key="canvasLocation" x="1371" y="702"/>
         </scene>
         <!--Sort Selection View Controller-->
         <scene sceneID="r7X-oL-7cE">

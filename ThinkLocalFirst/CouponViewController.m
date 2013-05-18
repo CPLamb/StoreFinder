@@ -7,6 +7,7 @@
 //
 
 #import "CouponViewController.h"
+#import "CouponOfferViewController.h"
 
 @interface CouponViewController ()
 
@@ -88,14 +89,14 @@
 // Show Details screen
     if ([[segue identifier] isEqualToString:@"showCoupon"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
               NSLog(@"The object passed is = %@", object);
         
-    // Sets the detailItem to the selected item
-    //    [[segue destinationViewController] setDetailItem:object];
+        CouponOfferViewController* covc = [segue destinationViewController];
+        covc.couponURLString = [object objectForKey:@"couponURL"];
         
     }
-    [segue destinationViewController];
+//    [segue destinationViewController];
 }
 
 #pragma mark -- Custom methods

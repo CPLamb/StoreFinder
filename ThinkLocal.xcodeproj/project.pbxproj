@@ -61,7 +61,6 @@
 		83835FDF1746FB09002E3AA3 /* TLF_Logo320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */; };
 		83835FE01746FB09002E3AA3 /* TLF_Logo640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */; };
 		83835FE11746FB09002E3AA3 /* TLF_Logo640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */; };
-		83835FE717470C44002E3AA3 /* TLF_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FE617470C44002E3AA3 /* TLF_640x960.png */; };
 		83941CAD17347C98001E31B2 /* Coupon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAB17347C98001E31B2 /* Coupon01.png */; };
 		83941CAE17347C98001E31B2 /* Coupon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAC17347C98001E31B2 /* Coupon02.png */; };
 		83CB5CFD17455870007FBB60 /* BigMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CB5CFC17455870007FBB60 /* BigMapViewController.m */; };
@@ -180,7 +179,6 @@
 		83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo320x480.png; sourceTree = "<group>"; };
 		83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo640x960.png; sourceTree = "<group>"; };
 		83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo640x1136.png; sourceTree = "<group>"; };
-		83835FE617470C44002E3AA3 /* TLF_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TLF_640x960.png; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/TLF_640x960.png"; sourceTree = "<group>"; };
 		83941CAB17347C98001E31B2 /* Coupon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon01.png; sourceTree = "<group>"; };
 		83941CAC17347C98001E31B2 /* Coupon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon02.png; sourceTree = "<group>"; };
 		83CB5CFB17455870007FBB60 /* BigMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigMapViewController.h; sourceTree = "<group>"; };
@@ -378,7 +376,6 @@
 		83CB5CFA1745443E007FBB60 /* App Images */ = {
 			isa = PBXGroup;
 			children = (
-				83835FE617470C44002E3AA3 /* TLF_640x960.png */,
 				83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */,
 				83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */,
 				83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */,
@@ -690,7 +687,6 @@
 				83835FDF1746FB09002E3AA3 /* TLF_Logo320x480.png in Resources */,
 				83835FE01746FB09002E3AA3 /* TLF_Logo640x960.png in Resources */,
 				83835FE11746FB09002E3AA3 /* TLF_Logo640x1136.png in Resources */,
-				83835FE717470C44002E3AA3 /* TLF_640x960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
