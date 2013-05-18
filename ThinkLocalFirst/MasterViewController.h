@@ -13,7 +13,7 @@
 #import "SortSelectionViewController.h"
 #import "BigMapViewController.h"
 
-@interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate>  {
+@interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate, UITabBarControllerDelegate>  {
     
     BOOL sortedByCategory;
     BOOL filteredByCoupons;

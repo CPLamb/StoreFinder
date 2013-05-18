@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MemberListData.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
 
+//    MemberListData *memberData;
+}
+@property (strong, nonatomic) MemberListData *memberData;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

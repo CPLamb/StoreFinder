@@ -9,9 +9,11 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize memberData = _memberData;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.memberData = [[MemberListData alloc] init];
     // Override point for customization after application launch.
     return YES;
 }

@@ -73,6 +73,7 @@
 		83CB5D0917457371007FBB60 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0817457371007FBB60 /* heart.png */; };
 		83DC2C3C1747F1A40088A956 /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DC2C3B1747F1A40088A956 /* CouponViewController.m */; };
 		83DC2C3F174805BB0088A956 /* CouponOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DC2C3E174805BB0088A956 /* CouponOfferViewController.m */; };
+		83DC2C4217483A160088A956 /* MemberListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DC2C4117483A160088A956 /* MemberListData.m */; };
 		83E05AE31737F74A0019A214 /* SortSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E05AE21737F7490019A214 /* SortSelectionViewController.m */; };
 		83E05AE5173953880019A214 /* ThinkLocalFirstDemo_100.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */; };
 		83E05AE7173956730019A214 /* ThinkLocalFirstDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */; };
@@ -195,6 +196,8 @@
 		83DC2C3B1747F1A40088A956 /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
 		83DC2C3D174805BB0088A956 /* CouponOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOfferViewController.h; sourceTree = "<group>"; };
 		83DC2C3E174805BB0088A956 /* CouponOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOfferViewController.m; sourceTree = "<group>"; };
+		83DC2C4017483A140088A956 /* MemberListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListData.h; sourceTree = "<group>"; };
+		83DC2C4117483A160088A956 /* MemberListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListData.m; sourceTree = "<group>"; };
 		83E05AE11737F7480019A214 /* SortSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortSelectionViewController.h; sourceTree = "<group>"; };
 		83E05AE21737F7490019A214 /* SortSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortSelectionViewController.m; sourceTree = "<group>"; };
 		83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThinkLocalFirstDemo_100.plist; sourceTree = "<group>"; };
@@ -445,6 +448,8 @@
 				834965FD172DBC4F00F049B0 /* TabBarController.m */,
 				83E28544172480C80025949B /* MapItem.h */,
 				83E28545172480C80025949B /* MapItem.m */,
+				83DC2C4017483A140088A956 /* MemberListData.h */,
+				83DC2C4117483A160088A956 /* MemberListData.m */,
 				83F3E162172B139300221519 /* RoundedRectBackground.h */,
 				83F3E163172B139300221519 /* RoundedRectBackground.m */,
 				83E05AE11737F7480019A214 /* SortSelectionViewController.h */,
@@ -739,6 +744,7 @@
 				83CB5CFD17455870007FBB60 /* BigMapViewController.m in Sources */,
 				83DC2C3C1747F1A40088A956 /* CouponViewController.m in Sources */,
 				83DC2C3F174805BB0088A956 /* CouponOfferViewController.m in Sources */,
+				83DC2C4217483A160088A956 /* MemberListData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

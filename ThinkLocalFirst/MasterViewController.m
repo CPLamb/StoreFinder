@@ -163,6 +163,13 @@
     }
 }
 
+#pragma mark - UITabBarControllerDelegate methods
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+    
+    NSLog(@"A tabBar item was pressed %@", viewController);
+}
+
 #pragma mark - Custom sort & search methods
 
 - (NSArray *)makeSectionsIndex:(NSArray *)arrayOfDictionaries {
