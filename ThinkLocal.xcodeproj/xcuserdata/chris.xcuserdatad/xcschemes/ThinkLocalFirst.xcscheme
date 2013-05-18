@@ -17,7 +17,7 @@
                BlueprintIdentifier = "83E2849417231A2D0025949B"
                BuildableName = "ThinkLocalFirst.app"
                BlueprintName = "ThinkLocalFirst"
-               ReferencedContainer = "container:ThinkLocalFirst.xcodeproj">
+               ReferencedContainer = "container:ThinkLocal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "83E284BD17231A2F0025949B"
                BuildableName = "ThinkLocalFirstTests.octest"
                BlueprintName = "ThinkLocalFirstTests"
-               ReferencedContainer = "container:ThinkLocalFirst.xcodeproj">
+               ReferencedContainer = "container:ThinkLocal.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "83E2849417231A2D0025949B"
             BuildableName = "ThinkLocalFirst.app"
             BlueprintName = "ThinkLocalFirst"
-            ReferencedContainer = "container:ThinkLocalFirst.xcodeproj">
+            ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "83E2849417231A2D0025949B"
             BuildableName = "ThinkLocalFirst.app"
             BlueprintName = "ThinkLocalFirst"
-            ReferencedContainer = "container:ThinkLocalFirst.xcodeproj">
+            ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "83E2849417231A2D0025949B"
             BuildableName = "ThinkLocalFirst.app"
             BlueprintName = "ThinkLocalFirst"
-            ReferencedContainer = "container:ThinkLocalFirst.xcodeproj">
+            ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

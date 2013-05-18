@@ -38,43 +38,49 @@
     [self.view addSubview:scrollView];
 
 // Sizes the scrollview
-    CGFloat scrollViewHeight = 1500;
+    CGFloat scrollViewHeight = 2500;
     CGSize scrollViewContentSize = CGSizeMake(320, scrollViewHeight);
     [scrollView setContentSize:scrollViewContentSize];
     
 // Adds a coupon rotoated for ease of display
-    NSString *couponFileName = @"Coupon01.png";
+    NSString *couponFileName = @"CouponSample_480x320.png";
     UIImage *couponImage = [UIImage imageNamed:couponFileName];
-    UIImageView *coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 320)];
+    UIImageView *coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     coupon.image = couponImage;            
     [scrollView addSubview:coupon];
     
     // Adds a coupon rotoated for ease of display
     couponFileName = @"Coupon02.png";
     couponImage = [UIImage imageNamed:couponFileName];
-    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 320, 200, 300)];
+    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 480, 180, 560)];
     coupon.image = couponImage;
     [scrollView addSubview:coupon];
     
     // Adds a coupon rotoated for ease of display
+    couponFileName = @"CouponSample_480x320.png";
+    couponImage = [UIImage imageNamed:couponFileName];
+    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1040, 320, 480)];
+    coupon.image = couponImage;
+    [scrollView addSubview:coupon];
+        
+    // Adds a coupon rotoated for ease of display
     couponFileName = @"Coupon01.png";
     couponImage = [UIImage imageNamed:couponFileName];
-    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 620, 180, 320)];
+    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1520, 160, 320)];
     coupon.image = couponImage;
     [scrollView addSubview:coupon];
     
     
     
     
-    
-/*
+
 // Builds custom background views
     RoundedRectBackground *nameBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, RECT_SPACING, 300, 40)];
 //    UITextView *name = [[UITextView alloc] initWithFrame:nameBackground.frame];
 //    name.text = @"ChrisPLamb Labs";
 //    [nameBackground addSubview:name];
-    [scrollView addSubview:nameBackground];
-    
+//    [scrollView addSubview:nameBackground];
+/*
     CGFloat verticalPosition = 60;
     RoundedRectBackground *phoneBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, verticalPosition, 300, 40)];
     [scrollView addSubview:phoneBackground];

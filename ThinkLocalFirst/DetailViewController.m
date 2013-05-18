@@ -155,7 +155,7 @@
         // Calcs height of the textView based on the # of characters in a line
         //    CGFloat textViewHeight = ((description.length/8)+1) * 1;
         CGFloat textViewHeight = description.length / 1.25;
-        NSLog(@"Description length = %d", description.length);
+  //      NSLog(@"Description length = %d", description.length);
         
         UITextView *descriptionField = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, textViewHeight)];
         descriptionField.text = description;

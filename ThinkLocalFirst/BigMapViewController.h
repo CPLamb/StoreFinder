@@ -16,7 +16,9 @@
 @interface BigMapViewController : UIViewController <MKMapViewDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) NSMutableArray *mapAnnotations;
 
 - (IBAction)dropPinButton:(UIButton *)sender;
+- (IBAction)removeAllPins:(UIButton *)sender;
 
 @end

@@ -98,7 +98,7 @@
 // Update the user interface whenever the detail item changes.
     
     if (self.detailItem) {
-// Get latitude & longitude doubles from the countries dictionar table
+// Get latitude & longitude doubles from the detailItem dictionary
         NSString *countryLatitude = [self.detailItem objectForKey:@"latitude"];
         double latitudeNumber = [countryLatitude doubleValue];
         CLLocationDegrees latitudeLocation = latitudeNumber;
@@ -117,7 +117,6 @@
         self.nameLabel.text = [self.detailItem objectForKey:@"name"];
         self.descriptionLabel.text = [NSString stringWithFormat:@"Located at %3.2f %3.2f, Span = %2.1f", latitudeNumber, longitudeNumber, span];
         [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(latitudeLocation, longitudeLocation), MKCoordinateSpanMake(span, span)) animated:YES];
-        
     }
 }
 
@@ -181,7 +180,7 @@
 // Configures the Annotation popup
 - (MKAnnotationView *)mapView:(MKMapView *)theMapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    // in case it's the user location, we already have an annotation, so just return nil
+// in case it's the user location, we already have an annotation, so just return nil
     if ([annotation isKindOfClass:[MKUserLocation class]])
     {
         return nil;
@@ -190,7 +189,7 @@
 // handles our custom annotation look N feel
     if ([annotation isKindOfClass:[MapItem class]])         // for Members with offices
     {
-        // try to dequeue an existing pin view first
+    // try to dequeue an existing pin view first
         static NSString *BridgeAnnotationIdentifier = @"bridgeAnnotationIdentifier";
         
         MKPinAnnotationView *pinView =
@@ -221,7 +220,5 @@
     }    
     return nil;
 }
-
-
 
 @end

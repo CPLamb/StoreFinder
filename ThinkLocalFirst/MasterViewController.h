@@ -11,6 +11,7 @@
 #import "MapViewController.h"
 #import "InfoViewController.h"
 #import "SortSelectionViewController.h"
+#import "BigMapViewController.h"
 
 @interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate>  {
     
@@ -20,6 +21,7 @@
 }
 @property (nonatomic, strong) DetailViewController *memberViewController;
 @property (nonatomic, strong) InfoViewController *infoViewController;
+//@property (nonatomic, strong) BigMapViewController *bigMapViewController;
 
 @property (strong, nonatomic) id detailItem;
 

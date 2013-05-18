@@ -55,6 +55,13 @@
 		834FEB6D17428DB90072F19D /* logo_HumanCare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6817428DB90072F19D /* logo_HumanCare.jpg */; };
 		834FEB6E17428DB90072F19D /* logo_KayakConnection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */; };
 		834FEB6F17428DB90072F19D /* logo_OceanEchoInn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */; };
+		83835FCF1746C226002E3AA3 /* CouponSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FCE1746C226002E3AA3 /* CouponSample.png */; };
+		83835FD11746CD7E002E3AA3 /* CouponSample_480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */; };
+		83835FDE1746FB09002E3AA3 /* TLF_Icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */; };
+		83835FDF1746FB09002E3AA3 /* TLF_Logo320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */; };
+		83835FE01746FB09002E3AA3 /* TLF_Logo640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */; };
+		83835FE11746FB09002E3AA3 /* TLF_Logo640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */; };
+		83835FE717470C44002E3AA3 /* TLF_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FE617470C44002E3AA3 /* TLF_640x960.png */; };
 		83941CAD17347C98001E31B2 /* Coupon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAB17347C98001E31B2 /* Coupon01.png */; };
 		83941CAE17347C98001E31B2 /* Coupon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 83941CAC17347C98001E31B2 /* Coupon02.png */; };
 		83CB5CFD17455870007FBB60 /* BigMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CB5CFC17455870007FBB60 /* BigMapViewController.m */; };
@@ -64,6 +71,8 @@
 		83CB5D0617457348007FBB60 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0117457348007FBB60 /* house@2x.png */; };
 		83CB5D0717457348007FBB60 /* trolley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0217457348007FBB60 /* trolley@2x.png */; };
 		83CB5D0917457371007FBB60 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB5D0817457371007FBB60 /* heart.png */; };
+		83DC2C3C1747F1A40088A956 /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DC2C3B1747F1A40088A956 /* CouponViewController.m */; };
+		83DC2C3F174805BB0088A956 /* CouponOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DC2C3E174805BB0088A956 /* CouponOfferViewController.m */; };
 		83E05AE31737F74A0019A214 /* SortSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E05AE21737F7490019A214 /* SortSelectionViewController.m */; };
 		83E05AE5173953880019A214 /* ThinkLocalFirstDemo_100.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */; };
 		83E05AE7173956730019A214 /* ThinkLocalFirstDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */; };
@@ -165,6 +174,13 @@
 		834FEB6817428DB90072F19D /* logo_HumanCare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_HumanCare.jpg; sourceTree = "<group>"; };
 		834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_KayakConnection.jpg; sourceTree = "<group>"; };
 		834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_OceanEchoInn.jpg; sourceTree = "<group>"; };
+		83835FCE1746C226002E3AA3 /* CouponSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouponSample.png; sourceTree = "<group>"; };
+		83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouponSample_480x320.png; sourceTree = "<group>"; };
+		83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Icon114x114.png; sourceTree = "<group>"; };
+		83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo320x480.png; sourceTree = "<group>"; };
+		83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo640x960.png; sourceTree = "<group>"; };
+		83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Logo640x1136.png; sourceTree = "<group>"; };
+		83835FE617470C44002E3AA3 /* TLF_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TLF_640x960.png; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/TLF_640x960.png"; sourceTree = "<group>"; };
 		83941CAB17347C98001E31B2 /* Coupon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon01.png; sourceTree = "<group>"; };
 		83941CAC17347C98001E31B2 /* Coupon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coupon02.png; sourceTree = "<group>"; };
 		83CB5CFB17455870007FBB60 /* BigMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigMapViewController.h; sourceTree = "<group>"; };
@@ -175,6 +191,10 @@
 		83CB5D0117457348007FBB60 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
 		83CB5D0217457348007FBB60 /* trolley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trolley@2x.png"; sourceTree = "<group>"; };
 		83CB5D0817457371007FBB60 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		83DC2C3A1747F1A40088A956 /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
+		83DC2C3B1747F1A40088A956 /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
+		83DC2C3D174805BB0088A956 /* CouponOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOfferViewController.h; sourceTree = "<group>"; };
+		83DC2C3E174805BB0088A956 /* CouponOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOfferViewController.m; sourceTree = "<group>"; };
 		83E05AE11737F7480019A214 /* SortSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortSelectionViewController.h; sourceTree = "<group>"; };
 		83E05AE21737F7490019A214 /* SortSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortSelectionViewController.m; sourceTree = "<group>"; };
 		83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThinkLocalFirstDemo_100.plist; sourceTree = "<group>"; };
@@ -358,6 +378,11 @@
 		83CB5CFA1745443E007FBB60 /* App Images */ = {
 			isa = PBXGroup;
 			children = (
+				83835FE617470C44002E3AA3 /* TLF_640x960.png */,
+				83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */,
+				83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */,
+				83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */,
+				83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */,
 				83F3E15A172B0B1300221519 /* globe.png */,
 				83CB5CFF17457348007FBB60 /* globe@2x.png */,
 				83F3E15B172B0B1400221519 /* house.png */,
@@ -436,6 +461,10 @@
 				83F3E168172C73E600221519 /* TestingViewController.m */,
 				83CB5CFB17455870007FBB60 /* BigMapViewController.h */,
 				83CB5CFC17455870007FBB60 /* BigMapViewController.m */,
+				83DC2C3A1747F1A40088A956 /* CouponViewController.h */,
+				83DC2C3B1747F1A40088A956 /* CouponViewController.m */,
+				83DC2C3D174805BB0088A956 /* CouponOfferViewController.h */,
+				83DC2C3E174805BB0088A956 /* CouponOfferViewController.m */,
 				83E2849F17231A2D0025949B /* Supporting Files */,
 			);
 			path = ThinkLocalFirst;
@@ -502,6 +531,8 @@
 				83E284D617231ADE0025949B /* SCNTaxiLogo.png */,
 				83F5EF4B1732D56E00F11979 /* OtterPraying.png */,
 				83F5EF471732C99900F11979 /* TestPicture.png */,
+				83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */,
+				83835FCE1746C226002E3AA3 /* CouponSample.png */,
 				83941CAB17347C98001E31B2 /* Coupon01.png */,
 				83941CAC17347C98001E31B2 /* Coupon02.png */,
 			);
@@ -556,7 +587,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Chris Lamb";
 			};
-			buildConfigurationList = 83E2849017231A2C0025949B /* Build configuration list for PBXProject "ThinkLocalFirst" */;
+			buildConfigurationList = 83E2849017231A2C0025949B /* Build configuration list for PBXProject "ThinkLocal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -653,6 +684,13 @@
 				83CB5D0617457348007FBB60 /* house@2x.png in Resources */,
 				83CB5D0717457348007FBB60 /* trolley@2x.png in Resources */,
 				83CB5D0917457371007FBB60 /* heart.png in Resources */,
+				83835FCF1746C226002E3AA3 /* CouponSample.png in Resources */,
+				83835FD11746CD7E002E3AA3 /* CouponSample_480x320.png in Resources */,
+				83835FDE1746FB09002E3AA3 /* TLF_Icon114x114.png in Resources */,
+				83835FDF1746FB09002E3AA3 /* TLF_Logo320x480.png in Resources */,
+				83835FE01746FB09002E3AA3 /* TLF_Logo640x960.png in Resources */,
+				83835FE11746FB09002E3AA3 /* TLF_Logo640x1136.png in Resources */,
+				83835FE717470C44002E3AA3 /* TLF_640x960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,6 +737,8 @@
 				834965FE172DBC4F00F049B0 /* TabBarController.m in Sources */,
 				83E05AE31737F74A0019A214 /* SortSelectionViewController.m in Sources */,
 				83CB5CFD17455870007FBB60 /* BigMapViewController.m in Sources */,
+				83DC2C3C1747F1A40088A956 /* CouponViewController.m in Sources */,
+				83DC2C3F174805BB0088A956 /* CouponOfferViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,7 +905,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83E2849017231A2C0025949B /* Build configuration list for PBXProject "ThinkLocalFirst" */ = {
+		83E2849017231A2C0025949B /* Build configuration list for PBXProject "ThinkLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83E284CE17231A2F0025949B /* Debug */,

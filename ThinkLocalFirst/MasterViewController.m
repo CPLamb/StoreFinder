@@ -19,6 +19,7 @@
 @synthesize memberViewController = _memberViewController;
 @synthesize infoViewController = _infoViewController;
 @synthesize sortSelectionView = _sortSelectionView;
+//@synthesize bigMapViewController = _bigMapViewController;
 
 @synthesize detailItem = _detailItem;
 
@@ -142,7 +143,8 @@
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-        NSLog(@"IndexPath = %@", indexPath);
+  //      NSLog(@"IndexPath = %@", indexPath);
+        
 // Sets the detailItem to the selected item
         [[segue destinationViewController] setDetailItem:object];
     }
@@ -296,6 +298,9 @@
         [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
         
         [self.tableView reloadData];
+        
+    //Loads up the annotation pins for the BigMap
+//        self.bigMapViewController.mapAnnotations = [[NSMutableArray alloc] initWithArray:self.namesArray];
     }
 }
 
@@ -368,7 +373,6 @@
     NSLog(@"Filters the table for coupons YES (y)");
     
     filteredByCoupons = YES;
-//    self.sortSelectionView.alpha = 0.0;
     
 // builds an array of HasCoupon = y
     NSMutableArray *aFilteredArray = [[NSMutableArray alloc] initWithCapacity:600];
