@@ -30,7 +30,7 @@
     
     self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
     NSLog(@"MEMBERLISTDATA Array count %d", [self.membersArray count]);
-    
+
     // loads the web Plist on another thread
     [self loadPlistURL];
 }

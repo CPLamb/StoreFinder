@@ -12,6 +12,7 @@
 #import "InfoViewController.h"
 #import "SortSelectionViewController.h"
 #import "BigMapViewController.h"
+#import "MemberListData.h"
 
 @interface MasterViewController : UITableViewController <SortSelectionViewControllerDelegate, UISearchDisplayDelegate, UISearchBarDelegate, UITabBarControllerDelegate>  {
     
@@ -19,6 +20,8 @@
     BOOL filteredByCoupons;
     NSArray *membersArray;
 }
+@property (nonatomic, strong) MemberListData *memberListAll;
+
 @property (nonatomic, strong) DetailViewController *memberViewController;
 @property (nonatomic, strong) InfoViewController *infoViewController;
 //@property (nonatomic, strong) BigMapViewController *bigMapViewController;

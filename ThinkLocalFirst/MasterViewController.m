@@ -7,6 +7,7 @@
 //
 
 #import "MasterViewController.h"
+#import "MemberListData.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -15,6 +16,8 @@
 @end
 
 @implementation MasterViewController
+
+@synthesize memberListAll = _memberListAll;
 
 @synthesize memberViewController = _memberViewController;
 @synthesize infoViewController = _infoViewController;
@@ -45,10 +48,17 @@
 {
     [super viewDidLoad];
   
-    [self loadPlistData];
+//    [self loadPlistData];
     
     sortedByCategory = NO;
     filteredByCoupons = NO;
+    
+// Assigns the data object to the local membersArray
+//    AppDelegate* appDel = [[UIApplication sharedApplication] delegate];
+//    MemberListData* sharedData = appDel.memberData;
+    
+    
+    self.membersArray = [NSArray arrayWithArray: MEMBERLISTDATA.membersArray];
     
 // Makes up the index array & the sorted array for the cells
     [self makeSectionsIndex:self.membersArray];

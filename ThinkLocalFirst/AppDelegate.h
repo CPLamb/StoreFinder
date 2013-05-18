@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "MemberListData.h"
 
+@class MemberListData;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
 
-//    MemberListData *memberData;
+    MemberListData *_memberData;
 }
 @property (strong, nonatomic) MemberListData *memberData;
 @property (strong, nonatomic) UIWindow *window;
