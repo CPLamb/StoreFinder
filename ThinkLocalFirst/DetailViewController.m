@@ -229,10 +229,11 @@
         
         couponLabel.dataDetectorTypes = UIDataDetectorTypeLink;
         couponLabel.editable = NO;
+        couponLabel.scrollEnabled = NO;
         
         vertPosition = vertPosition + backgroundHeight + SPACING;
         
-        backgroundHeight = 70;          // couponLabel.bounds.size.height + 2*PADDING;
+        backgroundHeight = 70;     //couponLabel.bounds.size.height + 2*PADDING;
         // NSLog(@"UITextView height is %f", phoneLabel.bounds.size.height);
         RoundedRectBackground *couponBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
         [couponBackground addSubview:couponLabel];
@@ -241,7 +242,7 @@
     
     
 // Sizes the scrollView, dynamically
-    CGFloat scrollViewHeight = vertPosition + SPACING + backgroundHeight;
+    CGFloat scrollViewHeight = vertPosition + SPACING + backgroundHeight + 100.0;
     CGSize scrollViewContentSize = CGSizeMake(self.view.bounds.size.width, scrollViewHeight);
     [scrollView setContentSize:scrollViewContentSize];
 
