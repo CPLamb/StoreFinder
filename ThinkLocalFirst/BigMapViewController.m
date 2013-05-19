@@ -8,6 +8,7 @@
 
 #import "BigMapViewController.h"
 #import "MapItem.h"
+#import "MemberListData.h"
 
 @interface BigMapViewController ()
 
@@ -23,7 +24,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+
+        
     }
     return self;
 }
@@ -58,10 +60,13 @@
 
     MapItem *anotherMember = [[MapItem alloc]initWithCoordinates:CLLocationCoordinate2DMake(37.0075, -121.925) placeName:@"Freddys Crab Shack" description:@"another place"];
     [self.mapAnnotations addObject:anotherMember];
-    [self.mapView addAnnotation:anotherMember];
+//    [self.mapView addAnnotation:anotherMember];
+    
+// Loads from data objects
+    [self loadPins];
     
 //Adds the pin to the view
-    [self.mapView addAnnotation:droppedPin];
+    [self.mapView addAnnotations:self.mapAnnotations];
 }
 
 - (void)didReceiveMemoryWarning
@@ -83,6 +88,11 @@
 }
 
 #pragma mark - Custom methods
+
+- (void)loadPins {
+    NSArray *pinsArray = MEMBERLISTDATA.namesArray;
+    NSLog(@"pinsArray count = %d", [pinsArray count]);
+}
 
 // Custom setter method for mapAnnotations
 - (void)setMapAnnotations:(NSMutableArray *)newMapAnnotations {

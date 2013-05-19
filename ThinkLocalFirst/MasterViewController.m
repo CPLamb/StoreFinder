@@ -52,7 +52,8 @@
     
     sortedByCategory = NO;
     filteredByCoupons = NO;
-    
+    self.navigationItem.title = @"List";
+
 // Assigns the data object to the local membersArray
 //    AppDelegate* appDel = [[UIApplication sharedApplication] delegate];
 //    MemberListData* sharedData = appDel.memberData;
@@ -360,9 +361,12 @@
     [self makeSectionsIndex:self.namesArray];
     [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
     
+// Store new filtered data in the central data object
+    MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:self.namesArray];
+    
 // Regenerate the data
     [self.tableView reloadData];
-
+    
 // Removes the view controller
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
@@ -379,6 +383,9 @@
     [self makeSectionsIndex:self.namesArray];
     [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
     
+// Store new filtered data in the central data object
+    MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:self.namesArray];
+
 // Regenerate the data
     [self.tableView reloadData];
     
@@ -390,6 +397,7 @@
     NSLog(@"Filters the table for coupons YES (y)");
     
     filteredByCoupons = YES;
+    self.navigationItem.title = @"Coupon List";
     
 // builds an array of HasCoupon = y
     NSMutableArray *aFilteredArray = [[NSMutableArray alloc] initWithCapacity:600];
@@ -478,7 +486,7 @@
     NSLog(@"Displays ALL the items by existing sort criteria");
 
     filteredByCoupons = NO;
-//    self.sortSelectionView.alpha = 0.0;
+    self.navigationItem.title = @"List";
     
 // Reworks the index & cells
     [self makeSectionsIndex:self.membersArray];
