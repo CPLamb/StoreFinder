@@ -103,7 +103,20 @@
     NSArray *pinsArray = MEMBERLISTDATA.namesArray;
     NSLog(@"pinsArray count = %d", [pinsArray count]);
     
-//    for (int)
+    for (int i=0; i<[pinsArray count]; i++) {
+        NSString *aLatitudeString = [[pinsArray objectAtIndex:i] objectForKey:@"latitude"];
+        NSString *aLongitudeString = [[pinsArray objectAtIndex:i] objectForKey:@"longitude"];
+        double aLatitude = [aLatitudeString doubleValue];
+        double aLongitude = [aLongitudeString doubleValue];
+        CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(aLatitude, aLongitude);
+        
+        NSString *aName = [[pinsArray objectAtIndex:i] objectForKey:@"name"];
+        NSString *aDescription = [[pinsArray objectAtIndex:i] objectForKey:@"description"];
+        
+        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
+        [self.mapAnnotations addObject:aNewPin];
+    }
+    [self.mapView addAnnotations:self.mapAnnotations];
 }
 
 // Custom setter method for mapAnnotations
