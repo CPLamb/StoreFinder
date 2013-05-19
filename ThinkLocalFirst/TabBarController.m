@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"TabBar items = %@", self.viewControllers);
+//    NSLog(@"TabBar items = %@", self.viewControllers);
 }
 
 - (void)didReceiveMemoryWarning

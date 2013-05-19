@@ -178,7 +178,7 @@
 #pragma mark - Custom sort & search methods
 
 - (NSArray *)makeSectionsIndex:(NSArray *)arrayOfDictionaries {
-    NSLog(@"Takes the array of Dictionaries (PList), and creates an index of first letters for use in the tableview");
+//    NSLog(@"Takes the array of Dictionaries (PList), and creates an index of first letters for use in the tableview");
     
 // Creates a mutable set to read each letter only once
     NSMutableSet *sectionsMutableSet = [NSMutableSet setWithCapacity:36];
@@ -238,7 +238,7 @@
 }
 
 - (NSArray *)makeIndexedArray:(NSArray *)wordsArray withIndex:(NSArray *)indexArray {
-    NSLog(@"Takes an array of index letters (sections) and name array (rows) for display in the indexed tableview");
+//    NSLog(@"Takes an array of index letters (sections) and name array (rows) for display in the indexed tableview");
 //    NSLog(@"wordsArray is %@", wordsArray);
     
 // Create the mutable array
