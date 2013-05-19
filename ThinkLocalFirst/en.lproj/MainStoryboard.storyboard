@@ -276,23 +276,6 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bbJ-So-ywa"/>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRj-z1-rSH">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="l3Q-uT-Uad"/>
-                                    <constraint firstAttribute="width" constant="64" id="qKX-4l-Jl2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Do iT">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="dropPinButton:" destination="uY4-vk-VuE" eventType="touchUpInside" id="aC2-4J-mAv"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="gxo-ls-3Nh">
                                 <items>
                                     <navigationItem title="Selected Locations" id="DEb-yu-8Me">
@@ -309,9 +292,7 @@
                         <constraints>
                             <constraint firstItem="gxo-ls-3Nh" firstAttribute="leading" secondItem="bdd-1u-GQa" secondAttribute="leading" type="default" id="ARi-L7-l8C"/>
                             <constraint firstItem="bbJ-So-ywa" firstAttribute="top" secondItem="gxo-ls-3Nh" secondAttribute="bottom" type="default" id="G9I-ww-Eq9"/>
-                            <constraint firstAttribute="bottom" secondItem="lRj-z1-rSH" secondAttribute="bottom" constant="7" id="IEo-nZ-pOR"/>
                             <constraint firstItem="gxo-ls-3Nh" firstAttribute="top" secondItem="bdd-1u-GQa" secondAttribute="top" type="default" id="NkF-42-rFh"/>
-                            <constraint firstAttribute="trailing" secondItem="lRj-z1-rSH" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="P9G-bM-q8o"/>
                             <constraint firstItem="bbJ-So-ywa" firstAttribute="trailing" secondItem="bdd-1u-GQa" secondAttribute="trailing" type="default" id="XQU-Ph-o5t"/>
                             <constraint firstItem="bbJ-So-ywa" firstAttribute="bottom" secondItem="bdd-1u-GQa" secondAttribute="bottom" type="default" id="cWi-zr-JFE"/>
                             <constraint firstItem="gxo-ls-3Nh" firstAttribute="trailing" secondItem="bdd-1u-GQa" secondAttribute="trailing" type="default" id="mwE-BI-n0t"/>
@@ -657,79 +638,6 @@
         <image name="house.png" width="26" height="26"/>
         <image name="trolley.png" width="26" height="26"/>
     </resources>
-    <classes>
-        <class className="BigMapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BigMapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dropPinButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="removeAllPins:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="CouponOfferViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CouponOfferViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="couponView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="CouponViewController" superclassName="MasterViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CouponViewController.h"/>
-        </class>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="detailAddressLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="detailCityLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="detailCouponButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="detailDescriptionTextView" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="detailImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="detailNameLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="detailPhoneTextView" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="detailWebsiteURLTextView" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="inputScrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="InfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="contactUsButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="updateButton:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="detailNameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="showAllButton:" candidateClass="UIBarButtonItem"/>
-                <relationship kind="action" name="sortListButton:" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="mySearchBar" candidateClass="UISearchBar"/>
-                <relationship kind="outlet" name="sortSelectionView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SortSelectionViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SortSelectionViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="cancelButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="filterForCoupons:" candidateClass="UIButton"/>
-                <relationship kind="action" name="sortByCategory:" candidateClass="UIButton"/>
-                <relationship kind="action" name="sortByName:" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="TabBarController" superclassName="UITabBarController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TabBarController.h"/>
-        </class>
-        <class className="TestingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="test01:"/>
-                <relationship kind="action" name="test02:"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
