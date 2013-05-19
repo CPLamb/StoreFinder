@@ -75,7 +75,6 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     
     // Centers the view on the box containing all visible pins
     [self calculateCenter];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -86,16 +85,29 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 
 #pragma mark - mapView methods
 
-- (double )calculateSpan:(int )area {
-    //    NSLog(@"The area = %d", area);
-    double span = (sqrt(area))*0.014;
-    if (span >= 15.0) {
-        span = 15.0;
-    }
-    //    NSLog(@"Calculating the span = %2.1f", span);
-    return span;
-}
+//- (double )calculateSpan:(int )area {
+//    //    NSLog(@"The area = %d", area);
+//    double span = (sqrt(area))*0.014;
+//    if (span >= 15.0) {
+//        span = 15.0;
+//    }
+//    //    NSLog(@"Calculating the span = %2.1f", span);
+//    return span;
+//}
 
+- (CLLocation*)referenceLocation {
+    if( _referenceLocation == nil ){
+        CLLocationCoordinate2D userCoord = self.mapView.userLocation.location.coordinate;
+        if( self.mapView.userLocation.location == nil ||
+           (userCoord.latitude == 0.0 && userCoord.longitude == 0.0) ){
+            // If user location can't be found, fake it
+            userCoord = CLLocationCoordinate2DMake(36.968, -121.9987);
+        } else {
+            _referenceLocation = self.mapView.userLocation.location;
+        }
+    }
+    return _referenceLocation;
+}
 
 - (void)calculateCenter {
     
@@ -117,12 +129,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     
     // after checking all
     if( self.mapView.userLocation != nil ){
-        CLLocationCoordinate2D userCoord = self.mapView.userLocation.coordinate;
-        if( userCoord.latitude == 0.0 && userCoord.longitude == 0.0 ){
-            // If user location can't be found, fake it
-            userCoord = CLLocationCoordinate2DMake(36.968, -121.9987);
-        }
-    
+        CLLocationCoordinate2D userCoord = self.referenceLocation.coordinate;
             minCoord.latitude = MIN(minCoord.latitude, userCoord.latitude);
             minCoord.longitude = MIN(minCoord.longitude, userCoord.longitude);
             maxCoord.latitude = MAX(maxCoord.latitude, userCoord.latitude);
@@ -150,7 +157,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 }
 
 
-#pragma mark - Custom methods
+#pragma mark - Custom Annotation methods
 
 - (void)loadPins {
     NSMutableArray *pinsArray = [NSMutableArray array];
@@ -176,8 +183,11 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     
 // Deletes all prior pins
     [self removeAllPins:nil];
-    
-//    for (int i=0; i<[pinsArray count]; i++) {
+
+    // Figure out the closest pin to the user
+    id<MKAnnotation> defaultPin = nil;
+    double closestDistance = DBL_MAX;   // set distance to furthest so first result is less than this
+
     for( NSDictionary* d in pinsArray ){
         
         NSLog(@"[map] adding pin with data (%@ type): %@", NSStringFromClass([d class]), d);
@@ -193,10 +203,25 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
         
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
         [self.mapAnnotations addObject:aNewPin];
+
+    // Get distance between this new pin and the stored reference location (the user location or a faked Santa Cruz lat/long if location is disabled)
+        CLLocation* loc = [[CLLocation alloc] initWithLatitude:aLatitude longitude:aLongitude];
+        
+        // Get the distance and store the closest annotation
+        double dist = [self.referenceLocation distanceFromLocation:loc];
+        if( dist > 0 && dist < closestDistance ){
+            closestDistance = dist;
+            defaultPin = aNewPin;
+        }
+
+    
     }
     [self.mapView addAnnotations:self.mapAnnotations];
+
+    [self.mapView selectAnnotation:defaultPin animated:YES];
 }
 
+/*
 // Custom setter method for mapAnnotations
 - (void)setMapAnnotations:(NSMutableArray *)newMapAnnotations {
     NSLog(@"How's this setter thang work?");
@@ -245,6 +270,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     [self.mapView addAnnotation:aNewPin];
  
 }
+*/
 
 - (IBAction)removeAllPins:(UIButton *)sender {
     NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
