@@ -118,60 +118,28 @@
             </objects>
             <point key="canvasLocation" x="843" y="64"/>
         </scene>
-        <!--Map View Controller - Location-->
+        <!--Big Map View Controller - Location-->
         <scene sceneID="pZb-3R-EHa">
             <objects>
-                <viewController id="ldP-a5-NtL" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController id="ldP-a5-NtL" customClass="BigMapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ryQ-8y-PkM">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KSP-G1-IGp"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqW-lM-eCL">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="FsU-Uo-UfR"/>
-                                    <constraint firstAttribute="width" constant="243" id="qc2-R4-2J4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIV-UH-wPK">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="52" id="64r-Ii-oiu"/>
-                                    <constraint firstAttribute="height" constant="33" id="EIb-VG-wAH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Drop">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="dropPinButton:" destination="ldP-a5-NtL" eventType="touchUpInside" id="c2Z-ns-qDH"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VIV-UH-wPK" firstAttribute="baseline" secondItem="wqW-lM-eCL" secondAttribute="baseline" type="default" id="5Bq-yu-A69"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="trailing" secondItem="ryQ-8y-PkM" secondAttribute="trailing" type="default" id="AIH-kv-p9O"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="leading" secondItem="ryQ-8y-PkM" secondAttribute="leading" type="default" id="Bqq-db-dT3"/>
-                            <constraint firstItem="VIV-UH-wPK" firstAttribute="centerY" secondItem="wqW-lM-eCL" secondAttribute="centerY" type="default" id="Bwg-1u-xEV"/>
-                            <constraint firstAttribute="bottom" secondItem="VIV-UH-wPK" secondAttribute="bottom" constant="5" id="DMy-Kv-aEY"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="bottom" secondItem="ryQ-8y-PkM" secondAttribute="bottom" type="default" id="Hjh-8K-gwj"/>
                             <constraint firstItem="KSP-G1-IGp" firstAttribute="top" secondItem="ryQ-8y-PkM" secondAttribute="top" type="default" id="ejE-hu-mT7"/>
-                            <constraint firstItem="VIV-UH-wPK" firstAttribute="leading" secondItem="wqW-lM-eCL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qjd-T8-yOO"/>
-                            <constraint firstItem="wqW-lM-eCL" firstAttribute="leading" secondItem="ryQ-8y-PkM" secondAttribute="leading" constant="10" id="tdS-IG-hWw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="globe.png" id="Lpm-Am-Ebd"/>
                     <navigationItem key="navigationItem" title="Location" id="QQG-5S-f0T"/>
                     <connections>
                         <outlet property="mapView" destination="KSP-G1-IGp" id="2XX-8I-v9y"/>
-                        <outlet property="nameLabel" destination="wqW-lM-eCL" id="hh7-fq-EtV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHy-eu-blU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -730,16 +698,6 @@
                 <relationship kind="outlet" name="detailNameLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="directionsButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="dropPinButton:"/>
-                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
         <class className="MasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
             <relationships>
@@ -778,7 +736,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kIn-Qn-SUK"/>
         <segue reference="I8f-RX-uVp"/>
+        <segue reference="ZIS-t6-fhf"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -104,7 +104,13 @@
 #pragma mark - Custom methods
 
 - (void)loadPins {
-    NSArray *pinsArray = MEMBERLISTDATA.namesArray;
+    NSArray *pinsArray;
+    if (self.detailItem != nil) {
+        pinsArray = [NSArray arrayWithObject:self.detailItem];
+    } else {
+        pinsArray = MEMBERLISTDATA.namesArray;
+    }
+            
     NSLog(@"pinsArray count = %d", [pinsArray count]);
     
 // Deletes all prior pins

@@ -18,6 +18,7 @@
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) NSMutableArray *mapAnnotations;
+@property (strong, nonatomic) id detailItem;
 
 - (IBAction)dropPinButton:(UIButton *)sender;
 - (IBAction)removeAllPins:(UIButton *)sender;
