@@ -316,18 +316,7 @@
         [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
 
         
-        // Store new filtered data in the central data object
-        NSMutableArray* filteredNames = [NSMutableArray array];
-        for( id arrayOrDict in self.namesArray ){
-            if( [arrayOrDict isKindOfClass:[NSArray class]] ){
-                [filteredNames addObjectsFromArray:arrayOrDict];
-            }
-            else {
-                [filteredNames addObject:arrayOrDict];
-            }
-        }
-        
-        MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:filteredNames];
+        MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:self.namesArray];
         
         [self.tableView reloadData];
 

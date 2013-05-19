@@ -36,10 +36,6 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 {
     [super viewDidLoad];
 
-// Add us as the delegate for tab changes in the app
-    ((UITabBarController*)self.parentViewController).delegate = self;
-    
-    
 // Setup for the mapView
     self.mapView.showsUserLocation = YES;
     [self.mapView setDelegate:self];
@@ -76,6 +72,8 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     
     //Adds the pin to the view
     [self.mapView addAnnotations:self.mapAnnotations];
+    
+    // Centers the view on the box containing all visible pins
     [self calculateCenter];
     
 }
@@ -152,22 +150,28 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 }
 
 
-#pragma mark - UITbBarDelegate methods
-
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-    NSLog(@"Tab bar tab item pressed %@", viewController);
-}
-
 #pragma mark - Custom methods
 
 - (void)loadPins {
-    NSArray *pinsArray;
+    NSMutableArray *pinsArray = [NSMutableArray array];
+    
+    // If a single detailItem is set, prefer that to the list of all pins
     if (self.detailItem != nil) {
-        pinsArray = [NSArray arrayWithObject:self.detailItem];
+        [pinsArray addObject:self.detailItem];
     } else {
-        pinsArray = MEMBERLISTDATA.namesArray;
+        // Otherwise show all pins in the namesArray
+        for( id arrayOrDict in MEMBERLISTDATA.namesArray ){
+            // Flatten any arrays (needed in data for sorting lists with categories)
+            if( [arrayOrDict isKindOfClass:[NSArray class]] ){
+                [pinsArray addObjectsFromArray:arrayOrDict];
+            }
+            else {
+                [pinsArray addObject:arrayOrDict];
+            }
+        }
     }
-            
+    
+    
     NSLog(@"pinsArray count = %d", [pinsArray count]);
     
 // Deletes all prior pins
