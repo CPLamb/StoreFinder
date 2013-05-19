@@ -37,7 +37,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     [super viewDidLoad];
 
 // Add us as the delegate for tab changes in the app
-    ((UITabBarController*)self.parentViewController).delegate = self;
+//    ((UITabBarController*)self.parentViewController).delegate = self;
     
     
 // Setup for the mapView

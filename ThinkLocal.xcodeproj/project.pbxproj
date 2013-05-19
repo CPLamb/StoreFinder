@@ -544,9 +544,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83E2849417231A2D0025949B /* ThinkLocalFirst */ = {
+		83E2849417231A2D0025949B /* ThinkLocal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83E284D017231A2F0025949B /* Build configuration list for PBXNativeTarget "ThinkLocalFirst" */;
+			buildConfigurationList = 83E284D017231A2F0025949B /* Build configuration list for PBXNativeTarget "ThinkLocal" */;
 			buildPhases = (
 				83E2849117231A2D0025949B /* Sources */,
 				83E2849217231A2D0025949B /* Frameworks */,
@@ -556,7 +556,7 @@
 			);
 			dependencies = (
 			);
-			name = ThinkLocalFirst;
+			name = ThinkLocal;
 			productName = ThinkLocalFirst;
 			productReference = 83E2849517231A2D0025949B /* ThinkLocalFirst.app */;
 			productType = "com.apple.product-type.application";
@@ -601,7 +601,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83E2849417231A2D0025949B /* ThinkLocalFirst */,
+				83E2849417231A2D0025949B /* ThinkLocal */,
 				83E284BD17231A2F0025949B /* ThinkLocalFirstTests */,
 			);
 		};
@@ -757,7 +757,7 @@
 /* Begin PBXTargetDependency section */
 		83E284C417231A2F0025949B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83E2849417231A2D0025949B /* ThinkLocalFirst */;
+			target = 83E2849417231A2D0025949B /* ThinkLocal */;
 			targetProxy = 83E284C317231A2F0025949B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -916,7 +916,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83E284D017231A2F0025949B /* Build configuration list for PBXNativeTarget "ThinkLocalFirst" */ = {
+		83E284D017231A2F0025949B /* Build configuration list for PBXNativeTarget "ThinkLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83E284D117231A2F0025949B /* Debug */,
