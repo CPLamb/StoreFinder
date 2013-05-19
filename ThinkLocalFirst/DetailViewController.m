@@ -51,19 +51,15 @@
     // Portrait only
     [inputScrollView setContentSize:CGSizeMake(320.0, 1500.0)];
     
+    // Builds the custom background bubbles for all 7 fields
+    [self assembleBackgrounds];
+
     NSLog(@"DetailVC Member selected is %@", self.detailItem);
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
     
     return UIInterfaceOrientationMaskPortrait;
-}
-
-
-- (void)viewWillAppear:(BOOL)animated {
-    
-// Builds the custom background bubbles for all 7 fields
-    [self assembleBackgrounds];
 }
 
 - (void)didReceiveMemoryWarning
