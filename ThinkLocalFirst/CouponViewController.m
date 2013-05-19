@@ -84,11 +84,18 @@
     
 }
 
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath;
+{
+    // Sends User to the DetailViewController
+    NSLog(@"Performing segue to detail view for row at indexPath: %@", indexPath);
+    [self performSegueWithIdentifier:@"showDetails" sender:indexPath];
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  {
     
     // Show Details screen
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        NSIndexPath *indexPath = sender;
         NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
         DetailViewController* dvc = [segue destinationViewController];
         dvc.detailItem = object;
@@ -229,6 +236,8 @@
     return self.namesArray;
 }
 
+
+
 - (void)filterContentForSearchText:(NSString *)searchText scope:(NSString *)scope {
     // Update the filtered array based on the search text & scope
     
@@ -267,11 +276,15 @@
         [self makeSectionsIndex:self.namesArray];
         [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
         
+        // DO NOT update the parent array because we do not want the map view to access our sorted coupon list.
+//        MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:self.namesArray];
+        
         [self.tableView reloadData];
         
         //Loads up the annotation pins for the BigMap
         //        self.bigMapViewController.mapAnnotations = [[NSMutableArray alloc] initWithArray:self.namesArray];
     }
 }
+
 
 @end
