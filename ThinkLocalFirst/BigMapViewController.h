@@ -14,12 +14,15 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface BigMapViewController : UIViewController <MKMapViewDelegate, UITabBarControllerDelegate>
+@interface BigMapViewController : UIViewController <MKMapViewDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) NSMutableArray *mapAnnotations;
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) id<MKAnnotation> defaultPin;
+@property (nonatomic) MKCoordinateRegion centerRegion;
 @property (strong, nonatomic) CLLocation *referenceLocation;
+@property (nonatomic, readonly) NSArray* pinsArray;
 //- (IBAction)dropPinButton:(UIButton *)sender;
 - (IBAction)removeAllPins:(UIButton *)sender;
 

@@ -20,6 +20,7 @@
 @synthesize mapAnnotations = _mapAnnotations;
 
 const float MIN_MAP_ZOOM_METERS = 500.0;
+const float MAX_MAP_ZOOM_METERS = 75000.0;
 
 #pragma mark - View lifecycle methods
 
@@ -27,7 +28,6 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-
         
     }
     return self;
@@ -37,12 +37,14 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 {
     [super viewDidLoad];
 
+    NSLog(@"%@ view did load for the first time.", self);
+    
 // Setup for the mapView
     self.mapView.showsUserLocation = YES;
-    [self.mapView setDelegate:self];
-    CLLocationDegrees theLatitude = 36.998;
-    CLLocationDegrees theLongitude = -121.9968;
-    [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(theLatitude, theLongitude), MKCoordinateSpanMake(0.5, 0.5)) animated:YES];
+//    [self.mapView setDelegate:self];// set by storyboard
+//    CLLocationDegrees theLatitude = 36.998;
+//    CLLocationDegrees theLongitude = -121.9968;
+//    [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(theLatitude, theLongitude), MKCoordinateSpanMake(0.5, 0.5)) animated:YES];
     self.mapView.mapType = MKMapTypeStandard;
     
 // Sets up the properties
@@ -68,6 +70,8 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"%@ will appear...", self);
+    
     // Loads from data objects
     [self loadPins];
         
@@ -107,15 +111,39 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     return _referenceLocation;
 }
 
+- (void)zoomToFitMapAnnotations { 
+    
+    if ([self.mapView.annotations count] == 0) return;
+    int i = 0;
+    MKMapPoint points[[self.mapView.annotations count]];
+    
+    //build array of annotation points
+    for (id<MKAnnotation> annotation in [self.mapView annotations]){
+        points[i++] = MKMapPointForCoordinate(annotation.coordinate);
+    }
+    
+    MKPolygon *poly = [MKPolygon polygonWithPoints:points count:i];
+    [self.mapView setRegion:MKCoordinateRegionForMapRect([poly boundingMapRect]) animated:YES]; 
+}
+
 - (void)calculateCenter {
     
     // set min to the highest and max to the lowest so any MIN or MAX calculation will change this value
     CLLocationCoordinate2D minCoord = CLLocationCoordinate2DMake(180.0, 180.0);
     CLLocationCoordinate2D maxCoord = CLLocationCoordinate2DMake(-180.0, -180.0);
     
+/*    for( NSDictionary * item in self.pinsArray ){
+        double lat = [[item objectForKey:@"latitude"] doubleValue];
+        double lon = [[item objectForKey:@"longitude"] doubleValue];
+        minCoord.latitude = MIN(minCoord.latitude, lat);
+        minCoord.longitude = MIN(minCoord.longitude, lon);
+        maxCoord.latitude = MAX(maxCoord.latitude, lat);
+        maxCoord.longitude = MAX(maxCoord.longitude, lon);
+    }
+*/
     
-    // check all annotations for min and 
-    for( MapItem * item in self.mapView.annotations ){
+///*    // check all annotations for min and max (deprecated -- checking pinsArray instead)
+    for( MapItem * item in self.mapAnnotations ){
         double lat = [item.latitude doubleValue];
         double lon = [item.longitude doubleValue];
         minCoord.latitude = MIN(minCoord.latitude, lat);
@@ -123,7 +151,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
         maxCoord.latitude = MAX(maxCoord.latitude, lat);
         maxCoord.longitude = MAX(maxCoord.longitude, lon);
     }
-    
+//  */  
     
     // after checking all
     if( self.mapView.userLocation != nil ){
@@ -142,22 +170,17 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     
     float distance = [minLocation distanceFromLocation:maxLocation];
     distance *= 1.1; // make actual map region slightly larger than distance between points
-    distance = MAX( distance, MIN_MAP_ZOOM_METERS );
+    distance = MIN( MAX_MAP_ZOOM_METERS, MAX( distance, MIN_MAP_ZOOM_METERS ) );
     
-    
-    MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(centerCoordinate, distance, distance);
-//    mapRegion = [self.mapView regionThatFits:mapRegion]; // fit to non-square screens
-    
-    NSLog(@"About to center the mapview at (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
-    
-    [self.mapView setRegion:mapRegion animated:YES];
-    
+    NSLog(@"Setting mapView.centerRegion to (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
+
+    self.centerRegion = MKCoordinateRegionMakeWithDistance(centerCoordinate, distance, distance);
 }
 
 
 #pragma mark - Custom Annotation methods
 
-- (void)loadPins {
+- (NSArray*)pinsArray {
     NSMutableArray *pinsArray = [NSMutableArray array];
     
     // If a single detailItem is set, prefer that to the list of all pins
@@ -176,8 +199,12 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
         }
     }
     
-    
-    NSLog(@"pinsArray count = %d", [pinsArray count]);
+    NSLog(@"Accessing pinsArray with count = %d", [pinsArray count]);
+    return pinsArray;
+}
+
+- (void)loadPins {
+
     
 // Deletes all prior pins
     [self removeAllPins:nil];
@@ -186,9 +213,9 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     id<MKAnnotation> defaultPin = nil;
     double closestDistance = DBL_MAX;   // set distance to furthest so first result is less than this
 
-    for( NSDictionary* d in pinsArray ){
+    for( NSDictionary* d in self.pinsArray ){
         
-        NSLog(@"[map] adding pin with data (%@ type): %@", NSStringFromClass([d class]), d);
+//        NSLog(@"[map] adding pin with data (%@ type): %@", NSStringFromClass([d class]), d);
         
         NSString *aLatitudeString = [d objectForKey:@"latitude"];
         NSString *aLongitudeString = [d objectForKey:@"longitude"];
@@ -217,11 +244,23 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 
     
     }
-    [self.mapView addAnnotations:self.mapAnnotations];
-
-    [self.mapView selectAnnotation:defaultPin animated:YES];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+//    [self calculateCenter];
+//    
+//    [self.mapView setRegion:self.centerRegion animated:YES];
+
+    [self.mapView addAnnotations:self.mapAnnotations];    
+}
+
+- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+    [self zoomToFitMapAnnotations];
+    
+    // If defaultPin is set, select it when we view the map
+    [self.mapView selectAnnotation:self.defaultPin animated:YES];
+    
+}
 
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  {
