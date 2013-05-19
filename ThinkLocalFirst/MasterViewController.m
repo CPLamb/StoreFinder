@@ -407,6 +407,9 @@
     
     [self.tableView reloadData];
     
+    // Saves namesArray to the data object
+    MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:self.namesArray];
+    
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 

@@ -9,7 +9,7 @@
 #import "MemberListData.h"
 
 @implementation MemberListData
-//@synthesize namesArray = _namesArray;
+@synthesize namesArray = _namesArray;
 @synthesize membersArray = _membersArray;
 
 - (id)init {

@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
+#import "SortSelectionViewController.h"
 
 #define MEMBERLISTDATA (((AppDelegate*)[[UIApplication sharedApplication] delegate]).memberData)
 
-@interface MemberListData : NSObject
+@interface MemberListData : NSObject  <SortSelectionViewControllerDelegate>
 
-//@property (strong, nonatomic) NSArray *namesArray;
+@property (strong, nonatomic) NSArray *namesArray;
 @property (strong, nonatomic) NSArray *membersArray;
 
 @end
