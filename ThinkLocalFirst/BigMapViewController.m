@@ -33,7 +33,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+
+// Add us as the delegate for tab changes in the app
+    ((UITabBarController*)self.parentViewController).delegate = self;
+    
+    
 // Setup for the mapView
     self.mapView.showsUserLocation = YES;
     [self.mapView setDelegate:self];
@@ -87,11 +91,19 @@
     return span;
 }
 
+#pragma mark - UITbBarDelegate methods
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+    NSLog(@"Tab bar tab item pressed %@", viewController);
+}
+
 #pragma mark - Custom methods
 
 - (void)loadPins {
     NSArray *pinsArray = MEMBERLISTDATA.namesArray;
     NSLog(@"pinsArray count = %d", [pinsArray count]);
+    
+//    for (int)
 }
 
 // Custom setter method for mapAnnotations

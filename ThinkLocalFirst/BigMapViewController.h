@@ -14,7 +14,7 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface BigMapViewController : UIViewController <MKMapViewDelegate>
+@interface BigMapViewController : UIViewController <MKMapViewDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) NSMutableArray *mapAnnotations;
