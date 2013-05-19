@@ -71,44 +71,6 @@
     [scrollView addSubview:coupon];
     
     
-    
-    
-
-// Builds custom background views
-    RoundedRectBackground *nameBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, RECT_SPACING, 300, 40)];
-//    UITextView *name = [[UITextView alloc] initWithFrame:nameBackground.frame];
-//    name.text = @"ChrisPLamb Labs";
-//    [nameBackground addSubview:name];
-//    [scrollView addSubview:nameBackground];
-/*
-    CGFloat verticalPosition = 60;
-    RoundedRectBackground *phoneBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, verticalPosition, 300, 40)];
-    [scrollView addSubview:phoneBackground];
-    
-    verticalPosition = 110;   //verticalPosition + RECT_SPACING + phoneBackground.height;
-    RoundedRectBackground *photoBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, verticalPosition, 300, 300)];
-    [scrollView addSubview:photoBackground];
-    
-    verticalPosition = 420;
-    RoundedRectBackground *descriptionBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(RECT_SPACING, verticalPosition, 300, 140)];
-    UITextView *name = [[UITextView alloc] initWithFrame:nameBackground.frame];
-    name.text = @"ChrisPLamb Labs";
-    [descriptionBackground addSubview:name];
-    [scrollView addSubview:descriptionBackground];
-
-
-    UILabel *label01 = [[UILabel alloc] initWithFrame:CGRectMake(120, 100, 150, 40)];
-    [label01 setText:@"Top"];
-    [scrollView addSubview:label01];
-
-    UILabel *label03 = [[UILabel alloc] initWithFrame:CGRectMake(120, 800, 150, 40)];
-    [label03 setText:@"Bottom"];
-    [scrollView addSubview:label03];
-
-//    [self.scrollView setScrollEnabled:YES];
-// Landscape only
-//    [self.scrollView setContentSize:CGSizeMake(640, 920)];
-*/
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
@@ -126,16 +88,30 @@
 #pragma mark - Custom methods
 
 - (IBAction)test01:(id)sender {
-    NSLog(@"Someone pressed 01");
-/*
-    CGFloat scrollViewHeight = 1500;
-    CGSize scrollViewContentSize = CGSizeMake(320, scrollViewHeight);
-    scrollView setContentSize:scrollViewContentSize];
-*/
+    NSLog(@"Someone is doing some NSDocumentDirectory stuff");
+    
+// Set up fileManager & get directory URLs
+    NSFileManager *myFileManager = [NSFileManager defaultManager];
+    NSArray *myDirectoryURLs = [myFileManager URLsForDirectory:NSAllApplicationsDirectory inDomains:NSAllDomainsMask];
+    NSLog(@"NSDocumentDirectory %@", myDirectoryURLs);
+    
+// Get contents of the directory
+    NSURL *myFirstDirectoryURL = [myDirectoryURLs objectAtIndex:0];
+    NSString *myFirstDirectoryString = [myFirstDirectoryURL absoluteString];
+    NSArray *myFiles = [myFileManager contentsOfDirectoryAtPath:myFirstDirectoryString error:nil];
+    NSLog(@"files are %@", myFiles);
+    
 }
 
 - (IBAction)test02:(id)sender {
     NSLog(@"Someone pressed 02");
+    
+// Get's the app's bundle
+    NSArray *myBundle = [NSBundle allBundles];
+    NSLog(@"my apps bundle is %@", myBundle);
+    
+    // List the contents of that bundle
+    
     
 }
 
