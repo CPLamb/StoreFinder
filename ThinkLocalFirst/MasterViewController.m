@@ -314,9 +314,23 @@
         // Reworks the index & cells
         [self makeSectionsIndex:self.namesArray];
         [self makeIndexedArray:self.namesArray withIndex:self.indexArray];
+
+        
+        // Store new filtered data in the central data object
+        NSMutableArray* filteredNames = [NSMutableArray array];
+        for( id arrayOrDict in self.namesArray ){
+            if( [arrayOrDict isKindOfClass:[NSArray class]] ){
+                [filteredNames addObjectsFromArray:arrayOrDict];
+            }
+            else {
+                [filteredNames addObject:arrayOrDict];
+            }
+        }
+        
+        MEMBERLISTDATA.namesArray = [NSArray arrayWithArray:filteredNames];
         
         [self.tableView reloadData];
-        
+
     //Loads up the annotation pins for the BigMap
 //        self.bigMapViewController.mapAnnotations = [[NSMutableArray alloc] initWithArray:self.namesArray];
     }

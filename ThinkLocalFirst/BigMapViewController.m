@@ -50,9 +50,9 @@
 //    [self configureView];
     
 // Setup for the annotations & drop a pin at home
-    self.mapAnnotations = [[NSMutableArray alloc] initWithCapacity:400];
+    self.mapAnnotations = [[NSMutableArray alloc] init];
     
-// Sets the properties of the annotation pin
+/* Sets the properties of the annotation pin
     CLLocationDegrees pinLatitude = 36.9986;        //[[self.detailItem objectForKey:@"latitude"] doubleValue];
     CLLocationDegrees pinLongitude = -121.9987;     //[[self.detailItem objectForKey:@"longitude"] doubleValue];
     NSString *pinName = @"CPLambLabs";              //[self.detailItem objectForKey:@"name"];
@@ -65,12 +65,16 @@
     MapItem *anotherMember = [[MapItem alloc]initWithCoordinates:CLLocationCoordinate2DMake(37.0075, -121.925) placeName:@"Freddys Crab Shack" description:@"another place"];
     [self.mapAnnotations addObject:anotherMember];
 //    [self.mapView addAnnotation:anotherMember];
-    
-// Loads from data objects
+*/    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    // Loads from data objects
     [self loadPins];
     
-//Adds the pin to the view
+    //Adds the pin to the view
     [self.mapView addAnnotations:self.mapAnnotations];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -103,15 +107,22 @@
     NSArray *pinsArray = MEMBERLISTDATA.namesArray;
     NSLog(@"pinsArray count = %d", [pinsArray count]);
     
-    for (int i=0; i<[pinsArray count]; i++) {
-        NSString *aLatitudeString = [[pinsArray objectAtIndex:i] objectForKey:@"latitude"];
-        NSString *aLongitudeString = [[pinsArray objectAtIndex:i] objectForKey:@"longitude"];
+// Deletes all prior pins
+    [self removeAllPins:nil];
+    
+//    for (int i=0; i<[pinsArray count]; i++) {
+    for( NSDictionary* d in pinsArray ){
+        
+        NSLog(@"[map] adding pin with data (%@ type): %@", NSStringFromClass([d class]), d);
+        
+        NSString *aLatitudeString = [d objectForKey:@"latitude"];
+        NSString *aLongitudeString = [d objectForKey:@"longitude"];
         double aLatitude = [aLatitudeString doubleValue];
         double aLongitude = [aLongitudeString doubleValue];
         CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(aLatitude, aLongitude);
         
-        NSString *aName = [[pinsArray objectAtIndex:i] objectForKey:@"name"];
-        NSString *aDescription = [[pinsArray objectAtIndex:i] objectForKey:@"description"];
+        NSString *aName = [d objectForKey:@"name"];
+        NSString *aDescription = [d objectForKey:@"description"];
         
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
         [self.mapAnnotations addObject:aNewPin];
@@ -169,10 +180,11 @@
 }
 
 - (IBAction)removeAllPins:(UIButton *)sender {
-    NSLog(@"Zeros out the manAnnotation array %d", [self.mapAnnotations count]);
-
+    NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
     [self.mapAnnotations removeAllObjects];
-    [self.mapView removeAnnotations:self.mapAnnotations];
+
+    NSLog(@"Removing %d annotations from mapView annotations", [self.mapView.annotations count]);
+    [self.mapView removeAnnotations:self.mapView.annotations];
 }
 
 
