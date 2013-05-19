@@ -9,6 +9,7 @@
 #import "BigMapViewController.h"
 #import "MapItem.h"
 #import "MemberListData.h"
+#import "DetailViewController.h"
 
 @interface BigMapViewController ()
 
@@ -69,10 +70,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 - (void)viewWillAppear:(BOOL)animated {
     // Loads from data objects
     [self loadPins];
-    
-    //Adds the pin to the view
-    [self.mapView addAnnotations:self.mapAnnotations];
-    
+        
     // Centers the view on the box containing all visible pins
     [self calculateCenter];
 }
@@ -83,7 +81,7 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - mapView methods
+#pragma mark - Custom MapView Methods
 
 //- (double )calculateSpan:(int )area {
 //    //    NSLog(@"The area = %d", area);
@@ -202,6 +200,9 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
         NSString *aDescription = [d objectForKey:@"description"];
         
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
+
+        aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
+        
         [self.mapAnnotations addObject:aNewPin];
 
     // Get distance between this new pin and the stored reference location (the user location or a faked Santa Cruz lat/long if location is disabled)
@@ -220,6 +221,22 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
 
     [self.mapView selectAnnotation:defaultPin animated:YES];
 }
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  {
+    
+    // Show Details screen
+    if ([[segue identifier] isEqualToString:@"showDetails"]) {
+        // Sender should be the member data corresponding to the touched annotation
+        MapItem* item = sender;
+        DetailViewController* dvc = [segue destinationViewController];
+        NSLog(@"Preparing for segue with identifier '%@' to show item: %@", [segue identifier], item);
+        dvc.detailItem = item.memberData;
+    }
+    
+}
+
 
 /*
 // Custom setter method for mapAnnotations
@@ -280,5 +297,57 @@ const float MIN_MAP_ZOOM_METERS = 500.0;
     [self.mapView removeAnnotations:self.mapView.annotations];
 }
 
+
+#pragma mark - MapView Annotation Methods
+// Sends User to the DetailViewController
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
+    id<MKAnnotation> sender = view.annotation;
+    NSLog(@"Performing segue to detail view for annotation view: %@", sender);
+    [self performSegueWithIdentifier:@"showDetails" sender:sender];
+}
+
+// Configures the Annotation popup
+- (MKAnnotationView *)mapView:(MKMapView *)theMapView viewForAnnotation:(id <MKAnnotation>)annotation
+{
+    // in case it's the user location, we already have an annotation, so just return nil
+    if ([annotation isKindOfClass:[MKUserLocation class]])
+    {
+        return nil;
+    }
+    
+    // handles our custom annotation look N feel
+    if ([annotation isKindOfClass:[MapItem class]])         // for Members with offices
+    {
+        // try to dequeue an existing pin view first
+        static NSString *BridgeAnnotationIdentifier = @"bridgeAnnotationIdentifier";
+        
+        MKPinAnnotationView *pinView =
+        (MKPinAnnotationView *) [self.mapView dequeueReusableAnnotationViewWithIdentifier:BridgeAnnotationIdentifier];
+        if (pinView == nil)
+        {
+            // if an existing pin view was not available, create one
+            MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
+                                                  initWithAnnotation:annotation reuseIdentifier:BridgeAnnotationIdentifier];
+            customPinView.pinColor = MKPinAnnotationColorPurple;
+            customPinView.alpha = 0.87;
+            customPinView.animatesDrop = YES;
+            customPinView.canShowCallout = YES;
+            
+            // add a detail disclosure button to the callout which will open a new view controller page
+            //
+            // note: when the detail disclosure button is tapped, we respond to it via:
+            //       calloutAccessoryControlTapped delegate method
+            //
+            // by using "calloutAccessoryControlTapped", it's a convenient way to find out which annotation was tapped
+            //
+            UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+//            [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
+            customPinView.rightCalloutAccessoryView = rightButton;
+            
+            return customPinView;
+        }
+    }    
+    return nil;
+}
 
 @end

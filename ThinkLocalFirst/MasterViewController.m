@@ -93,7 +93,7 @@
 {
     static NSString *cellIdentifier = @"MemberCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];// forIndexPath:indexPath];// <--ios6 only
 
 // Configure the cell text fields
     NSString *cellTitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"name"];
@@ -130,16 +130,10 @@
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath;
 {
-/*    NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-    
-    self.memberViewController = [[DetailViewController alloc] init];
-    self.memberViewController.detailItem = object;
-    
-    self.tempIndexPath = indexPath;
-
-//    [self presentViewController:self.memberViewController animated:YES completion:NULL];
-*/    
-    NSLog(@"Somebody just tapped me?? with detailItem");
+    // Sends User to the DetailViewController
+    UITableViewCell* cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    NSLog(@"Performing segue to detail view for row: %@", cell);
+    [self performSegueWithIdentifier:@"showDetails" sender:cell];
 }
 
 #pragma mark - Custom seques

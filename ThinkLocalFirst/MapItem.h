@@ -14,6 +14,8 @@
     NSNumber *longitude;
 }
 
+@property (nonatomic, strong) NSDictionary* memberData;
+
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, strong) NSNumber *latitude;
 @property (nonatomic, strong) NSNumber *longitude;

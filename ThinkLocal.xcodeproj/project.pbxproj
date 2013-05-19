@@ -200,7 +200,7 @@
 		83E05AE21737F7490019A214 /* SortSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortSelectionViewController.m; sourceTree = "<group>"; };
 		83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThinkLocalFirstDemo_100.plist; sourceTree = "<group>"; };
 		83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThinkLocalFirstDemo.plist; sourceTree = "<group>"; };
-		83E2849517231A2D0025949B /* ThinkLocalFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkLocalFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2849517231A2D0025949B /* ThinkLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E2849817231A2D0025949B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83E2849A17231A2D0025949B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83E2849C17231A2D0025949B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -416,7 +416,7 @@
 		83E2849617231A2D0025949B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83E2849517231A2D0025949B /* ThinkLocalFirst.app */,
+				83E2849517231A2D0025949B /* ThinkLocal.app */,
 				83E284BE17231A2F0025949B /* ThinkLocalFirstTests.octest */,
 			);
 			name = Products;
@@ -558,7 +558,7 @@
 			);
 			name = ThinkLocal;
 			productName = ThinkLocalFirst;
-			productReference = 83E2849517231A2D0025949B /* ThinkLocalFirst.app */;
+			productReference = 83E2849517231A2D0025949B /* ThinkLocal.app */;
 			productType = "com.apple.product-type.application";
 		};
 		83E284BD17231A2F0025949B /* ThinkLocalFirstTests */ = {
@@ -852,8 +852,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThinkLocalFirst/ThinkLocalFirst-Prefix.pch";
 				INFOPLIST_FILE = "ThinkLocalFirst/ThinkLocalFirst-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -864,8 +865,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThinkLocalFirst/ThinkLocalFirst-Prefix.pch";
 				INFOPLIST_FILE = "ThinkLocalFirst/ThinkLocalFirst-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
