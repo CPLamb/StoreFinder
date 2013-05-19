@@ -18,6 +18,8 @@
 @synthesize mapView = _mapView;
 @synthesize mapAnnotations = _mapAnnotations;
 
+const float MIN_MAP_ZOOM_METERS = 500.0;
+
 #pragma mark - View lifecycle methods
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -74,6 +76,7 @@
     
     //Adds the pin to the view
     [self.mapView addAnnotations:self.mapAnnotations];
+    [self calculateCenter];
     
 }
 
@@ -94,6 +97,60 @@
     //    NSLog(@"Calculating the span = %2.1f", span);
     return span;
 }
+
+
+- (void)calculateCenter {
+    
+    // set min to the highest and max to the lowest so any MIN or MAX calculation will change this value
+    CLLocationCoordinate2D minCoord = CLLocationCoordinate2DMake(180.0, 180.0);
+    CLLocationCoordinate2D maxCoord = CLLocationCoordinate2DMake(-180.0, -180.0);
+    
+    
+    // check all annotations for min and 
+    for( MapItem * item in self.mapView.annotations ){
+        double lat = [item.latitude doubleValue];
+        double lon = [item.longitude doubleValue];
+        minCoord.latitude = MIN(minCoord.latitude, lat);
+        minCoord.longitude = MIN(minCoord.longitude, lon);
+        maxCoord.latitude = MAX(maxCoord.latitude, lat);
+        maxCoord.longitude = MAX(maxCoord.longitude, lon);
+    }
+    
+    
+    // after checking all
+    if( self.mapView.userLocation != nil ){
+        CLLocationCoordinate2D userCoord = self.mapView.userLocation.coordinate;
+        if( userCoord.latitude == 0.0 && userCoord.longitude == 0.0 ){
+            // If user location can't be found, fake it
+            userCoord = CLLocationCoordinate2DMake(36.968, -121.9987);
+        }
+    
+            minCoord.latitude = MIN(minCoord.latitude, userCoord.latitude);
+            minCoord.longitude = MIN(minCoord.longitude, userCoord.longitude);
+            maxCoord.latitude = MAX(maxCoord.latitude, userCoord.latitude);
+            maxCoord.longitude = MAX(maxCoord.longitude, userCoord.longitude);
+    }
+    
+    
+    CLLocation *minLocation = [[CLLocation alloc] initWithLatitude:minCoord.latitude longitude:minCoord.longitude];
+    CLLocation *maxLocation = [[CLLocation alloc] initWithLatitude:maxCoord.latitude longitude:maxCoord.longitude];
+    
+    CLLocationCoordinate2D centerCoordinate = CLLocationCoordinate2DMake((minCoord.latitude + maxCoord.latitude)/2, (minCoord.longitude + maxCoord.longitude)/2);
+    
+    float distance = [minLocation distanceFromLocation:maxLocation];
+    distance *= 1.1; // make actual map region slightly larger than distance between points
+    distance = MAX( distance, MIN_MAP_ZOOM_METERS );
+    
+    
+    MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(centerCoordinate, distance, distance);
+//    mapRegion = [self.mapView regionThatFits:mapRegion]; // fit to non-square screens
+    
+    NSLog(@"About to center the mapview at (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
+    
+    [self.mapView setRegion:mapRegion animated:YES];
+    
+}
+
 
 #pragma mark - UITbBarDelegate methods
 

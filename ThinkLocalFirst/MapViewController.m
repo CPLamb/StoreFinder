@@ -111,7 +111,6 @@
         NSString *areaString = @"12";           // [self.detailItem objectForKey:@"Area"];
         int area = [areaString intValue];
         double span = [self calculateSpan:area];
-        [self calculateCenter];
         
 // Moving & redsizing the mapview region
         self.nameLabel.text = [self.detailItem objectForKey:@"name"];
@@ -130,12 +129,6 @@
     }
     //    NSLog(@"Calculating the span = %2.1f", span);
     return span;
-}
-
-- (void)calculateCenter {
-//    CLLocation *myLocation = self.mapView.userLocation.location;
-//    CLLocation *memberLocation = self.mapView.
-//    NSLog(@"Calculates the center of the mapview %f, %f", myLocation.coordinate.latitude, myLocation.coordinate.longitude);
 }
 
 
