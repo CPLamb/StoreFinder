@@ -55,10 +55,6 @@
     self.navigationItem.title = @"List";
 
 // Assigns the data object to the local membersArray
-//    AppDelegate* appDel = [[UIApplication sharedApplication] delegate];
-//    MemberListData* sharedData = appDel.memberData;
-    
-    
     self.membersArray = [NSArray arrayWithArray: MEMBERLISTDATA.membersArray];
     
 // Makes up the index array & the sorted array for the cells
@@ -128,19 +124,21 @@
     return index;
 }
 
-
+/*
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath;
 {
 // Sends User to the DetailViewController
 //    UITableViewCell *cell = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     UITableViewCell* cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
-    NSLog(@"Performing segue to detail view for row: %@", cell);
+    NSLog(@"Performing segue to detail view for indexPath %@", indexPath);
 //    [self.memberViewController setDetailItem:cell];
 //    self.memberViewController = [[DetailViewController alloc] init];
 //    self.memberViewController.detailItem = cell;
+    
     [self performSegueWithIdentifier:@"showDetails" sender:cell];
 }
-
+*/
+ 
 #pragma mark - Custom seques
 
 /*
@@ -148,12 +146,13 @@
 */
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-
+    NSLog(@"The segue identifier is %@", [segue identifier]);
+    
 // Show Details screen
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
         NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-  //      NSLog(@"IndexPath = %@", indexPath);
+        NSLog(@"IndexPath = %@", indexPath);
         
 // Sets the detailItem to the selected item
         [[segue destinationViewController] setDetailItem:object];

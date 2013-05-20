@@ -10,11 +10,12 @@
 #import "AppDelegate.h"
 #import "SortSelectionViewController.h"
 
+// Static call for the singleton of the memberData
 #define MEMBERLISTDATA (((AppDelegate*)[[UIApplication sharedApplication] delegate]).memberData)
 
 @interface MemberListData : NSObject  <SortSelectionViewControllerDelegate>
 
-@property (strong, nonatomic) NSArray *namesArray;
-@property (strong, nonatomic) NSArray *membersArray;
+@property (strong, nonatomic) NSArray *namesArray;  // array of indexed array of dictionaries
+@property (strong, nonatomic) NSArray *membersArray;    // complete list derived from the PList
 
 @end

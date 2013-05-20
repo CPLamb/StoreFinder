@@ -12,7 +12,7 @@
 @synthesize namesArray = _namesArray;
 @synthesize membersArray = _membersArray;
 
-- (id)init {
+- (id)init {                        // overridden initializer
     if ((self = [super init])) {
         [self loadPlistData];
     }

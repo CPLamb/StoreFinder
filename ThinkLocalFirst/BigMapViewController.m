@@ -76,7 +76,15 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     [self loadPins];
         
     // Centers the view on the box containing all visible pins
+//    [self calculateCenter];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
     [self calculateCenter];
+    //
+    [self.mapView setRegion:self.centerRegion animated:YES];
+    
+    [self.mapView addAnnotations:self.mapAnnotations];
 }
 
 - (void)didReceiveMemoryWarning
@@ -160,8 +168,8 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     CLLocationCoordinate2D centerCoordinate = CLLocationCoordinate2DMake((minCoord.latitude + maxCoord.latitude)/2, (minCoord.longitude + maxCoord.longitude)/2);
     
     float distance = [minLocation distanceFromLocation:maxLocation];
-    distance *= 1.1; // make actual map region slightly larger than distance between points
-    distance = MIN( MAX_MAP_ZOOM_METERS, MAX( distance, MIN_MAP_ZOOM_METERS ) );
+    distance *= 1.25; // make actual map region slightly larger than distance between points
+//    distance = MIN( MAX_MAP_ZOOM_METERS, MAX( distance, MIN_MAP_ZOOM_METERS ) );
     
     NSLog(@"Setting mapView.centerRegion to (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
 
@@ -235,14 +243,6 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 
     
     }
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-//    [self calculateCenter];
-//    
-//    [self.mapView setRegion:self.centerRegion animated:YES];
-
-    [self.mapView addAnnotations:self.mapAnnotations];    
 }
 
 - (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
