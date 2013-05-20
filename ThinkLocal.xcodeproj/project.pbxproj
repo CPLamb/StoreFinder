@@ -264,6 +264,40 @@
 		83E28542172463490025949B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		83E28544172480C80025949B /* MapItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapItem.h; sourceTree = "<group>"; };
 		83E28545172480C80025949B /* MapItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapItem.m; sourceTree = "<group>"; };
+		83EF06AC174A82BF00270E70 /* logo_360Payment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_360Payment.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_360Payment.jpg"; sourceTree = "<group>"; };
+		83EF06AD174A82BF00270E70 /* logo_AboveBarCPR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_AboveBarCPR.png; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AboveBarCPR.png"; sourceTree = "<group>"; };
+		83EF06AE174A82BF00270E70 /* logo_AboveTheLine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_AboveTheLine.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AboveTheLine.jpg"; sourceTree = "<group>"; };
+		83EF06AF174A82BF00270E70 /* logo_AbsoluteAutoGlass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_AbsoluteAutoGlass.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AbsoluteAutoGlass.jpg"; sourceTree = "<group>"; };
+		83EF06B0174A82BF00270E70 /* logo_ADRealty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_ADRealty.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_ADRealty.jpg"; sourceTree = "<group>"; };
+		83EF06B1174A82BF00270E70 /* logo_AdventureOut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_AdventureOut.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AdventureOut.jpg"; sourceTree = "<group>"; };
+		83EF06B2174A82BF00270E70 /* logo_Allterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_Allterra.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_Allterra.jpg"; sourceTree = "<group>"; };
+		83EF06B3174A82BF00270E70 /* logo_AlohaIslandGrille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_AlohaIslandGrille.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AlohaIslandGrille.jpg"; sourceTree = "<group>"; };
+		83EF06B4174A82BF00270E70 /* logo_AlterraSolar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_AlterraSolar.png; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AlterraSolar.png"; sourceTree = "<group>"; };
+		83EF06B5174A82BF00270E70 /* logo_ANBInsurance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo_ANBInsurance.gif; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_ANBInsurance.gif"; sourceTree = "<group>"; };
+		83EF06B6174A82BF00270E70 /* logo_AptosLandscape.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_AptosLandscape.JPG; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_AptosLandscape.JPG"; sourceTree = "<group>"; };
+		83EF06B7174A82BF00270E70 /* logo_ArtisansGallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_ArtisansGallery.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_ArtisansGallery.jpg"; sourceTree = "<group>"; };
+		83EF06B8174A82BF00270E70 /* logo_BambooGiant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_BambooGiant.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_BambooGiant.jpg"; sourceTree = "<group>"; };
+		83EF06B9174A82BF00270E70 /* logo_BarbaraHanson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_BarbaraHanson.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_BarbaraHanson.jpg"; sourceTree = "<group>"; };
+		83EF06BA174A82BF00270E70 /* logo_CoastFinancial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_CoastFinancial.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_CoastFinancial.jpg"; sourceTree = "<group>"; };
+		83EF06BB174A82BF00270E70 /* logo_DashHemp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_DashHemp.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_DashHemp.jpg"; sourceTree = "<group>"; };
+		83EF06BC174A82BF00270E70 /* logo_JasmineBerke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_JasmineBerke.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_JasmineBerke.jpg"; sourceTree = "<group>"; };
+		83EF06D0174A959A00270E70 /* logo_BarrySwenson.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_BarrySwenson.JPG; sourceTree = "<group>"; };
+		83EF06D1174A959B00270E70 /* logo_BayFederal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_BayFederal.jpg; sourceTree = "<group>"; };
+		83EF06D2174A959B00270E70 /* logo_BookShopSC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_BookShopSC.jpg; sourceTree = "<group>"; };
+		83EF06D3174A959B00270E70 /* logo_CattosGraphics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_CattosGraphics.jpg; sourceTree = "<group>"; };
+		83EF06D4174A959B00270E70 /* logo_CattosGraphics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_CattosGraphics.png; sourceTree = "<group>"; };
+		83EF06D5174A959B00270E70 /* logo_CommunityFoundationSC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_CommunityFoundationSC.jpg; sourceTree = "<group>"; };
+		83EF06D6174A959C00270E70 /* logo_LifespanCare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_LifespanCare.jpg; sourceTree = "<group>"; };
+		83EF06D7174A959C00270E70 /* logo_MaximumImpact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_MaximumImpact.jpg; sourceTree = "<group>"; };
+		83EF06D8174A959C00270E70 /* logo_MidCountyPost.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo_MidCountyPost.gif; sourceTree = "<group>"; };
+		83EF06D9174A959D00270E70 /* logo_MissionHillCreamery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_MissionHillCreamery.png; sourceTree = "<group>"; };
+		83EF06DA174A959E00270E70 /* logo_MontereyFarmersMarkets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_MontereyFarmersMarkets.jpg; sourceTree = "<group>"; };
+		83EF06DB174A959E00270E70 /* logo_NewLeafMarkets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_NewLeafMarkets.jpg; sourceTree = "<group>"; };
+		83EF06DC174A959E00270E70 /* logo_PhysiciansMedical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_PhysiciansMedical.jpg; sourceTree = "<group>"; };
+		83EF06DD174A959E00270E70 /* logo_RiversideLighting.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_RiversideLighting.JPG; sourceTree = "<group>"; };
+		83EF06DE174A959E00270E70 /* logo_StokesSigns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_StokesSigns.jpg; sourceTree = "<group>"; };
+		83EF06DF174A959E00270E70 /* logo_SurfnetComms.BMP */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = logo_SurfnetComms.BMP; sourceTree = "<group>"; };
+		83EF06F0174A9B3D00270E70 /* TLFMemberList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList.plist; sourceTree = "<group>"; };
 		83F3E15A172B0B1300221519 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
 		83F3E15B172B0B1400221519 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		83F3E15C172B0B1400221519 /* trolley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trolley.png; sourceTree = "<group>"; };
@@ -306,15 +340,36 @@
 			isa = PBXGroup;
 			children = (
 				834FEB011741705E0072F19D /* logo_12AMDesign.png */,
+				83EF06AC174A82BF00270E70 /* logo_360Payment.jpg */,
+				83EF06AD174A82BF00270E70 /* logo_AboveBarCPR.png */,
+				83EF06AE174A82BF00270E70 /* logo_AboveTheLine.jpg */,
+				83EF06AF174A82BF00270E70 /* logo_AbsoluteAutoGlass.jpg */,
 				834FEB6617428DB90072F19D /* logo_ADConstruction.jpg */,
-				834FEB6717428DB90072F19D /* logo_ASignASAP.jpg */,
+				83EF06B0174A82BF00270E70 /* logo_ADRealty.jpg */,
+				83EF06B1174A82BF00270E70 /* logo_AdventureOut.jpg */,
 				834FEB0D174177C10072F19D /* logo_AlfaroWinery.jpg */,
+				83EF06B2174A82BF00270E70 /* logo_Allterra.jpg */,
+				83EF06B3174A82BF00270E70 /* logo_AlohaIslandGrille.jpg */,
+				83EF06B4174A82BF00270E70 /* logo_AlterraSolar.png */,
+				83EF06B5174A82BF00270E70 /* logo_ANBInsurance.gif */,
+				83EF06B6174A82BF00270E70 /* logo_AptosLandscape.JPG */,
+				83EF06B7174A82BF00270E70 /* logo_ArtisansGallery.jpg */,
+				834FEB6717428DB90072F19D /* logo_ASignASAP.jpg */,
+				83EF06B8174A82BF00270E70 /* logo_BambooGiant.jpg */,
+				83EF06B9174A82BF00270E70 /* logo_BarbaraHanson.jpg */,
+				83EF06D0174A959A00270E70 /* logo_BarrySwenson.JPG */,
 				834FEB331741B3940072F19D /* logo_BaskinGrant.jpg */,
+				83EF06D1174A959B00270E70 /* logo_BayFederal.jpg */,
 				834FEB0E174177C10072F19D /* logo_Beckmann.jpg */,
 				834FEB0F174177C10072F19D /* logo_BigCreek.jpg */,
+				83EF06D2174A959B00270E70 /* logo_BookShopSC.jpg */,
 				834FEB10174177C20072F19D /* logo_CasablancaInn.JPG */,
 				834FEB11174177C20072F19D /* logo_Catalyst.jpg */,
+				83EF06D3174A959B00270E70 /* logo_CattosGraphics.jpg */,
+				83EF06D4174A959B00270E70 /* logo_CattosGraphics.png */,
+				83EF06BA174A82BF00270E70 /* logo_CoastFinancial.jpg */,
 				8331A4811742EDC700F1EC33 /* logo_CoastFinancial.jpg */,
+				83EF06D5174A959B00270E70 /* logo_CommunityFoundationSC.jpg */,
 				834FEB341741B3990072F19D /* logo_ConnectionMag.jpg */,
 				834FEB351741B39E0072F19D /* logo_Cruzio.jpg */,
 			);
@@ -324,6 +379,7 @@
 		834FEB5A1741B5120072F19D /* D - F */ = {
 			isa = PBXGroup;
 			children = (
+				83EF06BB174A82BF00270E70 /* logo_DashHemp.jpg */,
 				834FEB361741B3A20072F19D /* logo_EcoFarm.jpg */,
 			);
 			name = "D - F";
@@ -336,6 +392,7 @@
 				834FEB031741705E0072F19D /* logo_Iluminada.png */,
 				834FEB6817428DB90072F19D /* logo_HumanCare.jpg */,
 				834FEB381741B3A60072F19D /* logo_HunterHill.jpg */,
+				83EF06BC174A82BF00270E70 /* logo_JasmineBerke.jpg */,
 			);
 			name = "G - I";
 			sourceTree = "<group>";
@@ -343,6 +400,7 @@
 		834FEB5C1741B5300072F19D /* J - L */ = {
 			isa = PBXGroup;
 			children = (
+				83EF06D6174A959C00270E70 /* logo_LifespanCare.jpg */,
 				8331A4821742EDC700F1EC33 /* logo_JasmineBerke.jpg */,
 				834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */,
 				834FEB041741705E0072F19D /* logo_KSCO.png */,
@@ -357,6 +415,11 @@
 		834FEB5D1741B5990072F19D /* M- O */ = {
 			isa = PBXGroup;
 			children = (
+				83EF06D7174A959C00270E70 /* logo_MaximumImpact.jpg */,
+				83EF06D8174A959C00270E70 /* logo_MidCountyPost.gif */,
+				83EF06D9174A959D00270E70 /* logo_MissionHillCreamery.png */,
+				83EF06DA174A959E00270E70 /* logo_MontereyFarmersMarkets.jpg */,
+				83EF06DB174A959E00270E70 /* logo_NewLeafMarkets.jpg */,
 				834FEB13174177C30072F19D /* logo_NorthCoastVision.jpg */,
 				834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */,
 				834FEB14174177C40072F19D /* logo_OldSchoolShoes.jpg */,
@@ -368,6 +431,8 @@
 		834FEB5E1741B5A70072F19D /* P - R */ = {
 			isa = PBXGroup;
 			children = (
+				83EF06DC174A959E00270E70 /* logo_PhysiciansMedical.jpg */,
+				83EF06DD174A959E00270E70 /* logo_RiversideLighting.JPG */,
 				834FEB3C1741B3E90072F19D /* logo_PalaceArt.jpg */,
 				834FEB3D1741B3F00072F19D /* logo_ParrishArts.png */,
 				834FEB29174177D80072F19D /* logo_Pergolesi.jpg */,
@@ -380,6 +445,8 @@
 		834FEB601741B5DE0072F19D /* S - U */ = {
 			isa = PBXGroup;
 			children = (
+				83EF06DE174A959E00270E70 /* logo_StokesSigns.jpg */,
+				83EF06DF174A959E00270E70 /* logo_SurfnetComms.BMP */,
 				834FEB3F1741B3FB0072F19D /* logo_SlatterConstr.gif */,
 				834FEB16174177C40072F19D /* logo_Sockshop.jpg */,
 				834FEB401741B41F0072F19D /* logo_SolarTechnologies.gif */,
@@ -502,6 +569,7 @@
 			isa = PBXGroup;
 			children = (
 				83CB5CFA1745443E007FBB60 /* App Images */,
+				83EF06AB174A825900270E70 /* Mics Images */,
 				83F3E166172B497400221519 /* Member Images */,
 				83F3E165172B493300221519 /* App Member PList */,
 				83E284A017231A2D0025949B /* ThinkLocalFirst-Info.plist */,
@@ -531,16 +599,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83EF06AB174A825900270E70 /* Mics Images */ = {
+			isa = PBXGroup;
+			children = (
+				83E284D617231ADE0025949B /* SCNTaxiLogo.png */,
+				83F5EF4B1732D56E00F11979 /* OtterPraying.png */,
+				83F5EF471732C99900F11979 /* TestPicture.png */,
+				83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */,
+				83835FCE1746C226002E3AA3 /* CouponSample.png */,
+				83941CAB17347C98001E31B2 /* Coupon01.png */,
+				83941CAC17347C98001E31B2 /* Coupon02.png */,
+			);
+			name = "Mics Images";
+			sourceTree = "<group>";
+		};
 		83F3E165172B493300221519 /* App Member PList */ = {
 			isa = PBXGroup;
 			children = (
-				834FEB2B174191020072F19D /* TLFMemberList_nameSort.plist */,
-				8331A4891742FD4C00F1EC33 /* TLFMemberList.plist */,
+				83EF06F0174A9B3D00270E70 /* TLFMemberList.plist */,
+				8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */,
 				834FEB0B174172720072F19D /* TLFMemberList0512.plist */,
-				83E284F517233FC70025949B /* ThinkLocalFirst_OLD.plist */,
 				83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */,
-				83F3E158172AE25A00221519 /* ThinkLocalFirstDemo01.plist */,
-				83E05AE4173953850019A214 /* ThinkLocalFirstDemo_100.plist */,
 			);
 			name = "App Member PList";
 			sourceTree = "<group>";
@@ -556,13 +635,6 @@
 				834FEB5E1741B5A70072F19D /* P - R */,
 				834FEB601741B5DE0072F19D /* S - U */,
 				834FEB611741B5EB0072F19D /* V - Z */,
-				83E284D617231ADE0025949B /* SCNTaxiLogo.png */,
-				83F5EF4B1732D56E00F11979 /* OtterPraying.png */,
-				83F5EF471732C99900F11979 /* TestPicture.png */,
-				83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */,
-				83835FCE1746C226002E3AA3 /* CouponSample.png */,
-				83941CAB17347C98001E31B2 /* Coupon01.png */,
-				83941CAC17347C98001E31B2 /* Coupon02.png */,
 			);
 			name = "Member Images";
 			sourceTree = "<group>";
@@ -647,8 +719,6 @@
 				83E284E317231C920025949B /* TLFLogoHD.png in Resources */,
 				83E284E517231ED60025949B /* icon.png in Resources */,
 				83E284E717231EE60025949B /* icon@2x.png in Resources */,
-				83E284F617233FC80025949B /* ThinkLocalFirst_OLD.plist in Resources */,
-				83F3E159172AE25A00221519 /* ThinkLocalFirstDemo01.plist in Resources */,
 				83F3E15E172B0B1500221519 /* globe.png in Resources */,
 				83F3E15F172B0B1500221519 /* house.png in Resources */,
 				83F3E160172B0B1500221519 /* trolley.png in Resources */,
@@ -657,7 +727,6 @@
 				83F5EF4C1732D56E00F11979 /* OtterPraying.png in Resources */,
 				83941CAD17347C98001E31B2 /* Coupon01.png in Resources */,
 				83941CAE17347C98001E31B2 /* Coupon02.png in Resources */,
-				83E05AE5173953880019A214 /* ThinkLocalFirstDemo_100.plist in Resources */,
 				83E05AE7173956730019A214 /* ThinkLocalFirstDemo.plist in Resources */,
 				834FEB061741705E0072F19D /* logo_12AMDesign.png in Resources */,
 				834FEB081741705E0072F19D /* logo_Iluminada.png in Resources */,
@@ -678,7 +747,6 @@
 				834FEB26174177C50072F19D /* logo_StreetlightRecords.jpg in Resources */,
 				834FEB27174177C50072F19D /* logo_WaterStarMotors.JPG in Resources */,
 				834FEB2A174177D80072F19D /* logo_Pergolesi.jpg in Resources */,
-				834FEB2C174191030072F19D /* TLFMemberList_nameSort.plist in Resources */,
 				834FEB461741B4380072F19D /* logo_BaskinGrant.jpg in Resources */,
 				834FEB471741B4390072F19D /* logo_ConnectionMag.jpg in Resources */,
 				834FEB481741B4390072F19D /* logo_Cruzio.jpg in Resources */,
@@ -705,7 +773,7 @@
 				834FEB6F17428DB90072F19D /* logo_OceanEchoInn.jpg in Resources */,
 				8331A4841742EDC700F1EC33 /* logo_CoastFinancial.jpg in Resources */,
 				8331A4851742EDC700F1EC33 /* logo_JasmineBerke.jpg in Resources */,
-				8331A48A1742FD4C00F1EC33 /* TLFMemberList.plist in Resources */,
+				8331A48A1742FD4C00F1EC33 /* TLFMemberList0514.plist in Resources */,
 				83CB5D0317457348007FBB60 /* database@2x.png in Resources */,
 				83CB5D0417457348007FBB60 /* globe@2x.png in Resources */,
 				83CB5D0517457348007FBB60 /* heart@2x.png in Resources */,
@@ -718,6 +786,40 @@
 				83835FDF1746FB09002E3AA3 /* TLF_Logo320x480.png in Resources */,
 				83835FE01746FB09002E3AA3 /* TLF_Logo640x960.png in Resources */,
 				83835FE11746FB09002E3AA3 /* TLF_Logo640x1136.png in Resources */,
+				83EF06BE174A82BF00270E70 /* logo_360Payment.jpg in Resources */,
+				83EF06BF174A82BF00270E70 /* logo_AboveBarCPR.png in Resources */,
+				83EF06C0174A82BF00270E70 /* logo_AboveTheLine.jpg in Resources */,
+				83EF06C1174A82BF00270E70 /* logo_AbsoluteAutoGlass.jpg in Resources */,
+				83EF06C2174A82BF00270E70 /* logo_ADRealty.jpg in Resources */,
+				83EF06C3174A82BF00270E70 /* logo_AdventureOut.jpg in Resources */,
+				83EF06C4174A82BF00270E70 /* logo_Allterra.jpg in Resources */,
+				83EF06C5174A82BF00270E70 /* logo_AlohaIslandGrille.jpg in Resources */,
+				83EF06C6174A82BF00270E70 /* logo_AlterraSolar.png in Resources */,
+				83EF06C7174A82BF00270E70 /* logo_ANBInsurance.gif in Resources */,
+				83EF06C8174A82BF00270E70 /* logo_AptosLandscape.JPG in Resources */,
+				83EF06C9174A82BF00270E70 /* logo_ArtisansGallery.jpg in Resources */,
+				83EF06CA174A82BF00270E70 /* logo_BambooGiant.jpg in Resources */,
+				83EF06CB174A82BF00270E70 /* logo_BarbaraHanson.jpg in Resources */,
+				83EF06CC174A82BF00270E70 /* logo_CoastFinancial.jpg in Resources */,
+				83EF06CD174A82BF00270E70 /* logo_DashHemp.jpg in Resources */,
+				83EF06CE174A82BF00270E70 /* logo_JasmineBerke.jpg in Resources */,
+				83EF06E0174A959E00270E70 /* logo_BarrySwenson.JPG in Resources */,
+				83EF06E1174A959F00270E70 /* logo_BayFederal.jpg in Resources */,
+				83EF06E2174A959F00270E70 /* logo_BookShopSC.jpg in Resources */,
+				83EF06E3174A959F00270E70 /* logo_CattosGraphics.jpg in Resources */,
+				83EF06E4174A959F00270E70 /* logo_CattosGraphics.png in Resources */,
+				83EF06E5174A959F00270E70 /* logo_CommunityFoundationSC.jpg in Resources */,
+				83EF06E6174A959F00270E70 /* logo_LifespanCare.jpg in Resources */,
+				83EF06E7174A959F00270E70 /* logo_MaximumImpact.jpg in Resources */,
+				83EF06E8174A959F00270E70 /* logo_MidCountyPost.gif in Resources */,
+				83EF06E9174A959F00270E70 /* logo_MissionHillCreamery.png in Resources */,
+				83EF06EA174A959F00270E70 /* logo_MontereyFarmersMarkets.jpg in Resources */,
+				83EF06EB174A959F00270E70 /* logo_NewLeafMarkets.jpg in Resources */,
+				83EF06EC174A959F00270E70 /* logo_PhysiciansMedical.jpg in Resources */,
+				83EF06ED174A959F00270E70 /* logo_RiversideLighting.JPG in Resources */,
+				83EF06EE174A959F00270E70 /* logo_StokesSigns.jpg in Resources */,
+				83EF06EF174A959F00270E70 /* logo_SurfnetComms.BMP in Resources */,
+				83EF06F1174A9B3D00270E70 /* TLFMemberList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
