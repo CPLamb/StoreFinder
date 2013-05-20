@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "RoundedRectBackground.h"
 
-@interface TestingViewController : UIViewController <UIScrollViewDelegate>
-
-//@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@interface TestingViewController : UIViewController <UIScrollViewDelegate, NSFileManagerDelegate> {
+    
+    
+}
 
 - (IBAction)test01:(id)sender;
 - (IBAction)test02:(id)sender;

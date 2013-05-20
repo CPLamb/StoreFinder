@@ -16,7 +16,6 @@
 #define RECT_SPACING 10.0    // space between backgrounds
 
 @implementation TestingViewController
-//@synthesize scrollView = _scrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,27 +48,29 @@
     coupon.image = couponImage;            
     [scrollView addSubview:coupon];
     
-    // Adds a coupon rotoated for ease of display
+// Adds a coupon rotoated for ease of display
     couponFileName = @"Coupon02.png";
     couponImage = [UIImage imageNamed:couponFileName];
     coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 480, 180, 560)];
     coupon.image = couponImage;
     [scrollView addSubview:coupon];
     
-    // Adds a coupon rotoated for ease of display
+// Adds a coupon rotoated for ease of display
     couponFileName = @"CouponSample_480x320.png";
     couponImage = [UIImage imageNamed:couponFileName];
     coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1040, 320, 480)];
     coupon.image = couponImage;
     [scrollView addSubview:coupon];
         
-    // Adds a coupon rotoated for ease of display
+// Adds a coupon rotoated for ease of display
     couponFileName = @"Coupon01.png";
     couponImage = [UIImage imageNamed:couponFileName];
     coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1520, 160, 320)];
     coupon.image = couponImage;
     [scrollView addSubview:coupon];
     
+    // Sets self to be the NSFileManager delegate
+    [[NSFileManager defaultManager] setDelegate:self];
     
 }
 
@@ -92,28 +93,62 @@
     
 // Set up fileManager & get directory URLs
     NSFileManager *myFileManager = [NSFileManager defaultManager];
-    NSArray *myDirectoryURLs = [myFileManager URLsForDirectory:NSAllApplicationsDirectory inDomains:NSAllDomainsMask];
-    NSLog(@"NSDocumentDirectory %@", myDirectoryURLs);
+    NSArray *myDocumentDirectoryURL = [myFileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    NSLog(@"NSDocumentDirectory %@", myDocumentDirectoryURL);
     
 // Get contents of the directory
-    NSURL *myFirstDirectoryURL = [myDirectoryURLs objectAtIndex:0];
+    NSURL *myFirstDirectoryURL = [myDocumentDirectoryURL objectAtIndex:0];
     NSString *myFirstDirectoryString = [myFirstDirectoryURL absoluteString];
     NSArray *myFiles = [myFileManager contentsOfDirectoryAtPath:myFirstDirectoryString error:nil];
+    NSError* err = nil;
+    if( err != nil ){
+        NSDictionary* d = [err userInfo];
+        NSLog(@"There was an error reading the files in the documents directory %@ ... %@", myFirstDirectoryURL, d);
+    }
     NSLog(@"files are %@", myFiles);
     
 }
 
 - (IBAction)test02:(id)sender {
+// Get a handle on the shared file manager already resident in memory
+    NSFileManager *myFileManager = [NSFileManager defaultManager];
+
     NSLog(@"Someone pressed 02");
     
 // Get's the app's bundle
     NSArray *myBundle = [NSBundle allBundles];
     NSLog(@"my apps bundle is %@", myBundle);
     
-    // List the contents of that bundle
+// List the contents of that bundle
+    NSURL *TLFMemberListURL = [[NSBundle mainBundle] URLForResource:@"TLFMemberList" withExtension:@"plist"];
+    NSLog(@"my Plist URL is %@", TLFMemberListURL);
+    
+//    - (BOOL)fileManager:(NSFileManager *)fileManager shouldCopyItemAtURL:(NSURL *)srcURL toURL:(NSURL *)dstURL
+// Copy the bundle PList to the documents directory
+    NSArray *myDocumentDirectoryURL = [myFileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    NSURL* docDirURL = [myDocumentDirectoryURL objectAtIndex:0];
+    NSString* docDirStr = [docDirURL absoluteString];
     
     
-}
+    NSLog(@"my document directory URL is %@", docDirStr);
+    NSString* fileName = [TLFMemberListURL absoluteString];
+    NSString* fileBaseName = [fileName lastPathComponent];
 
+    NSString* destinationFile = [docDirStr stringByAppendingPathComponent:fileBaseName];
+    
+    
+    
+    NSError* err = nil;
+//    [myFileManager copyItemAtURL:TLFMemberListURL toURL:[myDocumentDirectoryURL objectAtIndex:0] error:&err];
+    [myFileManager copyItemAtPath:fileName toPath:destinationFile error:&err];
+    
+    if( err != nil ){
+        NSDictionary* d = [err userInfo];
+        NSLog(@"There was an error copying %@ to %@ ... %@", fileName, destinationFile, d);
+    }
+
+
+
+}
 
 @end

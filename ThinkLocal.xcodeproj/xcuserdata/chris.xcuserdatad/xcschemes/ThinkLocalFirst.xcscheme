@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83E2849417231A2D0025949B"
-               BuildableName = "ThinkLocalFirst.app"
+               BuildableName = "ThinkLocal.app"
                BlueprintName = "ThinkLocal"
                ReferencedContainer = "container:ThinkLocal.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E2849417231A2D0025949B"
-            BuildableName = "ThinkLocalFirst.app"
+            BuildableName = "ThinkLocal.app"
             BlueprintName = "ThinkLocal"
             ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E2849417231A2D0025949B"
-            BuildableName = "ThinkLocalFirst.app"
+            BuildableName = "ThinkLocal.app"
             BlueprintName = "ThinkLocal"
             ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83E2849417231A2D0025949B"
-            BuildableName = "ThinkLocalFirst.app"
+            BuildableName = "ThinkLocal.app"
             BlueprintName = "ThinkLocal"
             ReferencedContainer = "container:ThinkLocal.xcodeproj">
          </BuildableReference>
