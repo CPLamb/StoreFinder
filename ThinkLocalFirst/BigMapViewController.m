@@ -87,22 +87,13 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 
 #pragma mark - Custom MapView Methods
 
-//- (double )calculateSpan:(int )area {
-//    //    NSLog(@"The area = %d", area);
-//    double span = (sqrt(area))*0.014;
-//    if (span >= 15.0) {
-//        span = 15.0;
-//    }
-//    //    NSLog(@"Calculating the span = %2.1f", span);
-//    return span;
-//}
-
+// Getter function checks to see if user location is enabled & if not zooms to CPL Labs location
 - (CLLocation*)referenceLocation {
     if( _referenceLocation == nil ){
         CLLocationCoordinate2D userCoord = self.mapView.userLocation.location.coordinate;
         if( self.mapView.userLocation.location == nil ||
-           (userCoord.latitude == 0.0 && userCoord.longitude == 0.0) ){
-            // If user location can't be found, fake it
+           (userCoord.latitude == 0.0 && userCoord.longitude == 0.0) ){     
+    // If user location can't be found, fake it
             userCoord = CLLocationCoordinate2DMake(36.968, -121.9987);
         } else {
             _referenceLocation = self.mapView.userLocation.location;

@@ -128,11 +128,16 @@
     return index;
 }
 
+
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath;
 {
-    // Sends User to the DetailViewController
+// Sends User to the DetailViewController
+//    UITableViewCell *cell = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     UITableViewCell* cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"Performing segue to detail view for row: %@", cell);
+//    [self.memberViewController setDetailItem:cell];
+//    self.memberViewController = [[DetailViewController alloc] init];
+//    self.memberViewController.detailItem = cell;
     [self performSegueWithIdentifier:@"showDetails" sender:cell];
 }
 

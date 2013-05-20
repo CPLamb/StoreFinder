@@ -23,7 +23,7 @@
 @property (nonatomic) MKCoordinateRegion centerRegion;
 @property (strong, nonatomic) CLLocation *referenceLocation;
 @property (nonatomic, readonly) NSArray* pinsArray;
-//- (IBAction)dropPinButton:(UIButton *)sender;
+
 - (IBAction)removeAllPins:(UIButton *)sender;
 
 @end
