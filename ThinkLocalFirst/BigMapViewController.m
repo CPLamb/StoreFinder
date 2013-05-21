@@ -41,10 +41,10 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     
 // Setup for the mapView
     self.mapView.showsUserLocation = YES;
-//    [self.mapView setDelegate:self];// set by storyboard
-//    CLLocationDegrees theLatitude = 36.998;
-//    CLLocationDegrees theLongitude = -121.9968;
-//    [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(theLatitude, theLongitude), MKCoordinateSpanMake(0.5, 0.5)) animated:YES];
+    [self.mapView setDelegate:self];// set by storyboard
+    CLLocationDegrees theLatitude = 36.998;
+    CLLocationDegrees theLongitude = -121.9968;
+    [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(theLatitude, theLongitude), MKCoordinateSpanMake(0.5, 0.5)) animated:YES];
     self.mapView.mapType = MKMapTypeStandard;
     
 // Sets up the properties
@@ -52,35 +52,23 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     
 // Setup for the annotations & drop a pin at home
     self.mapAnnotations = [[NSMutableArray alloc] init];
-    
-/* Sets the properties of the annotation pin
-    CLLocationDegrees pinLatitude = 36.9986;        //[[self.detailItem objectForKey:@"latitude"] doubleValue];
-    CLLocationDegrees pinLongitude = -121.9987;     //[[self.detailItem objectForKey:@"longitude"] doubleValue];
-    NSString *pinName = @"CPLambLabs";              //[self.detailItem objectForKey:@"name"];
-    NSString *pinDescription = @"awesome apps!";     //[self.detailItem objectForKey:@"phone"];     // description
-    
-    CLLocationCoordinate2D pinCoordinates = CLLocationCoordinate2DMake(pinLatitude, pinLongitude);
-    MapItem *droppedPin = [[MapItem alloc] initWithCoordinates:pinCoordinates placeName:pinName description:pinDescription];
-    [self.mapAnnotations addObject:droppedPin];
 
-    MapItem *anotherMember = [[MapItem alloc]initWithCoordinates:CLLocationCoordinate2DMake(37.0075, -121.925) placeName:@"Freddys Crab Shack" description:@"another place"];
-    [self.mapAnnotations addObject:anotherMember];
-//    [self.mapView addAnnotation:anotherMember];
-*/    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    NSLog(@"%@ will appear...", self);
+    NSLog(@"%@ WILL appear...", self);
     
     // Loads from data objects
     [self loadPins];
         
     // Centers the view on the box containing all visible pins
-//    [self calculateCenter];
+    [self calculateCenter];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [self calculateCenter];
+    NSLog(@"%@ DID appear...", self);
+
+//    [self calculateCenter];
     //
     [self.mapView setRegion:self.centerRegion animated:YES];
     
@@ -120,15 +108,16 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     for (id<MKAnnotation> annotation in [self.mapView annotations]){
         points[i++] = MKMapPointForCoordinate(annotation.coordinate);
     }
-    
-    MKPolygon *poly = [MKPolygon polygonWithPoints:points count:i];
-    [self.mapView setRegion:MKCoordinateRegionForMapRect([poly boundingMapRect]) animated:YES]; 
+ 
+// TODO: commented out fixes the %110 span view / breaks the initial view
+//    MKPolygon *poly = [MKPolygon polygonWithPoints:points count:i];
+//    [self.mapView setRegion:MKCoordinateRegionForMapRect([poly boundingMapRect]) animated:YES];
 }
 
 - (void)calculateCenter {
     
     // set min to the highest and max to the lowest so any MIN or MAX calculation will change this value
-    CLLocationCoordinate2D minCoord = CLLocationCoordinate2DMake(180.0, 180.0);
+    CLLocationCoordinate2D minCoord = CLLocationCoordinate2DMake(180, 180.0);
     CLLocationCoordinate2D maxCoord = CLLocationCoordinate2DMake(-180.0, -180.0);
     
 /*    for( NSDictionary * item in self.pinsArray ){
@@ -140,35 +129,43 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
         maxCoord.longitude = MAX(maxCoord.longitude, lon);
     }
 */
-    
-///*    // check all annotations for min and max (deprecated -- checking pinsArray instead)
+//    NSLog(@"Checking min/max coords for %d mapAnnotations", [self.mapAnnotations count]);
+///*    // checks all annotations for min and max (deprecated -- checking pinsArray instead)
     for( MapItem * item in self.mapAnnotations ){
-        double lat = [item.latitude doubleValue];
-        double lon = [item.longitude doubleValue];
-        minCoord.latitude = MIN(minCoord.latitude, lat);
-        minCoord.longitude = MIN(minCoord.longitude, lon);
-        maxCoord.latitude = MAX(maxCoord.latitude, lat);
-        maxCoord.longitude = MAX(maxCoord.longitude, lon);
+        if ((item.latitude != 0) && (item.longitude != 0)) {
+            double lat = [item.latitude doubleValue];
+            double lon = [item.longitude doubleValue];
+            minCoord.latitude = MIN(minCoord.latitude, lat);
+            minCoord.longitude = MIN(minCoord.longitude, lon);
+            maxCoord.latitude = MAX(maxCoord.latitude, lat);
+            maxCoord.longitude = MAX(maxCoord.longitude, lon);
+        }
+        NSLog(@"Min & Max coordinates -> %f - %f and  %f - %f", minCoord.latitude, minCoord.longitude, maxCoord.latitude, maxCoord.longitude);
     }
-//  */  
+//*/
     
-    // after checking all
-    if( self.mapView.userLocation != nil ){
+// after checking all
+    if((self.mapView.userLocation.coordinate.latitude != 0.0) && (self.mapView.userLocation.coordinate.latitude != 0.0)) {
         CLLocationCoordinate2D userCoord = self.referenceLocation.coordinate;
             minCoord.latitude = MIN(minCoord.latitude, userCoord.latitude);
             minCoord.longitude = MIN(minCoord.longitude, userCoord.longitude);
             maxCoord.latitude = MAX(maxCoord.latitude, userCoord.latitude);
             maxCoord.longitude = MAX(maxCoord.longitude, userCoord.longitude);
     }
-    
-    
+
     CLLocation *minLocation = [[CLLocation alloc] initWithLatitude:minCoord.latitude longitude:minCoord.longitude];
     CLLocation *maxLocation = [[CLLocation alloc] initWithLatitude:maxCoord.latitude longitude:maxCoord.longitude];
     
     CLLocationCoordinate2D centerCoordinate = CLLocationCoordinate2DMake((minCoord.latitude + maxCoord.latitude)/2, (minCoord.longitude + maxCoord.longitude)/2);
     
-    float distance = [minLocation distanceFromLocation:maxLocation];
-    distance *= 1.25; // make actual map region slightly larger than distance between points
+// Initializes distance at 2 kilometers if both coordinates are the same
+    float distance = 500;
+    if ((minCoord.latitude == maxCoord.latitude) && (maxCoord.longitude == maxCoord.longitude)) {
+        distance = 2000;
+    } else {
+        distance = [minLocation distanceFromLocation:maxLocation];
+    }
+    distance = distance * 1.1; // make actual map region slightly larger than distance between points
 //    distance = MIN( MAX_MAP_ZOOM_METERS, MAX( distance, MIN_MAP_ZOOM_METERS ) );
     
     NSLog(@"Setting mapView.centerRegion to (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
@@ -204,11 +201,10 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 
 - (void)loadPins {
 
-    
 // Deletes all prior pins
     [self removeAllPins:nil];
 
-    // Figure out the closest pin to the user
+// Figure out the closest pin to the user
     id<MKAnnotation> defaultPin = nil;
     double closestDistance = DBL_MAX;   // set distance to furthest so first result is less than this
 
@@ -228,7 +224,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
 
         aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
-        
+        NSLog(@"aNewPin at %f - %f    %@", aLatitude, aLongitude, aName);
         [self.mapAnnotations addObject:aNewPin];
 
     // Get distance between this new pin and the stored reference location (the user location or a faked Santa Cruz lat/long if location is disabled)
@@ -322,14 +318,17 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 - (IBAction)removeAllPins:(UIButton *)sender {
     NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
     [self.mapAnnotations removeAllObjects];
+    
     NSLog(@"Removing %d annotations from mapView annotations", [self.mapView.annotations count]);
     [self.mapView removeAnnotations:self.mapView.annotations];
 }
 
 
 #pragma mark - MapView Annotation Methods
-// Sends User to the DetailViewController
+
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
+// Sends User to the DetailViewController
+        
     id<MKAnnotation> sender = view.annotation;
     NSLog(@"Performing segue to detail view for annotation view: %@", sender);
     [self performSegueWithIdentifier:@"showDetails" sender:sender];

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8331A4841742EDC700F1EC33 /* logo_CoastFinancial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8331A4811742EDC700F1EC33 /* logo_CoastFinancial.jpg */; };
-		8331A4851742EDC700F1EC33 /* logo_JasmineBerke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8331A4821742EDC700F1EC33 /* logo_JasmineBerke.jpg */; };
 		8331A48A1742FD4C00F1EC33 /* TLFMemberList0514.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */; };
 		834965FE172DBC4F00F049B0 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834965FD172DBC4F00F049B0 /* TabBarController.m */; };
 		834FEB061741705E0072F19D /* logo_12AMDesign.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB011741705E0072F19D /* logo_12AMDesign.png */; };
@@ -114,7 +112,6 @@
 		83EF06C9174A82BF00270E70 /* logo_ArtisansGallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06B7174A82BF00270E70 /* logo_ArtisansGallery.jpg */; };
 		83EF06CA174A82BF00270E70 /* logo_BambooGiant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06B8174A82BF00270E70 /* logo_BambooGiant.jpg */; };
 		83EF06CB174A82BF00270E70 /* logo_BarbaraHanson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06B9174A82BF00270E70 /* logo_BarbaraHanson.jpg */; };
-		83EF06CC174A82BF00270E70 /* logo_CoastFinancial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06BA174A82BF00270E70 /* logo_CoastFinancial.jpg */; };
 		83EF06CD174A82BF00270E70 /* logo_DashHemp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06BB174A82BF00270E70 /* logo_DashHemp.jpg */; };
 		83EF06CE174A82BF00270E70 /* logo_JasmineBerke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06BC174A82BF00270E70 /* logo_JasmineBerke.jpg */; };
 		83EF06E0174A959E00270E70 /* logo_BarrySwenson.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06D0174A959A00270E70 /* logo_BarrySwenson.JPG */; };
@@ -155,8 +152,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8331A4811742EDC700F1EC33 /* logo_CoastFinancial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_CoastFinancial.jpg; sourceTree = "<group>"; };
-		8331A4821742EDC700F1EC33 /* logo_JasmineBerke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_JasmineBerke.jpg; sourceTree = "<group>"; };
 		8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList0514.plist; sourceTree = "<group>"; };
 		834965FC172DBC4F00F049B0 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		834965FD172DBC4F00F049B0 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
@@ -278,7 +273,6 @@
 		83EF06B7174A82BF00270E70 /* logo_ArtisansGallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_ArtisansGallery.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_ArtisansGallery.jpg"; sourceTree = "<group>"; };
 		83EF06B8174A82BF00270E70 /* logo_BambooGiant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_BambooGiant.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_BambooGiant.jpg"; sourceTree = "<group>"; };
 		83EF06B9174A82BF00270E70 /* logo_BarbaraHanson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_BarbaraHanson.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_BarbaraHanson.jpg"; sourceTree = "<group>"; };
-		83EF06BA174A82BF00270E70 /* logo_CoastFinancial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_CoastFinancial.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_CoastFinancial.jpg"; sourceTree = "<group>"; };
 		83EF06BB174A82BF00270E70 /* logo_DashHemp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_DashHemp.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_DashHemp.jpg"; sourceTree = "<group>"; };
 		83EF06BC174A82BF00270E70 /* logo_JasmineBerke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_JasmineBerke.jpg; path = "../../../../../01-KMLStuff/02-ThinkLocalFirst/00-TLF_Project/Logos/members/00-MemberLogos/00-RawFiles/logo_JasmineBerke.jpg"; sourceTree = "<group>"; };
 		83EF06D0174A959A00270E70 /* logo_BarrySwenson.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_BarrySwenson.JPG; sourceTree = "<group>"; };
@@ -367,8 +361,6 @@
 				834FEB11174177C20072F19D /* logo_Catalyst.jpg */,
 				83EF06D3174A959B00270E70 /* logo_CattosGraphics.jpg */,
 				83EF06D4174A959B00270E70 /* logo_CattosGraphics.png */,
-				83EF06BA174A82BF00270E70 /* logo_CoastFinancial.jpg */,
-				8331A4811742EDC700F1EC33 /* logo_CoastFinancial.jpg */,
 				83EF06D5174A959B00270E70 /* logo_CommunityFoundationSC.jpg */,
 				834FEB341741B3990072F19D /* logo_ConnectionMag.jpg */,
 				834FEB351741B39E0072F19D /* logo_Cruzio.jpg */,
@@ -401,7 +393,6 @@
 			isa = PBXGroup;
 			children = (
 				83EF06D6174A959C00270E70 /* logo_LifespanCare.jpg */,
-				8331A4821742EDC700F1EC33 /* logo_JasmineBerke.jpg */,
 				834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */,
 				834FEB041741705E0072F19D /* logo_KSCO.png */,
 				834FEB391741B3B00072F19D /* logo_KUSP.jpg */,
@@ -771,8 +762,6 @@
 				834FEB6D17428DB90072F19D /* logo_HumanCare.jpg in Resources */,
 				834FEB6E17428DB90072F19D /* logo_KayakConnection.jpg in Resources */,
 				834FEB6F17428DB90072F19D /* logo_OceanEchoInn.jpg in Resources */,
-				8331A4841742EDC700F1EC33 /* logo_CoastFinancial.jpg in Resources */,
-				8331A4851742EDC700F1EC33 /* logo_JasmineBerke.jpg in Resources */,
 				8331A48A1742FD4C00F1EC33 /* TLFMemberList0514.plist in Resources */,
 				83CB5D0317457348007FBB60 /* database@2x.png in Resources */,
 				83CB5D0417457348007FBB60 /* globe@2x.png in Resources */,
@@ -800,7 +789,6 @@
 				83EF06C9174A82BF00270E70 /* logo_ArtisansGallery.jpg in Resources */,
 				83EF06CA174A82BF00270E70 /* logo_BambooGiant.jpg in Resources */,
 				83EF06CB174A82BF00270E70 /* logo_BarbaraHanson.jpg in Resources */,
-				83EF06CC174A82BF00270E70 /* logo_CoastFinancial.jpg in Resources */,
 				83EF06CD174A82BF00270E70 /* logo_DashHemp.jpg in Resources */,
 				83EF06CE174A82BF00270E70 /* logo_JasmineBerke.jpg in Resources */,
 				83EF06E0174A959E00270E70 /* logo_BarrySwenson.JPG in Resources */,

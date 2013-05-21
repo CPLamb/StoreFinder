@@ -52,7 +52,7 @@
     
     sortedByCategory = NO;
     filteredByCoupons = NO;
-    self.navigationItem.title = @"List";
+//    self.navigationItem.title = @"List";
 
 // Assigns the data object to the local membersArray
     self.membersArray = [NSArray arrayWithArray: MEMBERLISTDATA.membersArray];
