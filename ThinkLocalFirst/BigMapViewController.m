@@ -322,7 +322,6 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 - (IBAction)removeAllPins:(UIButton *)sender {
     NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
     [self.mapAnnotations removeAllObjects];
-
     NSLog(@"Removing %d annotations from mapView annotations", [self.mapView.annotations count]);
     [self.mapView removeAnnotations:self.mapView.annotations];
 }
