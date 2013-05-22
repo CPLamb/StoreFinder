@@ -54,7 +54,7 @@
     // Builds the custom background bubbles for all 7 fields
     [self assembleBackgrounds];
 
-    NSLog(@"DetailVC Member selected is %@", self.detailItem);
+//    NSLog(@"DetailVC Member selected is %@", self.detailItem);
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
@@ -300,6 +300,9 @@
     MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
     
     [locationMap.mapView addAnnotation:aNewPin];
+    
+    [locationMap.mapView selectAnnotation:aNewPin animated:YES];
+
     [locationMap.mapAnnotations addObject:aNewPin];
     
     NSLog(@"The new pin data is %@", aNewPin);

@@ -37,7 +37,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 {
     [super viewDidLoad];
 
-    NSLog(@"%@ view did load for the first time.", self);
+//    NSLog(@"%@ view did load for the first time.", self);
     
 // Setup for the mapView
     self.mapView.showsUserLocation = YES;
@@ -56,7 +56,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    NSLog(@"%@ WILL appear...", self);
+//    NSLog(@"%@ WILL appear...", self);
     
     // Loads from data objects
     [self loadPins];
@@ -66,7 +66,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    NSLog(@"%@ DID appear...", self);
+//    NSLog(@"%@ DID appear...", self);
 
 //    [self calculateCenter];
     //
@@ -140,7 +140,6 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
             maxCoord.latitude = MAX(maxCoord.latitude, lat);
             maxCoord.longitude = MAX(maxCoord.longitude, lon);
         }
-        NSLog(@"Min & Max coordinates -> %f - %f and  %f - %f", minCoord.latitude, minCoord.longitude, maxCoord.latitude, maxCoord.longitude);
     }
 //*/
     
@@ -168,7 +167,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     distance = distance * 1.1; // make actual map region slightly larger than distance between points
 //    distance = MIN( MAX_MAP_ZOOM_METERS, MAX( distance, MIN_MAP_ZOOM_METERS ) );
     
-    NSLog(@"Setting mapView.centerRegion to (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
+//    NSLog(@"Setting mapView.centerRegion to (%f, %f) with distance %f", centerCoordinate.latitude , centerCoordinate.longitude, distance);
 
     self.centerRegion = MKCoordinateRegionMakeWithDistance(centerCoordinate, distance, distance);
 }
@@ -195,7 +194,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
         }
     }
     
-    NSLog(@"Accessing pinsArray with count = %d", [pinsArray count]);
+//    NSLog(@"Accessing pinsArray with count = %d", [pinsArray count]);
     return pinsArray;
 }
 
@@ -224,8 +223,8 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
 
         aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
-        NSLog(@"aNewPin at %f - %f    %@", aLatitude, aLongitude, aName);
         [self.mapAnnotations addObject:aNewPin];
+        
 
     // Get distance between this new pin and the stored reference location (the user location or a faked Santa Cruz lat/long if location is disabled)
         CLLocation* loc = [[CLLocation alloc] initWithLatitude:aLatitude longitude:aLongitude];
@@ -236,9 +235,9 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
             closestDistance = dist;
             defaultPin = aNewPin;
         }
-
-    
     }
+    // If defaultPin is set, select it when we view the map
+    [self.mapView selectAnnotation:self.defaultPin animated:YES];
 }
 
 - (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
@@ -316,10 +315,10 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 */
 
 - (IBAction)removeAllPins:(UIButton *)sender {
-    NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
+//    NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
     [self.mapAnnotations removeAllObjects];
     
-    NSLog(@"Removing %d annotations from mapView annotations", [self.mapView.annotations count]);
+//    NSLog(@"Removing %d annotations from mapView annotations", [self.mapView.annotations count]);
     [self.mapView removeAnnotations:self.mapView.annotations];
 }
 
@@ -357,7 +356,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
             MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
                                                   initWithAnnotation:annotation reuseIdentifier:BridgeAnnotationIdentifier];
             customPinView.pinColor = MKPinAnnotationColorPurple;
-            customPinView.alpha = 0.87;
+//            customPinView.alpha = 0.87;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
             

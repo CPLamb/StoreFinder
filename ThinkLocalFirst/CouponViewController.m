@@ -106,7 +106,7 @@
     else if ([[segue identifier] isEqualToString:@"showCoupon"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-              NSLog(@"The object passed is = %@", object);
+//              NSLog(@"The object passed is = %@", object);
         
         CouponOfferViewController* covc = [segue destinationViewController];
         covc.couponURLString = [object objectForKey:@"couponURL"];
@@ -117,7 +117,7 @@
 #pragma mark -- Custom methods
 
 - (void)couponFilter; {             // :(SortSelectionViewController *)controller
-    NSLog(@"Filters the table for coupons YES (y)");
+//    NSLog(@"Filters the table for coupons YES (y)");
     
     filteredByCoupons = YES;
     
