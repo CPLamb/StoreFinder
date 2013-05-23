@@ -25,10 +25,14 @@
 - (void)loadPlistData {
     // Loads the Plist into member array either from web or locally
     
-    // Loads file locally
+// Loads file locally
     NSBundle *mainBundle = [NSBundle mainBundle];
     NSURL *fileURL = [mainBundle URLForResource:@"TLFMemberList" withExtension:@"plist"];
     
+// Loads the file from the web
+//    NSString *fileURLString = @"https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist";
+//    NSURL *fileURL = [[NSURL alloc]initWithString:fileURLString];
+
     self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
     NSLog(@"MEMBERLISTDATA Array count %d", [self.membersArray count]);
 

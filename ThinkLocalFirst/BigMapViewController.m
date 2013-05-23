@@ -21,6 +21,7 @@
 
 const float MIN_MAP_ZOOM_METERS = 500.0;
 const float MAX_MAP_ZOOM_METERS = 75000.0;
+const int  MAX_PINS_TO_DROP = 40;
 
 #pragma mark - View lifecycle methods
 
@@ -72,7 +73,24 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     //
     [self.mapView setRegion:self.centerRegion animated:YES];
     
-    [self.mapView addAnnotations:self.mapAnnotations];
+    
+// Limit the toal number pins to drop to MAX_PINS_TO_DROP so that map view is not too cluttered
+    NSLog(@"Pins in the select = %d", [self.mapAnnotations count]);
+    
+    int annotationsCount = [self.mapAnnotations count];
+    
+// Limits the total number of pins dropped
+    if (annotationsCount > MAX_PINS_TO_DROP) {
+        // Add only MAX_PIN_TO_DROP to the map
+        int location = MAX_PINS_TO_DROP;
+        int length = [self.mapAnnotations count] - MAX_PINS_TO_DROP;
+        NSMutableArray *aClippedArray = [NSMutableArray arrayWithArray:self.mapAnnotations];
+        [aClippedArray removeObjectsInRange:NSMakeRange(location, length)];
+        [self.mapView addAnnotations:aClippedArray];
+    } else {
+// Add all of the pins
+        [self.mapView addAnnotations:self.mapAnnotations];        
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -120,17 +138,9 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
     CLLocationCoordinate2D minCoord = CLLocationCoordinate2DMake(180, 180.0);
     CLLocationCoordinate2D maxCoord = CLLocationCoordinate2DMake(-180.0, -180.0);
     
-/*    for( NSDictionary * item in self.pinsArray ){
-        double lat = [[item objectForKey:@"latitude"] doubleValue];
-        double lon = [[item objectForKey:@"longitude"] doubleValue];
-        minCoord.latitude = MIN(minCoord.latitude, lat);
-        minCoord.longitude = MIN(minCoord.longitude, lon);
-        maxCoord.latitude = MAX(maxCoord.latitude, lat);
-        maxCoord.longitude = MAX(maxCoord.longitude, lon);
-    }
-*/
+
 //    NSLog(@"Checking min/max coords for %d mapAnnotations", [self.mapAnnotations count]);
-///*    // checks all annotations for min and max (deprecated -- checking pinsArray instead)
+    // checks all annotations for min and max (deprecated -- checking pinsArray instead)
     for( MapItem * item in self.mapAnnotations ){
         if ((item.latitude != 0) && (item.longitude != 0)) {
             double lat = [item.latitude doubleValue];
@@ -141,7 +151,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
             maxCoord.longitude = MAX(maxCoord.longitude, lon);
         }
     }
-//*/
+//
     
 // after checking all
     if((self.mapView.userLocation.coordinate.latitude != 0.0) && (self.mapView.userLocation.coordinate.latitude != 0.0)) {
@@ -160,7 +170,7 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 // Initializes distance at 2 kilometers if both coordinates are the same
     float distance = 500;
     if ((minCoord.latitude == maxCoord.latitude) && (maxCoord.longitude == maxCoord.longitude)) {
-        distance = 2000;
+        distance = 10000;
     } else {
         distance = [minLocation distanceFromLocation:maxLocation];
     }
@@ -178,11 +188,11 @@ const float MAX_MAP_ZOOM_METERS = 75000.0;
 - (NSArray*)pinsArray {
     NSMutableArray *pinsArray = [NSMutableArray array];
     
-    // If a single detailItem is set, prefer that to the list of all pins
+// If a single detailItem is set, prefer that to the list of all pins
     if (self.detailItem != nil) {
         [pinsArray addObject:self.detailItem];
     } else {
-        // Otherwise show all pins in the namesArray
+// Otherwise show all pins in the namesArray
         for( id arrayOrDict in MEMBERLISTDATA.namesArray ){
             // Flatten any arrays (needed in data for sorting lists with categories)
             if( [arrayOrDict isKindOfClass:[NSArray class]] ){

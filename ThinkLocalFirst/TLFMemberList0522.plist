@@ -24,7 +24,7 @@
 		<key>email</key>
 		<string>mail@12amdesign.com</string>
 		<key>hasCoupon</key>
-		<string>n</string>
+		<string>y</string>
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
@@ -74,7 +74,7 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>37.300542</string>
+		<string>37.100542</string>
 		<key>logo</key>
 		<string>logo_360Payment.jpg</string>
 		<key>longitude</key>
@@ -126,7 +126,7 @@
 		<key>longitude</key>
 		<string>-121.964893</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>41st Avenue Liquor</string>
 		<key>phone</key>
@@ -1316,11 +1316,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>38.71634</string>
+		<string>37.11634</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-121.364542</string>
+		<string>-122.064542</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -1460,7 +1460,7 @@
 		<key>longitude</key>
 		<string>-121.983776</string>
 		<key>meta</key>
-		<string>pool  spa  solar  contractors  systems  pools. spas  service gold</string>
+		<string>pool  spa  solar  contractors  systems  pools. spas  service</string>
 		<key>name</key>
 		<string>APPI Pools Spas Solar</string>
 		<key>phone</key>
@@ -2012,7 +2012,7 @@
 		<key>longitude</key>
 		<string>-122.034774</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>BaskinGrant Law Firm</string>
 		<key>phone</key>
@@ -2104,7 +2104,7 @@
 		<key>longitude</key>
 		<string>-121.96972</string>
 		<key>meta</key>
-		<string>bank baligible eligibility lighthouse county monterey benito member membership benefit benefits discount ticket tickets buy buyer purchase want new used pre-owned Capitola Watsonville Freedom Scotts Valley Lomond downtown local best better great good service exceptional quality CD deposit withdrawal teller coin coins count counter counting volunteer volunteers volunteering support community value valuable reliable friendly safe safety reliable help helpful award gold</string>
+		<string>bank baligible eligibility lighthouse county monterey benito member membership benefit benefits discount ticket tickets buy buyer purchase want new used pre-owned Capitola Watsonville Freedom Scotts Valley Lomond downtown local best better great good service exceptional quality CD deposit withdrawal teller coin coins count counter counting volunteer volunteers volunteering support community value valuable reliable friendly safe safety reliable help helpful award</string>
 		<key>name</key>
 		<string>Bay Federal Credit Union</string>
 		<key>phone</key>
@@ -2334,7 +2334,7 @@
 		<key>longitude</key>
 		<string>-122.006577</string>
 		<key>meta</key>
-		<string>healthy baked bread pies bakery gold</string>
+		<string>healthy baked bread pies bakery</string>
 		<key>name</key>
 		<string>Beckmann&apos;s Bakery</string>
 		<key>phone</key>
@@ -2794,7 +2794,7 @@
 		<key>longitude</key>
 		<string>-122.026529</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Bookshop Santa Cruz</string>
 		<key>phone</key>
@@ -3576,7 +3576,7 @@
 		<key>longitude</key>
 		<string>-122.022073</string>
 		<key>meta</key>
-		<string>Northern Mediterranean Bistro Restaurant Local Organic Bar Wine Santa Cruz Beach Happy Hour Bar Wedding Event Beach Seafood Oceanview gold</string>
+		<string>Northern Mediterranean Bistro Restaurant Local Organic Bar Wine Santa Cruz Beach Happy Hour Bar Wedding Event Beach Seafood Oceanview</string>
 		<key>name</key>
 		<string>Casablanca Bistro</string>
 		<key>phone</key>
@@ -3622,7 +3622,7 @@
 		<key>longitude</key>
 		<string>-122.03955</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Catto&apos;s Graphics  Inc.</string>
 		<key>phone</key>
@@ -3714,7 +3714,7 @@
 		<key>longitude</key>
 		<string>-122.022725</string>
 		<key>meta</key>
-		<string>financial planning wealth management fee-only investment services gold</string>
+		<string>financial planning wealth management fee-only investment services</string>
 		<key>name</key>
 		<string>Chamberlain Financial Planning and Wealth Management</string>
 		<key>phone</key>
@@ -3990,7 +3990,7 @@
 		<key>longitude</key>
 		<string>-121.991836</string>
 		<key>meta</key>
-		<string>accounting  taxes  payroll  bookkeeping  CPAs gold</string>
+		<string>accounting  taxes  payroll  bookkeeping  CPAs  </string>
 		<key>name</key>
 		<string>Coast Financial Services  Inc.</string>
 		<key>phone</key>
@@ -4358,7 +4358,7 @@
 		<key>longitude</key>
 		<string>-122.039284</string>
 		<key>meta</key>
-		<string>Digital printing  bulk mailings  non profit appeals  addressing gold</string>
+		<string>Digital printing  bulk mailings  non profit appeals  addressing</string>
 		<key>name</key>
 		<string>Complete Mailing Service  Inc.</string>
 		<key>phone</key>
@@ -4666,7 +4666,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon04.jpg</string>
 		<key>description</key>
-		<string>Cruzio Internet  Voted Best ISP 14 yrs+ DSL  Web  Wireless  Classes  Repair</string>
+		<string>Cruzio Internet Voted Best ISP 14 yrs+ DSL Web Wireless Classes Repair</string>
 		<key>email</key>
 		<string>marketing@cruzio.com</string>
 		<key>hasCoupon</key>
@@ -4680,7 +4680,7 @@
 		<key>longitude</key>
 		<string>-122.027561</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Cruzio Internet</string>
 		<key>phone</key>
@@ -5416,7 +5416,7 @@
 		<key>longitude</key>
 		<string>-121.93655</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Ecological Farming Association</string>
 		<key>phone</key>
@@ -6520,7 +6520,7 @@
 		<key>longitude</key>
 		<string>-122.037907</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Geo. H. Wilson  Inc</string>
 		<key>phone</key>
@@ -7486,7 +7486,7 @@
 		<key>longitude</key>
 		<string>-122.02634</string>
 		<key>meta</key>
-		<string>Fresh  Fish  Locally Owned  Mai Tais  Tiki  Tropical  Vegan  Vegetarian  Meats  Sustainable  Green Business  Cocktails  Zombies  Tiki Room  Private Parties  Full Bar  Hawaii  Reggae  Hawaiian Music  Mahalo  Aloha  Mojitos  Jerk Plates  Pork  Steaks  Ono  Mahi  Fun  Atmosphere  gold</string>
+		<string>Fresh  Fish  Locally Owned  Mai Tais  Tiki  Tropical  Vegan  Vegetarian  Meats  Sustainable  Green Business  Cocktails  Zombies  Tiki Room  Private Parties  Full Bar  Hawaii  Reggae  Hawaiian Music  Mahalo  Aloha  Mojitos  Jerk Plates  Pork  Steaks  Ono  Mahi  Fun  Atmosphere  </string>
 		<key>name</key>
 		<string>Hula&apos;s Island Gril (Santa Cruz)</string>
 		<key>phone</key>
@@ -7578,7 +7578,7 @@
 		<key>longitude</key>
 		<string>-121.934713</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Hunter Hill Vineyard and Winery  Inc.</string>
 		<key>phone</key>
@@ -7670,7 +7670,7 @@
 		<key>longitude</key>
 		<string>-121.998672</string>
 		<key>meta</key>
-		<string>web design  ecommerce  websites  website  logo design gold</string>
+		<string>web design  ecommerce  websites  website  logo design</string>
 		<key>name</key>
 		<string>Iluminada Design</string>
 		<key>phone</key>
@@ -8268,7 +8268,7 @@
 		<key>longitude</key>
 		<string>-121.979367</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>KSCO AM 1080</string>
 		<key>phone</key>
@@ -8314,7 +8314,7 @@
 		<key>longitude</key>
 		<string>-121.99784</string>
 		<key>meta</key>
-		<string>KUSP radio public community music news &apos;national public radio&apos; &apos;public radio&apos; &apos;morning edition&apos; &apos;all things considered&apos; &apos;fresh air&apos; interviews &apos;car talk&apos; local programming classical jazz alternative gold</string>
+		<string>KUSP radio public community music news &apos;national public radio&apos; &apos;public radio&apos; &apos;morning edition&apos; &apos;all things considered&apos; &apos;fresh air&apos; interviews &apos;car talk&apos; local programming classical jazz alternative </string>
 		<key>name</key>
 		<string>KUSP-FM</string>
 		<key>phone</key>
@@ -8820,7 +8820,7 @@
 		<key>longitude</key>
 		<string>-122.026644</string>
 		<key>meta</key>
-		<string>VIDEO GAMES  TOYS AND COLLECTIBLES  CONSUMER ELECTRONICS  APARREL gold</string>
+		<string>VIDEO GAMES  TOYS AND COLLECTIBLES  CONSUMER ELECTRONICS  APARREL</string>
 		<key>name</key>
 		<string>LEVEL UP VIDEO GAMES</string>
 		<key>phone</key>
@@ -8912,7 +8912,7 @@
 		<key>longitude</key>
 		<string>-122.004173</string>
 		<key>meta</key>
-		<string>home care  care management  nurse  social worker  caregiving  aging in place  tech in the home  elderly gold</string>
+		<string>home care  care management  nurse  social worker  caregiving  aging in place  tech in the home  elderly</string>
 		<key>name</key>
 		<string>Lifespan Care Management Agency</string>
 		<key>phone</key>
@@ -9418,7 +9418,7 @@
 		<key>longitude</key>
 		<string>-122.043754</string>
 		<key>meta</key>
-		<string>graphic design  illustration  print  branding  logo  packaging  web design  website design gold</string>
+		<string>graphic design  illustration  print  branding  logo  packaging  web design  website design </string>
 		<key>name</key>
 		<string>Mandala</string>
 		<key>phone</key>
@@ -9556,7 +9556,7 @@
 		<key>longitude</key>
 		<string>-122.0219</string>
 		<key>meta</key>
-		<string>gourmet ice cream gold</string>
+		<string>gourmet ice cream </string>
 		<key>name</key>
 		<string>Marianne&apos;s Ice Cream</string>
 		<key>phone</key>
@@ -9602,7 +9602,7 @@
 		<key>longitude</key>
 		<string>-121.915511</string>
 		<key>meta</key>
-		<string>graphic design  branding  logo  social media  packaging design gold</string>
+		<string>graphic design  branding  logo  social media  packaging design  </string>
 		<key>name</key>
 		<string>Maximum Impact Design</string>
 		<key>phone</key>
@@ -9878,7 +9878,7 @@
 		<key>longitude</key>
 		<string>-122.025677</string>
 		<key>meta</key>
-		<string>ice cream  artisan  gourmet  salted caramel gold</string>
+		<string>ice cream  artisan  gourmet  salted caramel</string>
 		<key>name</key>
 		<string>Mission Hill Creamery  Inc.</string>
 		<key>phone</key>
@@ -10614,7 +10614,7 @@
 		<key>longitude</key>
 		<string>-122.025679</string>
 		<key>meta</key>
-		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods gold</string>
+		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods</string>
 		<key>name</key>
 		<string>New Leaf Community  Markets - Downtown SC</string>
 		<key>phone</key>
@@ -10660,7 +10660,7 @@
 		<key>longitude</key>
 		<string>-121.964971</string>
 		<key>meta</key>
-		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods grocer grocers gold</string>
+		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods grocer grocers</string>
 		<key>name</key>
 		<string>New Leaf Community Markets - Capitola</string>
 		<key>phone</key>
@@ -10706,7 +10706,7 @@
 		<key>longitude</key>
 		<string>-122.046074</string>
 		<key>meta</key>
-		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods grocer grocers gold</string>
+		<string>organic food market fresh farmers vegetable meat grocery store lunch dinner wine bread specialty foods grocer grocers</string>
 		<key>name</key>
 		<string>New Leaf Community Markets - Westside SC</string>
 		<key>phone</key>
@@ -11166,7 +11166,7 @@
 		<key>longitude</key>
 		<string>-121.925902</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Olive Springs Quarry  Inc.</string>
 		<key>phone</key>
@@ -11258,7 +11258,7 @@
 		<key>longitude</key>
 		<string>-122.057288</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Ow Properties</string>
 		<key>phone</key>
@@ -11810,7 +11810,7 @@
 		<key>longitude</key>
 		<string>-121.971416</string>
 		<key>meta</key>
-		<string>Web Design  website Development  Graphic Design  Print Production  Business Identity  Advertising Design   Multi-Media Design  logos  websites  brochures  posters  CMS  wordpress sites gold</string>
+		<string>Web Design  website Development  Graphic Design  Print Production  Business Identity  Advertising Design   Multi-Media Design  logos  websites  brochures  posters  CMS  wordpress sites</string>
 		<key>name</key>
 		<string>Parrish Art and Design</string>
 		<key>phone</key>
@@ -12178,7 +12178,7 @@
 		<key>longitude</key>
 		<string>-121.977319</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Physicians Medical Group of Santa Cruz County</string>
 		<key>phone</key>
@@ -12408,7 +12408,7 @@
 		<key>longitude</key>
 		<string>-121.982409</string>
 		<key>meta</key>
-		<string>radiology  radiologist  xray  x-ray  mri  imaging gold</string>
+		<string>radiology  radiologist  xray  x-ray  mri  imaging </string>
 		<key>name</key>
 		<string>Radiology Medical Group of Santa Cruz County  Inc.</string>
 		<key>phone</key>
@@ -12638,7 +12638,7 @@
 		<key>longitude</key>
 		<string>-122.021373</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Riverside Lighting &amp; Electric</string>
 		<key>phone</key>
@@ -14064,7 +14064,7 @@
 		<key>longitude</key>
 		<string>-121.760706</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Santa Cruz Staffing</string>
 		<key>phone</key>
@@ -14800,7 +14800,7 @@
 		<key>longitude</key>
 		<string>-122.031805</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Slatter Construction  Inc.</string>
 		<key>phone</key>
@@ -14892,7 +14892,7 @@
 		<key>longitude</key>
 		<string>-122.026559</string>
 		<key>meta</key>
-		<string>shoes dansko socks merrell teva vibram knee socks keen purses handbags toesocks smartwool socksmith birkenstock footwear clarks hotsox sockittome tights hosiery eg smith sorel indigo five fingers spanx allen edmond purses accessories shoe lace fingerless gloves gold</string>
+		<string>shoes dansko socks merrell teva vibram knee socks keen purses handbags toesocks smartwool socksmith birkenstock footwear clarks hotsox sockittome tights hosiery eg smith sorel indigo five fingers spanx allen edmond purses accessories shoe lace fingerless gloves</string>
 		<key>name</key>
 		<string>Sockshop &amp; Shoe Company</string>
 		<key>phone</key>
@@ -15030,7 +15030,7 @@
 		<key>longitude</key>
 		<string>-122.01605</string>
 		<key>meta</key>
-		<string>solar  solar power  solar contractor  solar installer  solar power systems  solar electric  solar electricity  solar panels  solar energy  contractor  electricity  electrical  PG&amp;E  solar system contractor  solar power contractor  solar power installer  solar homes gold</string>
+		<string>solar  solar power  solar contractor  solar installer  solar power systems  solar electric  solar electricity  solar panels  solar energy  contractor  electricity  electrical  PG&amp;E  solar system contractor  solar power contractor  solar power installer  solar homes</string>
 		<key>name</key>
 		<string>Solar Technologies</string>
 		<key>phone</key>
@@ -15168,7 +15168,7 @@
 		<key>longitude</key>
 		<string>-122.008124</string>
 		<key>meta</key>
-		<string>organic  fresh  bulk  food  sustainable  farmers  market  fish  pork  vegetables  eggs  crab  wine  local  produce  healthy  health  beauty  products  grocery  groceries  store gold</string>
+		<string>organic  fresh  bulk  food  sustainable  farmers  market  fish  pork  vegetables  eggs  crab  wine  local  produce  healthy  health  beauty  products  grocery  groceries  store</string>
 		<key>name</key>
 		<string>Staff of Life</string>
 		<key>phone</key>
@@ -15306,7 +15306,7 @@
 		<key>longitude</key>
 		<string>-122.03099</string>
 		<key>meta</key>
-		<string>graphic design custom signs banners stickers digital prints gold</string>
+		<string>graphic design custom signs banners stickers digital prints </string>
 		<key>name</key>
 		<string>Stokes Signs</string>
 		<key>phone</key>
@@ -15582,7 +15582,7 @@
 		<key>longitude</key>
 		<string>-122.03138</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Surf City Plumbing</string>
 		<key>phone</key>
@@ -15720,7 +15720,7 @@
 		<key>longitude</key>
 		<string>-122.025795</string>
 		<key>meta</key>
-		<string>Clothing      Organic cotton         fair-trade          Synergy Organic Clothing        sustainable        organic      Synergy                         Synergy Clothing     eco fashion      eco-friendly        green fashion      fashion      gold</string>
+		<string>Clothing      Organic cotton         fair-trade          Synergy Organic Clothing        sustainable        organic      Synergy                         Synergy Clothing     eco fashion      eco-friendly        green fashion      fashion      </string>
 		<key>name</key>
 		<string>Synergy Organic Clothing </string>
 		<key>phone</key>
@@ -15766,7 +15766,7 @@
 		<key>longitude</key>
 		<string>-122.011561</string>
 		<key>meta</key>
-		<string>Clothing      Organic cotton         fair-trade          Synergy Organic Clothing        sustainable        organic      Synergy  Synergy Clothing     eco fashion      eco-friendly        green fashion      fashion      gold</string>
+		<string>Clothing      Organic cotton         fair-trade          Synergy Organic Clothing        sustainable        organic      Synergy  Synergy Clothing     eco fashion      eco-friendly        green fashion      fashion      </string>
 		<key>name</key>
 		<string>Synergy Organic Clothing Outlet</string>
 		<key>phone</key>
@@ -16456,7 +16456,7 @@
 		<key>longitude</key>
 		<string>-122.03039</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>THE PRINT GALLERY</string>
 		<key>phone</key>
@@ -16686,7 +16686,7 @@
 		<key>longitude</key>
 		<string>-121.99772</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Tom&apos;s Medical Clinic Pharmacy</string>
 		<key>phone</key>
@@ -16732,7 +16732,7 @@
 		<key>longitude</key>
 		<string>-122.027561</string>
 		<key>meta</key>
-		<string>telephone phone call calling calls PBX iPBX ITSP voicemail ring fax faxing fax-to-email gold</string>
+		<string>telephone phone call calling calls PBX iPBX ITSP voicemail ring fax faxing fax-to-email</string>
 		<key>name</key>
 		<string>ToTel Communicaitons</string>
 		<key>phone</key>
@@ -17008,7 +17008,7 @@
 		<key>longitude</key>
 		<string>-121.918466</string>
 		<key>meta</key>
-		<string>Insurance Auto Insurance Home Insurance Life Insurance Business Insurance Motorcycle Insurance Recreational Insurance Financial Affiliate Products Health Insurance Travel Insurance gold</string>
+		<string>Insurance Auto Insurance Home Insurance Life Insurance Business Insurance Motorcycle Insurance Recreational Insurance Financial Affiliate Products Health Insurance Travel Insurance</string>
 		<key>name</key>
 		<string>Vokos Insurance</string>
 		<key>phone</key>
@@ -17284,7 +17284,7 @@
 		<key>longitude</key>
 		<string>-121.767273</string>
 		<key>meta</key>
-		<string>FRESH ORGANIC AND COVENTIONAL PRODUCE gold</string>
+		<string>FRESH ORGANIC AND COVENTIONAL PRODUCE</string>
 		<key>name</key>
 		<string>WATSONVILLE COAST PRODUCE  INC.</string>
 		<key>phone</key>

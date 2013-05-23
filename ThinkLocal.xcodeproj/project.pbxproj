@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83309605174E90AB009497C1 /* TLFMemberList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83309604174E90AB009497C1 /* TLFMemberList.plist */; };
 		8331A48A1742FD4C00F1EC33 /* TLFMemberList0514.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */; };
 		834965FE172DBC4F00F049B0 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834965FD172DBC4F00F049B0 /* TabBarController.m */; };
 		834FEB061741705E0072F19D /* logo_12AMDesign.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB011741705E0072F19D /* logo_12AMDesign.png */; };
@@ -130,7 +131,7 @@
 		83EF06ED174A959F00270E70 /* logo_RiversideLighting.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06DD174A959E00270E70 /* logo_RiversideLighting.JPG */; };
 		83EF06EE174A959F00270E70 /* logo_StokesSigns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06DE174A959E00270E70 /* logo_StokesSigns.jpg */; };
 		83EF06EF174A959F00270E70 /* logo_SurfnetComms.BMP in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06DF174A959E00270E70 /* logo_SurfnetComms.BMP */; };
-		83EF06F1174A9B3D00270E70 /* TLFMemberList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06F0174A9B3D00270E70 /* TLFMemberList.plist */; };
+		83EF06F1174A9B3D00270E70 /* TLFMemberList0522.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83EF06F0174A9B3D00270E70 /* TLFMemberList0522.plist */; };
 		83F3E15E172B0B1500221519 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3E15A172B0B1300221519 /* globe.png */; };
 		83F3E15F172B0B1500221519 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3E15B172B0B1400221519 /* house.png */; };
 		83F3E160172B0B1500221519 /* trolley.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3E15C172B0B1400221519 /* trolley.png */; };
@@ -152,6 +153,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83309604174E90AB009497C1 /* TLFMemberList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList.plist; sourceTree = "<group>"; };
 		8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList0514.plist; sourceTree = "<group>"; };
 		834965FC172DBC4F00F049B0 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		834965FD172DBC4F00F049B0 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
@@ -291,7 +293,7 @@
 		83EF06DD174A959E00270E70 /* logo_RiversideLighting.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_RiversideLighting.JPG; sourceTree = "<group>"; };
 		83EF06DE174A959E00270E70 /* logo_StokesSigns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_StokesSigns.jpg; sourceTree = "<group>"; };
 		83EF06DF174A959E00270E70 /* logo_SurfnetComms.BMP */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = logo_SurfnetComms.BMP; sourceTree = "<group>"; };
-		83EF06F0174A9B3D00270E70 /* TLFMemberList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList.plist; sourceTree = "<group>"; };
+		83EF06F0174A9B3D00270E70 /* TLFMemberList0522.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TLFMemberList0522.plist; sourceTree = "<group>"; };
 		83F3E15A172B0B1300221519 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
 		83F3E15B172B0B1400221519 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		83F3E15C172B0B1400221519 /* trolley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trolley.png; sourceTree = "<group>"; };
@@ -607,7 +609,8 @@
 		83F3E165172B493300221519 /* App Member PList */ = {
 			isa = PBXGroup;
 			children = (
-				83EF06F0174A9B3D00270E70 /* TLFMemberList.plist */,
+				83309604174E90AB009497C1 /* TLFMemberList.plist */,
+				83EF06F0174A9B3D00270E70 /* TLFMemberList0522.plist */,
 				8331A4891742FD4C00F1EC33 /* TLFMemberList0514.plist */,
 				834FEB0B174172720072F19D /* TLFMemberList0512.plist */,
 				83E05AE6173956730019A214 /* ThinkLocalFirstDemo.plist */,
@@ -807,7 +810,8 @@
 				83EF06ED174A959F00270E70 /* logo_RiversideLighting.JPG in Resources */,
 				83EF06EE174A959F00270E70 /* logo_StokesSigns.jpg in Resources */,
 				83EF06EF174A959F00270E70 /* logo_SurfnetComms.BMP in Resources */,
-				83EF06F1174A9B3D00270E70 /* TLFMemberList.plist in Resources */,
+				83EF06F1174A9B3D00270E70 /* TLFMemberList0522.plist in Resources */,
+				83309605174E90AB009497C1 /* TLFMemberList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,11 +19,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390857564.452476"
+         timestampString = "391024498.074317"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -32,11 +32,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390869331.16358"
+         timestampString = "391028220.57461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "174"
-         endingLineNumber = "174"
+         startingLineNumber = "192"
+         endingLineNumber = "192"
          landmarkName = "@implementation BigMapViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -58,11 +58,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390857564.452476"
+         timestampString = "391024498.074317"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
+         startingLineNumber = "63"
+         endingLineNumber = "63"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -84,24 +84,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/TestingViewController.m"
-         timestampString = "390696898.542177"
+         timestampString = "390951270.671104"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "137"
-         endingLineNumber = "137"
+         startingLineNumber = "151"
+         endingLineNumber = "151"
          landmarkName = "-test02:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/TestingViewController.m"
-         timestampString = "390696891.264702"
+         timestampString = "390951270.671104"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "105"
-         endingLineNumber = "105"
+         startingLineNumber = "121"
+         endingLineNumber = "121"
          landmarkName = "-test01:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -162,11 +162,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390869331.16358"
+         timestampString = "391028220.57461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "204"
-         endingLineNumber = "204"
+         startingLineNumber = "222"
+         endingLineNumber = "222"
          landmarkName = "-loadPins"
          landmarkType = "5">
       </FileBreakpoint>
@@ -175,11 +175,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390857564.452476"
+         timestampString = "391024498.074317"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "65"
-         endingLineNumber = "65"
+         startingLineNumber = "66"
+         endingLineNumber = "66"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -188,11 +188,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390869331.16358"
+         timestampString = "391028220.57461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "167"
-         endingLineNumber = "167"
+         startingLineNumber = "185"
+         endingLineNumber = "185"
          landmarkName = "-calculateCenter"
          landmarkType = "5">
       </FileBreakpoint>
@@ -201,11 +201,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390869331.16358"
+         timestampString = "391028220.57461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "172"
-         endingLineNumber = "172"
+         startingLineNumber = "190"
+         endingLineNumber = "190"
          landmarkName = "-calculateCenter"
          landmarkType = "5">
       </FileBreakpoint>
@@ -214,11 +214,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ThinkLocalFirst/BigMapViewController.m"
-         timestampString = "390860426.214361"
+         timestampString = "391028220.57461"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "135"
-         endingLineNumber = "135"
+         startingLineNumber = "153"
+         endingLineNumber = "153"
          landmarkName = "-calculateCenter"
          landmarkType = "5">
       </FileBreakpoint>
