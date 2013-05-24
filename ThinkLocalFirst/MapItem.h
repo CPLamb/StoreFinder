@@ -12,6 +12,7 @@
 @interface MapItem : NSObject <MKAnnotation> {
     NSNumber *latitude;
     NSNumber *longitude;
+    BOOL hasShop;
 }
 
 @property (nonatomic, strong) NSDictionary* memberData;
@@ -24,4 +25,6 @@
 @property (nonatomic, copy) NSString *subTitle;
 
 - (id)initWithCoordinates:(CLLocationCoordinate2D )location placeName:(NSString *)placeName description:(NSString *)description;
+- (id)initWithCoordinates:(CLLocationCoordinate2D )location memberData:(NSDictionary *)memberData;
+
 @end

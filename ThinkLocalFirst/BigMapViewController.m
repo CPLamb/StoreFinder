@@ -21,7 +21,8 @@
 
 const float MIN_MAP_ZOOM_METERS = 500.0;
 const float MAX_MAP_ZOOM_METERS = 75000.0;
-const int  MAX_PINS_TO_DROP = 40;
+const float DEFAULT_SPAN = 10000.0;
+const int  MAX_PINS_TO_DROP = 60;
 
 #pragma mark - View lifecycle methods
 
@@ -69,19 +70,16 @@ const int  MAX_PINS_TO_DROP = 40;
 - (void)viewDidAppear:(BOOL)animated {
 //    NSLog(@"%@ DID appear...", self);
 
-//    [self calculateCenter];
-    //
     [self.mapView setRegion:self.centerRegion animated:YES];
     
     
 // Limit the toal number pins to drop to MAX_PINS_TO_DROP so that map view is not too cluttered
     NSLog(@"Pins in the select = %d", [self.mapAnnotations count]);
     
-    int annotationsCount = [self.mapAnnotations count];
-    
+    int annotationsCount = [self.mapAnnotations count];    
 // Limits the total number of pins dropped
     if (annotationsCount > MAX_PINS_TO_DROP) {
-        // Add only MAX_PIN_TO_DROP to the map
+// Add only MAX_PIN_TO_DROP to the map
         int location = MAX_PINS_TO_DROP;
         int length = [self.mapAnnotations count] - MAX_PINS_TO_DROP;
         NSMutableArray *aClippedArray = [NSMutableArray arrayWithArray:self.mapAnnotations];
@@ -91,6 +89,8 @@ const int  MAX_PINS_TO_DROP = 40;
 // Add all of the pins
         [self.mapView addAnnotations:self.mapAnnotations];        
     }
+// Displays annotation
+    [self.mapView selectAnnotation:[self.mapAnnotations objectAtIndex:0] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -127,7 +127,6 @@ const int  MAX_PINS_TO_DROP = 40;
         points[i++] = MKMapPointForCoordinate(annotation.coordinate);
     }
  
-// TODO: commented out fixes the %110 span view / breaks the initial view
 //    MKPolygon *poly = [MKPolygon polygonWithPoints:points count:i];
 //    [self.mapView setRegion:MKCoordinateRegionForMapRect([poly boundingMapRect]) animated:YES];
 }
@@ -167,10 +166,10 @@ const int  MAX_PINS_TO_DROP = 40;
     
     CLLocationCoordinate2D centerCoordinate = CLLocationCoordinate2DMake((minCoord.latitude + maxCoord.latitude)/2, (minCoord.longitude + maxCoord.longitude)/2);
     
-// Initializes distance at 2 kilometers if both coordinates are the same
+// Initializes distance at DEFAULT_SPAN if both coordinates are the same
     float distance = 500;
     if ((minCoord.latitude == maxCoord.latitude) && (maxCoord.longitude == maxCoord.longitude)) {
-        distance = 10000;
+        distance = DEFAULT_SPAN;
     } else {
         distance = [minLocation distanceFromLocation:maxLocation];
     }
@@ -227,10 +226,12 @@ const int  MAX_PINS_TO_DROP = 40;
         double aLongitude = [aLongitudeString doubleValue];
         CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(aLatitude, aLongitude);
         
-        NSString *aName = [d objectForKey:@"name"];
-        NSString *aDescription = [d objectForKey:@"description"];
+//        NSString *aName = [d objectForKey:@"name"];
+//        NSString *aDescription = [d objectForKey:@"description"];
+//        BOOL hasShop = [d objectForKey:@"hasShop"];
         
-        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
+//        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
+        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates memberData:d];
 
         aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
         [self.mapAnnotations addObject:aNewPin];
@@ -254,8 +255,7 @@ const int  MAX_PINS_TO_DROP = 40;
     [self zoomToFitMapAnnotations];
     
     // If defaultPin is set, select it when we view the map
-    [self.mapView selectAnnotation:self.defaultPin animated:YES];
-    
+    [self.mapView selectAnnotation:self.defaultPin animated:YES];    
 }
 
 
@@ -268,61 +268,8 @@ const int  MAX_PINS_TO_DROP = 40;
         DetailViewController* dvc = [segue destinationViewController];
         NSLog(@"Preparing for segue with identifier '%@' to show item: %@", [segue identifier], item);
         dvc.detailItem = item.memberData;
-    }
-    
+    }    
 }
-
-
-/*
-// Custom setter method for mapAnnotations
-- (void)setMapAnnotations:(NSMutableArray *)newMapAnnotations {
-    NSLog(@"How's this setter thang work?");
-    if (_mapAnnotations != newMapAnnotations) {
-        _mapAnnotations = newMapAnnotations;
-        [self configureView];
-    }
-    NSLog(@"This is the map Annotations array %@", self.mapAnnotations);
-}
-
-- (void)configureView
-{
-    // Update the user interface whenever the detail item changes.
-    
-    if (self.mapAnnotations) {
-        // Get latitude & longitude doubles from the detailItem dictionary
-        NSString *countryLatitude = @"37.0";       //[self.detailItem objectForKey:@"latitude"];
-        double latitudeNumber = [countryLatitude doubleValue];
-        CLLocationDegrees latitudeLocation = latitudeNumber;
-        
-        NSString *countryLongitude = @"-122";        //[self.detailItem objectForKey:@"longitude"];
-        double longitudeNumber = [countryLongitude doubleValue];
-        CLLocationDegrees longitudeLocation = longitudeNumber;
-        
-        // Getting area in square miles to calculate the span
-        NSString *areaString = @"12";           // [self.detailItem objectForKey:@"Area"];
-        int area = [areaString intValue];
-        double span = [self calculateSpan:area];
-//        [self calculateCenter];
-
-        // Moving & redsizing the mapview region
-//        self.nameLabel.text = [self.detailItem objectForKey:@"name"];
-//        self.descriptionLabel.text =  [NSString stringWithFormat:@"Located at %3.2f %3.2f, Span = %2.1f", latitudeNumber, longitudeNumber, span];
-        [self.mapView setRegion:MKCoordinateRegionMake(CLLocationCoordinate2DMake(latitudeLocation, longitudeLocation), MKCoordinateSpanMake(span, span)) animated:YES];
- 
-    }
-}
-
-
-- (IBAction)dropPinButton:(id)sender {
-    NSLog(@"Drops a pin close to my home");
-
-    CLLocationCoordinate2D aNewLocation = CLLocationCoordinate2DMake(36.968, -121.9987);
-    MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:aNewLocation placeName:@"CPLamb Labs" description:@"awesome apps!"];
-    [self.mapAnnotations addObject:aNewPin];
-    [self.mapView addAnnotation:aNewPin];
- 
-}
-*/
 
 - (IBAction)removeAllPins:(UIButton *)sender {
 //    NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
@@ -334,6 +281,7 @@ const int  MAX_PINS_TO_DROP = 40;
 
 
 #pragma mark - MapView Annotation Methods
+
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
 // Sends User to the DetailViewController
@@ -366,9 +314,17 @@ const int  MAX_PINS_TO_DROP = 40;
             MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
                                                   initWithAnnotation:annotation reuseIdentifier:BridgeAnnotationIdentifier];
             customPinView.pinColor = MKPinAnnotationColorPurple;
-//            customPinView.alpha = 0.87;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
+            
+        // Determines type of pin depending upon hasShop field
+            if (TRUE) {
+                customPinView.pinColor = MKPinAnnotationColorPurple;
+      //          customPinView.image = [UIImage imageNamed:@"dolphins.png"];
+            } else {
+             //   customPinView.pinColor = MKPinAnnotationColorGreen;
+                customPinView.image = [UIImage imageNamed:@"lobster-export.png"];
+            }
             
             // add a detail disclosure button to the callout which will open a new view controller page
             //

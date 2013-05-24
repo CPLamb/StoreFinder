@@ -9,15 +9,16 @@
 #import "MapItem.h"
 #include <stdlib.h>
 
-@implementation MapItem
 
 #define HOME_LAT 36.96805
 #define HOME_LONG -121.9987
 
+@implementation MapItem
 @synthesize title = _title;
 @synthesize subTitle = _subTitle;
 @synthesize latitude = _latitude;
 @synthesize longitude = _longitude;
+@synthesize memberData = _memberData;
 
 #pragma mark Overidden getter
 
@@ -37,6 +38,15 @@
     _title = placeName;
     _subTitle = description;
     
+    return self;
+}
+
+- (id)initWithCoordinates:(CLLocationCoordinate2D)location memberData:(NSDictionary *)memberData {
+    _latitude = [NSNumber numberWithDouble:location.latitude];
+    _longitude = [NSNumber numberWithDouble:location.longitude];
+    _title = [memberData objectForKey:@"name"];
+    _subTitle = [memberData objectForKey:@"category"];
+    hasShop = [[memberData objectForKey:@"hasShop"] boolValue];
     
     return self;
 }

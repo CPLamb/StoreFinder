@@ -146,13 +146,13 @@
 */
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"The segue identifier is %@", [segue identifier]);
+//    NSLog(@"The segue identifier is %@", [segue identifier]);
     
 // Show Details screen
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
         NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-        NSLog(@"IndexPath = %@", indexPath);
+//        NSLog(@"IndexPath = %@", indexPath);
         
 // Sets the detailItem to the selected item
         [[segue destinationViewController] setDetailItem:object];
