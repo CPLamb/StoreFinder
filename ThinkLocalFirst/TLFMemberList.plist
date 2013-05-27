@@ -20,11 +20,11 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/CouponSample_480x320.png</string>
 		<key>description</key>
-		<string>Professional design has become something that businesses can&apos;t do without. 12 AM Design exists for all creative projects at the professional level  but with a personal touch. Make it a reality with 12 AM Design  and remember  ideas come at all hours!</string>
+		<string>Professional design has become something that businesses can't do without. 12 AM Design exists for all creative projects at the professional level  but with a personal touch. Make it a reality with 12 AM Design  and remember  ideas come at all hours!</string>
 		<key>email</key>
 		<string>mail@12amdesign.com</string>
 		<key>hasCoupon</key>
-		<string>n</string>
+		<string>y</string>
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
@@ -74,11 +74,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>37.300542</string>
+		<string>36.97474</string>
 		<key>logo</key>
 		<string>logo_360Payment.jpg</string>
 		<key>longitude</key>
-		<string>-121.931967</string>
+		<string>-122.03143</string>
 		<key>meta</key>
 		<string>Merchant Services    Credit Card Processing    Lower Rates   Credit Card Terminals  Veriphone  Hypercom  Nurit</string>
 		<key>name</key>
@@ -104,7 +104,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Tom Ragle</string>
 		<key>couponOffer</key>
@@ -120,11 +120,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.980472</string>
+		<string>36.98031</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-121.964893</string>
+		<string>-121.96511</string>
 		<key>meta</key>
 		<string>gold</string>
 		<key>name</key>
@@ -150,7 +150,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Shannon Demma</string>
 		<key>couponOffer</key>
@@ -472,7 +472,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Barbara Knirlberger</string>
 		<key>couponOffer</key>
@@ -488,11 +488,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.97647</string>
+		<string>36.9763</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-121.954999</string>
+		<string>-121.9547</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -526,7 +526,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>A unique european style bucket shop. Amy Scott of Ace&apos;s Flowers has 25 years experience in the floral industry. She started in the wholesale/ floral farm.</string>
+		<string>A unique european style bucket shop. Amy Scott of Ace's Flowers has 25 years experience in the floral industry. She started in the wholesale/ floral farm.</string>
 		<key>email</key>
 		<string>amy@acesflowers.com</string>
 		<key>hasCoupon</key>
@@ -542,7 +542,7 @@
 		<key>meta</key>
 		<string>Flowers Florist Delivery</string>
 		<key>name</key>
-		<string>Ace&apos;s Flowers</string>
+		<string>Ace's Flowers</string>
 		<key>phone</key>
 		<string>(831) 688-2237</string>
 		<key>state</key>
@@ -564,7 +564,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Dean Adams</string>
 		<key>couponOffer</key>
@@ -586,7 +586,7 @@
 		<key>longitude</key>
 		<string>-121.9502</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Action Carpet &amp; Upholstery Cleaning</string>
 		<key>phone</key>
@@ -656,7 +656,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Cliff Hodges</string>
 		<key>couponOffer</key>
@@ -664,7 +664,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Adventure Out is California&apos;s premiere outdoor school specializing in surf camps  rock climbing classes  backpacking trips  mountain biking  and wilderness survival skills instruction. </string>
+		<string>Adventure Out is California's premiere outdoor school specializing in surf camps  rock climbing classes  backpacking trips  mountain biking  and wilderness survival skills instruction. </string>
 		<key>email</key>
 		<string>cliff@adventureout.com</string>
 		<key>hasCoupon</key>
@@ -672,11 +672,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.9742</string>
+		<string>36.9737</string>
 		<key>logo</key>
 		<string>logo_AdventureOut.jpg</string>
 		<key>longitude</key>
-		<string>-122.0311</string>
+		<string>-122.032</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -702,7 +702,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Bonnie Ford</string>
 		<key>couponOffer</key>
@@ -864,7 +864,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Aldo&apos;s Harbor Restaurant</string>
+		<string>Aldo's Harbor Restaurant</string>
 		<key>phone</key>
 		<string>831-426-3736</string>
 		<key>state</key>
@@ -932,7 +932,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Ernie McCoy</string>
 		<key>couponOffer</key>
@@ -948,11 +948,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.9741</string>
+		<string>36.9744</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.031</string>
+		<string>-122.03</string>
 		<key>meta</key>
 		<string>clean cleaning tile grout stone marble limestone travertine brick concrete walkway patio floor shower counter bathtub sealing mold mildew dirt </string>
 		<key>name</key>
@@ -978,7 +978,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>James Allen</string>
 		<key>couponOffer</key>
@@ -992,7 +992,7 @@
 		<key>hasCoupon</key>
 		<string>y</string>
 		<key>hasShop</key>
-		<string>n</string>
+		<string>y</string>
 		<key>latitude</key>
 		<string>36.960184</string>
 		<key>logo</key>
@@ -1024,7 +1024,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Micah Breeden</string>
 		<key>couponOffer</key>
@@ -1038,7 +1038,7 @@
 		<key>hasCoupon</key>
 		<string>y</string>
 		<key>hasShop</key>
-		<string>n</string>
+		<string>y</string>
 		<key>latitude</key>
 		<string>36.960182</string>
 		<key>logo</key>
@@ -1232,7 +1232,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Andy&apos;s Auto Supply</string>
+		<string>Andy's Auto Supply</string>
 		<key>phone</key>
 		<string>831-423-8400</string>
 		<key>state</key>
@@ -1300,7 +1300,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Charmaine Frank</string>
 		<key>couponOffer</key>
@@ -1314,13 +1314,13 @@
 		<key>hasCoupon</key>
 		<string>y</string>
 		<key>hasShop</key>
-		<string>n</string>
+		<string>y</string>
 		<key>latitude</key>
-		<string>38.71634</string>
+		<string>37.05318</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-121.364542</string>
+		<string>-122.00963</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -1346,7 +1346,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Annie</string>
 		<key>couponOffer</key>
@@ -1438,7 +1438,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Betty Roddick</string>
 		<key>couponOffer</key>
@@ -1622,7 +1622,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Mike Arenson</string>
 		<key>couponOffer</key>
@@ -1898,7 +1898,7 @@
 		<key>city</key>
 		<string>Felton</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Barbara Hanson</string>
 		<key>couponOffer</key>
@@ -1952,7 +1952,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>As a third generation builder Barry Swenson Builder uses a &apos;can-do&apos; approach which is based on a heritage of quality  diversity and functional creativity; dedicated to providing the highest quality service while maintaining a cost-effective approach.</string>
+		<string>As a third generation builder Barry Swenson Builder uses a 'can-do' approach which is based on a heritage of quality  diversity and functional creativity; dedicated to providing the highest quality service while maintaining a cost-effective approach.</string>
 		<key>email</key>
 		<string>jcosby@barryswensonbuilder.com</string>
 		<key>hasCoupon</key>
@@ -1990,7 +1990,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Caleb Sequoia Baskin</string>
 		<key>couponOffer</key>
@@ -2076,35 +2076,31 @@
 		<key>address</key>
 		<string>3333 Clares Street</string>
 		<key>area</key>
-		<string>Capitola</string>
-		<key>category</key>
 		<string>Banks &amp; Credit Unions</string>
+		<key>category</key>
+		<string>y</string>
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Tiffany Zachmeier</string>
 		<key>couponOffer</key>
-		<string>2 for 1 1st visit</string>
-		<key>couponURL</key>
-		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon05.jpg</string>
+		<string>2 for 1 earn seminar workshop santa cruz eligible eligibility lighthouse county monterey benito member membership benefit benefits discount ticket tickets buy buyer purchase want new used pre-owned Capitola Watsonville Freedom Scotts Valley Lomond downtown local best better great good service exceptional quality CD deposit withdrawal teller coin coins count counter counting volunteer volunteers volunteering support community value valuable reliable friendly safe safety reliable help helpful award gold</string>
 		<key>description</key>
 		<string>Bay Federal membership is open to people who live or work in Santa Cruz  Monterey  and San Benito Counties. Please come to us for personal and business accounts  auto and home loans  free online banking  and nationwide  surcharge-free ATMs.</string>
 		<key>email</key>
 		<string>tzachmeier@bayfed.com</string>
-		<key>hasCoupon</key>
-		<string>y</string>
 		<key>hasShop</key>
-		<string>y</string>
+		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon05.jpg</string>
 		<key>latitude</key>
-		<string>36.97432</string>
+		<string>36.97644</string>
 		<key>logo</key>
-		<string>logo_BayFederal.jpg</string>
+		<string>Capitola</string>
 		<key>longitude</key>
-		<string>-121.96972</string>
+		<string>-121.97019</string>
 		<key>meta</key>
-		<string>bank baligible eligibility lighthouse county monterey benito member membership benefit benefits discount ticket tickets buy buyer purchase want new used pre-owned Capitola Watsonville Freedom Scotts Valley Lomond downtown local best better great good service exceptional quality CD deposit withdrawal teller coin coins count counter counting volunteer volunteers volunteering support community value valuable reliable friendly safe safety reliable help helpful award gold</string>
+		<string>Gold</string>
 		<key>name</key>
 		<string>Bay Federal Credit Union</string>
 		<key>phone</key>
@@ -2112,7 +2108,7 @@
 		<key>state</key>
 		<string>CA</string>
 		<key>type</key>
-		<string>Gold</string>
+		<string>y</string>
 		<key>url</key>
 		<string>www.bayfed.com</string>
 		<key>zip</key>
@@ -2146,7 +2142,7 @@
 		<key>latitude</key>
 		<string>36.98538</string>
 		<key>logo</key>
-		<string>files/images/members/BP_Logo.jpg</string>
+		<string>logo_BayPlumbing.jpg</string>
 		<key>longitude</key>
 		<string>-121.98836</string>
 		<key>meta</key>
@@ -2228,7 +2224,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Family owned and operated winery specializing in locally grown Pinot Noir and Chardonnay.  We\&apos;re located in rustic Bonny Doon  CA just 3 miles off of Hwy 1.  Tasting room open daily 11am-5pm.</string>
+		<string>Family owned and operated winery specializing in locally grown Pinot Noir and Chardonnay.  We\'re located in rustic Bonny Doon  CA just 3 miles off of Hwy 1.  Tasting room open daily 11am-5pm.</string>
 		<key>email</key>
 		<string>Rachel@beauregardvineyards.com</string>
 		<key>hasCoupon</key>
@@ -2266,7 +2262,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Will Beckett</string>
 		<key>couponOffer</key>
@@ -2312,7 +2308,7 @@
 		<key>city</key>
 		<string> Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Peter Beckmann</string>
 		<key>couponOffer</key>
@@ -2320,7 +2316,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/Coupon02.png</string>
 		<key>description</key>
-		<string>It&apos;s time for Brotzeit!  Nurturing the Old World tradition of breadbaking since 1985. </string>
+		<string>It's time for Brotzeit!  Nurturing the Old World tradition of breadbaking since 1985. </string>
 		<key>email</key>
 		<string>pbeckmann2000@gmail.com</string>
 		<key>hasCoupon</key>
@@ -2336,7 +2332,7 @@
 		<key>meta</key>
 		<string>healthy baked bread pies bakery gold</string>
 		<key>name</key>
-		<string>Beckmann&apos;s Bakery</string>
+		<string>Beckmann's Bakery</string>
 		<key>phone</key>
 		<string>(831) 423-9242</string>
 		<key>state</key>
@@ -2358,7 +2354,7 @@
 		<key>city</key>
 		<string> Ben Lomond</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Gael Abayan</string>
 		<key>couponOffer</key>
@@ -2372,7 +2368,7 @@
 		<key>hasCoupon</key>
 		<string>y</string>
 		<key>hasShop</key>
-		<string>y</string>
+		<string>n</string>
 		<key>latitude</key>
 		<string>37.091441</string>
 		<key>logo</key>
@@ -2456,7 +2452,7 @@
 		<key>couponOffer</key>
 		<string></string>
 		<key>couponURL</key>
-		<string></string>
+		<string>http://www.big-creek.com/specials-and-promotions/santa-cruz</string>
 		<key>description</key>
 		<string>Big Creek Lumber is a family-owned and operated lumber company that has been serving central California since 1946.  We currently operate five Pro Dealer retail lumber yards, sawmill, wholesale division, forestry department, and logging operation.</string>
 		<key>email</key>
@@ -2488,98 +2484,6 @@
 	</dict>
 	<dict>
 		<key>address</key>
-		<string>1129 Soquel Ave. Santa Cruz  CA 95062</string>
-		<key>area</key>
-		<string>Santa Cruz</string>
-		<key>category</key>
-		<string>Apparel</string>
-		<key>city</key>
-		<string>Santa Cruz</string>
-		<key>color</key>
-		<string>green</string>
-		<key>contact</key>
-		<string>Lisa Canepa</string>
-		<key>couponOffer</key>
-		<string>none</string>
-		<key>couponURL</key>
-		<string></string>
-		<key>description</key>
-		<string>Unique selection of women&apos;s clothing  lingerie  jewelry and accessories.  New shipments daily.   Free parking.</string>
-		<key>email</key>
-		<string>bluemoon@cruzio.com</string>
-		<key>hasCoupon</key>
-		<string>n</string>
-		<key>hasShop</key>
-		<string>y</string>
-		<key>latitude</key>
-		<string>36.979606</string>
-		<key>logo</key>
-		<string></string>
-		<key>longitude</key>
-		<string>-122.011193</string>
-		<key>meta</key>
-		<string>womens clothing apparel jewelry lingerie accessories </string>
-		<key>name</key>
-		<string>Blue Moon Clothing Santa Cruz</string>
-		<key>phone</key>
-		<string>(831) 469-4253</string>
-		<key>state</key>
-		<string>CA</string>
-		<key>type</key>
-		<string>Bronze</string>
-		<key>url</key>
-		<string></string>
-		<key>zip</key>
-		<string>95062</string>
-	</dict>
-	<dict>
-		<key>address</key>
-		<string>820 Soquel Avenue</string>
-		<key>area</key>
-		<string>Watsonville</string>
-		<key>category</key>
-		<string>Printers</string>
-		<key>city</key>
-		<string>Santa Cruz</string>
-		<key>color</key>
-		<string>green</string>
-		<key>contact</key>
-		<string>Donna Pope</string>
-		<key>couponOffer</key>
-		<string></string>
-		<key>couponURL</key>
-		<string></string>
-		<key>description</key>
-		<string>Full  blueprint service and supplies.  Large and small format reproduction.  Full color or color line up to 54&apos; wide.  Posters  Glossy photo  Photocopy  Plot/ Scan  and Display mount.  Always quick turnaround.  Family owned and operated since 1978. </string>
-		<key>email</key>
-		<string>bpx@cruzio.com</string>
-		<key>hasCoupon</key>
-		<string>n</string>
-		<key>hasShop</key>
-		<string>y</string>
-		<key>latitude</key>
-		<string>36.977632</string>
-		<key>logo</key>
-		<string></string>
-		<key>longitude</key>
-		<string>-122.01453</string>
-		<key>meta</key>
-		<string></string>
-		<key>name</key>
-		<string>Blueprint Express of Santa Cruz</string>
-		<key>phone</key>
-		<string>831-426-5299</string>
-		<key>state</key>
-		<string>CA</string>
-		<key>type</key>
-		<string>Bronze</string>
-		<key>url</key>
-		<string>www.bpxsantacruz.com</string>
-		<key>zip</key>
-		<string>95062</string>
-	</dict>
-	<dict>
-		<key>address</key>
 		<string>350A Coral St.</string>
 		<key>area</key>
 		<string>Santa Cruz</string>
@@ -2606,7 +2510,7 @@
 		<key>latitude</key>
 		<string>36.982367</string>
 		<key>logo</key>
-		<string>files/images/members/BOG1947PMS301.jpg</string>
+		<string>logo_BogardConstr.jpg</string>
 		<key>longitude</key>
 		<string>-122.032927</string>
 		<key>meta</key>
@@ -2704,7 +2608,7 @@
 		<key>meta</key>
 		<string>HEATING  AIR CONDITIONING  SHEET METAL  INDOOR AIR QUALITY  SERVICE  REPAIR  MAINTENANCE  LENNOX  BRYANT  DAY AND NIGHT</string>
 		<key>name</key>
-		<string>BOGNER&apos;S ALL AIR INC</string>
+		<string>BOGNER'S ALL AIR INC</string>
 		<key>phone</key>
 		<string>831-438-5254</string>
 		<key>state</key>
@@ -2772,7 +2676,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Casey Coonerty</string>
 		<key>couponOffer</key>
@@ -2788,11 +2692,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.97559</string>
+		<string>36.97566</string>
 		<key>logo</key>
 		<string>logo_BookShopSC.jpg</string>
 		<key>longitude</key>
-		<string>-122.026529</string>
+		<string>-122.02676</string>
 		<key>meta</key>
 		<string>gold</string>
 		<key>name</key>
@@ -2818,7 +2722,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Robert E. Bosso</string>
 		<key>couponOffer</key>
@@ -2834,11 +2738,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.985124</string>
+		<string>36.9856</string>
 		<key>logo</key>
 		<string>files/images/members/office.jpg</string>
 		<key>longitude</key>
-		<string>-122.046294</string>
+		<string>-122.0475</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -2910,7 +2814,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>NikolettaYukich</string>
 		<key>couponOffer</key>
@@ -2980,7 +2884,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Bruce&apos;s Medical Plaza Pharmacy</string>
+		<string>Bruce's Medical Plaza Pharmacy</string>
 		<key>phone</key>
 		<string>831-423-4363</string>
 		<key>state</key>
@@ -3002,7 +2906,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Donna Hawthorne Brunetti</string>
 		<key>couponOffer</key>
@@ -3026,7 +2930,7 @@
 		<key>meta</key>
 		<string>Interior Design Services Paint Consultation Custom Window Treatments Space Planning Tile layout and specification Fabric Selections Furniture Selection and Shopping </string>
 		<key>name</key>
-		<string>Brunetti&apos;s Interiors</string>
+		<string>Brunetti's Interiors</string>
 		<key>phone</key>
 		<string>831-438-1910</string>
 		<key>state</key>
@@ -3048,7 +2952,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Colin Herrick</string>
 		<key>couponOffer</key>
@@ -3066,7 +2970,7 @@
 		<key>latitude</key>
 		<string>36.96155</string>
 		<key>logo</key>
-		<string>files/images/members/buellinc.gif</string>
+		<string>logo_BuellWetsuits.gif</string>
 		<key>longitude</key>
 		<string>-122.048774</string>
 		<key>meta</key>
@@ -3194,7 +3098,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Sustainability Through Community Strength&apos;  Non Corporate  locally owned and operated Real Estate Brokerage interested in the future of our community and keeping business local and real. </string>
+		<string>Sustainability Through Community Strength'  Non Corporate  locally owned and operated Real Estate Brokerage interested in the future of our community and keeping business local and real. </string>
 		<key>email</key>
 		<string>heidi@californiadreamingrealestate.com</string>
 		<key>hasCoupon</key>
@@ -3204,7 +3108,7 @@
 		<key>latitude</key>
 		<string>37.051908</string>
 		<key>logo</key>
-		<string>files/images/members/californiadreaming.jpg</string>
+		<string>logo_CaliforniaDreaming.jpg</string>
 		<key>longitude</key>
 		<string>-122.073256</string>
 		<key>meta</key>
@@ -3232,7 +3136,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Pat Teutschel</string>
 		<key>couponOffer</key>
@@ -3332,7 +3236,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Where Quality is Affordable&apos;          Green Floorings Carpet  FSC Hardwoods  Bamboo  Natural Cork  Marmoleum  Laminates and Vinyl. Commercial and Residential Family owned and operated since 1978            Cont. Lic. # 387299      </string>
+		<string>Where Quality is Affordable'          Green Floorings Carpet  FSC Hardwoods  Bamboo  Natural Cork  Marmoleum  Laminates and Vinyl. Commercial and Residential Family owned and operated since 1978            Cont. Lic. # 387299      </string>
 		<key>email</key>
 		<string>rondoamin@aol.com</string>
 		<key>hasCoupon</key>
@@ -3370,7 +3274,7 @@
 		<key>city</key>
 		<string>CAPITOLA</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>SAUNDRA BOWERSOCK</string>
 		<key>couponOffer</key>
@@ -3554,7 +3458,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Kayla Peterson</string>
 		<key>couponOffer</key>
@@ -3576,7 +3480,7 @@
 		<key>longitude</key>
 		<string>-122.022073</string>
 		<key>meta</key>
-		<string>Northern Mediterranean Bistro Restaurant Local Organic Bar Wine Santa Cruz Beach Happy Hour Bar Wedding Event Beach Seafood Oceanview gold</string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Casablanca Bistro</string>
 		<key>phone</key>
@@ -3600,7 +3504,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Scott Catto</string>
 		<key>couponOffer</key>
@@ -3608,7 +3512,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon06.jpg</string>
 		<key>description</key>
-		<string>Catto&apos;s Graphics  has been serving Santa Cruz County since 1996.  We specialize in automated &amp; manual custom screen printing  large format digital printing  32 heads of embroidery  signs  banners  vehicle graphics and business forms.</string>
+		<string>Catto's Graphics  has been serving Santa Cruz County since 1996.  We specialize in automated &amp; manual custom screen printing  large format digital printing  32 heads of embroidery  signs  banners  vehicle graphics and business forms.</string>
 		<key>email</key>
 		<string>info@cattosgraphics.com</string>
 		<key>hasCoupon</key>
@@ -3624,7 +3528,7 @@
 		<key>meta</key>
 		<string>gold</string>
 		<key>name</key>
-		<string>Catto&apos;s Graphics  Inc.</string>
+		<string>Catto's Graphics  Inc.</string>
 		<key>phone</key>
 		<string>831-454-9742</string>
 		<key>state</key>
@@ -3692,7 +3596,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Mike Chamberlain</string>
 		<key>couponOffer</key>
@@ -3738,7 +3642,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Charles Doty</string>
 		<key>couponOffer</key>
@@ -3754,7 +3658,7 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9741</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
@@ -3800,11 +3704,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.975848</string>
+		<string>36.97571</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.026632</string>
+		<string>-122.02679</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -3830,7 +3734,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Chris Tuosto</string>
 		<key>couponOffer</key>
@@ -3838,7 +3742,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Open Enrollment&apos;Turning 65  Medicare Supplements Plans Medicare HMO&apos;s Prescription Drug Solutions Plans Assisted Living plans home Health Care Plans Dental Plans</string>
+		<string>Open Enrollment'Turning 65  Medicare Supplements Plans Medicare HMO's Prescription Drug Solutions Plans Assisted Living plans home Health Care Plans Dental Plans</string>
 		<key>email</key>
 		<string>tuostoinsurance@sbcglobal.net</string>
 		<key>hasCoupon</key>
@@ -3876,7 +3780,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Chuck Tremper</string>
 		<key>couponOffer</key>
@@ -3940,7 +3844,7 @@
 		<key>latitude</key>
 		<string>36.977895</string>
 		<key>logo</key>
-		<string>files/images/members/clean-tec_small.jpg</string>
+		<string>logo_CleanTec.jpg</string>
 		<key>longitude</key>
 		<string>-122.009575</string>
 		<key>meta</key>
@@ -3968,7 +3872,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Bob Mason  CPA</string>
 		<key>couponOffer</key>
@@ -3990,7 +3894,7 @@
 		<key>longitude</key>
 		<string>-121.991836</string>
 		<key>meta</key>
-		<string>accounting  taxes  payroll  bookkeeping  CPAs gold</string>
+		<string>accounting  taxes  payroll  bookkeeping  CPAs  gold</string>
 		<key>name</key>
 		<string>Coast Financial Services  Inc.</string>
 		<key>phone</key>
@@ -4032,7 +3936,7 @@
 		<key>latitude</key>
 		<string>36.981605</string>
 		<key>logo</key>
-		<string>files/images/members/CPS.JPG</string>
+		<string>logo_CoastPaper.JPG</string>
 		<key>longitude</key>
 		<string>-122.028045</string>
 		<key>meta</key>
@@ -4060,7 +3964,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Jessica Stutz</string>
 		<key>couponOffer</key>
@@ -4078,7 +3982,7 @@
 		<key>latitude</key>
 		<string>36.974551</string>
 		<key>logo</key>
-		<string>files/images/members/coastal_logo_4.jpg</string>
+		<string>logo_CoastalCulinary.jpg</string>
 		<key>longitude</key>
 		<string>-121.994816</string>
 		<key>meta</key>
@@ -4114,7 +4018,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Coffeetopia  founded in 1994 is Santa Cruz&apos;s premier Internet Coffee House. Coffeetopia serves Excellent Italian style espresso drinks  Organic coffees  teas  bagels  baked goods and desserts. Free wi-fi access and rental compuiters are available.</string>
+		<string>Coffeetopia  founded in 1994 is Santa Cruz's premier Internet Coffee House. Coffeetopia serves Excellent Italian style espresso drinks  Organic coffees  teas  bagels  baked goods and desserts. Free wi-fi access and rental compuiters are available.</string>
 		<key>email</key>
 		<string>dave@coffeetopia.com</string>
 		<key>hasCoupon</key>
@@ -4160,7 +4064,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Featuring a classic selection of vintage to modern for men and women  reproductions  pin up styles  men&apos;s retro shirts  tuxedos  costumes  and so much more  let our knowledge staff deck you out and dress you up! Locally owned since 1982.</string>
+		<string>Featuring a classic selection of vintage to modern for men and women  reproductions  pin up styles  men's retro shirts  tuxedos  costumes  and so much more  let our knowledge staff deck you out and dress you up! Locally owned since 1982.</string>
 		<key>email</key>
 		<string>cognotoclothing@comcast.net</string>
 		<key>hasCoupon</key>
@@ -4244,7 +4148,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Luis Chabolla</string>
 		<key>couponOffer</key>
@@ -4266,7 +4170,7 @@
 		<key>longitude</key>
 		<string>-121.9054</string>
 		<key>meta</key>
-		<string>community foundation philanthropy giving nonprofit </string>
+		<string>community foundation philanthropy giving nonprofit gold</string>
 		<key>name</key>
 		<string>Community Foundation Santa Cruz County</string>
 		<key>phone</key>
@@ -4294,11 +4198,11 @@
 		<key>contact</key>
 		<string>Dr. Donna Baird</string>
 		<key>couponOffer</key>
-		<string>30% off your pet&apos;s first laser therapy treatment! Discover the benefits offered by this innovative drug-free pain treatment.  Also excellent adjunct to wound healing such as lick granulomas and chronic ear infections.  This coupon must be presented at time of appointment.</string>
+		<string>30% off your pet's first laser therapy treatment! Discover the benefits offered by this innovative drug-free pain treatment.  Also excellent adjunct to wound healing such as lick granulomas and chronic ear infections.  This coupon must be presented at time of appointment.</string>
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Full service veterinary hospital providing professional compassionate care for your cherished pets open 7 days a week. We have on site diagnostic equipment and radiology which provide rapid diagnosis of your pet&apos;s health problems. Laser therapy also!</string>
+		<string>Full service veterinary hospital providing professional compassionate care for your cherished pets open 7 days a week. We have on site diagnostic equipment and radiology which provide rapid diagnosis of your pet's health problems. Laser therapy also!</string>
 		<key>email</key>
 		<string>drdonna@companionanimalvet.com</string>
 		<key>hasCoupon</key>
@@ -4336,7 +4240,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Martha Macambridge</string>
 		<key>couponOffer</key>
@@ -4382,7 +4286,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Pattie Mills &amp; Thom Coby</string>
 		<key>couponOffer</key>
@@ -4404,7 +4308,7 @@
 		<key>longitude</key>
 		<string>-121.905732</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Connection Magazine</string>
 		<key>phone</key>
@@ -4482,7 +4386,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Cooper Technologies  Inc. is a full support system for even the largest companies&apos; demands. We sell and support both hardware and software for all sorts of computer  networking and telecom needs.</string>
+		<string>Cooper Technologies  Inc. is a full support system for even the largest companies' demands. We sell and support both hardware and software for all sorts of computer  networking and telecom needs.</string>
 		<key>email</key>
 		<string>info@coopertechnologies.net</string>
 		<key>hasCoupon</key>
@@ -4528,7 +4432,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Covewater is Northern California&apos;s Stand Up Paddleboard headquarters.  Offering the best in welcoming stand up paddleboard classes  rentals  boards and equipments is our sole focus.  Stand up and see life from a whole new perspective!</string>
+		<string>Covewater is Northern California's Stand Up Paddleboard headquarters.  Offering the best in welcoming stand up paddleboard classes  rentals  boards and equipments is our sole focus.  Stand up and see life from a whole new perspective!</string>
 		<key>email</key>
 		<string>info@CovewaterSUP.com</string>
 		<key>hasCoupon</key>
@@ -4630,7 +4534,7 @@
 		<key>latitude</key>
 		<string>36.973121</string>
 		<key>logo</key>
-		<string>files/images/members/CREATIVE FUEL1080.jpg</string>
+		<string>logo_CreativeFuel.jpg</string>
 		<key>longitude</key>
 		<string>-122.027949</string>
 		<key>meta</key>
@@ -4658,7 +4562,7 @@
 		<key>city</key>
 		<string> Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Jahnai Eldridge</string>
 		<key>couponOffer</key>
@@ -4704,7 +4608,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Cynthia Mathews</string>
 		<key>couponOffer</key>
@@ -4750,7 +4654,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Kevin Donovan</string>
 		<key>couponOffer</key>
@@ -4764,7 +4668,7 @@
 		<key>hasCoupon</key>
 		<string>n</string>
 		<key>hasShop</key>
-		<string>y</string>
+		<string>n</string>
 		<key>latitude</key>
 		<string>36.972002</string>
 		<key>logo</key>
@@ -4842,7 +4746,7 @@
 		<key>city</key>
 		<string>Ben Lomond</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>DAN BURJA</string>
 		<key>couponOffer</key>
@@ -4896,7 +4800,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Hours: Mon - Fri 8:30AM - 5:30PM Quality Offset Printing Color  Black &amp; White Copy Service Large selection of Recycled Papers </string>
+		<string>Hours: Mon - Fri 8:30AM - 5:30PM Quality Offset Printing Color  yellow &amp; White Copy Service Large selection of Recycled Papers </string>
 		<key>email</key>
 		<string>darco1@aol.com</string>
 		<key>hasCoupon</key>
@@ -5210,7 +5114,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Don Lane</string>
 		<key>couponOffer</key>
@@ -5278,7 +5182,7 @@
 		<key>longitude</key>
 		<string>-121.988763</string>
 		<key>meta</key>
-		<string>Digital Printing&apos; &apos;Offset Printing&apos; &apos;Large format&apos; &apos;Printing&apos; &apos;Posters&apos; &apos;Banners&apos; &apos;Signs&apos; &apos;Graphic Design&apos; &apos;Typesetting&apos; &apos;postcards&apos;  brochures flyers &apos;data sheets&apos; &apos;sale sheets&apos; &apos;folders&apos; &apos;Business cards&apos; letterhead Envelopes Booklets Packaging Pens Shirts Mugs  &apos;Flash drives&apos; &apos;Memory sticks&apos; Lanyards hats key chains pads swag &apos;promotional products&apos; &apos;NCR forms&apos; &apos;carbonless Forms&apos; Books   &apos;Note Pads&apos; labels &apos;mailing service&apos; &apos;green printing&apos; &apos;recycled paper&apos; &apos;soy ink&apos; &apos;vegetable inks&apos; checks &apos;receipt books&apos;  invoices calendars magnets &apos;post-its&apos; menu&apos;s &apos;Presentation folders&apos; &apos;temporary tattoos&apos;          </string>
+		<string>Digital Printing' 'Offset Printing' 'Large format' 'Printing' 'Posters' 'Banners' 'Signs' 'Graphic Design' 'Typesetting' 'postcards'  brochures flyers 'data sheets' 'sale sheets' 'folders' 'Business cards' letterhead Envelopes Booklets Packaging Pens Shirts Mugs  'Flash drives' 'Memory sticks' Lanyards hats key chains pads swag 'promotional products' 'NCR forms' 'carbonless Forms' Books   'Note Pads' labels 'mailing service' 'green printing' 'recycled paper' 'soy ink' 'vegetable inks' checks 'receipt books'  invoices calendars magnets 'post-its' menu's 'Presentation folders' 'temporary tattoos'          </string>
 		<key>name</key>
 		<string>Dynamic Press</string>
 		<key>phone</key>
@@ -5394,7 +5298,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Ken Dickerson</string>
 		<key>couponOffer</key>
@@ -5540,7 +5444,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Low-force  full-body balancing is Dr. Quinn&apos;s specialty. An Advanced ACTIVATOR Chiropractor for 20 years in Santa Cruz  she helps patients of all ages get well faster &amp; stay well longer.  Hours: Tuesdays - Fridays by appointment. </string>
+		<string>Low-force  full-body balancing is Dr. Quinn's specialty. An Advanced ACTIVATOR Chiropractor for 20 years in Santa Cruz  she helps patients of all ages get well faster &amp; stay well longer.  Hours: Tuesdays - Fridays by appointment. </string>
 		<key>email</key>
 		<string>sierraspirit@earthlink.net</string>
 		<key>hasCoupon</key>
@@ -5578,7 +5482,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Erica Schafer</string>
 		<key>couponOffer</key>
@@ -5624,7 +5528,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Tony Bendana</string>
 		<key>couponOffer</key>
@@ -5648,7 +5552,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Erik&apos;s Delicafe Inc</string>
+		<string>Erik's Delicafe Inc</string>
 		<key>phone</key>
 		<string>(831) 458-1818</string>
 		<key>state</key>
@@ -5762,7 +5666,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Doug MacKinnon</string>
 		<key>couponOffer</key>
@@ -5854,7 +5758,7 @@
 		<key>city</key>
 		<string> Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Brian Neuschwander</string>
 		<key>couponOffer</key>
@@ -5862,7 +5766,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>(next to Marianne&apos;s Ice Cream)   Hours: 5:30 AM-11 PM   Finest Espresso  Coffee  Tea  Chai Sandwiches  Burritos  Fruit  Pastry Desserts  Music </string>
+		<string>(next to Marianne's Ice Cream)   Hours: 5:30 AM-11 PM   Finest Espresso  Coffee  Tea  Chai Sandwiches  Burritos  Fruit  Pastry Desserts  Music </string>
 		<key>email</key>
 		<string>brian@finscoffee.com</string>
 		<key>hasCoupon</key>
@@ -5870,11 +5774,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>37.006031</string>
+		<string>36.98223</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.039455</string>
+		<string>-122.022</string>
 		<key>meta</key>
 		<string>Coffee  Teas  Chai  Music  Food</string>
 		<key>name</key>
@@ -5946,7 +5850,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Brian Childers</string>
 		<key>couponOffer</key>
@@ -5988,11 +5892,11 @@
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
-		<string>Books</string>
+		<string>Non-Profits</string>
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Annie MacHale</string>
 		<key>couponOffer</key>
@@ -6006,7 +5910,7 @@
 		<key>hasCoupon</key>
 		<string>n</string>
 		<key>hasShop</key>
-		<string>n</string>
+		<string>y</string>
 		<key>latitude</key>
 		<string>36.97765</string>
 		<key>logo</key>
@@ -6184,7 +6088,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>The store offers a selection of local art depicting our unique coastline  books on cultural and natural history  educational toys  distinct apparel and souvenirs featuring the &apos;Cement Ship&apos;. Proceeds benefit educational programs in local State Parks.</string>
+		<string>The store offers a selection of local art depicting our unique coastline  books on cultural and natural history  educational toys  distinct apparel and souvenirs featuring the 'Cement Ship'. Proceeds benefit educational programs in local State Parks.</string>
 		<key>email</key>
 		<string>Annie@ThatsMyPark.org</string>
 		<key>hasCoupon</key>
@@ -6264,11 +6168,11 @@
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
-		<string>Books</string>
+		<string>Non-Profits</string>
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Emily Huscher</string>
 		<key>couponOffer</key>
@@ -6314,7 +6218,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Les casey</string>
 		<key>couponOffer</key>
@@ -6360,7 +6264,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Gail Williamson</string>
 		<key>couponOffer</key>
@@ -6498,7 +6402,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Thomas E. Wilson</string>
 		<key>couponOffer</key>
@@ -6544,7 +6448,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Susan Sonka</string>
 		<key>couponOffer</key>
@@ -6632,11 +6536,11 @@
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
-		<string>Accomodations</string>
+		<string>Community &amp; Social Services</string>
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Samantha Corey</string>
 		<key>couponOffer</key>
@@ -6650,13 +6554,13 @@
 		<key>hasCoupon</key>
 		<string>n</string>
 		<key>hasShop</key>
-		<string>n</string>
+		<string>y</string>
 		<key>latitude</key>
-		<string>36.987056</string>
+		<string>36.98726</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.036308</string>
+		<string>-122.03501</string>
 		<key>meta</key>
 		<string>nonprofit employment services non-profit education</string>
 		<key>name</key>
@@ -6682,7 +6586,7 @@
 		<key>city</key>
 		<string>Felton</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Thomas Wittman</string>
 		<key>couponOffer</key>
@@ -6728,7 +6632,7 @@
 		<key>city</key>
 		<string>Watsonville </string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Keith Severson</string>
 		<key>couponOffer</key>
@@ -6820,7 +6724,7 @@
 		<key>city</key>
 		<string>Monterey Bay Area</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Suzanne Schettler</string>
 		<key>couponOffer</key>
@@ -6958,7 +6862,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Viktoria Vidali</string>
 		<key>couponOffer</key>
@@ -7004,7 +6908,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Dale Nutley</string>
 		<key>couponOffer</key>
@@ -7068,7 +6972,7 @@
 		<key>latitude</key>
 		<string>36.979174</string>
 		<key>logo</key>
-		<string>files/images/members/address.jpg</string>
+		<string>logo_GuyWPeabody.jpg</string>
 		<key>longitude</key>
 		<string>-122.004234</string>
 		<key>meta</key>
@@ -7096,7 +7000,7 @@
 		<key>city</key>
 		<string>SANTA CRUZ</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>HANNAH M. GOOD  DVM</string>
 		<key>couponOffer</key>
@@ -7188,7 +7092,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Terri Oberto</string>
 		<key>couponOffer</key>
@@ -7234,7 +7138,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Susan Buri</string>
 		<key>couponOffer</key>
@@ -7250,11 +7154,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9742</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0314</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -7350,7 +7254,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Hoffman&apos;s Bistro </string>
+		<string>Hoffman's Bistro </string>
 		<key>phone</key>
 		<string>831-420-0135</string>
 		<key>state</key>
@@ -7396,7 +7300,7 @@
 		<key>meta</key>
 		<string>Pharmacy Home Medical Footcare Orthopedics </string>
 		<key>name</key>
-		<string>Horsnyder&apos;s Pharmacy</string>
+		<string>Horsnyder's Pharmacy</string>
 		<key>phone</key>
 		<string>831-423-2315</string>
 		<key>state</key>
@@ -7464,7 +7368,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Rita Price</string>
 		<key>couponOffer</key>
@@ -7472,7 +7376,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/Coupon02.png</string>
 		<key>description</key>
-		<string>Hula&apos;s Island Grill and Tiki Room has a passion for fun  friendly  enthusiastic service  the freshest fish  great steaks  seafood  and an overall menu bursting with flavorful island inspired combinations.</string>
+		<string>Hula's Island Grill and Tiki Room has a passion for fun  friendly  enthusiastic service  the freshest fish  great steaks  seafood  and an overall menu bursting with flavorful island inspired combinations.</string>
 		<key>email</key>
 		<string>abcambridge@gmail.com</string>
 		<key>hasCoupon</key>
@@ -7486,9 +7390,9 @@
 		<key>longitude</key>
 		<string>-122.02634</string>
 		<key>meta</key>
-		<string>Fresh  Fish  Locally Owned  Mai Tais  Tiki  Tropical  Vegan  Vegetarian  Meats  Sustainable  Green Business  Cocktails  Zombies  Tiki Room  Private Parties  Full Bar  Hawaii  Reggae  Hawaiian Music  Mahalo  Aloha  Mojitos  Jerk Plates  Pork  Steaks  Ono  Mahi  Fun  Atmosphere  gold</string>
+		<string>Fresh  Fish  Locally Owned  Mai Tais  Tiki  Tropical  Vegan  Vegetarian  Meats  Sustainable  Green Business  Cocktails  Zombies  Tiki Room  Private Parties  Full Bar  Hawaii  Reggae  Hawaiian Music  Mahalo  Aloha  Mojitos  Jerk Plates  Pork  Steaks  Ono  Mahi  Fun  Atmosphere gold</string>
 		<key>name</key>
-		<string>Hula&apos;s Island Gril (Santa Cruz)</string>
+		<string>Hula's Island Gril (Santa Cruz)</string>
 		<key>phone</key>
 		<string>831-426-4852</string>
 		<key>state</key>
@@ -7506,11 +7410,11 @@
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
-		<string>Accomodations</string>
+		<string>Community &amp; Social Services</string>
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Judy Osborn</string>
 		<key>couponOffer</key>
@@ -7518,7 +7422,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>A coalition of 50+ local  nonprofit agencies  HCA programs provide a strong safety net for our County&apos;s most vulnerable residents. Through collaboration  we strengthen health and human services in the face of shrinking funding and increasing demand.</string>
+		<string>A coalition of 50+ local  nonprofit agencies  HCA programs provide a strong safety net for our County's most vulnerable residents. Through collaboration  we strengthen health and human services in the face of shrinking funding and increasing demand.</string>
 		<key>email</key>
 		<string>hca@humancarealliance.org</string>
 		<key>hasCoupon</key>
@@ -7556,7 +7460,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Christine Slatter</string>
 		<key>couponOffer</key>
@@ -7602,7 +7506,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Gary Ifland</string>
 		<key>couponOffer</key>
@@ -7648,7 +7552,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>John Benedetti</string>
 		<key>couponOffer</key>
@@ -7740,7 +7644,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Preet Grewal</string>
 		<key>couponOffer</key>
@@ -7832,7 +7736,7 @@
 		<key>city</key>
 		<string>Freedom </string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>831-227-1334</string>
 		<key>couponOffer</key>
@@ -7840,7 +7744,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>J&apos;s understands the importance of efficiency  quality  and marketing your company/organization/school/cause so that you build consistent brand awareness. </string>
+		<string>J's understands the importance of efficiency  quality  and marketing your company/organization/school/cause so that you build consistent brand awareness. </string>
 		<key>email</key>
 		<string>Sales@jsdesignsapparel.com</string>
 		<key>hasCoupon</key>
@@ -7856,7 +7760,7 @@
 		<key>meta</key>
 		<string>Screen printing Embroidery Banners </string>
 		<key>name</key>
-		<string>J&apos;s Designs</string>
+		<string>J's Designs</string>
 		<key>phone</key>
 		<string>831-227-1334</string>
 		<key>state</key>
@@ -7878,7 +7782,7 @@
 		<key>city</key>
 		<string>Santa Cruz  </string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>James J. Kelly</string>
 		<key>couponOffer</key>
@@ -7894,11 +7798,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9743</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0315</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -7942,7 +7846,7 @@
 		<key>latitude</key>
 		<string>36.955042</string>
 		<key>logo</key>
-		<string>files/images/members/Allinger-logo.jpg</string>
+		<string>logo_JanetAllinger.jpg</string>
 		<key>longitude</key>
 		<string>-122.045094</string>
 		<key>meta</key>
@@ -7970,7 +7874,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Jasmine Berke</string>
 		<key>couponOffer</key>
@@ -7986,11 +7890,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.983696</string>
+		<string>36.98418</string>
 		<key>logo</key>
 		<string>logo_JasmineBerke.jpg</string>
 		<key>longitude</key>
-		<string>-121.957194</string>
+		<string>-121.95776</string>
 		<key>meta</key>
 		<string>Acupuncture   Herbal Medicine   Wholistic Health   Nutrition   Moxa    Integrative Medicine </string>
 		<key>name</key>
@@ -8024,7 +7928,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>A family owned and operated wholesale coffee roaster  supplying 100% Arabica coffee to cafe&apos;s  restaurants  bakeries  grocery stores and offices since 1988.  Now open to the public at the roasting facility on the Westside. </string>
+		<string>A family owned and operated wholesale coffee roaster  supplying 100% Arabica coffee to cafe's  restaurants  bakeries  grocery stores and offices since 1988.  Now open to the public at the roasting facility on the Westside. </string>
 		<key>email</key>
 		<string>rich@javabobs.net</string>
 		<key>hasCoupon</key>
@@ -8040,7 +7944,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Java Bob&apos;s Coffee Roasting</string>
+		<string>Java Bob's Coffee Roasting</string>
 		<key>phone</key>
 		<string>831-425-7143</string>
 		<key>state</key>
@@ -8062,7 +7966,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Jay Topping</string>
 		<key>couponOffer</key>
@@ -8078,15 +7982,15 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>37.0598</string>
+		<string>37.0629</string>
 		<key>logo</key>
-		<string>files/images/members/Jay&apos;s Classic Logo&apos;s.bmp</string>
+		<string>files/images/members/Jay's Classic Logo's.bmp</string>
 		<key>longitude</key>
-		<string>-122.014873</string>
+		<string>-122.99729</string>
 		<key>meta</key>
 		<string>Gifts Artwork Local memories Signs Paintings art gift signage sign</string>
 		<key>name</key>
-		<string>Jay&apos;s Classic Art and Signs</string>
+		<string>Jay's Classic Art and Signs</string>
 		<key>phone</key>
 		<string>831-461-1060</string>
 		<key>state</key>
@@ -8108,7 +8012,7 @@
 		<key>city</key>
 		<string>Scotts valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Kat Lanctot</string>
 		<key>couponOffer</key>
@@ -8132,7 +8036,7 @@
 		<key>meta</key>
 		<string>Equine  Canine  Therapeutic  Massage  Acupressure  Service</string>
 		<key>name</key>
-		<string>Kat&apos;s Natural Balance</string>
+		<string>Kat's Natural Balance</string>
 		<key>phone</key>
 		<string>(831) 438-7020</string>
 		<key>state</key>
@@ -8224,7 +8128,7 @@
 		<key>meta</key>
 		<string>wholesale produce produce fruits vegetables pre-cut</string>
 		<key>name</key>
-		<string>Ken&apos;s Wholesale Produce Co.</string>
+		<string>Ken's Wholesale Produce Co.</string>
 		<key>phone</key>
 		<string>831 588 6159</string>
 		<key>state</key>
@@ -8246,7 +8150,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Michael Olson</string>
 		<key>couponOffer</key>
@@ -8292,7 +8196,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Lola Brice</string>
 		<key>couponOffer</key>
@@ -8314,7 +8218,7 @@
 		<key>longitude</key>
 		<string>-121.99784</string>
 		<key>meta</key>
-		<string>KUSP radio public community music news &apos;national public radio&apos; &apos;public radio&apos; &apos;morning edition&apos; &apos;all things considered&apos; &apos;fresh air&apos; interviews &apos;car talk&apos; local programming classical jazz alternative gold</string>
+		<string>KUSP radio public community music news 'national public radio' 'public radio' 'morning edition' 'all things considered' 'fresh air' interviews 'car talk' local programming classical jazz alternative gold</string>
 		<key>name</key>
 		<string>KUSP-FM</string>
 		<key>phone</key>
@@ -8448,13 +8352,13 @@
 		<key>latitude</key>
 		<string>36.966479</string>
 		<key>logo</key>
-		<string>files/images/members/Larry&apos;s Photography(1).jpg</string>
+		<string>files/images/members/Larry's Photography(1).jpg</string>
 		<key>longitude</key>
 		<string>-122.040609</string>
 		<key>meta</key>
 		<string>photographs photography professional photos photo portraits artistic</string>
 		<key>name</key>
-		<string>Larry&apos;s Photography</string>
+		<string>Larry's Photography</string>
 		<key>phone</key>
 		<string>831-423-2815</string>
 		<key>state</key>
@@ -8476,7 +8380,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Scott French</string>
 		<key>couponOffer</key>
@@ -8522,7 +8426,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Eric Rupp</string>
 		<key>couponOffer</key>
@@ -8544,7 +8448,7 @@
 		<key>longitude</key>
 		<string>-121.9501</string>
 		<key>meta</key>
-		<string>laundry &apos;dry cleaning&apos; &apos;dress shirt&apos; &apos;wash &amp; fold&apos; &apos;fluff &amp; fold&apos; &apos;wash  dry  fold&apos; &apos;laundry service&apos;</string>
+		<string>laundry 'dry cleaning' 'dress shirt' 'wash &amp; fold' 'fluff &amp; fold' 'wash  dry  fold' 'laundry service'</string>
 		<key>name</key>
 		<string>LaundryCare Express</string>
 		<key>phone</key>
@@ -8568,15 +8472,15 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Mary-Margaret Bierbaum</string>
 		<key>couponOffer</key>
-		<string>Former DA &amp; Expert Defense Attorney Bierbaum offers 10% off her retainer for representation in your criminal matter. DonÃÂ¢ÃÂÃÂt go it alone. Consult with Ms. Bierbaum for the best outcome!  Ms. Bierbaum is also offering the first hour of Mediation Services FREE - a $350.00 value. Her motto is: &apos;We can work it out...&apos;  We look forward to assisting you in reskloving conflicts  toward a happier and more productive life.</string>
+		<string>Former DA &amp; Expert Defense Attorney Bierbaum offers 10% off her retainer for representation in your criminal matter. DonÃÂ¢ÃÂÃÂt go it alone. Consult with Ms. Bierbaum for the best outcome!  Ms. Bierbaum is also offering the first hour of Mediation Services FREE - a $350.00 value. Her motto is: 'We can work it out...'  We look forward to assisting you in reskloving conflicts  toward a happier and more productive life.</string>
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon06.jpg</string>
 		<key>description</key>
-		<string>With over 28 years experience Ms.Bierbaum specializes in criminal defense matters related to Felony  Misdemeanor &amp; Traffic charges and also civil mediation. Don&apos;t go it alone...consult with Attorney Bierbaum for the best outcome on your matter.  </string>
+		<string>With over 28 years experience Ms.Bierbaum specializes in criminal defense matters related to Felony  Misdemeanor &amp; Traffic charges and also civil mediation. Don't go it alone...consult with Attorney Bierbaum for the best outcome on your matter.  </string>
 		<key>email</key>
 		<string>M.BIERBAUM@santacruzlaw.com</string>
 		<key>hasCoupon</key>
@@ -8584,13 +8488,13 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9744</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0316</string>
 		<key>meta</key>
-		<string> Mediation Conflict-Resolution  Criminal Defense (certified Specialist) Felonies Misdemeanors Traffic Driving-Under-the-Influence</string>
+		<string> Mediation Conflict-Resolution  Criminal Defense (certified Specialist) Felonies Misdemeanors Traffic Driving-Under-the-Influence gold</string>
 		<key>name</key>
 		<string>Law Offices of Mary-Margaret Bierbaum</string>
 		<key>phone</key>
@@ -8614,7 +8518,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Laura Best</string>
 		<key>couponOffer</key>
@@ -8664,7 +8568,7 @@
 		<key>contact</key>
 		<string>Ellen Gil</string>
 		<key>couponOffer</key>
-		<string>Bring in this Coupon and receive 15% off your next purchase at LEGS.  Your Downtown Women&apos;s  Store - Underwear &amp; All Items for your fashionable Legs.</string>
+		<string>Bring in this Coupon and receive 15% off your next purchase at LEGS.  Your Downtown Women's  Store - Underwear &amp; All Items for your fashionable Legs.</string>
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
@@ -8798,7 +8702,7 @@
 		<key>city</key>
 		<string>SANTA CRUZ</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>JERRY ABREU</string>
 		<key>couponOffer</key>
@@ -8852,7 +8756,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>&lt;b style=&apos;color: red;&apos;&gt;Making clicks count&lt;/b&gt;&lt;br&gt;Providing one-on-one service  always available and attentive to your needs. From simple websites to custom development.&lt;p style=&apos;color: blue&apos;&gt;Free consultations!&lt;/p&gt;</string>
+		<string>&lt;b style='color: red;'&gt;Making clicks count&lt;/b&gt;&lt;br&gt;Providing one-on-one service  always available and attentive to your needs. From simple websites to custom development.&lt;p style='color: orange'&gt;Free consultations!&lt;/p&gt;</string>
 		<key>email</key>
 		<string>steven.lienhard@gmail.com</string>
 		<key>hasCoupon</key>
@@ -8890,7 +8794,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Saundie Isaak</string>
 		<key>couponOffer</key>
@@ -8898,7 +8802,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon04.jpg</string>
 		<key>description</key>
-		<string>Home Care for seniors and adult disabled by skilled caregivers. Care Management  by RN&apos;s and LCSW. Our goal is to maximize the health  safety  comfort  and independence of our clients.  Providing excellent care to our local community since 1983. </string>
+		<string>Home Care for seniors and adult disabled by skilled caregivers. Care Management  by RN's and LCSW. Our goal is to maximize the health  safety  comfort  and independence of our clients.  Providing excellent care to our local community since 1983. </string>
 		<key>email</key>
 		<string>saundie@lifespancare.com</string>
 		<key>hasCoupon</key>
@@ -9074,7 +8978,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Linda Johnson</string>
 		<key>couponOffer</key>
@@ -9144,7 +9048,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Linda&apos;s Seabreeze Cafe</string>
+		<string>Linda's Seabreeze Cafe</string>
 		<key>phone</key>
 		<string>(831) 427-9713</string>
 		<key>state</key>
@@ -9190,7 +9094,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Lloyd&apos;s Tire Service</string>
+		<string>Lloyd's Tire Service</string>
 		<key>phone</key>
 		<string>(831) 426-4363</string>
 		<key>state</key>
@@ -9228,11 +9132,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.971897</string>
+		<string>36.97224</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.025422</string>
+		<string>-122.02578</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -9280,7 +9184,7 @@
 		<key>longitude</key>
 		<string>-122.024473</string>
 		<key>meta</key>
-		<string>auto stereo  auto upholstery  stereo  convertible top  sunroof  navigation  ipod  bluetooth  hands free  auto repair  auto electronics  custom installation  satellite radio  alarm systems  bluetooth  speakers  amplifiers  boat  rv  car  video systems  back up camera  lotts</string>
+		<string>auto stereo  auto upholstery  stereo  convertible top  sunroof  navigation  ipod  orangetooth  hands free  auto repair  auto electronics  custom installation  satellite radio  alarm systems  orangetooth  speakers  amplifiers  boat  rv  car  video systems  back up camera  lotts</string>
 		<key>name</key>
 		<string>Lotts Auto Stereo Auto Upholstery</string>
 		<key>phone</key>
@@ -9350,7 +9254,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Katherine Keeler</string>
 		<key>couponOffer</key>
@@ -9396,7 +9300,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Jody Baxter</string>
 		<key>couponOffer</key>
@@ -9450,7 +9354,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>We provide custom website design services plus complete graphic design services for our clients&apos; print and branding needs. Serving the local community since 1995  we have built a reputation on affordable personalized service and award winning design.</string>
+		<string>We provide custom website design services plus complete graphic design services for our clients' print and branding needs. Serving the local community since 1995  we have built a reputation on affordable personalized service and award winning design.</string>
 		<key>email</key>
 		<string>jody@mandalanetdesign.com</string>
 		<key>hasCoupon</key>
@@ -9496,7 +9400,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>The finest in LOCAL ART for 20 yrs. Wall art  ceramics  jewelry and more Located next to Gayle&apos;s Bakery</string>
+		<string>The finest in LOCAL ART for 20 yrs. Wall art  ceramics  jewelry and more Located next to Gayle's Bakery</string>
 		<key>email</key>
 		<string>manyhandsgallery07@att.net</string>
 		<key>hasCoupon</key>
@@ -9534,7 +9438,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Kelly Dillon</string>
 		<key>couponOffer</key>
@@ -9542,7 +9446,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon06.jpg</string>
 		<key>description</key>
-		<string>Marianne&apos;s Gourmet Ice Cream  is made locally  and supplies many restaurants within the Santa Cruz   Monterey and San Francisco Bay areas. Come visit us on Ocean Ave. with over 70 flavors available. An Ice Cream institution in Santa Cruz. </string>
+		<string>Marianne's Gourmet Ice Cream  is made locally  and supplies many restaurants within the Santa Cruz   Monterey and San Francisco Bay areas. Come visit us on Ocean Ave. with over 70 flavors available. An Ice Cream institution in Santa Cruz. </string>
 		<key>email</key>
 		<string>kd@mariannesicecream.com</string>
 		<key>hasCoupon</key>
@@ -9558,7 +9462,7 @@
 		<key>meta</key>
 		<string>gourmet ice cream gold</string>
 		<key>name</key>
-		<string>Marianne&apos;s Ice Cream</string>
+		<string>Marianne's Ice Cream</string>
 		<key>phone</key>
 		<string>831-458-1447</string>
 		<key>state</key>
@@ -9580,7 +9484,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Judi Oyama</string>
 		<key>couponOffer</key>
@@ -9690,7 +9594,7 @@
 		<key>latitude</key>
 		<string>36.973473</string>
 		<key>logo</key>
-		<string>files/images/members/Copy of ML_green_print(1).jpg</string>
+		<string>logo_MichaelLavigne.jpg</string>
 		<key>longitude</key>
 		<string>-121.952691</string>
 		<key>meta</key>
@@ -9856,7 +9760,7 @@
 		<key>city</key>
 		<string>SANTA CRUZ</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>David Kumec</string>
 		<key>couponOffer</key>
@@ -9864,7 +9768,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon05.jpg</string>
 		<key>description</key>
-		<string>Founded in 2010  Mission Hill Creamery is a privately held retail and wholesale creator of unique artisanal ice cream and sorbet products. All ice cream and sorbet is made from scratch at the company&apos;s Pacific Avenue Store in Santa Cruz.</string>
+		<string>Founded in 2010  Mission Hill Creamery is a privately held retail and wholesale creator of unique artisanal ice cream and sorbet products. All ice cream and sorbet is made from scratch at the company's Pacific Avenue Store in Santa Cruz.</string>
 		<key>email</key>
 		<string>dave@missionhillcreamery.com</string>
 		<key>hasCoupon</key>
@@ -9948,7 +9852,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Mike Jerry</string>
 		<key>couponOffer</key>
@@ -9964,11 +9868,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.975476</string>
+		<string>36.9762</string>
 		<key>logo</key>
 		<string>files/images/members/Photo.jpg</string>
 		<key>longitude</key>
-		<string>-121.886211</string>
+		<string>-121.88796</string>
 		<key>meta</key>
 		<string>transcription transcribe transcript</string>
 		<key>name</key>
@@ -10040,7 +9944,7 @@
 		<key>city</key>
 		<string>Freedom</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Catherine Barr</string>
 		<key>couponOffer</key>
@@ -10062,7 +9966,7 @@
 		<key>longitude</key>
 		<string>-121.7797</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Monterey Bay Certified Farmers Market</string>
 		<key>phone</key>
@@ -10110,7 +10014,7 @@
 		<key>meta</key>
 		<string>haircut  beard trim  barbershop  shave</string>
 		<key>name</key>
-		<string>Montgomery&apos;s Barber Shop</string>
+		<string>Montgomery's Barber Shop</string>
 		<key>phone</key>
 		<string>(831)431-7704</string>
 		<key>state</key>
@@ -10270,7 +10174,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Leslie Muzzio</string>
 		<key>couponOffer</key>
@@ -10316,7 +10220,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Linda Crouse</string>
 		<key>couponOffer</key>
@@ -10362,7 +10266,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Nancy Abbey</string>
 		<key>couponOffer</key>
@@ -10546,7 +10450,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Jennifer Walker</string>
 		<key>couponOffer</key>
@@ -10568,7 +10472,7 @@
 		<key>longitude</key>
 		<string>-122.0209</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Network Mortgage</string>
 		<key>phone</key>
@@ -10592,7 +10496,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Rex Stewart</string>
 		<key>couponOffer</key>
@@ -10638,7 +10542,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Scott Roseman</string>
 		<key>couponOffer</key>
@@ -10684,7 +10588,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Scott Roseman</string>
 		<key>couponOffer</key>
@@ -10776,7 +10680,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Scott Griffin</string>
 		<key>couponOffer</key>
@@ -10868,7 +10772,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Marcy McQuillan</string>
 		<key>couponOffer</key>
@@ -11052,7 +10956,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Bhavana Patel</string>
 		<key>couponOffer</key>
@@ -11106,7 +11010,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Old School Shoes brings back the Classics. Sneaker styles from the 60&apos;s  70&apos;s  80&apos;s and much more. This shoe haven is a must-see for out-of-towners  as it is truly unique. Come &amp; paint your own too! </string>
+		<string>Old School Shoes brings back the Classics. Sneaker styles from the 60's  70's  80's and much more. This shoe haven is a must-see for out-of-towners  as it is truly unique. Come &amp; paint your own too! </string>
 		<key>email</key>
 		<string>eric@warmthco.com</string>
 		<key>hasCoupon</key>
@@ -11144,7 +11048,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Christine Bone</string>
 		<key>couponOffer</key>
@@ -11160,11 +11064,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>37.05373</string>
+		<string>37.05951</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-121.925902</string>
+		<string>-121.92559</string>
 		<key>meta</key>
 		<string>gold</string>
 		<key>name</key>
@@ -11182,6 +11086,98 @@
 	</dict>
 	<dict>
 		<key>address</key>
+		<string>1129 Soquel Ave. Santa Cruz  CA 95062</string>
+		<key>area</key>
+		<string>Santa Cruz</string>
+		<key>category</key>
+		<string>Apparel</string>
+		<key>city</key>
+		<string>Santa Cruz</string>
+		<key>color</key>
+		<string>green</string>
+		<key>contact</key>
+		<string>Lisa Canepa</string>
+		<key>couponOffer</key>
+		<string>none</string>
+		<key>couponURL</key>
+		<string></string>
+		<key>description</key>
+		<string>Unique selection of women's clothing  lingerie  jewelry and accessories.  New shipments daily.   Free parking.</string>
+		<key>email</key>
+		<string>orangemoon@cruzio.com</string>
+		<key>hasCoupon</key>
+		<string>n</string>
+		<key>hasShop</key>
+		<string>y</string>
+		<key>latitude</key>
+		<string>36.979606</string>
+		<key>logo</key>
+		<string></string>
+		<key>longitude</key>
+		<string>-122.011193</string>
+		<key>meta</key>
+		<string>womens clothing apparel jewelry lingerie accessories </string>
+		<key>name</key>
+		<string>orange Moon Clothing Santa Cruz</string>
+		<key>phone</key>
+		<string>(831) 469-4253</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>type</key>
+		<string>Bronze</string>
+		<key>url</key>
+		<string></string>
+		<key>zip</key>
+		<string>95062</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>820 Soquel Avenue</string>
+		<key>area</key>
+		<string>Watsonville</string>
+		<key>category</key>
+		<string>Printers</string>
+		<key>city</key>
+		<string>Santa Cruz</string>
+		<key>color</key>
+		<string>green</string>
+		<key>contact</key>
+		<string>Donna Pope</string>
+		<key>couponOffer</key>
+		<string></string>
+		<key>couponURL</key>
+		<string></string>
+		<key>description</key>
+		<string>Full  orangeprint service and supplies.  Large and small format reproduction.  Full color or color line up to 54' wide.  Posters  Glossy photo  Photocopy  Plot/ Scan  and Display mount.  Always quick turnaround.  Family owned and operated since 1978. </string>
+		<key>email</key>
+		<string>bpx@cruzio.com</string>
+		<key>hasCoupon</key>
+		<string>n</string>
+		<key>hasShop</key>
+		<string>y</string>
+		<key>latitude</key>
+		<string>36.977632</string>
+		<key>logo</key>
+		<string></string>
+		<key>longitude</key>
+		<string>-122.01453</string>
+		<key>meta</key>
+		<string></string>
+		<key>name</key>
+		<string>orangeprint Express of Santa Cruz</string>
+		<key>phone</key>
+		<string>831-426-5299</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>type</key>
+		<string>Bronze</string>
+		<key>url</key>
+		<string>www.bpxsantacruz.com</string>
+		<key>zip</key>
+		<string>95062</string>
+	</dict>
+	<dict>
+		<key>address</key>
 		<string>2720A S. Rodeo Gulch Rd.</string>
 		<key>area</key>
 		<string>Soquel</string>
@@ -11190,7 +11186,7 @@
 		<key>city</key>
 		<string> Soquel</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Chris Thomas</string>
 		<key>couponOffer</key>
@@ -11236,7 +11232,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>William Ow</string>
 		<key>couponOffer</key>
@@ -11378,7 +11374,7 @@
 		<key>contact</key>
 		<string>Dana Mumm</string>
 		<key>couponOffer</key>
-		<string>SHOP AT PACIFIC CREST APIARIES HONEY FARM AND GIFT STORE AND RECIEVE 30% OFF ALL GIFT ITEMS: TEAS  TEA ACCESSORIES  CANDLE HOLDERS  HOME DECOR  SCENTED SOY CANDLES AND KNORR BEESWAX TAPERS  CHILDREN&apos;S GIFT SECTION  BOOKS AND MORE.  SORRY  30% DISCOUNT DOES NOT APPLY TO OUR OWN HAND CRAFTED BEESWAX CANDLES OR OUR HAND PROCESSED HONEY (ALREADY AT CLOSE TO WHOLESALE PRICE!)  INCLUDING LOCAL ARTIST&apos;S GIFT ITEMS ON CONSIGNMENT.</string>
+		<string>SHOP AT PACIFIC CREST APIARIES HONEY FARM AND GIFT STORE AND RECIEVE 30% OFF ALL GIFT ITEMS: TEAS  TEA ACCESSORIES  CANDLE HOLDERS  HOME DECOR  SCENTED SOY CANDLES AND KNORR BEESWAX TAPERS  CHILDREN'S GIFT SECTION  BOOKS AND MORE.  SORRY  30% DISCOUNT DOES NOT APPLY TO OUR OWN HAND CRAFTED BEESWAX CANDLES OR OUR HAND PROCESSED HONEY (ALREADY AT CLOSE TO WHOLESALE PRICE!)  INCLUDING LOCAL ARTIST'S GIFT ITEMS ON CONSIGNMENT.</string>
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
@@ -11566,7 +11562,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Pacific Trading Co.Founded in 1972  we have two Specialty Boutiques:in  Santa Cruz  at 1224 Pacific Ave. (at Walnut) in Capitola  at 504c Bay Ave. (by Gayle&apos;s Bakery)   </string>
+		<string>Pacific Trading Co.Founded in 1972  we have two Specialty Boutiques:in  Santa Cruz  at 1224 Pacific Ave. (at Walnut) in Capitola  at 504c Bay Ave. (by Gayle's Bakery)   </string>
 		<key>email</key>
 		<string>pacifictrading@cruzio.com</string>
 		<key>hasCoupon</key>
@@ -11650,7 +11646,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Roy Trowbridge</string>
 		<key>couponOffer</key>
@@ -11672,7 +11668,7 @@
 		<key>longitude</key>
 		<string>-121.964962</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Palace Art &amp; Office Supply - Capitola</string>
 		<key>phone</key>
@@ -11788,7 +11784,7 @@
 		<key>city</key>
 		<string>Soquel</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Kimberly Parrish</string>
 		<key>couponOffer</key>
@@ -11842,7 +11838,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Intellectual property (&apos;IP&apos;) protection and assertion  including patent prosecution  trademark prosecution and assertion  copyright regsitration and assertion  trade secret policies and IP asset management for new ventures</string>
+		<string>Intellectual property ('IP') protection and assertion  including patent prosecution  trademark prosecution and assertion  copyright regsitration and assertion  trade secret policies and IP asset management for new ventures</string>
 		<key>email</key>
 		<string>patrick.reilly@ipsociety.net</string>
 		<key>hasCoupon</key>
@@ -11888,7 +11884,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Investing in Your Future&apos;. With 30 years of experience  Paul Drescher  CFP  provides knowledgeable and effective advice  responsible research and execution  and dedicated customer service  helping you achieve your financial goals.   </string>
+		<string>Investing in Your Future'. With 30 years of experience  Paul Drescher  CFP  provides knowledgeable and effective advice  responsible research and execution  and dedicated customer service  helping you achieve your financial goals.   </string>
 		<key>email</key>
 		<string>pdrescher@foothillsecurities.net</string>
 		<key>hasCoupon</key>
@@ -11926,7 +11922,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Darren Larkin</string>
 		<key>couponOffer</key>
@@ -11942,7 +11938,7 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.968</string>
+		<string>36.9685</string>
 		<key>logo</key>
 		<string>files/images/members/PedXLogoWeb.gif</string>
 		<key>longitude</key>
@@ -11972,7 +11968,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Pete Cullen</string>
 		<key>couponOffer</key>
@@ -12010,7 +12006,7 @@
 	</dict>
 	<dict>
 		<key>address</key>
-		<string>102 green street</string>
+		<string>102 Green street</string>
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
@@ -12018,7 +12014,7 @@
 		<key>city</key>
 		<string>santa cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Peter Spellman</string>
 		<key>couponOffer</key>
@@ -12034,11 +12030,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.975336</string>
+		<string>36.97588</string>
 		<key>logo</key>
 		<string>files/images/members/psd-logo.jpg</string>
 		<key>longitude</key>
-		<string>-122.030495</string>
+		<string>-122.0306</string>
 		<key>meta</key>
 		<string>GOOD GREEN COST EFFECTIVE DESIGN </string>
 		<key>name</key>
@@ -12118,7 +12114,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Phil&apos;s Auto Body Repair and Refinishing  Computerized Frame Straightening  ICAR &amp; ASE certified technicians  Diamond Certified Company  Lifetime limited warranty  Family owned and operated since 1993. Come in for a Free Estimate Today.</string>
+		<string>Phil's Auto Body Repair and Refinishing  Computerized Frame Straightening  ICAR &amp; ASE certified technicians  Diamond Certified Company  Lifetime limited warranty  Family owned and operated since 1993. Come in for a Free Estimate Today.</string>
 		<key>email</key>
 		<string>philsautobody@baymoon.com</string>
 		<key>hasCoupon</key>
@@ -12132,9 +12128,9 @@
 		<key>longitude</key>
 		<string>-121.989089</string>
 		<key>meta</key>
-		<string>auto  auto body  auto paint  auto repair  phil&apos;s  santa cruz  collision repair  free estimates  think local</string>
+		<string>auto  auto body  auto paint  auto repair  phil's  santa cruz  collision repair  free estimates  think local</string>
 		<key>name</key>
-		<string>Phil&apos;s Auto Body</string>
+		<string>Phil's Auto Body</string>
 		<key>phone</key>
 		<string>831-462-1593</string>
 		<key>state</key>
@@ -12156,7 +12152,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Stephanie Wilks</string>
 		<key>couponOffer</key>
@@ -12256,7 +12252,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Portola Property Management  Inc. is an expert at all phases of management of residential properties within Santa Cruz County.  It&apos;s all we do.  24/7.  No Sales. Just Property Management.  Let us exceed your expectations. </string>
+		<string>Portola Property Management  Inc. is an expert at all phases of management of residential properties within Santa Cruz County.  It's all we do.  24/7.  No Sales. Just Property Management.  Let us exceed your expectations. </string>
 		<key>email</key>
 		<string>Kathleen@portolarentals.com</string>
 		<key>hasCoupon</key>
@@ -12302,7 +12298,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/CouponSample_480x320.png</string>
 		<key>description</key>
-		<string>We feature high-quality  non-toxic adult toys  and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity  offering something for &apos;The Pleasure Inside Us All&apos;.  </string>
+		<string>We feature high-quality  non-toxic adult toys  and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity  offering something for 'The Pleasure Inside Us All'.  </string>
 		<key>email</key>
 		<string>janis@purepleasureshop.com</string>
 		<key>hasCoupon</key>
@@ -12386,7 +12382,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Monica Martinez</string>
 		<key>couponOffer</key>
@@ -12432,7 +12428,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Laurie McCann</string>
 		<key>couponOffer</key>
@@ -12448,11 +12444,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9745</string>
 		<key>logo</key>
 		<string></string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0313</string>
 		<key>meta</key>
 		<string>Green Infrastructure Ground Water Recharge Low Impact Development Storm Water Management Permeable Pavement Rain Gardens Bioswales </string>
 		<key>name</key>
@@ -12542,7 +12538,7 @@
 		<key>latitude</key>
 		<string>36.972462</string>
 		<key>logo</key>
-		<string>files/images/members/blkRSPlogo.jpg</string>
+		<string>logo_RebeccaStarkPhoto.jpg</string>
 		<key>longitude</key>
 		<string>-122.028079</string>
 		<key>meta</key>
@@ -12616,9 +12612,9 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
-		<string>Debra Blackwell or Kevin Carle</string>
+		<string>Debra yellowwell or Kevin Carle</string>
 		<key>couponOffer</key>
 		<string>               20% OFF ALL Decorative Outdoor Fixtures in Stock                              </string>
 		<key>couponURL</key>
@@ -12662,7 +12658,7 @@
 		<key>city</key>
 		<string>Santa cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Rochelle</string>
 		<key>couponOffer</key>
@@ -12708,7 +12704,7 @@
 		<key>city</key>
 		<string>Watsonville</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Roger Krone</string>
 		<key>couponOffer</key>
@@ -12732,7 +12728,7 @@
 		<key>meta</key>
 		<string>Computer Repair Laptop Network Internet PC DSL Mobile</string>
 		<key>name</key>
-		<string>Roger&apos;s Computer Service</string>
+		<string>Roger's Computer Service</string>
 		<key>phone</key>
 		<string>831-588-9687</string>
 		<key>state</key>
@@ -12758,7 +12754,7 @@
 		<key>contact</key>
 		<string>Al Drewke</string>
 		<key>couponOffer</key>
-		<string>Mention that you are a &apos;Think Local First&apos; member and receive complimentary wine tasting for two plus 10% discount on any single bottle wine purchase or 20% discount on a whole/mixed case.</string>
+		<string>Mention that you are a 'Think Local First' member and receive complimentary wine tasting for two plus 10% discount on any single bottle wine purchase or 20% discount on a whole/mixed case.</string>
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
@@ -12824,7 +12820,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Rusty&apos;s Honda &amp; Mazda Repair</string>
+		<string>Rusty's Honda &amp; Mazda Repair</string>
 		<key>phone</key>
 		<string>8314589445</string>
 		<key>state</key>
@@ -12946,7 +12942,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Traditional Asian Medicine: Japanese and Chinese Ancient Healing Wisdom to prevent  assess &amp; treat conditions of body  mind &amp; spirit.  Specializing in: Holistic Pediatrics  Stress &amp; Pain Relief and Women&apos;s health.  </string>
+		<string>Traditional Asian Medicine: Japanese and Chinese Ancient Healing Wisdom to prevent  assess &amp; treat conditions of body  mind &amp; spirit.  Specializing in: Holistic Pediatrics  Stress &amp; Pain Relief and Women's health.  </string>
 		<key>email</key>
 		<string>medicinewoman@healthydragon.org</string>
 		<key>hasCoupon</key>
@@ -13034,11 +13030,11 @@
 		<key>contact</key>
 		<string>Clint Ryle</string>
 		<key>couponOffer</key>
-		<string>Missing Important Calls? Calls constantly interrupt your work? Need a receptionist but don&apos;t want to hire right now?  Give us a try for free! Mention that you saw us on Think Local First and we will set you up for a risk free  two week trial!  * New customers only; other restrictions may apply.</string>
+		<string>Missing Important Calls? Calls constantly interrupt your work? Need a receptionist but don't want to hire right now?  Give us a try for free! Mention that you saw us on Think Local First and we will set you up for a risk free  two week trial!  * New customers only; other restrictions may apply.</string>
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Santa Cruz&apos;s only locally owned and operated twenty-four hours a day  seven days a week answering service. We are the best answer with the friendliest voices in town!</string>
+		<string>Santa Cruz's only locally owned and operated twenty-four hours a day  seven days a week answering service. We are the best answer with the friendliest voices in town!</string>
 		<key>email</key>
 		<string></string>
 		<key>hasCoupon</key>
@@ -13122,7 +13118,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Alissa Roedig</string>
 		<key>couponOffer</key>
@@ -13138,11 +13134,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9744</string>
 		<key>logo</key>
-		<string>files/images/members/banner_scbf_A_c2x4(1).JPG</string>
+		<string>logo_SantaCruzBaroque.JPG</string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0314</string>
 		<key>meta</key>
 		<string>classical baroque chamber music</string>
 		<key>name</key>
@@ -13268,7 +13264,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>We&apos;re a not-for-profit financial cooperative in Santa Cruz and Watsonville. We are locally-owned by our members  and our financial products and services for both individuals and businesses are focused on building strong and vibrant communities.</string>
+		<string>We're a not-for-profit financial cooperative in Santa Cruz and Watsonville. We are locally-owned by our members  and our financial products and services for both individuals and businesses are focused on building strong and vibrant communities.</string>
 		<key>email</key>
 		<string>Liaison@SCCCU.org</string>
 		<key>hasCoupon</key>
@@ -13306,7 +13302,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Michael Hartrich</string>
 		<key>couponOffer</key>
@@ -13322,11 +13318,11 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9746</string>
 		<key>logo</key>
 		<string>files/images/members/Guild logo v2008.JPG</string>
 		<key>longitude</key>
-		<string>-122.03087</string>
+		<string>-122.0312</string>
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
@@ -13370,7 +13366,7 @@
 		<key>latitude</key>
 		<string>36.981465</string>
 		<key>logo</key>
-		<string>files/images/members/core_logo_6_94_100_35.gif</string>
+		<string>logo_SantaCruzCoreFitness.gif</string>
 		<key>longitude</key>
 		<string>-122.030074</string>
 		<key>meta</key>
@@ -13452,7 +13448,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Santa Cruz County Bank is a locally-owned and headquartered commercial bank in Santa Cruz County. Our clients  employees  and friends live and work here and consider Santa Cruz County &apos;home.&apos; </string>
+		<string>Santa Cruz County Bank is a locally-owned and headquartered commercial bank in Santa Cruz County. Our clients  employees  and friends live and work here and consider Santa Cruz County 'home.' </string>
 		<key>email</key>
 		<string>mcarson@sccountybank.com</string>
 		<key>hasCoupon</key>
@@ -13498,7 +13494,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Field of membership includes both local governmental employees throughout the county and employees of select local non-profit organizations. &apos;PEOPLE HELPING PEOPLE SINCE 1953&apos;</string>
+		<string>Field of membership includes both local governmental employees throughout the county and employees of select local non-profit organizations. 'PEOPLE HELPING PEOPLE SINCE 1953'</string>
 		<key>email</key>
 		<string>sandy@sccecu.org</string>
 		<key>hasCoupon</key>
@@ -13558,7 +13554,7 @@
 		<key>longitude</key>
 		<string>-121.98871</string>
 		<key>meta</key>
-		<string>santa cruz  gymnastics  boys gymnastics  open gyms  indoor activities  children&apos;s classes  preschool gymnastics  competitive gymnastics  gymnastics instruction</string>
+		<string>santa cruz  gymnastics  boys gymnastics  open gyms  indoor activities  children's classes  preschool gymnastics  competitive gymnastics  gymnastics instruction</string>
 		<key>name</key>
 		<string>Santa Cruz Gymnastics Center  Inc.</string>
 		<key>phone</key>
@@ -13950,7 +13946,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Kris Reyes</string>
 		<key>couponOffer</key>
@@ -13972,7 +13968,7 @@
 		<key>longitude</key>
 		<string>-122.019973</string>
 		<key>meta</key>
-		<string></string>
+		<string>gold</string>
 		<key>name</key>
 		<string>Santa Cruz Seaside Company</string>
 		<key>phone</key>
@@ -13996,7 +13992,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Chris Nestlerode</string>
 		<key>couponOffer</key>
@@ -14012,13 +14008,13 @@
 		<key>hasShop</key>
 		<string>n</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9747</string>
 		<key>logo</key>
 		<string>files/images/members/scsc_logo.png</string>
 		<key>longitude</key>
 		<string>-122.0308</string>
 		<key>meta</key>
-		<string>soccer  summer camps  kids&apos; camps  fitness  outdoor activities  sports  </string>
+		<string>soccer  summer camps  kids' camps  fitness  outdoor activities  sports  </string>
 		<key>name</key>
 		<string>Santa Cruz SoccerCamp</string>
 		<key>phone</key>
@@ -14064,7 +14060,7 @@
 		<key>longitude</key>
 		<string>-121.760706</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string></string>
 		<key>name</key>
 		<string>Santa Cruz Staffing</string>
 		<key>phone</key>
@@ -14198,7 +14194,7 @@
 		<key>latitude</key>
 		<string>36.988064</string>
 		<key>logo</key>
-		<string>files/images/members/50 year Color logo.JPG</string>
+		<string>logo_SantaCruzVetinary.JPG</string>
 		<key>longitude</key>
 		<string>-121.973628</string>
 		<key>meta</key>
@@ -14272,7 +14268,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Sara Isenberg</string>
 		<key>couponOffer</key>
@@ -14364,7 +14360,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Gail Bove</string>
 		<key>couponOffer</key>
@@ -14464,7 +14460,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Seabright&apos;s original micro-brewery  pub food &amp; music gathering place.</string>
+		<string>Seabright's original micro-brewery  pub food &amp; music gathering place.</string>
 		<key>email</key>
 		<string>charlie@seabrightbrewery.com</string>
 		<key>hasCoupon</key>
@@ -14502,7 +14498,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Bert Lemke</string>
 		<key>couponOffer</key>
@@ -14548,7 +14544,7 @@
 		<key>city</key>
 		<string>Capitola</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Lisa Tarris</string>
 		<key>couponOffer</key>
@@ -14778,7 +14774,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Christine Slatter</string>
 		<key>couponOffer</key>
@@ -14824,7 +14820,7 @@
 		<key>city</key>
 		<string>Watsonville</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Nicole Koenig</string>
 		<key>couponOffer</key>
@@ -14842,7 +14838,7 @@
 		<key>latitude</key>
 		<string>36.9085</string>
 		<key>logo</key>
-		<string>files/images/members/banner(1).jpg</string>
+		<string>logo_SoccerCentral.jpg</string>
 		<key>longitude</key>
 		<string>-121.7553</string>
 		<key>meta</key>
@@ -14870,7 +14866,7 @@
 		<key>city</key>
 		<string> Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Eric Gil</string>
 		<key>couponOffer</key>
@@ -14878,7 +14874,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/Coupon02.png</string>
 		<key>description</key>
-		<string>Sockshop &amp; Shoe Co. is a one of a kind shoe store in the heart of downtown Santa Cruz. With the kind of footwear you will want to keep on your feet. Don&apos;t miss our amazing selection of socks.  </string>
+		<string>Sockshop &amp; Shoe Co. is a one of a kind shoe store in the heart of downtown Santa Cruz. With the kind of footwear you will want to keep on your feet. Don't miss our amazing selection of socks.  </string>
 		<key>email</key>
 		<string>eric@warmthco.com</string>
 		<key>hasCoupon</key>
@@ -14886,11 +14882,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.975664</string>
+		<string>36.97612</string>
 		<key>logo</key>
 		<string>logo_Sockshop.jpg</string>
 		<key>longitude</key>
-		<string>-122.026559</string>
+		<string>-122.0269</string>
 		<key>meta</key>
 		<string>shoes dansko socks merrell teva vibram knee socks keen purses handbags toesocks smartwool socksmith birkenstock footwear clarks hotsox sockittome tights hosiery eg smith sorel indigo five fingers spanx allen edmond purses accessories shoe lace fingerless gloves gold</string>
 		<key>name</key>
@@ -14924,7 +14920,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Making socks fun for the betterment of all humankind&apos;s fashionable feet.</string>
+		<string>Making socks fun for the betterment of all humankind's fashionable feet.</string>
 		<key>email</key>
 		<string>eric@warmthco.com</string>
 		<key>hasCoupon</key>
@@ -14962,7 +14958,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Barney Langner Jr.</string>
 		<key>couponOffer</key>
@@ -15008,7 +15004,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Kathy Coulston</string>
 		<key>couponOffer</key>
@@ -15138,7 +15134,7 @@
 	</dict>
 	<dict>
 		<key>address</key>
-		<string>1305 Water St. </string>
+		<string>1266 Soquel</string>
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
@@ -15146,7 +15142,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Gary Bascou</string>
 		<key>couponOffer</key>
@@ -15162,11 +15158,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.981454</string>
+		<string>36.98063</string>
 		<key>logo</key>
 		<string>logo_StaffOfLife.jpg</string>
 		<key>longitude</key>
-		<string>-122.008124</string>
+		<string>-122.00824</string>
 		<key>meta</key>
 		<string>organic  fresh  bulk  food  sustainable  farmers  market  fish  pork  vegetables  eggs  crab  wine  local  produce  healthy  health  beauty  products  grocery  groceries  store gold</string>
 		<key>name</key>
@@ -15192,7 +15188,7 @@
 		<key>city</key>
 		<string>Felton</string>
 		<key>color</key>
-		<string>red</string>
+		<string>yellow</string>
 		<key>contact</key>
 		<string>Steven Hendrickson</string>
 		<key>couponOffer</key>
@@ -15246,7 +15242,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>A full service floral/gift shop  located between Sutter and Dominican Hospitals  Stewart&apos;s Floral has been serving the Santa Cruz County area for over 50 years.</string>
+		<string>A full service floral/gift shop  located between Sutter and Dominican Hospitals  Stewart's Floral has been serving the Santa Cruz County area for over 50 years.</string>
 		<key>email</key>
 		<string>stewartsfloral@aol.com</string>
 		<key>hasCoupon</key>
@@ -15262,7 +15258,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Stewart&apos;s Floral</string>
+		<string>Stewart's Floral</string>
 		<key>phone</key>
 		<string>831-479-0999</string>
 		<key>state</key>
@@ -15284,7 +15280,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Stephen Hosmer</string>
 		<key>couponOffer</key>
@@ -15422,11 +15418,11 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Peter Putt</string>
 		<key>couponOffer</key>
-		<string>REFER A FRIEND  NEIGHBOR OR FAMILY AND EARN $300 BONUS!! Receive a check for $300 when each of your referrals  &apos;Go Solar&apos; with SUNS UP SOLAR. Make Santa Cruz County a &apos;Solar County&apos; No limit to the number of referrals!!  Call (831) 588 8489 or email us at info@sunsupsolar.com </string>
+		<string>REFER A FRIEND  NEIGHBOR OR FAMILY AND EARN $300 BONUS!! Receive a check for $300 when each of your referrals  'Go Solar' with SUNS UP SOLAR. Make Santa Cruz County a 'Solar County' No limit to the number of referrals!!  Call (831) 588 8489 or email us at info@sunsupsolar.com </string>
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
@@ -15476,7 +15472,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Suns Up Solar is a division of Putt Construction which has been successfully contracting on the Central Coast since the early 1980&apos;s. We are a full service company holding both General and Electrical Contracting licenses.</string>
+		<string>Suns Up Solar is a division of Putt Construction which has been successfully contracting on the Central Coast since the early 1980's. We are a full service company holding both General and Electrical Contracting licenses.</string>
 		<key>email</key>
 		<string>Peter@sunsupsolar.com</string>
 		<key>hasCoupon</key>
@@ -15560,7 +15556,7 @@
 		<key>city</key>
 		<string> Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Pete Johnson</string>
 		<key>couponOffer</key>
@@ -15652,7 +15648,7 @@
 		<key>city</key>
 		<string>Scotts Valley</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Mark Morgenthaler</string>
 		<key>couponOffer</key>
@@ -15674,7 +15670,7 @@
 		<key>longitude</key>
 		<string>-122.018092</string>
 		<key>meta</key>
-		<string>Wireless  Broadband  ISP  Internet  WISP  Communications  Networks</string>
+		<string>Wireless  Broadband  ISP  Internet  WISP  Communications  Networks gold</string>
 		<key>name</key>
 		<string>Surfnet Communications</string>
 		<key>phone</key>
@@ -15698,7 +15694,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Henry Schwab</string>
 		<key>couponOffer</key>
@@ -15744,7 +15740,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Sara George</string>
 		<key>couponOffer</key>
@@ -15798,7 +15794,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Family owned operated since 1949. Free delivery on orders of $25.00 or more. Specializing in freight distressed office furniture.We&apos;ll meet or beat most box store pricing. Contact us for on-line ordering. On site furniture planning available.  </string>
+		<string>Family owned operated since 1949. Free delivery on orders of $25.00 or more. Specializing in freight distressed office furniture.We'll meet or beat most box store pricing. Contact us for on-line ordering. On site furniture planning available.  </string>
 		<key>email</key>
 		<string>scott@taylorsofc.com</string>
 		<key>hasCoupon</key>
@@ -15814,7 +15810,7 @@
 		<key>meta</key>
 		<string>Furniture used office planning free delivery locally owned</string>
 		<key>name</key>
-		<string>Taylor&apos;s Office City</string>
+		<string>Taylor's Office City</string>
 		<key>phone</key>
 		<string>831-724-5681</string>
 		<key>state</key>
@@ -15936,7 +15932,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Santa Cruz&apos;s favorite bagel  since 1977. Hearth-baked bagels lead an inventive menu of bagel sandwiches  soups  salads. Great coffee and house-made chai. Patio dining. Three location: Cedar  Seabright and Soquel</string>
+		<string>Santa Cruz's favorite bagel  since 1977. Hearth-baked bagels lead an inventive menu of bagel sandwiches  soups  salads. Great coffee and house-made chai. Patio dining. Three location: Cedar  Seabright and Soquel</string>
 		<key>email</key>
 		<string>ristra@cruzio.com</string>
 		<key>hasCoupon</key>
@@ -16038,7 +16034,7 @@
 		<key>latitude</key>
 		<string>36.97137</string>
 		<key>logo</key>
-		<string>files/images/members/CatLogo.jpg</string>
+		<string>logo_TheCatalyst.jpg</string>
 		<key>longitude</key>
 		<string>-122.02555</string>
 		<key>meta</key>
@@ -16084,7 +16080,7 @@
 		<key>latitude</key>
 		<string>36.979329</string>
 		<key>logo</key>
-		<string>files/images/members/NEW CREPE PLACE LOGO BLACK.jp</string>
+		<string>files/images/members/NEW CREPE PLACE LOGO yellow.jp</string>
 		<key>longitude</key>
 		<string>-122.01144</string>
 		<key>meta</key>
@@ -16204,7 +16200,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Adam Price</string>
 		<key>couponOffer</key>
@@ -16364,7 +16360,7 @@
 		<key>longitude</key>
 		<string>-122.027697</string>
 		<key>meta</key>
-		<string>ice cream creamery local organic seasonal delicious penny penny&apos;s made from scratch</string>
+		<string>ice cream creamery local organic seasonal delicious penny penny's made from scratch</string>
 		<key>name</key>
 		<string>The Penny Ice Creamery</string>
 		<key>phone</key>
@@ -16434,7 +16430,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Bill Pope</string>
 		<key>couponOffer</key>
@@ -16442,7 +16438,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon06.jpg</string>
 		<key>description</key>
-		<string>The Print Gallery is a 45-year established screenprinting and embroidery company that specializes in logo&apos;d apparel such as t-shirts  sweatshirts  polo shirts  women&apos;s garments  tote bags  aprons  stickers and more!    </string>
+		<string>The Print Gallery is a 45-year established screenprinting and embroidery company that specializes in logo'd apparel such as t-shirts  sweatshirts  polo shirts  women's garments  tote bags  aprons  stickers and more!    </string>
 		<key>email</key>
 		<string>bill@theprintgallery.net</string>
 		<key>hasCoupon</key>
@@ -16476,11 +16472,11 @@
 		<key>area</key>
 		<string>Santa Cruz</string>
 		<key>category</key>
-		<string>Accomodations</string>
+		<string>Artists</string>
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Rachel Anne Goodman</string>
 		<key>couponOffer</key>
@@ -16496,11 +16492,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.987432</string>
+		<string>36.98739</string>
 		<key>logo</key>
 		<string>logo_TanneryArts.jpg</string>
 		<key>longitude</key>
-		<string>-122.030476</string>
+		<string>-122.02987</string>
 		<key>meta</key>
 		<string>arts  culture  performing arts  theater  fundraising  venue</string>
 		<key>name</key>
@@ -16664,7 +16660,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Tom Dembski</string>
 		<key>couponOffer</key>
@@ -16686,9 +16682,9 @@
 		<key>longitude</key>
 		<string>-121.99772</string>
 		<key>meta</key>
-		<string>gold</string>
+		<string>gold </string>
 		<key>name</key>
-		<string>Tom&apos;s Medical Clinic Pharmacy</string>
+		<string>Tom's Medical Clinic Pharmacy</string>
 		<key>phone</key>
 		<string>831-426-0200</string>
 		<key>state</key>
@@ -16710,7 +16706,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Sean Brender</string>
 		<key>couponOffer</key>
@@ -16866,7 +16862,7 @@
 		<key>latitude</key>
 		<string>36.982083</string>
 		<key>logo</key>
-		<string>files/images/members/41813_104884867968_4497_n.jpg</string>
+		<string>logo_UserFriendlyComputing.jpg</string>
 		<key>longitude</key>
 		<string>-122.029866</string>
 		<key>meta</key>
@@ -16912,7 +16908,7 @@
 		<key>latitude</key>
 		<string>36.97963</string>
 		<key>logo</key>
-		<string>files/images/members/ColorLogoWeb2.jpg</string>
+		<string>logo_VangardRealty.jpg</string>
 		<key>longitude</key>
 		<string>-122.01069</string>
 		<key>meta</key>
@@ -16986,7 +16982,7 @@
 		<key>city</key>
 		<string>Aptos</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Dion Vokos</string>
 		<key>couponOffer</key>
@@ -16994,7 +16990,7 @@
 		<key>couponURL</key>
 		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon05.jpg</string>
 		<key>description</key>
-		<string>Whether you&apos;re looking for auto  homeowners  life  or specialty coverage  We will help you select the right products to fit your insurance needs. We are a full service insurance brokerage and a Farmers Insurance office.</string>
+		<string>Whether you're looking for auto  homeowners  life  or specialty coverage  We will help you select the right products to fit your insurance needs. We are a full service insurance brokerage and a Farmers Insurance office.</string>
 		<key>email</key>
 		<string>dvokos@gmail.com</string>
 		<key>hasCoupon</key>
@@ -17086,7 +17082,7 @@
 		<key>couponURL</key>
 		<string>http://cplamb.blogspot.com/</string>
 		<key>description</key>
-		<string>Since 1977 our motto has been &apos; Committed to Excellence&apos;. We are committed to: Start and finish your project on time  Maintain a neat  clean  and safe working environment  Using the most durable GREEN products available  Excellence in workmanship</string>
+		<string>Since 1977 our motto has been ' Committed to Excellence'. We are committed to: Start and finish your project on time  Maintain a neat  clean  and safe working environment  Using the most durable GREEN products available  Excellence in workmanship</string>
 		<key>email</key>
 		<string>Jim@WallsPainting.com</string>
 		<key>hasCoupon</key>
@@ -17170,7 +17166,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>green</string>
 		<key>contact</key>
 		<string>Henry</string>
 		<key>couponOffer</key>
@@ -17262,7 +17258,7 @@
 		<key>city</key>
 		<string>WATSONVILLE</string>
 		<key>color</key>
-		<string>green</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>GARY L. MANFRE</string>
 		<key>couponOffer</key>
@@ -17358,7 +17354,7 @@
 		<key>contact</key>
 		<string>Lowell Webb</string>
 		<key>couponOffer</key>
-		<string>           &apos;FREE SALES TAX&apos;       We will pay the Sales Tax on  any Sales from Now Thru 15 January 09. Present coupon at Time Of Sale.   We Are Located 5 Miles North Of Soquel-  webbsfarmsupplies.com                                                                                                                                                                         webbsfarmsupplies@yahoo.com </string>
+		<string>           'FREE SALES TAX'       We will pay the Sales Tax on  any Sales from Now Thru 15 January 09. Present coupon at Time Of Sale.   We Are Located 5 Miles North Of Soquel-  webbsfarmsupplies.com                                                                                                                                                                         webbsfarmsupplies@yahoo.com </string>
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
@@ -17378,7 +17374,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Webb&apos;s Farm Supplies &amp; Organic Farm</string>
+		<string>Webb's Farm Supplies &amp; Organic Farm</string>
 		<key>phone</key>
 		<string>(831) 475-1020</string>
 		<key>state</key>
@@ -17446,7 +17442,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>white</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Jessica Coles</string>
 		<key>couponOffer</key>
@@ -17468,7 +17464,7 @@
 		<key>longitude</key>
 		<string>-122.027375</string>
 		<key>meta</key>
-		<string>Veterinarian veterinary hospital animal hospital pet services medical dental surgical</string>
+		<string>Veterinarian veterinary hospital animal hospital pet services medical dental surgical gold</string>
 		<key>name</key>
 		<string>Westside Animal Hospital  David Shuman  DVM</string>
 		<key>phone</key>
@@ -17492,7 +17488,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Ben Hartel</string>
 		<key>couponOffer</key>
@@ -17508,11 +17504,11 @@
 		<key>hasShop</key>
 		<string>y</string>
 		<key>latitude</key>
-		<string>36.974025</string>
+		<string>36.9747</string>
 		<key>logo</key>
 		<string>files/images/members/Screen Shot 2012-04-26 at 12.</string>
 		<key>longitude</key>
-		<string>-122.030954</string>
+		<string>-122.0317</string>
 		<key>meta</key>
 		<string>Community Church Westside Christian Local Jesus   </string>
 		<key>name</key>
@@ -17608,7 +17604,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Women&apos;s International League for Peace &amp; Freedom</string>
+		<string>Women's International League for Peace &amp; Freedom</string>
 		<key>phone</key>
 		<string>831-465-8272</string>
 		<key>state</key>
@@ -17630,7 +17626,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>orange</string>
 		<key>contact</key>
 		<string>Michelle Wagner</string>
 		<key>couponOffer</key>
@@ -17700,7 +17696,7 @@
 		<key>meta</key>
 		<string></string>
 		<key>name</key>
-		<string>Zachary&apos;s Restaurant</string>
+		<string>Zachary's Restaurant</string>
 		<key>phone</key>
 		<string>(831) 427-0646</string>
 		<key>state</key>
@@ -17768,7 +17764,7 @@
 		<key>city</key>
 		<string>Santa Cruz</string>
 		<key>color</key>
-		<string>red</string>
+		<string>gold</string>
 		<key>contact</key>
 		<string>Zena</string>
 		<key>couponOffer</key>
@@ -17776,7 +17772,7 @@
 		<key>couponURL</key>
 		<string></string>
 		<key>description</key>
-		<string>Zena&apos;s SASS  The Everything Sauce - Spicy Almond-Sesame/Spicy Peanut-Sesame Sauce  Gluten-Free  Low Glycemic  Regular or HOTT! Salads  veggies  pasta  rice  meats  fish... Kids love it  too. Shop your local markets...put a little SASS in your life! </string>
+		<string>Zena's SASS  The Everything Sauce - Spicy Almond-Sesame/Spicy Peanut-Sesame Sauce  Gluten-Free  Low Glycemic  Regular or HOTT! Salads  veggies  pasta  rice  meats  fish... Kids love it  too. Shop your local markets...put a little SASS in your life! </string>
 		<key>email</key>
 		<string>Zenas.SASS@gmail.com</string>
 		<key>hasCoupon</key>
@@ -17790,9 +17786,9 @@
 		<key>longitude</key>
 		<string>-122.014969</string>
 		<key>meta</key>
-		<string>Finishing  sauces  easy  gourmet  hot  cold  kids  gifts</string>
+		<string>Finishing  sauces  easy  gourmet  hot  cold  kids  gifts gold</string>
 		<key>name</key>
-		<string>Zena&apos;s SASS</string>
+		<string>Zena's SASS</string>
 		<key>phone</key>
 		<string>831-247-7733</string>
 		<key>state</key>
