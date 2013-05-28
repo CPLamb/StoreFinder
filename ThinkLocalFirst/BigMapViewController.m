@@ -22,7 +22,7 @@
 const float MIN_MAP_ZOOM_METERS = 500.0;
 const float MAX_MAP_ZOOM_METERS = 75000.0;
 const float DEFAULT_SPAN = 10000.0;
-const int  MAX_PINS_TO_DROP = 60;
+const int  MAX_PINS_TO_DROP = 20;
 
 #pragma mark - View lifecycle methods
 
@@ -294,15 +294,16 @@ const int  MAX_PINS_TO_DROP = 60;
 // Configures the Annotation popup
 - (MKAnnotationView *)mapView:(MKMapView *)theMapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    // in case it's the user location, we already have an annotation, so just return nil
+// in case it's the user location, we already have an annotation, so just return nil
     if ([annotation isKindOfClass:[MKUserLocation class]])
     {
         return nil;
     }
     
-    // handles our custom annotation look N feel
+// handles our custom annotation look N feel
     if ([annotation isKindOfClass:[MapItem class]])         // for Members with offices
     {
+        NSLog(@"The annotation is %@", annotation);
         // try to dequeue an existing pin view first
         static NSString *BridgeAnnotationIdentifier = @"bridgeAnnotationIdentifier";
         
@@ -312,15 +313,19 @@ const int  MAX_PINS_TO_DROP = 60;
         {
             // if an existing pin view was not available, create one
             MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
-                                                  initWithAnnotation:annotation reuseIdentifier:BridgeAnnotationIdentifier];
+                                                  initWithAnnotation:annotation
+                                                  reuseIdentifier:BridgeAnnotationIdentifier];
             customPinView.pinColor = MKPinAnnotationColorPurple;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-            
+            customPinView.image = [UIImage imageNamed:@"dolphins.png"];
+            NSLog(@"The customPinView is %@", customPinView);
+
+          
         // Determines type of pin depending upon hasShop field
             if (TRUE) {
-                customPinView.pinColor = MKPinAnnotationColorPurple;
-      //          customPinView.image = [UIImage imageNamed:@"dolphins.png"];
+         //       customPinView.pinColor = MKPinAnnotationColorPurple;
+                customPinView.image = [UIImage imageNamed:@"dolphins.png"];
             } else {
              //   customPinView.pinColor = MKPinAnnotationColorGreen;
                 customPinView.image = [UIImage imageNamed:@"lobster-export.png"];

@@ -47,7 +47,7 @@
     _title = [memberData objectForKey:@"name"];
     _subTitle = [memberData objectForKey:@"category"];
     hasShop = [[memberData objectForKey:@"hasShop"] boolValue];
-    
+
     return self;
 }
 
