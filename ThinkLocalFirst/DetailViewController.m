@@ -10,6 +10,7 @@
 
 #import "MapViewController.h"
 #import "MapItem.h"
+#import "NoShopAnnotation.h"
 #import "RoundedRectBackground.h"
 
 #define PADDING 5.0
@@ -295,17 +296,31 @@
     
     NSString *newName = [self.detailItem objectForKey:@"name"];
     NSString *newDescription = [self.detailItem objectForKey:@"phone"];
+    BOOL hasShop = [[self.detailItem objectForKey:@"hasShop"] boolValue];
     
 // Calls for a new MapItem object & adds it to the view & annotations array
-    MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
     
-    [locationMap.mapView addAnnotation:aNewPin];
-    
+    if (hasShop) {
+        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
+        NSLog(@"The new pin is MapItem %@", aNewPin);
+        [self addAnAnnotation:aNewPin];
+    } else {
+        NoShopAnnotation *aNewPin = [[NoShopAnnotation alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
+        NSLog(@"The new pin is NoShopAnnotation %@", aNewPin);
+        [self addAnAnnotation:aNewPin];
+    }
+/*
+    [locationMap.mapView addAnnotation:aNewPin];    
     [locationMap.mapView selectAnnotation:aNewPin animated:YES];
-
-    [locationMap.mapAnnotations addObject:aNewPin];
-    
+    [locationMap.mapAnnotations addObject:aNewPin];    
     NSLog(@"The new pin data is %@", aNewPin);
+*/    
+}
+
+- (void)addAnAnnotation:(MapItem *)newPin {
+    [locationMap.mapView addAnnotation:newPin];
+    [locationMap.mapView selectAnnotation:newPin animated:YES];
+    [locationMap.mapAnnotations addObject:newPin];
 }
 
 

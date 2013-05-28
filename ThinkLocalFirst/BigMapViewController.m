@@ -8,6 +8,7 @@
 
 #import "BigMapViewController.h"
 #import "MapItem.h"
+#import "NoShopAnnotation.h"
 #import "MemberListData.h"
 #import "DetailViewController.h"
 
@@ -89,7 +90,7 @@ const int  MAX_PINS_TO_DROP = 20;
 // Add all of the pins
         [self.mapView addAnnotations:self.mapAnnotations];        
     }
-// Displays annotation
+// Displays an annotation the first object
     [self.mapView selectAnnotation:[self.mapAnnotations objectAtIndex:0] animated:YES];
 }
 
@@ -213,7 +214,7 @@ const int  MAX_PINS_TO_DROP = 20;
     [self removeAllPins:nil];
 
 // Figure out the closest pin to the user
-    id<MKAnnotation> defaultPin = nil;
+//    id<MKAnnotation> defaultPin = nil;
     double closestDistance = DBL_MAX;   // set distance to furthest so first result is less than this
 
     for( NSDictionary* d in self.pinsArray ){
@@ -225,16 +226,26 @@ const int  MAX_PINS_TO_DROP = 20;
         double aLatitude = [aLatitudeString doubleValue];
         double aLongitude = [aLongitudeString doubleValue];
         CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(aLatitude, aLongitude);
+        BOOL hasShop = [[d objectForKey:@"hasShop"] boolValue];
         
 //        NSString *aName = [d objectForKey:@"name"];
 //        NSString *aDescription = [d objectForKey:@"description"];
 //        BOOL hasShop = [d objectForKey:@"hasShop"];
         
 //        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates placeName:aName description:aDescription];
-        MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates memberData:d];
-
-        aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
-        [self.mapAnnotations addObject:aNewPin];
+        
+        // Adds annotations to the mapAnnotations array depending upon hasShop Boolean
+        if (hasShop) {
+            MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:coordinates memberData:d];
+            aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
+            [self.mapAnnotations addObject:aNewPin];
+//            NSLog(@"HAS SHOP %@", aNewPin);
+        } else {
+            NoShopAnnotation *aNewPin = [[NoShopAnnotation alloc] initWithCoordinates:coordinates memberData:d];
+            aNewPin.memberData = d; // set data about the member so it can be passed to annotations and disclosures
+            [self.mapAnnotations addObject:aNewPin];
+//            NSLog(@"NO SHOP %@", aNewPin);
+        }
         
 
     // Get distance between this new pin and the stored reference location (the user location or a faked Santa Cruz lat/long if location is disabled)
@@ -244,7 +255,7 @@ const int  MAX_PINS_TO_DROP = 20;
         double dist = [self.referenceLocation distanceFromLocation:loc];
         if( dist > 0 && dist < closestDistance ){
             closestDistance = dist;
-            defaultPin = aNewPin;
+//            defaultPin = aNewPin;
         }
     }
     // If defaultPin is set, select it when we view the map
@@ -303,7 +314,7 @@ const int  MAX_PINS_TO_DROP = 20;
 // handles our custom annotation look N feel
     if ([annotation isKindOfClass:[MapItem class]])         // for Members with offices
     {
-        NSLog(@"The annotation is %@", annotation);
+//        NSLog(@"The annotation is %@", annotation);
         // try to dequeue an existing pin view first
         static NSString *BridgeAnnotationIdentifier = @"bridgeAnnotationIdentifier";
         
@@ -318,33 +329,41 @@ const int  MAX_PINS_TO_DROP = 20;
             customPinView.pinColor = MKPinAnnotationColorPurple;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-            customPinView.image = [UIImage imageNamed:@"dolphins.png"];
-            NSLog(@"The customPinView is %@", customPinView);
+            customPinView.image = [UIImage imageNamed:@"lobster.png"];
+//            NSLog(@"The customPinView is %@", customPinView);
 
-          
-        // Determines type of pin depending upon hasShop field
-            if (TRUE) {
-         //       customPinView.pinColor = MKPinAnnotationColorPurple;
-                customPinView.image = [UIImage imageNamed:@"dolphins.png"];
-            } else {
-             //   customPinView.pinColor = MKPinAnnotationColorGreen;
-                customPinView.image = [UIImage imageNamed:@"lobster-export.png"];
-            }
-            
-            // add a detail disclosure button to the callout which will open a new view controller page
-            //
-            // note: when the detail disclosure button is tapped, we respond to it via:
-            //       calloutAccessoryControlTapped delegate method
-            //
-            // by using "calloutAccessoryControlTapped", it's a convenient way to find out which annotation was tapped
-            //
+                      
             UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 //            [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
             customPinView.rightCalloutAccessoryView = rightButton;
             
             return customPinView;
         }
-    }    
+    }
+    if ([annotation isKindOfClass:[NoShopAnnotation class]]) {      // for Members with NO offices
+        // try to dequeue an existing pin view first
+        static NSString *noShopAnnotationIdentifier = @"noShopAnnotationIdentifier";
+        
+        MKPinAnnotationView *pinView =
+        (MKPinAnnotationView *) [self.mapView dequeueReusableAnnotationViewWithIdentifier:noShopAnnotationIdentifier];
+        if (pinView == nil)
+        {
+            // if an existing pin view was not available, create one
+            MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
+                                                  initWithAnnotation:annotation reuseIdentifier:noShopAnnotationIdentifier];
+            customPinView.pinColor = MKPinAnnotationColorGreen;
+            customPinView.alpha = 1.00;
+            customPinView.animatesDrop = YES;
+            customPinView.canShowCallout = YES;
+            customPinView.image = [UIImage imageNamed:@"dolphins.png"];
+            
+            UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+            [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
+            customPinView.rightCalloutAccessoryView = rightButton;
+            
+            return customPinView;
+        }
+    }
     return nil;
 }
 

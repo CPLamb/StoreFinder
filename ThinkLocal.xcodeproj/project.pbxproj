@@ -49,8 +49,9 @@
 		834FEB6E17428DB90072F19D /* logo_KayakConnection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */; };
 		834FEB6F17428DB90072F19D /* logo_OceanEchoInn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */; };
 		8350850B174FED610041D55E /* dolphins.png in Resources */ = {isa = PBXBuildFile; fileRef = 8350850A174FED610041D55E /* dolphins.png */; };
-		8350850D174FED720041D55E /* lobster-export.png in Resources */ = {isa = PBXBuildFile; fileRef = 8350850C174FED720041D55E /* lobster-export.png */; };
+		8350850D174FED720041D55E /* lobster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8350850C174FED720041D55E /* lobster.png */; };
 		8350850F174FEDA00041D55E /* bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 8350850E174FEDA00041D55E /* bread.png */; };
+		83639800175552890008FB19 /* NoShopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 836397FF175552890008FB19 /* NoShopAnnotation.m */; };
 		83835FCF1746C226002E3AA3 /* CouponSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FCE1746C226002E3AA3 /* CouponSample.png */; };
 		83835FD11746CD7E002E3AA3 /* CouponSample_480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */; };
 		83835FDE1746FB09002E3AA3 /* TLF_Icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */; };
@@ -232,8 +233,10 @@
 		834FEB6917428DB90072F19D /* logo_KayakConnection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_KayakConnection.jpg; sourceTree = "<group>"; };
 		834FEB6A17428DB90072F19D /* logo_OceanEchoInn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_OceanEchoInn.jpg; sourceTree = "<group>"; };
 		8350850A174FED610041D55E /* dolphins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolphins.png; sourceTree = "<group>"; };
-		8350850C174FED720041D55E /* lobster-export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lobster-export.png"; sourceTree = "<group>"; };
+		8350850C174FED720041D55E /* lobster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lobster.png; sourceTree = "<group>"; };
 		8350850E174FEDA00041D55E /* bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bread.png; sourceTree = "<group>"; };
+		836397FE175552890008FB19 /* NoShopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoShopAnnotation.h; sourceTree = "<group>"; };
+		836397FF175552890008FB19 /* NoShopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoShopAnnotation.m; sourceTree = "<group>"; };
 		83835FCE1746C226002E3AA3 /* CouponSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouponSample.png; sourceTree = "<group>"; };
 		83835FD01746CD7E002E3AA3 /* CouponSample_480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouponSample_480x320.png; sourceTree = "<group>"; };
 		83835FDA1746FB09002E3AA3 /* TLF_Icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLF_Icon114x114.png; sourceTree = "<group>"; };
@@ -578,7 +581,7 @@
 				83835FDB1746FB09002E3AA3 /* TLF_Logo320x480.png */,
 				83835FDC1746FB09002E3AA3 /* TLF_Logo640x960.png */,
 				83835FDD1746FB09002E3AA3 /* TLF_Logo640x1136.png */,
-				8350850C174FED720041D55E /* lobster-export.png */,
+				8350850C174FED720041D55E /* lobster.png */,
 				8350850A174FED610041D55E /* dolphins.png */,
 				8350850E174FEDA00041D55E /* bread.png */,
 				83F3E15A172B0B1300221519 /* globe.png */,
@@ -643,6 +646,8 @@
 				834965FD172DBC4F00F049B0 /* TabBarController.m */,
 				83E28544172480C80025949B /* MapItem.h */,
 				83E28545172480C80025949B /* MapItem.m */,
+				836397FE175552890008FB19 /* NoShopAnnotation.h */,
+				836397FF175552890008FB19 /* NoShopAnnotation.m */,
 				83DC2C4017483A140088A956 /* MemberListData.h */,
 				83DC2C4117483A160088A956 /* MemberListData.m */,
 				83F3E162172B139300221519 /* RoundedRectBackground.h */,
@@ -898,7 +903,7 @@
 				83EF06EE174A959F00270E70 /* logo_StokesSigns.jpg in Resources */,
 				83EF06EF174A959F00270E70 /* logo_SurfnetComms.BMP in Resources */,
 				8350850B174FED610041D55E /* dolphins.png in Resources */,
-				8350850D174FED720041D55E /* lobster-export.png in Resources */,
+				8350850D174FED720041D55E /* lobster.png in Resources */,
 				8350850F174FEDA00041D55E /* bread.png in Resources */,
 				83CE2E6E1753CD2F00570E13 /* logo_SurfnetComms.png in Resources */,
 				83CE2E821753E42400570E13 /* logo_BayPlumbing.jpg in Resources */,
@@ -1005,6 +1010,7 @@
 				83DC2C3C1747F1A40088A956 /* CouponViewController.m in Sources */,
 				83DC2C3F174805BB0088A956 /* CouponOfferViewController.m in Sources */,
 				83DC2C4217483A160088A956 /* MemberListData.m in Sources */,
+				83639800175552890008FB19 /* NoShopAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import "MapItem.h"
+#import "NoShopAnnotation.h"
 
 
 @interface MapViewController ()
@@ -173,16 +174,16 @@
 // Configures the Annotation popup
 - (MKAnnotationView *)mapView:(MKMapView *)theMapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-// in case it's the user location, we already have an annotation, so just return nil
+    // in case it's the user location, we already have an annotation, so just return nil
     if ([annotation isKindOfClass:[MKUserLocation class]])
     {
         return nil;
     }
     
-// handles our custom annotation look N feel
+    // handles our custom annotation look N feel
     if ([annotation isKindOfClass:[MapItem class]])         // for Members with offices
     {
-    // try to dequeue an existing pin view first
+        // try to dequeue an existing pin view first
         static NSString *BridgeAnnotationIdentifier = @"bridgeAnnotationIdentifier";
         
         MKPinAnnotationView *pinView =
@@ -196,21 +197,37 @@
             customPinView.alpha = 0.87;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-                    
-            // add a detail disclosure button to the callout which will open a new view controller page
-            //
-            // note: when the detail disclosure button is tapped, we respond to it via:
-            //       calloutAccessoryControlTapped delegate method
-            //
-            // by using "calloutAccessoryControlTapped", it's a convenient way to find out which annotation was tapped
-            //
+            
             UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
             customPinView.rightCalloutAccessoryView = rightButton;
             
             return customPinView;
         }
-    }    
+    }
+    if ([annotation isKindOfClass:[NoShopAnnotation class]]) {      // for Members with NO offices
+        // try to dequeue an existing pin view first
+        static NSString *noShopAnnotationIdentifier = @"noShopAnnotationIdentifier";
+        
+        MKPinAnnotationView *pinView =
+        (MKPinAnnotationView *) [self.mapView dequeueReusableAnnotationViewWithIdentifier:noShopAnnotationIdentifier];
+        if (pinView == nil)
+        {
+            // if an existing pin view was not available, create one
+            MKPinAnnotationView *customPinView = [[MKPinAnnotationView alloc]
+                                                  initWithAnnotation:annotation reuseIdentifier:noShopAnnotationIdentifier];
+            customPinView.pinColor = MKPinAnnotationColorGreen;
+            customPinView.alpha = 1.00;
+            customPinView.animatesDrop = YES;
+            customPinView.canShowCallout = YES;
+            
+            UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+            [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
+            customPinView.rightCalloutAccessoryView = rightButton;
+            
+            return customPinView;
+        }
+    }
     return nil;
 }
 
