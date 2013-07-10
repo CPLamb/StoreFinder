@@ -2234,7 +2234,7 @@
 		<key>latitude</key>
 		<string>37.042034</string>
 		<key>logo</key>
-		<string>files/images/members/logo.gif</string>
+		<string>logo_BeauregardVineyards.gif</string>
 		<key>longitude</key>
 		<string>-122.150741</string>
 		<key>meta</key>
@@ -2280,7 +2280,7 @@
 		<key>latitude</key>
 		<string>36.96492</string>
 		<key>logo</key>
-		<string>files/images/members/PCSolutions-logo-125(1).gif</string>
+		<string>logo_BeckettPC.gif</string>
 		<key>longitude</key>
 		<string>-121.888662</string>
 		<key>meta</key>
@@ -2312,9 +2312,9 @@
 		<key>contact</key>
 		<string>Peter Beckmann</string>
 		<key>couponOffer</key>
-		<string>Free loaf of bread</string>
+		<string>10% Off</string>
 		<key>couponURL</key>
-		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/Coupon02.png</string>
+		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/TLF-CouponTemplate_Beckmann_410x230.png</string>
 		<key>description</key>
 		<string>It's time for Brotzeit!  Nurturing the Old World tradition of breadbaking since 1985. </string>
 		<key>email</key>
@@ -2340,7 +2340,7 @@
 		<key>type</key>
 		<string>Gold</string>
 		<key>url</key>
-		<string></string>
+		<string>www.beckmannsbakery.com</string>
 		<key>zip</key>
 		<string>95062</string>
 	</dict>
@@ -2680,9 +2680,9 @@
 		<key>contact</key>
 		<string>Casey Coonerty</string>
 		<key>couponOffer</key>
-		<string></string>
+		<string>2-for-1 </string>
 		<key>couponURL</key>
-		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon04.jpg</string>
+		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/TLF-CouponTemplate_Bookshop_420x236.png</string>
 		<key>description</key>
 		<string>Your local bookstore since 1966!  Open 9am-10pm; Fri.-Sat. until 11pm </string>
 		<key>email</key>
@@ -2740,7 +2740,7 @@
 		<key>latitude</key>
 		<string>36.9856</string>
 		<key>logo</key>
-		<string>files/images/members/office.jpg</string>
+		<string>logo_BossoWilliams.jpg</string>
 		<key>longitude</key>
 		<string>-122.0475</string>
 		<key>meta</key>
@@ -3878,7 +3878,7 @@
 		<key>couponOffer</key>
 		<string>Think Local? Go Local! Why not use a local payroll processing company? Coast Financial Services offers accurate  friendly and affordable payroll services. Think Local First members receive $25 off new payroll set up fee. Call Gloria or Alica  at 462-0330 or email Gloria@coastfinancialservices.com  cfs@coastfinancialservices.com</string>
 		<key>couponURL</key>
-		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/coupon04.jpg</string>
+		<string>http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/TLF-CouponSample_CoastFinan_420x320.png</string>
 		<key>description</key>
 		<string>Coast Financial Services provides accounting  payroll  and tax preparation services to local businesses. With over 30 years of experience  Bob Mason  CPA  brings the experience and attention to detail necessary to help you manage your business.</string>
 		<key>email</key>
@@ -4672,7 +4672,7 @@
 		<key>latitude</key>
 		<string>36.972002</string>
 		<key>logo</key>
-		<string>files/images/members/LOGO!.jpg</string>
+		<string>logo_CypressCoast.jpg</string>
 		<key>longitude</key>
 		<string>-121.990579</string>
 		<key>meta</key>
@@ -4718,7 +4718,7 @@
 		<key>latitude</key>
 		<string>36.965751</string>
 		<key>logo</key>
-		<string>files/images/members/Mr-Fix-it-10073980-SM(1).jpg</string>
+		<string>logo_DaleKRutledge.jpg</string>
 		<key>longitude</key>
 		<string>-121.764961</string>
 		<key>meta</key>
@@ -5086,7 +5086,7 @@
 		<key>latitude</key>
 		<string>37.00711</string>
 		<key>logo</key>
-		<string>files/images/members/logo [Converted] copy(2).jpg</string>
+		<string>logo_DocAuto.jpg</string>
 		<key>longitude</key>
 		<string>-122.040097</string>
 		<key>meta</key>
@@ -6098,7 +6098,7 @@
 		<key>latitude</key>
 		<string>36.974951</string>
 		<key>logo</key>
-		<string>files/images/members/PARKSTORE-Solo.jpg</string>
+		<string>logo_FriendsOfSCParks.jpg</string>
 		<key>longitude</key>
 		<string>-121.911969</string>
 		<key>meta</key>
@@ -6604,7 +6604,7 @@
 		<key>latitude</key>
 		<string>37.033473</string>
 		<key>logo</key>
-		<string>files/images/members/MASTHEAD.jpg</string>
+		<string>logo_GophersLimited.jpg</string>
 		<key>longitude</key>
 		<string>-122.086067</string>
 		<key>meta</key>
@@ -6742,7 +6742,7 @@
 		<key>latitude</key>
 		<string>37.088884</string>
 		<key>logo</key>
-		<string>files/images/members/logo(8).jpg</string>
+		<string>logo_GreeningAssociates.jpg</string>
 		<key>longitude</key>
 		<string>-122.09125</string>
 		<key>meta</key>
@@ -7616,7 +7616,7 @@
 		<key>latitude</key>
 		<string>36.970899</string>
 		<key>logo</key>
-		<string>files/images/members/WAGONLOGO.jpg</string>
+		<string>logo_IndiaJoze.jpg</string>
 		<key>longitude</key>
 		<string>-122.024011</string>
 		<key>meta</key>
@@ -7708,7 +7708,7 @@
 		<key>latitude</key>
 		<string>36.966905</string>
 		<key>logo</key>
-		<string>files/images/members/islandhomelogo(1).jpg</string>
+		<string>logo_IslandHome.jpg</string>
 		<key>longitude</key>
 		<string>-121.985574</string>
 		<key>meta</key>
@@ -7938,7 +7938,7 @@
 		<key>latitude</key>
 		<string>36.958391</string>
 		<key>logo</key>
-		<string>files/images/members/Java Bob Logo_No Choice.jpg</string>
+		<string>logo_JavaBobs.jpg</string>
 		<key>longitude</key>
 		<string>-122.047913</string>
 		<key>meta</key>
@@ -7984,7 +7984,7 @@
 		<key>latitude</key>
 		<string>37.0629</string>
 		<key>logo</key>
-		<string>files/images/members/Jay's Classic Logo's.bmp</string>
+		<string>logo_JaysClassic.jpg</string>
 		<key>longitude</key>
 		<string>-122.99729</string>
 		<key>meta</key>
@@ -8122,7 +8122,7 @@
 		<key>latitude</key>
 		<string>36.969891</string>
 		<key>logo</key>
-		<string>files/images/members/plainlogo.jpg</string>
+		<string>XXX files/images/members/plainlogo.jpg</string>
 		<key>longitude</key>
 		<string>-121.985104</string>
 		<key>meta</key>
@@ -8306,7 +8306,7 @@
 		<key>latitude</key>
 		<string>36.980577</string>
 		<key>logo</key>
-		<string>files/images/members/Logo.jpg</string>
+		<string>XXX files/images/members/Logo.jpg</string>
 		<key>longitude</key>
 		<string>-122.018384</string>
 		<key>meta</key>
@@ -8352,7 +8352,7 @@
 		<key>latitude</key>
 		<string>36.966479</string>
 		<key>logo</key>
-		<string>files/images/members/Larry's Photography(1).jpg</string>
+		<string>logo_LarrysPhotography.gif</string>
 		<key>longitude</key>
 		<string>-122.040609</string>
 		<key>meta</key>
@@ -8766,7 +8766,7 @@
 		<key>latitude</key>
 		<string>36.97265</string>
 		<key>logo</key>
-		<string>files/images/members/logo-facebook.png</string>
+		<string>logo_LienhardWeb.png</string>
 		<key>longitude</key>
 		<string>-121.976515</string>
 		<key>meta</key>
@@ -8904,7 +8904,7 @@
 		<key>latitude</key>
 		<string>36.95881</string>
 		<key>logo</key>
-		<string>files/images/members/Lighthouse-Logo[1].JPG</string>
+		<string>logo_LighthouseRealty.JPG</string>
 		<key>longitude</key>
 		<string>-122.04871</string>
 		<key>meta</key>
@@ -9042,7 +9042,7 @@
 		<key>latitude</key>
 		<string>36.96828</string>
 		<key>logo</key>
-		<string>files/images/members/Seabreeze2.jpg</string>
+		<string>logo_SeabreezeCafe.jpg</string>
 		<key>longitude</key>
 		<string>-122.00777</string>
 		<key>meta</key>
@@ -9088,7 +9088,7 @@
 		<key>latitude</key>
 		<string>36.98055</string>
 		<key>logo</key>
-		<string>files/images/members/lloyds.jpg</string>
+		<string>logo_LloydsTire.jpg</string>
 		<key>longitude</key>
 		<string>-122.02875</string>
 		<key>meta</key>
@@ -9272,7 +9272,7 @@
 		<key>latitude</key>
 		<string>36.9748</string>
 		<key>logo</key>
-		<string>files/images/members/lrg_man-logo.jpg</string>
+		<string>logo_ManWithTools.jpg</string>
 		<key>longitude</key>
 		<string>-122.030949</string>
 		<key>meta</key>
@@ -9364,7 +9364,7 @@
 		<key>latitude</key>
 		<string>36.96123</string>
 		<key>logo</key>
-		<string>files/images/members/mnd_logo.gif</string>
+		<string>logo_MandelaNetDesign.gif</string>
 		<key>longitude</key>
 		<string>-122.043754</string>
 		<key>meta</key>
@@ -9548,7 +9548,7 @@
 		<key>latitude</key>
 		<string>36.98426</string>
 		<key>logo</key>
-		<string>files/images/members/serenologo.jpg</string>
+		<string>XXX files/images/members/serenologo.jpg</string>
 		<key>longitude</key>
 		<string>-121.95752</string>
 		<key>meta</key>
@@ -9870,7 +9870,7 @@
 		<key>latitude</key>
 		<string>36.9762</string>
 		<key>logo</key>
-		<string>files/images/members/Photo.jpg</string>
+		<string>logo_MJTranscription.jpg</string>
 		<key>longitude</key>
 		<string>-121.88796</string>
 		<key>meta</key>
@@ -10100,7 +10100,7 @@
 		<key>latitude</key>
 		<string>36.98087</string>
 		<key>logo</key>
-		<string>files/images/members/Mpress_logo [Converted].jpg</string>
+		<string>logo_MpressDigital.png</string>
 		<key>longitude</key>
 		<string>-122.03041</string>
 		<key>meta</key>
@@ -10422,7 +10422,7 @@
 		<key>latitude</key>
 		<string>36.97345</string>
 		<key>logo</key>
-		<string>files/images/members/Nelson Insurance Logo.jpg</string>
+		<string>logo_NelsonInsurance.jpg</string>
 		<key>longitude</key>
 		<string>-122.034774</string>
 		<key>meta</key>
@@ -10744,7 +10744,7 @@
 		<key>latitude</key>
 		<string>37.076856</string>
 		<key>logo</key>
-		<string>files/images/members/Nite and Day Power.png</string>
+		<string>logo_NiteAndDay.png</string>
 		<key>longitude</key>
 		<string>-122.076389</string>
 		<key>meta</key>
@@ -10882,7 +10882,7 @@
 		<key>latitude</key>
 		<string>36.973234</string>
 		<key>logo</key>
-		<string>files/images/members/NOURISH LOGO Hi Res.jpg</string>
+		<string>logo_Nourish.jpg</string>
 		<key>longitude</key>
 		<string>-122.02727</string>
 		<key>meta</key>
@@ -10928,7 +10928,7 @@
 		<key>latitude</key>
 		<string>36.965968</string>
 		<key>logo</key>
-		<string>files/images/members/SnakeStamp_HiRes.jpg</string>
+		<string>logo_NSOVitamin.jpg</string>
 		<key>longitude</key>
 		<string>-122.022209</string>
 		<key>meta</key>
@@ -11204,7 +11204,7 @@
 		<key>latitude</key>
 		<string>36.98563</string>
 		<key>logo</key>
-		<string>files/images/members/odwnbslogo.gif</string>
+		<string>logo_OutdoorWorld.gif</string>
 		<key>longitude</key>
 		<string>-121.969089</string>
 		<key>meta</key>
@@ -11296,7 +11296,7 @@
 		<key>latitude</key>
 		<string>36.980417</string>
 		<key>logo</key>
-		<string>files/images/members/lolo 2011.bmp</string>
+		<string>logo_PacificCoffee.png</string>
 		<key>longitude</key>
 		<string>-121.908835</string>
 		<key>meta</key>
@@ -11388,7 +11388,7 @@
 		<key>latitude</key>
 		<string>36.966518</string>
 		<key>logo</key>
-		<string>files/images/members/IMG_0436.JPG</string>
+		<string>XXX files/images/members/IMG_0436.JPG</string>
 		<key>longitude</key>
 		<string>-121.830242</string>
 		<key>meta</key>
@@ -11480,7 +11480,7 @@
 		<key>latitude</key>
 		<string>37.062348</string>
 		<key>logo</key>
-		<string>files/images/members/PMA Logo Low Res.GIF</string>
+		<string>logo_PacificMountain.GIF</string>
 		<key>longitude</key>
 		<string>-122.006572</string>
 		<key>meta</key>
@@ -11618,7 +11618,7 @@
 		<key>latitude</key>
 		<string>36.9678</string>
 		<key>logo</key>
-		<string>files/images/members/new_banner.gif</string>
+		<string>logo_PacifcYachting.gif</string>
 		<key>longitude</key>
 		<string>-122.003536</string>
 		<key>meta</key>
@@ -11848,7 +11848,7 @@
 		<key>latitude</key>
 		<string>36.97505</string>
 		<key>logo</key>
-		<string>files/images/members/IPSocietyLogo_300PixWd1.gif</string>
+		<string>logo_PatrickReilly.gif</string>
 		<key>longitude</key>
 		<string>-122.02634</string>
 		<key>meta</key>
@@ -11940,7 +11940,7 @@
 		<key>latitude</key>
 		<string>36.9685</string>
 		<key>logo</key>
-		<string>files/images/members/PedXLogoWeb.gif</string>
+		<string>logo_PedalersExpress.gif</string>
 		<key>longitude</key>
 		<string>-122.025</string>
 		<key>meta</key>
@@ -12032,7 +12032,7 @@
 		<key>latitude</key>
 		<string>36.97588</string>
 		<key>logo</key>
-		<string>files/images/members/psd-logo.jpg</string>
+		<string>logo_PeterSpellman.jpg</string>
 		<key>longitude</key>
 		<string>-122.0306</string>
 		<key>meta</key>
@@ -12078,7 +12078,7 @@
 		<key>latitude</key>
 		<string>36.973434</string>
 		<key>logo</key>
-		<string>files/images/members/ph_diamonds_logo3_copy.jpg</string>
+		<string>logo_PhDiamonds.jpg</string>
 		<key>longitude</key>
 		<string>-121.9522</string>
 		<key>meta</key>
@@ -12216,7 +12216,7 @@
 		<key>latitude</key>
 		<string>36.97599</string>
 		<key>logo</key>
-		<string>files/images/members/main logo.jpg</string>
+		<string>logo_PlazaLane.jpg</string>
 		<key>longitude</key>
 		<string>-122.02689</string>
 		<key>meta</key>
@@ -13228,7 +13228,7 @@
 		<key>latitude</key>
 		<string>36.983325</string>
 		<key>logo</key>
-		<string>files/images/members/SCCCC Logo final(1).jpg</string>
+		<string>logo_SantaCruzCommunity.jpg</string>
 		<key>longitude</key>
 		<string>-122.034875</string>
 		<key>meta</key>
@@ -13274,7 +13274,7 @@
 		<key>latitude</key>
 		<string>36.969665</string>
 		<key>logo</key>
-		<string>files/images/members/logo-standard.png</string>
+		<string>logo_SantaCruzCommunityCredit.png</string>
 		<key>longitude</key>
 		<string>-122.023821</string>
 		<key>meta</key>
@@ -13412,7 +13412,7 @@
 		<key>latitude</key>
 		<string>36.98145</string>
 		<key>logo</key>
-		<string>files/images/members/logo(7).jpg</string>
+		<string>logo_SantaCruzCountyAnimal.jpg</string>
 		<key>longitude</key>
 		<string>-121.989572</string>
 		<key>meta</key>
@@ -13458,7 +13458,7 @@
 		<key>latitude</key>
 		<string>36.975323</string>
 		<key>logo</key>
-		<string>files/images/members/sccb logo.jpg</string>
+		<string>XXX files/images/members/sccb logo.jpg</string>
 		<key>longitude</key>
 		<string>-122.025646</string>
 		<key>meta</key>
@@ -13550,7 +13550,7 @@
 		<key>latitude</key>
 		<string>36.985532</string>
 		<key>logo</key>
-		<string>files/images/members/scgc logo 2011_small(1).jpg</string>
+		<string>logo_SantaCruzGymnastics.jpg</string>
 		<key>longitude</key>
 		<string>-121.98871</string>
 		<key>meta</key>
@@ -13642,7 +13642,7 @@
 		<key>latitude</key>
 		<string>36.968242</string>
 		<key>logo</key>
-		<string>files/images/members/Santa Cruz Motorsports logo.b</string>
+		<string>XXX files/images/members/Santa Cruz Motorsports logo.b</string>
 		<key>longitude</key>
 		<string>-122.026273</string>
 		<key>meta</key>
@@ -13780,7 +13780,7 @@
 		<key>latitude</key>
 		<string>36.959143</string>
 		<key>logo</key>
-		<string>files/images/members/SCMV logo color(1).jpg</string>
+		<string>logo_SantaCruzMtnVineyard.jpg</string>
 		<key>longitude</key>
 		<string>-122.047255</string>
 		<key>meta</key>
@@ -13872,7 +13872,7 @@
 		<key>latitude</key>
 		<string>36.9792</string>
 		<key>logo</key>
-		<string>files/images/members/Logo.JPG</string>
+		<string>XXX files/images/members/Logo.JPG</string>
 		<key>longitude</key>
 		<string>-122.01267</string>
 		<key>meta</key>
@@ -14010,7 +14010,7 @@
 		<key>latitude</key>
 		<string>36.9747</string>
 		<key>logo</key>
-		<string>files/images/members/scsc_logo.png</string>
+		<string>logo_SantaCruzSoccer.png</string>
 		<key>longitude</key>
 		<string>-122.0308</string>
 		<key>meta</key>
@@ -14102,7 +14102,7 @@
 		<key>latitude</key>
 		<string>36.985986</string>
 		<key>logo</key>
-		<string>files/images/members/imgB(1).jpg</string>
+		<string>XXX files/images/members/imgB(1).jpg</string>
 		<key>longitude</key>
 		<string>-121.98768</string>
 		<key>meta</key>
@@ -14286,7 +14286,7 @@
 		<key>latitude</key>
 		<string>36.97505</string>
 		<key>logo</key>
-		<string>files/images/members/Picture 1(1).png</string>
+		<string>logo_SaraIsenberg.png</string>
 		<key>longitude</key>
 		<string>-122.026373</string>
 		<key>meta</key>
@@ -14516,7 +14516,7 @@
 		<key>latitude</key>
 		<string>36.954703</string>
 		<key>logo</key>
-		<string>files/images/members/Seascape Design Logo.jpg</string>
+		<string>logo_SeascapeDesign.jpg</string>
 		<key>longitude</key>
 		<string>-121.871383</string>
 		<key>meta</key>
@@ -14562,7 +14562,7 @@
 		<key>latitude</key>
 		<string>36.97655</string>
 		<key>logo</key>
-		<string>files/images/members/Seascape Soap Logo(1).jpg</string>
+		<string>logo_SeascapeSoap.jpg</string>
 		<key>longitude</key>
 		<string>-121.9551</string>
 		<key>meta</key>
@@ -14746,7 +14746,7 @@
 		<key>latitude</key>
 		<string>36.979211</string>
 		<key>logo</key>
-		<string>files/images/members/logo(3).jpg</string>
+		<string>XXX files/images/members/logo(3).jpg</string>
 		<key>longitude</key>
 		<string>-121.982097</string>
 		<key>meta</key>
@@ -15068,7 +15068,7 @@
 		<key>latitude</key>
 		<string>36.984179</string>
 		<key>logo</key>
-		<string>files/images/members/Somerset logo 831 white.jpg</string>
+		<string>XXX files/images/members/Somerset logo 831 white.jpg</string>
 		<key>longitude</key>
 		<string>-121.966312</string>
 		<key>meta</key>
@@ -15436,7 +15436,7 @@
 		<key>latitude</key>
 		<string>36.959725</string>
 		<key>logo</key>
-		<string>files/images/members/SunsUpSolar Company Logo.jpg</string>
+		<string>logo_SunsUpSolar.png</string>
 		<key>longitude</key>
 		<string>-122.035707</string>
 		<key>meta</key>
@@ -15850,7 +15850,7 @@
 		<key>latitude</key>
 		<string>36.97405</string>
 		<key>logo</key>
-		<string>files/images/members/TellerEXPRESS_logo_final.jpg</string>
+		<string>logo_TellerEXPRESS.jpg</string>
 		<key>longitude</key>
 		<string>-122.020216</string>
 		<key>meta</key>
@@ -16080,7 +16080,7 @@
 		<key>latitude</key>
 		<string>36.979329</string>
 		<key>logo</key>
-		<string>files/images/members/NEW CREPE PLACE LOGO yellow.jp</string>
+		<string>logo_TheCrepePlace.jpg</string>
 		<key>longitude</key>
 		<string>-122.01144</string>
 		<key>meta</key>
@@ -16356,7 +16356,7 @@
 		<key>latitude</key>
 		<string>36.974523</string>
 		<key>logo</key>
-		<string>files/images/members/The_Penny_Ice_Creamery_Logo(2</string>
+		<string>XXX files/images/members/The_Penny_Ice_Creamery_Logo(2</string>
 		<key>longitude</key>
 		<string>-122.027697</string>
 		<key>meta</key>
@@ -16402,7 +16402,7 @@
 		<key>latitude</key>
 		<string>36.96317</string>
 		<key>logo</key>
-		<string>files/images/members/The_Picnic_Basket_Logo.jpg</string>
+		<string>logo_ThePicnicBasket.jpg</string>
 		<key>longitude</key>
 		<string>-122.02307</string>
 		<key>meta</key>
@@ -16540,7 +16540,7 @@
 		<key>latitude</key>
 		<string>36.972575</string>
 		<key>logo</key>
-		<string>files/images/members/logo file.jpg</string>
+		<string>logo_TheTrueOlive.jpg</string>
 		<key>longitude</key>
 		<string>-122.026423</string>
 		<key>meta</key>
@@ -16816,7 +16816,7 @@
 		<key>latitude</key>
 		<string>36.981301</string>
 		<key>logo</key>
-		<string>files/images/members/Plain Banner.jpg</string>
+		<string>logo_UncommonBrewers.jpg</string>
 		<key>longitude</key>
 		<string>-122.030311</string>
 		<key>meta</key>
@@ -17046,7 +17046,7 @@
 		<key>latitude</key>
 		<string>36.960192</string>
 		<key>logo</key>
-		<string>files/images/members/WWW BRAND jpg.JPG</string>
+		<string>logo_WallisWoodWorks.JPG</string>
 		<key>longitude</key>
 		<string>-122.052355</string>
 		<key>meta</key>
@@ -17414,7 +17414,7 @@
 		<key>latitude</key>
 		<string>36.97009</string>
 		<key>logo</key>
-		<string>files/images/members/Well-within-color-Logo.jpg</string>
+		<string>logo_WellWithinSpa.jpg</string>
 		<key>longitude</key>
 		<string>-122.026622</string>
 		<key>meta</key>
@@ -17460,7 +17460,7 @@
 		<key>latitude</key>
 		<string>36.96894</string>
 		<key>logo</key>
-		<string>files/images/members/WAH_logo.gif</string>
+		<string>XXX files/images/members/WAH_logo.gif</string>
 		<key>longitude</key>
 		<string>-122.027375</string>
 		<key>meta</key>
@@ -17506,7 +17506,7 @@
 		<key>latitude</key>
 		<string>36.9747</string>
 		<key>logo</key>
-		<string>files/images/members/Screen Shot 2012-04-26 at 12.</string>
+		<string>logo_WestsideCommunityChurch.png</string>
 		<key>longitude</key>
 		<string>-122.0317</string>
 		<key>meta</key>
@@ -17736,7 +17736,7 @@
 		<key>latitude</key>
 		<string>36.963967</string>
 		<key>logo</key>
-		<string>files/images/members/zen square logo.jpg</string>
+		<string>logo_ZenIsland.jpg</string>
 		<key>longitude</key>
 		<string>-121.964968</string>
 		<key>meta</key>
