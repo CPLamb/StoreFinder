@@ -25,5 +25,6 @@
 @property (nonatomic, readonly) NSArray* pinsArray;
 
 - (IBAction)removeAllPins:(UIButton *)sender;
+- (IBAction)turnByRouting:(UIBarButtonItem *)sender;
 
 @end

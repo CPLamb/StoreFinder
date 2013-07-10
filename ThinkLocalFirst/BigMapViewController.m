@@ -282,6 +282,35 @@ const int  MAX_PINS_TO_DROP = 20;
     }    
 }
 
+- (IBAction)turnByRouting:(UIBarButtonItem *)sender {
+    NSLog(@"Opens the native Map app's turn-by-turn navigation");
+
+//business location
+    // test location
+    // CLLocationCoordinate2D coords = CLLocationCoordinate2DMake(37.0469,-122.0308);
+
+    NSString *latitude = [[self.pinsArray objectAtIndex:0] objectForKey:@"latitude"];
+    NSString *longitude = [[self.pinsArray objectAtIndex:0] objectForKey:@"longitude"];
+
+    CLLocationCoordinate2D coords = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
+        
+    MKPlacemark *place = [[MKPlacemark alloc] initWithCoordinate:coords addressDictionary:nil];
+    MKMapItem *mapItem = [[MKMapItem alloc]initWithPlacemark:place];
+    
+//current location
+    MKMapItem *mapItem2 = [MKMapItem mapItemForCurrentLocation];
+        
+    NSArray *mapItems = @[mapItem, mapItem2];
+        
+    NSDictionary *options = @{
+        MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving,
+        MKLaunchOptionsMapTypeKey:[NSNumber numberWithInteger:MKMapTypeStandard],
+        MKLaunchOptionsShowsTrafficKey:@YES
+    };        
+    [MKMapItem openMapsWithItems:mapItems launchOptions:options];
+}
+
+
 - (IBAction)removeAllPins:(UIButton *)sender {
 //    NSLog(@"Removing %d annotations from mapAnnotation array", [self.mapAnnotations count]);
     [self.mapAnnotations removeAllObjects];
@@ -329,7 +358,7 @@ const int  MAX_PINS_TO_DROP = 20;
             customPinView.pinColor = MKPinAnnotationColorPurple;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-            customPinView.image = [UIImage imageNamed:@"lobster.png"];
+//            customPinView.image = [UIImage imageNamed:@"lobster.png"];
 //            NSLog(@"The customPinView is %@", customPinView);
 
                       
@@ -355,7 +384,7 @@ const int  MAX_PINS_TO_DROP = 20;
             customPinView.alpha = 1.00;
             customPinView.animatesDrop = YES;
             customPinView.canShowCallout = YES;
-            customPinView.image = [UIImage imageNamed:@"dolphins.png"];
+//            customPinView.image = [UIImage imageNamed:@"dolphins.png"];
             
             UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
