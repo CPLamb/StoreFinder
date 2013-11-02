@@ -39,7 +39,7 @@
 #pragma mark - Custom methods
 
 - (IBAction)cancelButton:(UIButton *)sender {
-    NSLog(@"Cancel Button pressed %@", sender);
+//    NSLog(@"Cancel Button pressed %@", sender);
     
     [self.delegate cancelSortView:self];
 }

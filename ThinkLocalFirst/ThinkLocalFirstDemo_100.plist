@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Address</key>
+		<string>123 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Wino</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Engineering and iPhone/iPad programming</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>computer, iOS</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>ChrisPLamb Labs</string>
+		<key>Phone</key>
+		<string>831-234-9927</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>124 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We feature high-quality, non-toxic adult toys, and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity, offering something for "The Pleasure Inside Us All". </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Pure Pleasure</string>
+		<key>Phone</key>
+		<string>831-466-9870</string>
+		<key>PhotoName</key>
+		<string>12awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.purepleasureshop.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>125 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Nursery</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We supply and deliver Landscape, garden and building supplies to all of Santa Cruz County.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.86</string>
+		<key>Name</key>
+		<string>Aptos Landscape Supply</string>
+		<key>Phone</key>
+		<string>831 688 6211</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://aptoslandscapesupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>126 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Service</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>B&amp;B Small Engine Repair has been selling and servicing outdoor power equipment since 1993. Stocking a full line of Stihl, Honda and Husqvarna equipment plus a wide selection of hand tools and safety gear for local residential and commercial users.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>B &amp; B SMALL ENGINE REPAIR</string>
+		<key>Phone</key>
+		<string>831-476-6306</string>
+		<key>PhotoName</key>
+		<string>13awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.bandbsmallenginerepair.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>127 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Nursery</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Bamboo Hedge Specialists.  Delivery and installations through out California. We also have Bamboo Products and supplies. 20 acres of beautiful Bamboo forest.  Come take a walk and have a picnic among the Bamboo. Open 7 days the week from 10-4.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.85</string>
+		<key>Name</key>
+		<string>Bamboo Giant Nursery</string>
+		<key>Phone</key>
+		<string>831-216-3300</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bamboogiant.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>128 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Compare our locally made mattresses to any national brand - we build a better mattress for a lower price.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.01</string>
+		<key>Name</key>
+		<string>Bay Bed &amp; Mattress</string>
+		<key>Phone</key>
+		<string>831-457-1201</string>
+		<key>PhotoName</key>
+		<string>14awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.baybed.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>129 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Established in 1987, Bay Plumbing Supply is a family owned and operated plumbing supply wholesaler with a 2400 sq ft decorative plumbing showroom.  Our showroom is packed with hundreds of the latest styles in eco-friendly Kitchen and Bath fixtures.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.99</string>
+		<key>Name</key>
+		<string>Bay Plumbing Supply &amp; Showroom, inc.</string>
+		<key>Phone</key>
+		<string>831-475-2900</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bayplumbingsupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>130 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>All phases of Residential and Commercial Interior Design.  Bettencourt Interiors is your resource for furnishings, flooring, custom window treatments and upholstery including shades, blinds and shutters.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>Bettencourt Interiors</string>
+		<key>Phone</key>
+		<string>831-464-7306</string>
+		<key>PhotoName</key>
+		<string>15awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>131 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Service</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Durable repairs of bathtubs, sinks, countertops, vinyl window frames, etc.  Acrylic, fiberglass, cultured marble, terrazzo, cast iron, porcelain and more.  Residential and commercial. Serving local contractors and property owners since 1996.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Monterey Bay Refinishing, Inc.</string>
+		<key>Phone</key>
+		<string>(831) 471-9816</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>132 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Nursery</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>As a native plant nursery in Aptos, we are dedicated to the flora and fauna of our state. We offer both plants and information to allow individuals to create hardy, drought tolerant gardens which are both beautiful and require little maintenance.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.92</string>
+		<key>Name</key>
+		<string>Native Revival Nursery</string>
+		<key>Phone</key>
+		<string>831-684-1811</string>
+		<key>PhotoName</key>
+		<string>16awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.nativerevival.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>133 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Nursery</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializes in deer drought and frost tolerant native plants including groundcovers. We offer full landscape design and installation.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>New Garden Nursery &amp; Landscaping</string>
+		<key>Phone</key>
+		<string>831-462-1610</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.newgardenlandscaping.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>134 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Quarry</string>
+		<key>City</key>
+		<string>Soquel </string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Olive Springs Quarry mines decomposed granite and produces base rock  drain rock gabion and sand.  We also have an asphalt plant and can supply you with both hot and cold asphalt.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.05</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>Olive Springs Quarry  Inc.</string>
+		<key>Phone</key>
+		<string>831-475-1610</string>
+		<key>PhotoName</key>
+		<string>17awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>135 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specialty Gift and Home Store</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.91</string>
+		<key>Name</key>
+		<string>Outside-In &amp; Outside-In Kids</string>
+		<key>Phone</key>
+		<string>(831) 684-0186</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.oihome.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>136 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Palace Office Interiors designs, sells &amp; installs office furniture to businesses, schools &amp; non-profits in Santa Cruz County &amp; neighboring counties. From complete workstations to a simple file cabinet, Palace is your best bet on the Central Coast.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>Palace Office Interiors</string>
+		<key>Phone</key>
+		<string>831-476-3815</string>
+		<key>PhotoName</key>
+		<string>18awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.gopalace.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>137 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Food</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Our farm provides a continuous supply of clean  fresh seawater to the abalone that are grown inside tanks with various types of local seaweeds. The farm is open for direct sales to the public every Saturday from 10 AM to 2 PM.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-122.21</string>
+		<key>Name</key>
+		<string>American Abalone Farms</string>
+		<key>Phone</key>
+		<string>831-457-2794</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.AmericanAbalone.net</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>138 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Food</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Locally owned and sourced foods</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Staff of Life</string>
+		<key>Phone</key>
+		<string>(831) 423-8632</string>
+		<key>PhotoName</key>
+		<string>19awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.staffoflifemarket.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>139 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Food</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Darrell and Karen Osborn are the owners of the Summit Store for the past 34 years. We serve the summit area of Santa Cruz and Santa Clara County . Our store has been in this location for over 65 years. </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.12</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>Summit Store </string>
+		<key>Phone</key>
+		<string>831-234-7981</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>140 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Food</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SunRidge Farms is a name that has become synonymous with natural bulk trail mixes, dried fruits, confections &amp; snack blends. SunRidge also offers USDA certified organic &amp; natural granolas &amp; mueslis, nuts &amp; nut mixes, grains &amp; pastas, herbs &amp; spices.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.9</string>
+		<key>Longitude</key>
+		<string>-121.75</string>
+		<key>Name</key>
+		<string>SunRidge Farms</string>
+		<key>Phone</key>
+		<string>831-786-7000</string>
+		<key>PhotoName</key>
+		<string>20awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.sunridgefarms.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>141 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Lumber</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Lumber &amp; Building Materials</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.09</string>
+		<key>Longitude</key>
+		<string>-122.27</string>
+		<key>Name</key>
+		<string>Big Creek Lumber Co.</string>
+		<key>Phone</key>
+		<string>(831) 457-5029</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.big-creek.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>142 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Sports</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SUP Shack Santa Cruz located in the Santa Cruz Harbor offers the best conditions for stand up paddling from smooth water to open ocean.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>SUP Shack Santa Cruz</string>
+		<key>Phone</key>
+		<string>831 464 7467</string>
+		<key>PhotoName</key>
+		<string>21awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.supshacksantacruz.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializing in Burgundian and Rhone style wines from select Coastal vineyards, Pelican Ranch is a family owned and operated winery in the heart of Capitola. </string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Pelican Ranch Winery</string>
+		<key>Phone</key>
+		<string>831-426-6911</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated winery specializing in locally grown Pinot Noir and Chardonnay. We\'re located in rustic Bonny Doon, CA just 3 miles off of Hwy 1. Tasting room open daily 11am-5pm.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.04</string>
+		<key>Longitude</key>
+		<string>-122.15</string>
+		<key>Name</key>
+		<string>Beauregard Vineyards</string>
+		<key>Phone</key>
+		<string>831 425-7777</string>
+		<key>PhotoName</key>
+		<string>22awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Hunter Hill is a family owned Vineyard and winery. We farm 7 acres of vineyard in the Soquel hills and make wine. Our tasting room is open Sat-Sun 11-4. Vann and Christine Slatter are the owners.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-121.94</string>
+		<key>Name</key>
+		<string>Hunter Hill Vineyard and Winery</string>
+		<key>Phone</key>
+		<string>831-465-9294</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated since 1998, Alfaro Family Vineyards &amp; Winery produces Estate grown and bottled Pinot Noir, Chardonnay, Merlot &amp; Syrah at their winery/tasting room in Corralitos. Open for tasting &amp; sales Saturdays 12 - 5. Please call.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.82</string>
+		<key>Name</key>
+		<string>Alfaro Family Vineyards &amp; Winery</string>
+		<key>Phone</key>
+		<string>(831) 728-5172</string>
+		<key>PhotoName</key>
+		<string>23awe.png</string>
+		<key>WebsiteURL</key>
+		<string>alfarowine.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>The Roudon-Smith Winery is dedicated to the production of exceptional wines from selected vineyards of the Santa Cruz Mountains and other regions of California.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.93</string>
+		<key>Longitude</key>
+		<string>-121.79</string>
+		<key>Name</key>
+		<string>Roudon-Smith Winery</string>
+		<key>Phone</key>
+		<string>831-438-1244</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Since 1975, we produce food-friendly, European-style wines, with a focus on locally grown Pinot Noir. Our sister brand, Quinta Cruz, features the fascinating varieties of Portugal &amp; Spain that are now grown in CA. Tasting noon to 5:30pm Wed - Sun.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122.05</string>
+		<key>Name</key>
+		<string>Santa Cruz Mountain Vineyard</string>
+		<key>Phone</key>
+		<string>831-426-6209</string>
+		<key>PhotoName</key>
+		<string>24awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Carefully handcrafted artisan ales that meld European tradition with California edginess with an emphasis on Belgian-inspired ales and aromatic IPAs which are oftenbarrel aged according to age-old practicesâ¨</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Sante Adairius Rustic Alesâ¨</string>
+		<key>Phone</key>
+		<string>831-295-8190</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Sante Arcangeli Family Wines are carefully handcrafted Burgundian varietals that have been gently nurtured from rare mountain-grown fruit to a new life as elegant and expressive California Pinot Noir and Chardonnay.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.81</string>
+		<key>Name</key>
+		<string>Sante Arcangeli Family Wines</string>
+		<key>Phone</key>
+		<string>831-406-1262</string>
+		<key>PhotoName</key>
+		<string>25awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.santewinery.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>"Skov", meaning"Forest" in Danish, ties in the Hunt's background &amp; the long time wine making home nestled in the redwoods. Skov produces Chardonnay, Pinot Noir, Merlot &amp; Zinfandel.Open every Saturday Noon-4:30pm; picnic tables are available.â¨</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.07</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>Skov Winery</string>
+		<key>Phone</key>
+		<string></string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We are a CCOF-Certified Organic microbrewery based in Santa Cruz making uncommon beer for uncommon people</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>Uncommon Brewersâ¨</string>
+		<key>Phone</key>
+		<string>(831)621-6270</string>
+		<key>PhotoName</key>
+		<string>26awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Vinocruz houses a selection of over 150 wines made by more than 60 wineries, all within the Santa Cruz Mountains AVA. Wines by the Glass and Tasting flights featuring these distinct wines are available daily, and change weekly.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>Vinocruz</string>
+		<key>Phone</key>
+		<string>831 426-8466</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>123 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Museum</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Engineering and iPhone/iPad programming</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>computer, iOS</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>Pacific Crest Appiaries</string>
+		<key>Phone</key>
+		<string>831-234-9927</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>124 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Museum</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We feature high-quality, non-toxic adult toys, and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity, offering something for "The Pleasure Inside Us All". </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>SC Mountain Art Center</string>
+		<key>Phone</key>
+		<string>831-466-9870</string>
+		<key>PhotoName</key>
+		<string>12awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.purepleasureshop.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>125 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Music</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We supply and deliver Landscape, garden and building supplies to all of Santa Cruz County.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.86</string>
+		<key>Name</key>
+		<string>Santa Cruz Baroque Festival</string>
+		<key>Phone</key>
+		<string>831 688 6211</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://aptoslandscapesupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>126 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Music</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>B&amp;B Small Engine Repair has been selling and servicing outdoor power equipment since 1993. Stocking a full line of Stihl, Honda and Husqvarna equipment plus a wide selection of hand tools and safety gear for local residential and commercial users.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>Nickelodean Theatre</string>
+		<key>Phone</key>
+		<string>831-476-6306</string>
+		<key>PhotoName</key>
+		<string>13awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.bandbsmallenginerepair.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>127 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Photography</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Bamboo Hedge Specialists.  Delivery and installations through out California. We also have Bamboo Products and supplies. 20 acres of beautiful Bamboo forest.  Come take a walk and have a picnic among the Bamboo. Open 7 days the week from 10-4.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.85</string>
+		<key>Name</key>
+		<string>Larry's Photography</string>
+		<key>Phone</key>
+		<string>831-216-3300</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bamboogiant.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>128 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Photography</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Compare our locally made mattresses to any national brand - we build a better mattress for a lower price.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.01</string>
+		<key>Name</key>
+		<string>Rebecca Stark Photography</string>
+		<key>Phone</key>
+		<string>831-457-1201</string>
+		<key>PhotoName</key>
+		<string>14awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.baybed.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>129 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Media</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Established in 1987, Bay Plumbing Supply is a family owned and operated plumbing supply wholesaler with a 2400 sq ft decorative plumbing showroom.  Our showroom is packed with hundreds of the latest styles in eco-friendly Kitchen and Bath fixtures.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.99</string>
+		<key>Name</key>
+		<string>Connection Magazine</string>
+		<key>Phone</key>
+		<string>831-475-2900</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bayplumbingsupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>130 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Media</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>All phases of Residential and Commercial Interior Design.  Bettencourt Interiors is your resource for furnishings, flooring, custom window treatments and upholstery including shades, blinds and shutters.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>KSCO AM 1080</string>
+		<key>Phone</key>
+		<string>831-464-7306</string>
+		<key>PhotoName</key>
+		<string>15awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>131 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Tourism</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Durable repairs of bathtubs, sinks, countertops, vinyl window frames, etc.  Acrylic, fiberglass, cultured marble, terrazzo, cast iron, porcelain and more.  Residential and commercial. Serving local contractors and property owners since 1996.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Adventure Out LLC</string>
+		<key>Phone</key>
+		<string>(831) 471-9816</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>132 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Tourism</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>As a native plant nursery in Aptos, we are dedicated to the flora and fauna of our state. We offer both plants and information to allow individuals to create hardy, drought tolerant gardens which are both beautiful and require little maintenance.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.92</string>
+		<key>Name</key>
+		<string>Kayak Connection</string>
+		<key>Phone</key>
+		<string>831-684-1811</string>
+		<key>PhotoName</key>
+		<string>16awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.nativerevival.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>133 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Restaurant</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializes in deer drought and frost tolerant native plants including groundcovers. We offer full landscape design and installation.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Aldo's</string>
+		<key>Phone</key>
+		<string>831-462-1610</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.newgardenlandscaping.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>134 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Restaurant</string>
+		<key>City</key>
+		<string>Soquel </string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Olive Springs Quarry mines decomposed granite and produces base rock  drain rock gabion and sand.  We also have an asphalt plant and can supply you with both hot and cold asphalt.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.05</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>Aloha Island Grille</string>
+		<key>Phone</key>
+		<string>831-475-1610</string>
+		<key>PhotoName</key>
+		<string>17awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>135 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specialty Gift and Home Store</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.91</string>
+		<key>Name</key>
+		<string>Outside-In &amp; Outside-In Kids</string>
+		<key>Phone</key>
+		<string>(831) 684-0186</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.oihome.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>136 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Bakery</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Palace Office Interiors designs, sells &amp; installs office furniture to businesses, schools &amp; non-profits in Santa Cruz County &amp; neighboring counties. From complete workstations to a simple file cabinet, Palace is your best bet on the Central Coast.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>Beckmann's Bakery</string>
+		<key>Phone</key>
+		<string>831-476-3815</string>
+		<key>PhotoName</key>
+		<string>18awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.gopalace.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>137 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Bakery</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Our farm provides a continuous supply of clean  fresh seawater to the abalone that are grown inside tanks with various types of local seaweeds. The farm is open for direct sales to the public every Saturday from 10 AM to 2 PM.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-122.21</string>
+		<key>Name</key>
+		<string>The Buttery</string>
+		<key>Phone</key>
+		<string>831-457-2794</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.AmericanAbalone.net</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>138 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Bakery</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Locally owned and sourced foods</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Gayle's Bakery</string>
+		<key>Phone</key>
+		<string>(831) 423-8632</string>
+		<key>PhotoName</key>
+		<string>19awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.staffoflifemarket.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>139 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Coffee</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Darrell and Karen Osborn are the owners of the Summit Store for the past 34 years. We serve the summit area of Santa Cruz and Santa Clara County . Our store has been in this location for over 65 years. </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.12</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>Caffe Pergolesi</string>
+		<key>Phone</key>
+		<string>831-234-7981</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>140 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Coffee</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SunRidge Farms is a name that has become synonymous with natural bulk trail mixes, dried fruits, confections &amp; snack blends. SunRidge also offers USDA certified organic &amp; natural granolas &amp; mueslis, nuts &amp; nut mixes, grains &amp; pastas, herbs &amp; spices.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.9</string>
+		<key>Longitude</key>
+		<string>-121.75</string>
+		<key>Name</key>
+		<string>Coffeetopia</string>
+		<key>Phone</key>
+		<string>831-786-7000</string>
+		<key>PhotoName</key>
+		<string>20awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.sunridgefarms.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>141 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Coffee</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Lumber &amp; Building Materials</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.09</string>
+		<key>Longitude</key>
+		<string>-122.27</string>
+		<key>Name</key>
+		<string>Fins Coffee</string>
+		<key>Phone</key>
+		<string>(831) 457-5029</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.big-creek.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>142 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Coffee</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SUP Shack Santa Cruz located in the Santa Cruz Harbor offers the best conditions for stand up paddling from smooth water to open ocean.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>Pacific Coffee Roasting</string>
+		<key>Phone</key>
+		<string>831 464 7467</string>
+		<key>PhotoName</key>
+		<string>21awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.supshacksantacruz.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Coffee</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializing in Burgundian and Rhone style wines from select Coastal vineyards, Pelican Ranch is a family owned and operated winery in the heart of Capitola. </string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Mr' Toots Coffeehouse</string>
+		<key>Phone</key>
+		<string>831-426-6911</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Accomodations</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated winery specializing in locally grown Pinot Noir and Chardonnay. We\'re located in rustic Bonny Doon, CA just 3 miles off of Hwy 1. Tasting room open daily 11am-5pm.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.04</string>
+		<key>Longitude</key>
+		<string>-122.15</string>
+		<key>Name</key>
+		<string>Beach Street Inn</string>
+		<key>Phone</key>
+		<string>831 425-7777</string>
+		<key>PhotoName</key>
+		<string>22awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Accomodations</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Hunter Hill is a family owned Vineyard and winery. We farm 7 acres of vineyard in the Soquel hills and make wine. Our tasting room is open Sat-Sun 11-4. Vann and Christine Slatter are the owners.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-121.94</string>
+		<key>Name</key>
+		<string>Darling House â Bed n Breakfast</string>
+		<key>Phone</key>
+		<string>831-465-9294</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Accomodations</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated since 1998, Alfaro Family Vineyards &amp; Winery produces Estate grown and bottled Pinot Noir, Chardonnay, Merlot &amp; Syrah at their winery/tasting room in Corralitos. Open for tasting &amp; sales Saturdays 12 - 5. Please call.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.82</string>
+		<key>Name</key>
+		<string>Goodwill</string>
+		<key>Phone</key>
+		<string>(831) 728-5172</string>
+		<key>PhotoName</key>
+		<string>23awe.png</string>
+		<key>WebsiteURL</key>
+		<string>alfarowine.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Pubs</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>The Roudon-Smith Winery is dedicated to the production of exceptional wines from selected vineyards of the Santa Cruz Mountains and other regions of California.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.93</string>
+		<key>Longitude</key>
+		<string>-121.79</string>
+		<key>Name</key>
+		<string>Seabright Brewery</string>
+		<key>Phone</key>
+		<string>831-438-1244</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Pubs</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Since 1975, we produce food-friendly, European-style wines, with a focus on locally grown Pinot Noir. Our sister brand, Quinta Cruz, features the fascinating varieties of Portugal &amp; Spain that are now grown in CA. Tasting noon to 5:30pm Wed - Sun.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122.05</string>
+		<key>Name</key>
+		<string>Santa Cruz Ale Works</string>
+		<key>Phone</key>
+		<string>831-426-6209</string>
+		<key>PhotoName</key>
+		<string>24awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Medical</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Carefully handcrafted artisan ales that meld European tradition with California edginess with an emphasis on Belgian-inspired ales and aromatic IPAs which are oftenbarrel aged according to age-old practicesâ¨</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Above Bar CPR</string>
+		<key>Phone</key>
+		<string>831-295-8190</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Medical</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Sante Arcangeli Family Wines are carefully handcrafted Burgundian varietals that have been gently nurtured from rare mountain-grown fruit to a new life as elegant and expressive California Pinot Noir and Chardonnay.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.81</string>
+		<key>Name</key>
+		<string>GH Specialties</string>
+		<key>Phone</key>
+		<string>831-406-1262</string>
+		<key>PhotoName</key>
+		<string>25awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.santewinery.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Medical</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>"Skov", meaning"Forest" in Danish, ties in the Hunt's background &amp; the long time wine making home nestled in the redwoods. Skov produces Chardonnay, Pinot Noir, Merlot &amp; Zinfandel.Open every Saturday Noon-4:30pm; picnic tables are available.â¨</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.07</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>Scotts Valley Medical Clinic</string>
+		<key>Phone</key>
+		<string></string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Dental</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We are a CCOF-Certified Organic microbrewery based in Santa Cruz making uncommon beer for uncommon people</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>Dientes Community Dental Care</string>
+		<key>Phone</key>
+		<string>(831)621-6270</string>
+		<key>PhotoName</key>
+		<string>26awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Dental</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Vinocruz houses a selection of over 150 wines made by more than 60 wineries, all within the Santa Cruz Mountains AVA. Wines by the Glass and Tasting flights featuring these distinct wines are available daily, and change weekly.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>Guy W Peabody DDS</string>
+		<key>Phone</key>
+		<string>831 426-8466</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>123 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Optical</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Engineering and iPhone/iPad programming</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>computer, iOS</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>eyQ Optometry</string>
+		<key>Phone</key>
+		<string>831-234-9927</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>124 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Optical</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We feature high-quality, non-toxic adult toys, and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity, offering something for "The Pleasure Inside Us All". </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Plaza Lane Optometry</string>
+		<key>Phone</key>
+		<string>831-466-9870</string>
+		<key>PhotoName</key>
+		<string>12awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.purepleasureshop.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>125 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Fitness</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We supply and deliver Landscape, garden and building supplies to all of Santa Cruz County.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.86</string>
+		<key>Name</key>
+		<string>NOURISH</string>
+		<key>Phone</key>
+		<string>831 688 6211</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://aptoslandscapesupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>126 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Fitness</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>B&amp;B Small Engine Repair has been selling and servicing outdoor power equipment since 1993. Stocking a full line of Stihl, Honda and Husqvarna equipment plus a wide selection of hand tools and safety gear for local residential and commercial users.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>SC Core Fitness &amp; Rehab</string>
+		<key>Phone</key>
+		<string>831-476-6306</string>
+		<key>PhotoName</key>
+		<string>13awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.bandbsmallenginerepair.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>127 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Fitness</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Bamboo Hedge Specialists.  Delivery and installations through out California. We also have Bamboo Products and supplies. 20 acres of beautiful Bamboo forest.  Come take a walk and have a picnic among the Bamboo. Open 7 days the week from 10-4.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.85</string>
+		<key>Name</key>
+		<string>Pacific Edge Climbing Gym</string>
+		<key>Phone</key>
+		<string>831-216-3300</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bamboogiant.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>128 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Construction</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Compare our locally made mattresses to any national brand - we build a better mattress for a lower price.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.01</string>
+		<key>Name</key>
+		<string>A D Construction</string>
+		<key>Phone</key>
+		<string>831-457-1201</string>
+		<key>PhotoName</key>
+		<string>14awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.baybed.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>129 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Construction</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Established in 1987, Bay Plumbing Supply is a family owned and operated plumbing supply wholesaler with a 2400 sq ft decorative plumbing showroom.  Our showroom is packed with hundreds of the latest styles in eco-friendly Kitchen and Bath fixtures.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.99</string>
+		<key>Name</key>
+		<string>Allterra Solar</string>
+		<key>Phone</key>
+		<string>831-475-2900</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bayplumbingsupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>130 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Construction</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>All phases of Residential and Commercial Interior Design.  Bettencourt Interiors is your resource for furnishings, flooring, custom window treatments and upholstery including shades, blinds and shutters.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>Barry Swenson Builder</string>
+		<key>Phone</key>
+		<string>831-464-7306</string>
+		<key>PhotoName</key>
+		<string>15awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>131 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Construction</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Durable repairs of bathtubs, sinks, countertops, vinyl window frames, etc.  Acrylic, fiberglass, cultured marble, terrazzo, cast iron, porcelain and more.  Residential and commercial. Serving local contractors and property owners since 1996.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Arenson Solar</string>
+		<key>Phone</key>
+		<string>(831) 471-9816</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>132 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Graphic Design</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>As a native plant nursery in Aptos, we are dedicated to the flora and fauna of our state. We offer both plants and information to allow individuals to create hardy, drought tolerant gardens which are both beautiful and require little maintenance.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.92</string>
+		<key>Name</key>
+		<string>12 AM Design</string>
+		<key>Phone</key>
+		<string>831-684-1811</string>
+		<key>PhotoName</key>
+		<string>16awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.nativerevival.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>133 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Graphic Design</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializes in deer drought and frost tolerant native plants including groundcovers. We offer full landscape design and installation.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Mandala</string>
+		<key>Phone</key>
+		<string>831-462-1610</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.newgardenlandscaping.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>134 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Marketing</string>
+		<key>City</key>
+		<string>Soquel </string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Olive Springs Quarry mines decomposed granite and produces base rock  drain rock gabion and sand.  We also have an asphalt plant and can supply you with both hot and cold asphalt.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.05</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>A Sign ASAP</string>
+		<key>Phone</key>
+		<string>831-475-1610</string>
+		<key>PhotoName</key>
+		<string>17awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>135 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Marketing</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specialty Gift and Home Store</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.91</string>
+		<key>Name</key>
+		<string>Mainstreets</string>
+		<key>Phone</key>
+		<string>(831) 684-0186</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.oihome.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>136 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Real Estate</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Palace Office Interiors designs, sells &amp; installs office furniture to businesses, schools &amp; non-profits in Santa Cruz County &amp; neighboring counties. From complete workstations to a simple file cabinet, Palace is your best bet on the Central Coast.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>Network Motgage</string>
+		<key>Phone</key>
+		<string>831-476-3815</string>
+		<key>PhotoName</key>
+		<string>18awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.gopalace.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>137 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Real Estate</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Our farm provides a continuous supply of clean  fresh seawater to the abalone that are grown inside tanks with various types of local seaweeds. The farm is open for direct sales to the public every Saturday from 10 AM to 2 PM.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-122.21</string>
+		<key>Name</key>
+		<string>Ow Properties</string>
+		<key>Phone</key>
+		<string>831-457-2794</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.AmericanAbalone.net</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>138 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Real Estate</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Locally owned and sourced foods</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.01</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Michael Bloch Realtor</string>
+		<key>Phone</key>
+		<string>(831) 423-8632</string>
+		<key>PhotoName</key>
+		<string>19awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.staffoflifemarket.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>139 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Real Estate</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Darrell and Karen Osborn are the owners of the Summit Store for the past 34 years. We serve the summit area of Santa Cruz and Santa Clara County . Our store has been in this location for over 65 years. </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.12</string>
+		<key>Longitude</key>
+		<string>-121.93</string>
+		<key>Name</key>
+		<string>American Dream Realty</string>
+		<key>Phone</key>
+		<string>831-234-7981</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>140 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Food</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SunRidge Farms is a name that has become synonymous with natural bulk trail mixes, dried fruits, confections &amp; snack blends. SunRidge also offers USDA certified organic &amp; natural granolas &amp; mueslis, nuts &amp; nut mixes, grains &amp; pastas, herbs &amp; spices.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.9</string>
+		<key>Longitude</key>
+		<string>-121.75</string>
+		<key>Name</key>
+		<string>SunRidge Farms</string>
+		<key>Phone</key>
+		<string>831-786-7000</string>
+		<key>PhotoName</key>
+		<string>20awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.sunridgefarms.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>141 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Lumber</string>
+		<key>City</key>
+		<string>North Coast</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Lumber &amp; Building Materials</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.09</string>
+		<key>Longitude</key>
+		<string>-122.27</string>
+		<key>Name</key>
+		<string>Big Creek Lumber Co.</string>
+		<key>Phone</key>
+		<string>(831) 457-5029</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.big-creek.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>142 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Sports</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>SUP Shack Santa Cruz located in the Santa Cruz Harbor offers the best conditions for stand up paddling from smooth water to open ocean.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>SUP Shack Santa Cruz</string>
+		<key>Phone</key>
+		<string>831 464 7467</string>
+		<key>PhotoName</key>
+		<string>21awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.supshacksantacruz.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Winery</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Specializing in Burgundian and Rhone style wines from select Coastal vineyards, Pelican Ranch is a family owned and operated winery in the heart of Capitola. </string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Pelican Ranch Winery</string>
+		<key>Phone</key>
+		<string>831-426-6911</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Webite</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated winery specializing in locally grown Pinot Noir and Chardonnay. We\'re located in rustic Bonny Doon, CA just 3 miles off of Hwy 1. Tasting room open daily 11am-5pm.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>37.04</string>
+		<key>Longitude</key>
+		<string>-122.15</string>
+		<key>Name</key>
+		<string>Conveyed Concepts</string>
+		<key>Phone</key>
+		<string>831 425-7777</string>
+		<key>PhotoName</key>
+		<string>22awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Webite</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Hunter Hill is a family owned Vineyard and winery. We farm 7 acres of vineyard in the Soquel hills and make wine. Our tasting room is open Sat-Sun 11-4. Vann and Christine Slatter are the owners.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.02</string>
+		<key>Longitude</key>
+		<string>-121.94</string>
+		<key>Name</key>
+		<string>Iluminada Design</string>
+		<key>Phone</key>
+		<string>831-465-9294</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Webite</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Family owned and operated since 1998, Alfaro Family Vineyards &amp; Winery produces Estate grown and bottled Pinot Noir, Chardonnay, Merlot &amp; Syrah at their winery/tasting room in Corralitos. Open for tasting &amp; sales Saturdays 12 - 5. Please call.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.82</string>
+		<key>Name</key>
+		<string>Cruzio Internet</string>
+		<key>Phone</key>
+		<string>(831) 728-5172</string>
+		<key>PhotoName</key>
+		<string>23awe.png</string>
+		<key>WebsiteURL</key>
+		<string>alfarowine.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Webite</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>The Roudon-Smith Winery is dedicated to the production of exceptional wines from selected vineyards of the Santa Cruz Mountains and other regions of California.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.93</string>
+		<key>Longitude</key>
+		<string>-121.79</string>
+		<key>Name</key>
+		<string>Creatice Fuel</string>
+		<key>Phone</key>
+		<string>831-438-1244</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Webite</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Since 1975, we produce food-friendly, European-style wines, with a focus on locally grown Pinot Noir. Our sister brand, Quinta Cruz, features the fascinating varieties of Portugal &amp; Spain that are now grown in CA. Tasting noon to 5:30pm Wed - Sun.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-122.05</string>
+		<key>Name</key>
+		<string>Parrish Art &amp; Design</string>
+		<key>Phone</key>
+		<string>831-426-6209</string>
+		<key>PhotoName</key>
+		<string>24awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Computers</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Carefully handcrafted artisan ales that meld European tradition with California edginess with an emphasis on Belgian-inspired ales and aromatic IPAs which are oftenbarrel aged according to age-old practicesâ¨</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-121.95</string>
+		<key>Name</key>
+		<string>Beckett PC Solutions</string>
+		<key>Phone</key>
+		<string>831-295-8190</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Computers</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Sante Arcangeli Family Wines are carefully handcrafted Burgundian varietals that have been gently nurtured from rare mountain-grown fruit to a new life as elegant and expressive California Pinot Noir and Chardonnay.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.81</string>
+		<key>Name</key>
+		<string>Cooper Technologies</string>
+		<key>Phone</key>
+		<string>831-406-1262</string>
+		<key>PhotoName</key>
+		<string>25awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.santewinery.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Computers</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>"Skov", meaning"Forest" in Danish, ties in the Hunt's background &amp; the long time wine making home nestled in the redwoods. Skov produces Chardonnay, Pinot Noir, Merlot &amp; Zinfandel.Open every Saturday Noon-4:30pm; picnic tables are available.â¨</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>37.07</string>
+		<key>Longitude</key>
+		<string>-122.02</string>
+		<key>Name</key>
+		<string>Roger's Computer Service</string>
+		<key>Phone</key>
+		<string></string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Apparel</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We are a CCOF-Certified Organic microbrewery based in Santa Cruz making uncommon beer for uncommon people</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>Eco Goods</string>
+		<key>Phone</key>
+		<string>(831)621-6270</string>
+		<key>PhotoName</key>
+		<string>26awe.png</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string></string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Apparel</string>
+		<key>City</key>
+		<string></string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Vinocruz houses a selection of over 150 wines made by more than 60 wineries, all within the Santa Cruz Mountains AVA. Wines by the Glass and Tasting flights featuring these distinct wines are available daily, and change weekly.</string>
+		<key>HasCoupon</key>
+		<string>y</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122.03</string>
+		<key>Name</key>
+		<string>LEGS</string>
+		<key>Phone</key>
+		<string>831 426-8466</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>123 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Apparel</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Engineering and iPhone/iPad programming</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>n</string>
+		<key>Keywords</key>
+		<string>computer, iOS</string>
+		<key>Latitude</key>
+		<string>36.97</string>
+		<key>Longitude</key>
+		<string>-122</string>
+		<key>Name</key>
+		<string>The Sock Shop</string>
+		<key>Phone</key>
+		<string>831-234-9927</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>124 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Books</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We feature high-quality, non-toxic adult toys, and offer an ongoing sex-education program to enhance sexual pleasure and well-being.  Pure Pleasure aims to promote sexual diversity, offering something for "The Pleasure Inside Us All". </string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.96</string>
+		<key>Longitude</key>
+		<string>-121.97</string>
+		<key>Name</key>
+		<string>Bookshop Santa Cruz</string>
+		<key>Phone</key>
+		<string>831-466-9870</string>
+		<key>PhotoName</key>
+		<string>12awe.png</string>
+		<key>WebsiteURL</key>
+		<string>http://www.purepleasureshop.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>125 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Books</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>We supply and deliver Landscape, garden and building supplies to all of Santa Cruz County.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.86</string>
+		<key>Name</key>
+		<string>Friends of Santa Cruz State Parks</string>
+		<key>Phone</key>
+		<string>831 688 6211</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>http://aptoslandscapesupply.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>126 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Books</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>B&amp;B Small Engine Repair has been selling and servicing outdoor power equipment since 1993. Stocking a full line of Stihl, Honda and Husqvarna equipment plus a wide selection of hand tools and safety gear for local residential and commercial users.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>wood</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.98</string>
+		<key>Name</key>
+		<string>Logos Books &amp; Records</string>
+		<key>Phone</key>
+		<string>831-476-6306</string>
+		<key>PhotoName</key>
+		<string>13awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.bandbsmallenginerepair.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>127 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Nursery</string>
+		<key>City</key>
+		<string>Aptos / La Selva</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Bamboo Hedge Specialists.  Delivery and installations through out California. We also have Bamboo Products and supplies. 20 acres of beautiful Bamboo forest.  Come take a walk and have a picnic among the Bamboo. Open 7 days the week from 10-4.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>winery</string>
+		<key>Latitude</key>
+		<string>36.99</string>
+		<key>Longitude</key>
+		<string>-121.85</string>
+		<key>Name</key>
+		<string>Z Bamboo Giant Nursery</string>
+		<key>Phone</key>
+		<string>831-216-3300</string>
+		<key>PhotoName</key>
+		<string>abc.jpg</string>
+		<key>WebsiteURL</key>
+		<string>www.bamboogiant.com</string>
+	</dict>
+	<dict>
+		<key>Address</key>
+		<string>128 Need Str.</string>
+		<key>Area</key>
+		<string>12</string>
+		<key>Category</key>
+		<string>Retail</string>
+		<key>City</key>
+		<string>Santa Cruz</string>
+		<key>CouponURL</key>
+		<string>http://cplamb.blogspot.com/</string>
+		<key>Description</key>
+		<string>Compare our locally made mattresses to any national brand - we build a better mattress for a lower price.</string>
+		<key>HasCoupon</key>
+		<string>n</string>
+		<key>HasShop</key>
+		<string>y</string>
+		<key>Keywords</key>
+		<string>store</string>
+		<key>Latitude</key>
+		<string>36.98</string>
+		<key>Longitude</key>
+		<string>-122.01</string>
+		<key>Name</key>
+		<string>Q Bay Bed &amp; Mattress</string>
+		<key>Phone</key>
+		<string>831-457-1201</string>
+		<key>PhotoName</key>
+		<string>14awe.png</string>
+		<key>WebsiteURL</key>
+		<string>www.baybed.com</string>
+	</dict>
+</array>
+</plist>

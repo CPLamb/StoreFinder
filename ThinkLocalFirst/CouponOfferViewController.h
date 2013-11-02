@@ -10,7 +10,13 @@
 
 @interface CouponOfferViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIWebView *couponView;
-@property (strong, nonatomic) NSString *couponURLString;
+
+@property (strong, nonatomic) id detailItem;        // selected item data dictionary
+
+@property (strong, nonatomic) IBOutlet UILabel *expireDateString;
+@property (strong, nonatomic) IBOutlet UITextView *couponOffer;
+@property (strong, nonatomic) IBOutlet UILabel *name;
+
+- (IBAction)backButton:(UIBarButtonItem *)sender;
 
 @end

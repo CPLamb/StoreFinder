@@ -7,6 +7,8 @@
 //
 
 #import "InfoViewController.h"
+#import "MasterViewController.h"
+#import "AboutViewController.h"
 
 @interface InfoViewController ()
 
@@ -16,6 +18,8 @@
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize detailNameLabel = _detailNameLabel;
+
+#pragma mark - View Lifecycle methods
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -70,24 +74,58 @@
 
 #pragma mark - Custom methods
 
-- (IBAction)contactUsButton:(UIButton *)sender {
-    NSLog(@"Somebody wants to open an email!");
+- (IBAction)searchButton:(UIButton *)sender
+{
+    NSLog(@"pushing the ABOUT screen onto the stack");
+        
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    AboutViewController *theAboutScreen = [storyBoard instantiateViewControllerWithIdentifier:@"AboutVC"];
     
-// Configures the email address
-    NSString *recipient = @"mailto:CPLamb@Pacbell.net?&subject=Think Local First iPhone app";
-//    NSString *recipient = @"mailto:CPLamb@Pacbell.net";      // &subject=Think LocalFirst iPhone app";
-    NSString *body = @"&body=Great app! I'll tell all my friends";
-    NSString *email = [NSString stringWithFormat:@"%@%@", recipient, body];
-//    NSString *email = [NSString stringWithFormat:@"%@", recipient];
-    
-    email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];        // @"mailto:"]];
+    // pushes the couponView onto the stack
+    [self presentViewController:theAboutScreen animated:NO completion:nil];
+
 }
 
-- (IBAction)updateButton:(UIButton *)sender {
-    NSLog(@"Somebody wants to update the PList!");
+- (IBAction)mapButton:(UIButton *)sender
+{
+    NSLog(@"pushing the MAP screen onto the stack");
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    AboutViewController *theMapScreen = [storyBoard instantiateViewControllerWithIdentifier:@"MapNavC"];
+    
+    // pushes the couponView onto the stack
+    [self presentViewController:theMapScreen animated:YES completion:nil];
+    
+}
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSLog(@"The segue identifier is %@", [segue identifier]);
+    
+    // Show List screen
+    if ([[segue identifier] isEqualToString:@"showList"]) {
+//        MasterViewController *listViewController = [segue destinationViewController];
+    }
+    
+    // Show About screen
+    if ([[segue identifier] isEqualToString:@"showAbout"]) {
+        [segue destinationViewController];
+    }
+    
+    // Show Map screen
+    if ([[segue identifier] isEqualToString:@"showMap"]) {
+        [segue destinationViewController];
+    }
+    
+    // Show Coupons screen
+    if ([[segue identifier] isEqualToString:@"showCoupons"]) {
+        [segue destinationViewController];
+    }
+    
+    // Show Categories screen
+    if ([[segue identifier] isEqualToString:@"showCategories"]) {
+        [segue destinationViewController];
+    }
 }
 
 @end

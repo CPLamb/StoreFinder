@@ -5,6 +5,10 @@
 //  Created by Chris Lamb on 4/20/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
+/*
+ The Master VC is the main tableview screen for the members.
+ It's icon is 'List' and ......
+*/ 
 
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"

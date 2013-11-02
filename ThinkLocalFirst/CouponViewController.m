@@ -14,6 +14,7 @@
 @end
 
 @implementation CouponViewController
+//@synthesize mySearchBar = _mySearchBar;
 
 #pragma mark -- View lifecycle methods
 
@@ -29,14 +30,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+// Adds search bar on top of scrolling tableView
+//    UISearchBar *mySearchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0, 44.0, 320.0, 44.0)];
+//    [self.view addSubview:mySearchBar];
 
 // Sets up the tableView
-    NSLog(@"CouponVC namesArray is %d", [self.namesArray count]);
+//    NSLog(@"CouponVC namesArray has %d records", [self.namesArray count]);
     
     filteredByCoupons = YES;
     sortedByCategory = YES;
     
     [self couponFilter];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -78,40 +84,51 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSString *couponURL = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"couponURL"];
+// Get coupon values for the selected member
+    NSString *memberName = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"name"];
+    NSString *couponOffer = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"couponOffer"];
+    NSString *expireDate = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"phone"];
     
-    NSLog(@"The selected row is %@", couponURL);
+// Get a couponOffer object & assign above values to it.
+    CouponOfferViewController *thisCoupon = [[CouponOfferViewController alloc] initWithNibName:@"CouponOfferViewController" bundle:nil];
+    thisCoupon.expireDateString.text = expireDate;
+    thisCoupon.name.text = memberName;
+    thisCoupon.couponOffer.text = couponOffer;
     
+// Lists the strings for reference
+//    NSLog(@"%@ has %@ expires on %@", thisCoupon.name.text, thisCoupon.couponOffer.text, thisCoupon.expireDateString.text);
 }
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath;
 {
     // Sends User to the DetailViewController
-    NSLog(@"Performing segue to detail view for row at indexPath: %@", indexPath);
+//    NSLog(@"Performing segue to detail view for row at indexPath: %@", indexPath);
     [self performSegueWithIdentifier:@"showDetails" sender:indexPath];
 }
 
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  {
     
-    // Show Details screen
+//    NSLog(@"Segue ID is %@", [segue identifier]);
+    
+// Show Details screen
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
         NSIndexPath *indexPath = sender;
         NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
         DetailViewController* dvc = [segue destinationViewController];
         dvc.detailItem = object;
+ 
     }
-    
-    // Show Coupon Offer screen (Web view)
-    else if ([[segue identifier] isEqualToString:@"showCoupon"]) {
+
+// Show Coupon screen
+    if ([[segue identifier] isEqualToString:@"showCoupon"]) {
+        
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDictionary *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-//              NSLog(@"The object passed is = %@", object);
-        
-        CouponOfferViewController* covc = [segue destinationViewController];
-        covc.couponURLString = [object objectForKey:@"couponURL"];
-        
+
+        NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        [[segue destinationViewController] setDetailItem:object];
     }
+ 
 }
 
 #pragma mark -- Custom methods
@@ -140,11 +157,24 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+- (IBAction)showAllButton:(UIBarButtonItem *)sender {
+//    NSLog(@"Displays ALL the items by existing sort criteria");
+    
+    filteredByCoupons = YES;
+    self.navigationItem.title = @"List";
+    
+    // Reworks the index & cells
+    [self makeSectionsIndex:self.membersArray];
+    [self makeIndexedArray:self.membersArray withIndex:self.indexArray];
+    
+    [self.tableView reloadData];
+}
+
 
 #pragma mark - Custom sort & search methods
 
 - (NSArray *)makeSectionsIndex:(NSArray *)arrayOfDictionaries {
-    NSLog(@"Takes the array of Dictionaries (PList), and creates an index of first letters for use in the tableview");
+//    NSLog(@"Takes the array of Dictionaries (PList), and creates an index of first letters for use in the tableview");
     
     // Creates a mutable set to read each letter only once
     NSMutableSet *sectionsMutableSet = [NSMutableSet setWithCapacity:36];
@@ -192,8 +222,8 @@
     for (int i=0; i<=([array count]-1); i++) {
         NSString *trimmedWord = [[NSString alloc] init];
         trimmedWord = [array objectAtIndex:i];
-        if (trimmedWord.length > 6) {
-            trimmedWord = [trimmedWord substringToIndex:6U];
+        if (trimmedWord.length > 8) {
+            trimmedWord = [trimmedWord substringToIndex:8U];
         }
         [trimmedArray addObject:trimmedWord];
     }
@@ -204,7 +234,7 @@
 }
 
 - (NSArray *)makeIndexedArray:(NSArray *)wordsArray withIndex:(NSArray *)indexArray {
-    NSLog(@"Takes an array of index letters (sections) and name array (rows) for display in the indexed tableview");
+//    NSLog(@"Takes an array of index letters (sections) and name array (rows) for display in the indexed tableview");
     //    NSLog(@"wordsArray is %@", wordsArray);
     
     // Create the mutable array
@@ -266,7 +296,7 @@
             }
         }
     }
-    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
+//    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
     
     // Makes sure there is something in the filteredArray
     if ([self.filteredArray count] > 0) {

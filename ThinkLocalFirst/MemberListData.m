@@ -28,19 +28,23 @@
 // Loads file locally
     NSBundle *mainBundle = [NSBundle mainBundle];
     NSURL *fileURL = [mainBundle URLForResource:@"TLFMemberList" withExtension:@"plist"];
+//    NSLog(@"The Plist filename & directory is %@", fileURL);
+    
+    // Old link for pList = https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist
+    // Public dropBox URL for the pList = https://www.dropbox.com/s/j1op2cn56abrdlw/TLFMemberList.plist
     
 // Loads the file from the web
 //    NSString *fileURLString = @"https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist";
 //    NSURL *fileURL = [[NSURL alloc]initWithString:fileURLString];
 
     self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
-    NSLog(@"MEMBERLISTDATA Array count %d", [self.membersArray count]);
+//    NSLog(@"MEMBERLISTDATA Array count %d", [self.membersArray count]);
 
     // Copy members array into the names array which can later be sorted for other views
     self.namesArray = [NSArray arrayWithArray:self.membersArray];
     
     // loads the web Plist on another thread
-    [self loadPlistURL];
+//    [self loadPlistURL];   temporaary disable 9/16
 }
 
 - (void)loadPlistURL {
@@ -48,7 +52,7 @@
     // equal it copies the web version over the local version. And reloads the data
     
     // Public dropbox link to data - https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist
-    NSString *fileURLString = @"https://dl.dropboxusercontent.com/u/13142051/TLFMemberList.plist";
+    NSString *fileURLString = @"https://www.dropbox.com/s/j1op2cn56abrdlw/TLFMemberList.plist";
     NSURL *fileURL = [[NSURL alloc]initWithString:fileURLString];
     
     // Assign the URL command to another string
@@ -62,15 +66,15 @@
             
             // compares counts of each array & allows copy if the are equal
             if ([self.membersArray count] == [membersURLArray count]) {
-                NSLog(@"let's overwrite NOW!!!");
+//                NSLog(@"let's overwrite NOW!!!");
                 
                 self.membersArray = [NSArray arrayWithArray:membersURLArray];
-                NSLog(@"Array count %d", [self.membersArray count]);
+ //               NSLog(@"Array count %d", [self.membersArray count]);
                 
 //                [self.tableView reloadData];
             } else {
-                NSLog(@"Download FAILED!!!!");
-                NSLog(@"Array count %d", [membersURLArray count]);
+//                NSLog(@"Download FAILED!!!!");
+//                NSLog(@"Array count %d", [membersURLArray count]);
             }
         });
     });

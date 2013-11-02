@@ -35,4 +35,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark Custom methods
+
+- (IBAction)backButton:(UIBarButtonItem *)sender {
+    NSLog(@"Pops the coupon off the stack & displays last screen");
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 @end

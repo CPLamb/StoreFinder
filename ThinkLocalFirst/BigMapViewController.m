@@ -75,7 +75,7 @@ const int  MAX_PINS_TO_DROP = 20;
     
     
 // Limit the toal number pins to drop to MAX_PINS_TO_DROP so that map view is not too cluttered
-    NSLog(@"Pins in the select = %d", [self.mapAnnotations count]);
+//    NSLog(@"Pins in the select = %d", [self.mapAnnotations count]);
     
     int annotationsCount = [self.mapAnnotations count];    
 // Limits the total number of pins dropped
@@ -277,17 +277,17 @@ const int  MAX_PINS_TO_DROP = 20;
         // Sender should be the member data corresponding to the touched annotation
         MapItem* item = sender;
         DetailViewController* dvc = [segue destinationViewController];
-        NSLog(@"Preparing for segue with identifier '%@' to show item: %@", [segue identifier], item);
+//        NSLog(@"Preparing for segue with identifier '%@' to show item: %@", [segue identifier], item);
         dvc.detailItem = item.memberData;
     }    
 }
 
 - (IBAction)turnByRouting:(UIBarButtonItem *)sender {
-    NSLog(@"Opens the native Map app's turn-by-turn navigation");
+//    NSLog(@"Opens the native Map app's turn-by-turn navigation");
 
 //business location
     // test location
-    // CLLocationCoordinate2D coords = CLLocationCoordinate2DMake(37.0469,-122.0308);
+//    CLLocationCoordinate2D coords = CLLocationCoordinate2DMake(36.9793,-121.9985);
 
     NSString *latitude = [[self.pinsArray objectAtIndex:0] objectForKey:@"latitude"];
     NSString *longitude = [[self.pinsArray objectAtIndex:0] objectForKey:@"longitude"];
@@ -295,12 +295,30 @@ const int  MAX_PINS_TO_DROP = 20;
     CLLocationCoordinate2D coords = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
         
     MKPlacemark *place = [[MKPlacemark alloc] initWithCoordinate:coords addressDictionary:nil];
-    MKMapItem *mapItem = [[MKMapItem alloc]initWithPlacemark:place];
+    MKMapItem *mapItemDestination = [[MKMapItem alloc]initWithPlacemark:place];
+    
+/*  Multiple mapItems for a walking tour
+    CLLocationCoordinate2D coords01 = CLLocationCoordinate2DMake(36.9708,-121.9989);
+    MKPlacemark *place01 = [[MKPlacemark alloc] initWithCoordinate:coords01 addressDictionary:nil];
+    MKMapItem *mapItem01 = [[MKMapItem alloc]initWithPlacemark:place01];
+
+    CLLocationCoordinate2D coords02 = CLLocationCoordinate2DMake(36.9711,-121.9997);
+    MKPlacemark *place02 = [[MKPlacemark alloc] initWithCoordinate:coords02 addressDictionary:nil];
+    MKMapItem *mapItem02 = [[MKMapItem alloc]initWithPlacemark:place02];
+
+    CLLocationCoordinate2D coords03 = CLLocationCoordinate2DMake(36.9742,-121.9994);
+    MKPlacemark *place03 = [[MKPlacemark alloc] initWithCoordinate:coords03 addressDictionary:nil];
+    MKMapItem *mapItem03 = [[MKMapItem alloc]initWithPlacemark:place03];
+
+    CLLocationCoordinate2D coords04 = CLLocationCoordinate2DMake(36.9745,-121.9989);
+    MKPlacemark *place04 = [[MKPlacemark alloc] initWithCoordinate:coords04 addressDictionary:nil];
+    MKMapItem *mapItem04 = [[MKMapItem alloc]initWithPlacemark:place04];
+*/
     
 //current location
-    MKMapItem *mapItem2 = [MKMapItem mapItemForCurrentLocation];
+    MKMapItem *mapItemCurrent = [MKMapItem mapItemForCurrentLocation];
         
-    NSArray *mapItems = @[mapItem, mapItem2];
+    NSArray *mapItems = @[mapItemCurrent, mapItemDestination];
         
     NSDictionary *options = @{
         MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving,
@@ -327,7 +345,7 @@ const int  MAX_PINS_TO_DROP = 20;
 // Sends User to the DetailViewController
         
     id<MKAnnotation> sender = view.annotation;
-    NSLog(@"Performing segue to detail view for annotation view: %@", sender);
+//    NSLog(@"Performing segue to detail view for annotation view: %@", sender);
     [self performSegueWithIdentifier:@"showDetails" sender:sender];
 }
 

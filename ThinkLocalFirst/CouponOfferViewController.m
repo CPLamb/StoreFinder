@@ -13,8 +13,10 @@
 @end
 
 @implementation CouponOfferViewController
-@synthesize couponView = _couponView;
-@synthesize couponURLString = _couponURLString;
+@synthesize detailItem = _detailItem;       // selected member
+@synthesize name = _name;
+@synthesize couponOffer = _couponOffer;
+@synthesize expireDateString = _expireDateString;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,12 +30,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-//    if( self.couponURLString == nil )
-//        self.couponURLString = @"http://santacruznewspapertaxi.com/wp-content/uploads/2013/05/CouponSample_480x320.png"
-    NSURL *couponURL = [NSURL URLWithString:self.couponURLString];
-    NSURLRequest *couponRequest = [NSURLRequest requestWithURL:couponURL];
-    [self.couponView loadRequest:couponRequest];
+    
+// Sets the coupon fields from detailItem, the member's dictionary
+    self.name.text = [self.detailItem objectForKey:@"name"];
+    self.expireDateString.text = [self.detailItem objectForKey:@"expirationDate"];
+    self.couponOffer.text = [self.detailItem objectForKey:@"couponOffer"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,9 +46,16 @@
 #pragma mark AutoRotation
 
 - (NSUInteger)supportedInterfaceOrientations {
-    
-    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
+
+    return UIInterfaceOrientationMaskLandscape;
 }
 
+#pragma mark Custom methods
+
+- (IBAction)backButton:(UIBarButtonItem *)sender {
+//    NSLog(@"Pops the coupon off the stack & displays last screen");
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

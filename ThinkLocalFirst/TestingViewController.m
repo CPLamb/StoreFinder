@@ -30,53 +30,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-// Configures the scrollView
-    CGRect scrollViewFrame = CGRectMake(0, 44, 320, 392);
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:scrollViewFrame];
-    [self.view addSubview:scrollView];
-
-// Sizes the scrollview
-    CGFloat scrollViewHeight = 2500;
-    CGSize scrollViewContentSize = CGSizeMake(320, scrollViewHeight);
-    [scrollView setContentSize:scrollViewContentSize];
-    
-// Adds a coupon rotoated for ease of display
-    NSString *couponFileName = @"CouponSample_480x320.png";
-    UIImage *couponImage = [UIImage imageNamed:couponFileName];
-    UIImageView *coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-    coupon.image = couponImage;            
-    [scrollView addSubview:coupon];
-    
-// Adds a coupon rotoated for ease of display
-    couponFileName = @"Coupon02.png";
-    couponImage = [UIImage imageNamed:couponFileName];
-    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 480, 180, 560)];
-    coupon.image = couponImage;
-    [scrollView addSubview:coupon];
-    
-// Adds a coupon rotoated for ease of display
-    couponFileName = @"CouponSample_480x320.png";
-    couponImage = [UIImage imageNamed:couponFileName];
-    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1040, 320, 480)];
-    coupon.image = couponImage;
-    [scrollView addSubview:coupon];
-        
-// Adds a coupon rotoated for ease of display
-    couponFileName = @"Coupon01.png";
-    couponImage = [UIImage imageNamed:couponFileName];
-    coupon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 1520, 160, 320)];
-    coupon.image = couponImage;
-    [scrollView addSubview:coupon];
-    
-    // Sets self to be the NSFileManager delegate
-    [[NSFileManager defaultManager] setDelegate:self];
-    
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
     
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)didReceiveMemoryWarning

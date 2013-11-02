@@ -64,7 +64,7 @@
     [self.mapView addAnnotation:droppedPin];
 
     
-    NSLog(@"MapVC Member selected is %@", self.detailItem);
+//    NSLog(@"MapVC Member selected is %@", self.detailItem);
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
@@ -91,7 +91,7 @@
     } else {
         //        NSLog(@"detailItem is %@", _detailItem);
     }
-    NSLog(@"This is mapViews detailItem %@", self.detailItem);
+//    NSLog(@"This is mapViews detailItem %@", self.detailItem);
 }
 
 - (void)configureView
@@ -132,9 +132,9 @@
     return span;
 }
 
-
+// Delete?
 - (IBAction)dropPinButton:(id)sender {
-    NSLog(@"Drops a pin close to my home");
+//    NSLog(@"Drops a pin close to my home");
     CLLocationCoordinate2D aNewLocation = CLLocationCoordinate2DMake(36.968, -121.9987);
     MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:aNewLocation placeName:@"CPL Labs" description:@"close by"];
     [self.mapAnnotations addObject:aNewPin];
@@ -142,7 +142,7 @@
 }
 
 - (IBAction)directionsButton:(UIButton *)sender {
-    NSLog(@"uses Apples Maps to provide directions");
+//    NSLog(@"uses Apples Maps to provide directions");
     
     
     MKPlacemark *myPlacemark = [[MKPlacemark alloc]initWithCoordinate:CLLocationCoordinate2DMake(36.4, -121.75) addressDictionary:nil];
@@ -167,7 +167,7 @@
 
 // Sends User to the DetailViewController
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
-    NSLog(@"Somebody TAPPED me!");
+//    NSLog(@"Somebody TAPPED me!");
     [self removeFromParentViewController];
 }
 

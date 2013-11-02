@@ -12,6 +12,8 @@
 #import "MapItem.h"
 #import "NoShopAnnotation.h"
 #import "RoundedRectBackground.h"
+#import "CouponOfferViewController.h"
+#import "TestingViewController.h"
 
 #define PADDING 5.0
 #define SPACING 10.0
@@ -56,11 +58,6 @@
     [self assembleBackgrounds];
 
 //    NSLog(@"DetailVC Member selected is %@", self.detailItem);
-}
-
-- (NSUInteger)supportedInterfaceOrientations {
-    
-    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)didReceiveMemoryWarning
@@ -190,7 +187,7 @@
         [websiteBackground addSubview:websiteField];
         [scrollView addSubview:websiteBackground];
         
-        // Business address - 2 x NSString
+// Business address - 2 x NSString
         NSString *address = [self.detailItem objectForKey:@"address"];
         UILabel *addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(PADDING*1.5, PADDING, contentWidth, 30)];
         addressLabel.text = address;
@@ -216,27 +213,41 @@
         [addressBackground addSubview:cityLabel];
         [scrollView addSubview:addressBackground];
     }
+
     
-// coupon URL - UITextView
-    
-    NSString *couponData = [self.detailItem objectForKey:@"couponURL"];
+// coupon URL - UITextView    
+    NSString *couponData = [self.detailItem objectForKey:@"couponOffer"];
     if (couponData.length > 0) {                                     // Checks for NOT empty string
-        NSString *couponPrefix = @"Tap for specials & coupons: ";
+        
+        // Calculates the required height of the background
+        CGFloat couponDataHeight = couponData.length / 1.25;
+        if (couponDataHeight < 35) couponDataHeight = 60;       // sets minimum height for 2 lines
+        
+        NSString *couponPrefix = @"Coupon details:                                  ";
         NSString *coupon = [couponPrefix stringByAppendingString:couponData];
         
-        UITextView *couponLabel = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, 60)];
+        UITextView *couponLabel = [[UITextView alloc] initWithFrame:CGRectMake(PADDING, PADDING, contentWidth, couponDataHeight)];
         couponLabel.text = coupon;
         couponLabel.font = [UIFont fontWithName:@"Times New Roman" size:18];
         
-        couponLabel.dataDetectorTypes = UIDataDetectorTypeLink;
         couponLabel.editable = NO;
         couponLabel.scrollEnabled = NO;
         
-        vertPosition = vertPosition + backgroundHeight + SPACING;
+        vertPosition = vertPosition + backgroundHeight + SPACING;        
+        backgroundHeight = couponDataHeight + 2*PADDING;
+
+    //    NSLog(@"UITextView = %f & background = %f, %d", couponDataHeight, backgroundHeight,couponData.length);
         
-        backgroundHeight = 70;     //couponLabel.bounds.size.height + 2*PADDING;
-        // NSLog(@"UITextView height is %f", phoneLabel.bounds.size.height);
+    // create & initialize a tap recognizer for the coupon view
+        UITapGestureRecognizer *tapForCoupon = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayCoupon)];
+        tapForCoupon.numberOfTapsRequired = 1;
+        
+    // Makes the custom background & adds it to the view
         RoundedRectBackground *couponBackground = [[RoundedRectBackground alloc] initWithFrame:CGRectMake(SPACING, vertPosition, backgroundWidth, backgroundHeight)];
+        
+    // Adds the gesture to the background
+        [couponBackground addGestureRecognizer:tapForCoupon];
+        
         [couponBackground addSubview:couponLabel];
         [scrollView addSubview:couponBackground];
     }
@@ -246,6 +257,47 @@
     CGFloat scrollViewHeight = vertPosition + SPACING + backgroundHeight + 100.0;
     CGSize scrollViewContentSize = CGSizeMake(self.view.bounds.size.width, scrollViewHeight);
     [scrollView setContentSize:scrollViewContentSize];
+
+}
+
+- (IBAction)displayCoupon
+{
+//    NSLog(@"This method displays a coupon by tapping on the background");
+    
+    // Get coupon values for the selected member
+    NSString *memberName = [self.detailItem objectForKey:@"name"];
+    NSString *couponOffer = [self.detailItem objectForKey:@"couponOffer"];
+    NSString *expireDate = [self.detailItem objectForKey:@"expirationDate"];
+    
+    // Lists them for reference
+//    NSLog(@"%@ has %@ expires on %@", memberName, couponOffer, expireDate);
+    
+// Get a couponOffer object & assign above values to it.
+    // Object needs to be instantiated with this method because the objects are created in storyboard
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    CouponOfferViewController *thisCoupon = [storyBoard instantiateViewControllerWithIdentifier:@"CouponOfferVC"];
+    
+    UILabel *expireDateLabel = [[UILabel alloc] init];
+    [expireDateLabel setText:expireDate];
+    [thisCoupon setExpireDateString:expireDateLabel];
+    
+    UITextView *couponTextView = [[UITextView alloc] init];
+    [couponTextView setText:couponOffer];
+    [thisCoupon setCouponOffer:couponTextView];
+    
+    UILabel *nameLabel = [[UILabel alloc] init];
+    [nameLabel setText:memberName];
+    [thisCoupon setName:nameLabel];
+    
+    NSLog(@"%@ has %@ expires on %@", thisCoupon.name.text, thisCoupon.couponOffer.text, thisCoupon.expireDateString.text);
+    
+    // pushes the couponView onto the stack
+    [thisCoupon setDetailItem:self.detailItem];
+    [self presentViewController:thisCoupon animated:YES completion:nil];
+    
+    
+//    NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+//    [[segue destinationViewController] setDetailItem:object];
 
 }
 
@@ -279,7 +331,7 @@
         self.detailWebsiteURLTextView.text = [self.detailItem objectForKey:@"url"];
 
     } else {
-        NSLog(@"The record is NULL");
+ //       NSLog(@"The record is NULL");
     }
 }
 
@@ -302,11 +354,11 @@
     
     if (hasShop) {
         MapItem *aNewPin = [[MapItem alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
-        NSLog(@"The new pin is MapItem %@", aNewPin);
+  //      NSLog(@"The new pin is MapItem %@", aNewPin);
         [self addAnAnnotation:aNewPin];
     } else {
         NoShopAnnotation *aNewPin = [[NoShopAnnotation alloc] initWithCoordinates:newCoordinates placeName:newName description:newDescription];
-        NSLog(@"The new pin is NoShopAnnotation %@", aNewPin);
+  //      NSLog(@"The new pin is NoShopAnnotation %@", aNewPin);
         [self addAnAnnotation:aNewPin];
     }
 /*
@@ -327,12 +379,21 @@
 // Moves to other view & sets the detailItem to the selected item
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+ //   NSLog(@"Segue ID is %@", [segue identifier]);
+
+    
     if ([[segue identifier] isEqualToString:@"showMap"]) {
         
-        NSLog(@"DetailVC is %@", self.detailItem);
-//        NSArray *object = [self.membersArray objectAtIndex:indexPath.row];
         [[segue destinationViewController] setDetailItem:self.detailItem];
     }
+    
+// Show Coupon screen
+    if ([[segue identifier] isEqualToString:@"showCoupon02"]) {
+                
+//        NSArray *object = [[self.detailItem objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        [[segue destinationViewController] setDetailItem:self.detailItem];
+    }
+
 }
 
 @end

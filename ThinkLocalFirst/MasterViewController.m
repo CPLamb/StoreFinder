@@ -50,7 +50,7 @@
   
 //    [self loadPlistData];
     
-    sortedByCategory = NO;
+    sortedByCategory = YES;
     filteredByCoupons = NO;
 //    self.navigationItem.title = @"List";
 
@@ -103,7 +103,7 @@
         NSString *cellSubtitle = [[[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] objectForKey:@"city"];
         cell.detailTextLabel.text = cellSubtitle;
     }
-    
+
     self.tempIndexPath = indexPath;
 
     return cell;
@@ -152,9 +152,8 @@
     if ([[segue identifier] isEqualToString:@"showDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
         NSArray *object = [[self.namesArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-//        NSLog(@"IndexPath = %@", indexPath);
         
-// Sets the detailItem to the selected item
+        // Sets the detailItem to the selected item
         [[segue destinationViewController] setDetailItem:object];
     }
   
@@ -176,7 +175,7 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
     
-    NSLog(@"A tabBar item was pressed %@", viewController);
+//    NSLog(@"A tabBar item was pressed %@", viewController);
 }
 
 #pragma mark - Custom sort & search methods
@@ -230,8 +229,8 @@
     for (int i=0; i<=([array count]-1); i++) {
         NSString *trimmedWord = [[NSString alloc] init];
         trimmedWord = [array objectAtIndex:i];
-        if (trimmedWord.length > 6) {
-            trimmedWord = [trimmedWord substringToIndex:6U];
+        if (trimmedWord.length > 9) {
+            trimmedWord = [trimmedWord substringToIndex:9U];
         }
         [trimmedArray addObject:trimmedWord];
     }
@@ -302,7 +301,7 @@
             }
         }
     }
-    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
+//    NSLog(@"The resulting filteredArray has %d items", [self.filteredArray count]);
     
     // Makes sure there is something in the filteredArray
     if ([self.filteredArray count] > 0) {
@@ -328,11 +327,11 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 
     self.searchString = self.mySearchBar.text;
-    NSLog(@"TRYing to search Now for ---> %@", self.searchString);
+//    NSLog(@"TRYing to search Now for ---> %@", self.searchString);
     
     [self filterContentForSearchText:self.searchString scope:@"All"];
     
-    NSLog(@"Now we're SEARCHING baby!");
+//    NSLog(@"Now we're SEARCHING baby!");
     [self.mySearchBar resignFirstResponder];            // dismisses the keyboard
 }
 
@@ -351,7 +350,7 @@
 }
 
 - (void)nameSort:(SortSelectionViewController *)controller {
-    NSLog(@"Sorts the table by name");
+//    NSLog(@"Sorts the table by name");
     
 // Initialization
     sortedByCategory = NO;
@@ -373,7 +372,7 @@
 }
 
 - (void)categorySort:(SortSelectionViewController *)controller {
-    NSLog(@"Sorts the table by category");
+//    NSLog(@"Sorts the table by category");
     
 // Initialization
     sortedByCategory = YES;
@@ -395,7 +394,7 @@
 }
 
 - (void)couponFilter:(SortSelectionViewController *)controller; {
-    NSLog(@"Filters the table for coupons YES (y)");
+//    NSLog(@"Filters the table for coupons YES (y)");
     
     filteredByCoupons = YES;
     self.navigationItem.title = @"Coupon List";
@@ -433,7 +432,7 @@
     NSURL *fileURL = [mainBundle URLForResource:@"TLFMemberList" withExtension:@"plist"];
     
     self.membersArray = [NSArray arrayWithContentsOfURL:fileURL];
-    NSLog(@"Array count %d", [self.membersArray count]);
+//    NSLog(@"Array count %d", [self.membersArray count]);
     
 // loads the web Plist on another thread
     [self loadPlistURL];
@@ -458,15 +457,15 @@
             
         // compares counts of each array & allows copy if the are equal
             if ([self.membersArray count] == [membersURLArray count]) {
-                NSLog(@"let's overwrite NOW!!!");
+   //             NSLog(@"let's overwrite NOW!!!");
                 
                 self.membersArray = [NSArray arrayWithArray:membersURLArray];
-                NSLog(@"Array count %d", [self.membersArray count]);
+   //             NSLog(@"Array count %d", [self.membersArray count]);
                 
                 [self.tableView reloadData];
             } else {
-                NSLog(@"Download FAILED!!!!");
-                NSLog(@"Array count %d", [membersURLArray count]);
+    //            NSLog(@"Download FAILED!!!!");
+    //            NSLog(@"Array count %d", [membersURLArray count]);
             }
         });
     });
@@ -474,7 +473,7 @@
 
 
 - (IBAction)sortListButton:(UIBarButtonItem *)sender {
-    NSLog(@"Displays the sort selection view - 'slide up' animation");
+//    NSLog(@"Displays the sort selection view - 'slide up' animation");
 
     self.sortSelectionView.hidden = NO;
     [UIView animateWithDuration:1.5 animations:^{
@@ -484,10 +483,10 @@
 }
 
 - (IBAction)showAllButton:(UIBarButtonItem *)sender {
-    NSLog(@"Displays ALL the items by existing sort criteria");
+//    NSLog(@"Displays ALL the items by existing sort criteria");
 
     filteredByCoupons = NO;
-    self.navigationItem.title = @"List";
+    self.navigationItem.title = @"Members";
     
 // Reworks the index & cells
     [self makeSectionsIndex:self.membersArray];
