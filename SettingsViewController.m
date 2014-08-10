@@ -57,11 +57,11 @@ int indexPath = 0;
     _expirationDateTextfield.delegate = self;
     _couponOfferTextfield.delegate = self;
     
-/* A test Parse object that can be viewed in Dashboard of StoreFinder in myParse, logs currentUser
+// A test Parse object that can be viewed in Dashboard of StoreFinder in myParse, logs currentUser
     PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
     testObject[@"user"] = [PFUser currentUser].username;
     [testObject saveInBackground];
-*/    
+    
 // Displays the User's name & other stuff
     self.userNameLabel.text = [PFUser currentUser].username;
     self.couponCountLabel.text = @"xx coupons";
