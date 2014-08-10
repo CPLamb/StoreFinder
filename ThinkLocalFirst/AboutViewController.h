@@ -24,4 +24,7 @@
 - (IBAction)showHelpButton:(id)sender;
 - (IBAction)hideHelpButton:(id)sender;
 
+- (IBAction)loginButton:(UIButton *)sender;
+- (IBAction)beLocalButton:(UIButton *)sender;
+
 @end

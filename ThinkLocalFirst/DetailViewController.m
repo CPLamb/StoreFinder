@@ -48,7 +48,8 @@
 {
     [super viewDidLoad];
     
-//    [self configureView];
+    // Prevents scrollView from sliding under the status bar
+    self.navigationController.navigationBar.translucent = NO;
     
     [inputScrollView setScrollEnabled:YES];
     // Portrait only

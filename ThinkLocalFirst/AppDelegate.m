@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 @synthesize memberData = _memberData;
@@ -15,6 +16,17 @@
 {
     self.memberData = [[MemberListData alloc] init];
     // Override point for customization after application launch.
+    
+// Connection to my Parse app StoreFinder
+    [Parse setApplicationId:@"PLSjL9e8OxtGATdyG1SWcCQT5z5gPqrethxRLLGI"
+                  clientKey:@"ncIETWvQjxZbs3dOUhsgBRZlmFsgbP19M6gtI6le"];
+    
+// Tracks the app
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+// Registers for Parse's Push notifications
+    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound];
+    
     return YES;
 }
 							
@@ -43,6 +55,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark Parse Push notification methods
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken
+{
+// Store the device token in the current installation and save it to Parse
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:newDeviceToken];
+    [currentInstallation saveInBackground];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    [PFPush handlePush:userInfo];
 }
 
 @end

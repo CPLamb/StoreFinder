@@ -8,6 +8,8 @@
 
 #import "AboutViewController.h"
 #import "RoundedRectBackground.h"
+#import <Parse/Parse.h>
+#import "SignupLoginViewController.h"
 
 @interface AboutViewController ()
 
@@ -26,6 +28,13 @@
     return self;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    NSLog(@"  ");
+    NSLog(@"viewDIDAppear");
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -33,6 +42,11 @@
     self.helpView.hidden = YES;
     self.scrollPage.contentSize = CGSizeMake(320.0, 930.0);
     
+/* A test Parse object that can be viewed in Dashboard of StoreFinder in myParse
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"user"] = @"CPLamb";
+    [testObject saveInBackground];
+*/
 // Website URL - UITextView
     NSString *websitePrefix = @"Tap to visit:                          ";
     NSString *website = @"http://www.mobile.thinklocalsantacruz.org/";
@@ -81,6 +95,23 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Parse methods
+
+- (IBAction)beLocalButton:(UIButton *)sender
+{
+    NSLog(@"displays the settings & screen for User interaction");
+
+}
+
+- (IBAction)loginButton:(UIButton *)sender;
+{
+    NSLog(@"displays the login screen");
+
+    SignupLoginViewController *login = [[SignupLoginViewController alloc] init];
+
+    [self presentModalViewController:login animated:YES];
 }
 
 #pragma mark - Custom methods

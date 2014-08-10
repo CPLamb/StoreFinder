@@ -5,6 +5,8 @@
 //  Created by Chris Lamb on 4/20/13.
 //  Copyright (c) 2013 Chris Lamb. All rights reserved.
 //
+/* TODO delete this is replaced by BigMapVC
+*/
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>

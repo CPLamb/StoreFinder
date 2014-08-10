@@ -53,6 +53,7 @@
     sortedByCategory = YES;
     filteredByCoupons = NO;
 //    self.navigationItem.title = @"List";
+    self.wantsFullScreenLayout =YES;
 
 // Assigns the data object to the local membersArray
     self.membersArray = [NSArray arrayWithArray: MEMBERLISTDATA.membersArray];
@@ -65,6 +66,7 @@
     self.searchString = [NSString stringWithFormat:@"Coffee"];
     self.filteredArray = [NSMutableArray arrayWithCapacity:20];
     self.mySearchBar.delegate = self;
+
 }
 
 - (void)didReceiveMemoryWarning
